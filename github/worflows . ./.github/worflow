@@ -1,0 +1,5 @@
+$ mkdir .github && cd .github && mkdir wor
+$ cd ./workflows && touch main.y.amlkflows
+Lines 3 to 8 define when is triggered this action:
+On every push to the Master branch,
+Or on a specified schedule, here 1 hours.
