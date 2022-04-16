@@ -226,8 +226,6 @@ proxies:
   - {name: S3全解·香港03| MIEPL |, server: wu3gadam.nodeinfo.icu, port: 6003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
   - {name: S3全解·日本02| IEPL |, server: wi6ru6zo.nodeinfo.icu, port: 6302, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
   - {name: RO_1184_18_51Mb_75, server: 185.126.116.125, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: LT_906_33_26Mb_45, server: 213.183.53.200, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: LT_901_27_44Mb_81, server: 213.183.53.200, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
   - {name: :俄罗斯-ssr-213.183.53.200:9045-可用-直连-仅支持俄罗斯联邦地区NF自制剧, server: 213.183.53.200, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
   - {name: :俄罗斯-ssr-213.183.53.200:9024-可用-直连-仅支持俄罗斯联邦地区NF自制剧, server: 213.183.53.200, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
   - {name: :俄罗斯-ssr-213.183.53.200:9019-可用-直连-仅支持俄罗斯联邦地区NF自制剧, server: 213.183.53.200, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
