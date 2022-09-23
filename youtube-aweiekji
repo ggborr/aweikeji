@@ -5,231 +5,787 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: xmss.vip—油管阿伟科技31, server: mf01.xmss.vip, port: 18888, type: ss, cipher: chacha20-ietf-poly1305, password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1, udp: true}
-  - {name: U.S.A(LosAngeles1)_1—油管阿伟科技32, server: dgcm.pdjs.top, port: 49003, type: trojan, password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e, sni: us-b.bbbb.pw, skip-cert-verify: true, udp: true}
-  - {name: U.S.A(LasVegas)_1—油管阿伟科技33, server: dgcm.pdjs.top, port: 49004, type: trojan, password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e, sni: us-c.bbbb.pw, skip-cert-verify: true, udp: true}
-  - {name: Japan(Osaka1)_1—油管阿伟科技34, server: dgcm.pdjs.top, port: 49006, type: trojan, password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e, sni: jp-a.bbbb.pw, skip-cert-verify: true, udp: true}
-  - {name: Taiwan(Taipei1)_1—油管阿伟科技35, server: dgcm.pdjs.top, port: 49008, type: trojan, password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e, sni: tw-a.bbbb.pw, skip-cert-verify: true, udp: true}
-  - {name: Hongkong(NewTerritories)—油管阿伟科技36, server: dgcm.pdjs.top, port: 49000, type: trojan, password: b2dd238f-11e7-43aa-84b5-8c20ab24741f, sni: hk-a.bbbb.pw, skip-cert-verify: true, udp: true}
-  - {name: U.S.A(LosAngeles1)_2—油管阿伟科技37, server: dgcm.pdjs.top, port: 49003, type: trojan, password: b2dd238f-11e7-43aa-84b5-8c20ab24741f, sni: us-b.bbbb.pw, skip-cert-verify: true, udp: true}
-  - {name: U.S.A(LasVegas)_2—油管阿伟科技38, server: dgcm.pdjs.top, port: 49004, type: trojan, password: b2dd238f-11e7-43aa-84b5-8c20ab24741f, sni: us-c.bbbb.pw, skip-cert-verify: true, udp: true}
-  - {name: Japan(Osaka1)_2—油管阿伟科技39, server: dgcm.pdjs.top, port: 49006, type: trojan, password: b2dd238f-11e7-43aa-84b5-8c20ab24741f, sni: jp-a.bbbb.pw, skip-cert-verify: true, udp: true}
-  - {name: Japan(Osaka2)—油管阿伟科技40, server: dgcm.pdjs.top, port: 49007, type: trojan, password: b2dd238f-11e7-43aa-84b5-8c20ab24741f, sni: jp-b.bbbb.pw, skip-cert-verify: true, udp: true}
-  - {name: Taiwan(Taipei1)_2—油管阿伟科技41, server: dgcm.pdjs.top, port: 49008, type: trojan, password: b2dd238f-11e7-43aa-84b5-8c20ab24741f, sni: tw-a.bbbb.pw, skip-cert-verify: true, udp: true}
-  - {name: 新加坡|Singapore|V2—油管阿伟科技47, server: sgp.ycsfree.xyz, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zcjd, headers: {Host: sgp.ycsfree.xyz}}, udp: true}
-  - {name: 新加坡🇸🇬_1—油管阿伟科技49, server: 159.223.32.230, port: 8080, type: vmess, uuid: 826b8d0a-e0d3-407a-927d-19953c170779, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 159.223.32.230}}, udp: true}
-  - {name: 美国🇺🇸纽约_1—油管阿伟科技50, server: 68.183.129.197, port: 8080, type: vmess, uuid: 826b8d0a-e0d3-407a-927d-19953c170779, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}, udp: true}
-  - {name: 印度🇮🇳_1—油管阿伟科技52, server: 139.59.85.231, port: 8080, type: vmess, uuid: 826b8d0a-e0d3-407a-927d-19953c170779, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 139.59.85.231}}, udp: true}
+  - {name: 英国🇬🇧_油管阿伟科技74, server: 165.227.231.254, port: 8080, type: vmess, uuid: d019484c-2181-4d4a-a0fb-302a55351156, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 165.227.231.254}}, udp: true}
   - {name: 英国🇬🇧_1—油管阿伟科技53, server: 165.227.231.254, port: 8080, type: vmess, uuid: 826b8d0a-e0d3-407a-927d-19953c170779, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 165.227.231.254}}, udp: true}
-  - {name: 德国🇩🇪_1—油管阿伟科技54, server: 138.68.90.231, port: 8080, type: vmess, uuid: 826b8d0a-e0d3-407a-927d-19953c170779, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 138.68.90.231}}, udp: true}
-  - {name: 新加坡🇸🇬_2—油管阿伟科技55, server: 159.223.32.230, port: 8080, type: vmess, uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 159.223.32.230}}, udp: true}
-  - {name: 美国🇺🇸纽约_2—油管阿伟科技56, server: 68.183.129.197, port: 8080, type: vmess, uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}, udp: true}
-  - {name: 德国🇩🇪_2—油管阿伟科技60, server: 138.68.90.231, port: 8080, type: vmess, uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 138.68.90.231}}, udp: true}
-  - {name: 美国🇺🇸纽约_3—油管阿伟科技61, server: 68.183.129.197, port: 8080, type: vmess, uuid: d019484c-2181-4d4a-a0fb-302a55351156, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}, udp: true}
-  - {name: 英国🇬🇧_3—油管阿伟科技62, server: 165.227.231.254, port: 8080, type: vmess, uuid: d019484c-2181-4d4a-a0fb-302a55351156, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 165.227.231.254}}, udp: true}
-  - {name: 加拿大🇨🇦_3—油管阿伟科技64, server: 138.197.165.31, port: 8080, type: vmess, uuid: e4e46233-376c-49be-b302-3ff6fce7a8fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 138.197.165.31}}, udp: true}
-  - {name: 英国🇬🇧_4—油管阿伟科技65, server: 165.227.231.254, port: 8080, type: vmess, uuid: e4e46233-376c-49be-b302-3ff6fce7a8fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 165.227.231.254}}, udp: true}
-  - {name: 德国🇩🇪_4—油管阿伟科技66, server: 138.68.90.231, port: 8080, type: vmess, uuid: e4e46233-376c-49be-b302-3ff6fce7a8fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 138.68.90.231}}, udp: true}
-  - {name: 英国🇬🇧_5—油管阿伟科技67, server: 165.227.231.254, port: 8080, type: vmess, uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 165.227.231.254}}, udp: true}
-  - {name: 德国🇩🇪_5—油管阿伟科技68, server: 138.68.90.231, port: 8080, type: vmess, uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 138.68.90.231}}, udp: true}
-  - {name: 新加坡🇸🇬_3—油管阿伟科技69, server: 159.223.32.230, port: 8080, type: vmess, uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 159.223.32.230}}, udp: true}
-  - {name: 美国🇺🇸纽约_4—油管阿伟科技70, server: 68.183.129.197, port: 8080, type: vmess, uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}, udp: true}
-  - {name: 英国02_油管阿伟科技1, server: bb.rookiebase.cn, port: 7009, type: ss, cipher: aes-128-gcm, password: 11e9e06b-b538-436b-bc68-36ccfc6a619d, udp: true}
-  - {name: GetAFreeNode-Gcore_油管阿伟科技2, server: 31.184.207.5, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 31.184.207.5}}, udp: true}
-  - {name: GetAFreeNode-LosAngeles_油管阿伟科技3, server: 88.210.37.106, port: 41443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Frankfurt_油管阿伟科技4, server: 213.226.71.174, port: 41443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Amsterdam_油管阿伟科技5, server: 89.208.105.63, port: 41443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Novosibirsk_油管阿伟科技6, server: 80.66.64.17, port: 41443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Vienna_油管阿伟科技7, server: 94.177.8.87, port: 41443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Moscow_油管阿伟科技8, server: 185.112.83.35, port: 41443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: VPN-for-China-->xeton.co_油管阿伟科技9, server: 185.194.30.40, port: 41443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: VPN-For-China-->milkcat.net_油管阿伟科技10, server: seoul.napsternetv.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: seoul.napsternetv.com}}, udp: true}
-  - {name: xmss.vip_油管阿伟科技11, server: mf01.xmss.vip, port: 18888, type: ss, cipher: chacha20-ietf-poly1305, password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1, udp: true}
-  - {name: cn.xmss.vip_油管阿伟科技12, server: mf02.xmss.vip, port: 18888, type: ss, cipher: chacha20-ietf-poly1305, password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1, udp: true}
-  - {name: 新加坡🇸🇬_油管阿伟科技13, server: 159.223.32.230, port: 8080, type: vmess, uuid: d019484c-2181-4d4a-a0fb-302a55351156, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 159.223.32.230}}, udp: true}
-  - {name: 美国🇺🇸纽约_油管阿伟科技14, server: 68.183.129.197, port: 8080, type: vmess, uuid: d019484c-2181-4d4a-a0fb-302a55351156, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}, udp: true}
-  - {name: 洛杉矶 2 Trojan_油管阿伟科技15, server: los1.ydnode.us, port: 443, type: trojan, password: b6a487eb-2ccf-4640-856e-4a32f974c8b1, sni: los1.ydnode.us, skip-cert-verify: true, udp: true}
-  - {name: 洛杉矶2v2ray_油管阿伟科技16, server: los1.ydnode.us, port: 80, type: vmess, uuid: b6a487eb-2ccf-4640-856e-4a32f974c8b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: "", grpc-opts: {grpc-mode: none, grpc-service-name: los1.ydnode.us}, udp: true}
-  - {name: 美国INAP_油管阿伟科技17, server: 45.43.27.122, port: 10001, type: vmess, uuid: 9fe8f798-4088-35ad-9e23-e8ae09b767b5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 阿根廷_油管阿伟科技18, server: agt-zf.jiashumao.net, port: 24540, type: trojan, password: 54d16b68-152e-3580-ba81-2394e25823a6, sni: agt.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: 马来西亚_油管阿伟科技19, server: mlxy-zf.jiashumao.net, port: 27171, type: trojan, password: 54d16b68-152e-3580-ba81-2394e25823a6, sni: mlxy.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 英国08DO_油管阿伟科技39, server: zz1.lanlan.space, port: 11480, type: vmess, uuid: d10a1724-3303-31cb-b4b8-438025543d9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: zz1.lanlan.space}}, udp: true}
+  - {name: 英国_油管阿伟科技8, server: yg.jiashumao.net, port: 36419, type: trojan, password: 1822caa9-baca-3643-8449-1a36fbfd1b14, sni: yg.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 印度尼西亚07@ANHR0_油管阿伟科技32, server: zz1.lanlan.space, port: 12482, type: vmess, uuid: d10a1724-3303-31cb-b4b8-438025543d9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: zz1.lanlan.space}}, udp: true}
+  - {name: 印度🇮🇳_3_油管阿伟科技73, server: 139.59.85.231, port: 8080, type: vmess, uuid: d019484c-2181-4d4a-a0fb-302a55351156, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 139.59.85.231}}, udp: true}
+  - {name: 印度🇮🇳_2_油管阿伟科技66, server: 139.59.85.231, port: 8080, type: vmess, uuid: e4e46233-376c-49be-b302-3ff6fce7a8fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 139.59.85.231}}, udp: true}
+  - {name: 印度🇮🇳_1_油管阿伟科技60, server: 139.59.85.231, port: 8080, type: vmess, uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 139.59.85.231}}, udp: true}
+  - {name: 印度_油管-阿伟科技67, server: yd.jiashumao.net, port: 29957, type: trojan, password: 3f6ddb0a-6c38-3990-8922-24ef3af4b49c, sni: yd.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 印度_油管阿伟科技49, server: yd.jiashumao.net, port: 29957, type: trojan, password: 0dd91960-3f24-3ad3-9f21-6c73b38af325, sni: yd.jiashumao.net, skip-cert-verify: true, udp: true}
   - {name: 印度_油管阿伟科技20, server: yd.jiashumao.net, port: 29957, type: trojan, password: 54d16b68-152e-3580-ba81-2394e25823a6, sni: yd.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: 澳洲_油管阿伟科技21, server: aozhou.jiashumao.net, port: 36580, type: trojan, password: 54d16b68-152e-3580-ba81-2394e25823a6, sni: aozhou.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 新加坡🇸🇬-linode_油管阿伟科技72, server: 139.162.37.111, port: 8080, type: vmess, uuid: d019484c-2181-4d4a-a0fb-302a55351156, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 139.162.37.111}}, udp: true}
+  - {name: 新加坡🇸🇬_4_油管阿伟科技68, server: 159.223.32.230, port: 8080, type: vmess, uuid: d019484c-2181-4d4a-a0fb-302a55351156, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 159.223.32.230}}, udp: true}
+  - {name: 新加坡🇸🇬_3_油管阿伟科技64, server: 159.223.32.230, port: 8080, type: vmess, uuid: 826b8d0a-e0d3-407a-927d-19953c170779, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 159.223.32.230}}, udp: true}
+  - {name: 新加坡🇸🇬_2—油管阿伟科技55, server: 159.223.32.230, port: 8080, type: vmess, uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 159.223.32.230}}, udp: true}
+  - {name: 新加坡🇸🇬_2_油管阿伟科技61, server: 159.223.32.230, port: 8080, type: vmess, uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 159.223.32.230}}, udp: true}
+  - {name: 新加坡🇸🇬_1_油管阿伟科技58, server: 159.223.32.230, port: 8080, type: vmess, uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 159.223.32.230}}, udp: true}
+  - {name: 新加坡B_油管阿伟科技46, server: xjpb-zf.jiashumao.net, port: 29465, type: trojan, password: 0dd91960-3f24-3ad3-9f21-6c73b38af325, sni: xjp.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 新加坡03, server: cm01.miruvip.com, port: 1680, type: ssr, cipher: chacha20-ietf, password: Miru, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 12554:8ADgrg, obfs-param: fd83a12554.microsoft.com, udp: true}
+  - {name: "新[直连]6-流媒体NF_油管阿伟科技60", server: v2xinzhilian6.594888.xyz, port: 34443, type: vmess, uuid: 540ce71e-490c-3f39-ac3c-b58f729daeb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: v2xinzhilian6.594888.xyz}}, udp: true}
+  - {name: "新[直连]5-流媒体NF_油管阿伟科技59", server: v2xinzhilian5.594888.xyz, port: 31443, type: vmess, uuid: 540ce71e-490c-3f39-ac3c-b58f729daeb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: v2xinzhilian5.594888.xyz}}, udp: true}
+  - {name: "新[直连]3-流媒体NF_油管阿伟科技58", server: v2xinzhilian3.594888.xyz, port: 14443, type: vmess, uuid: 540ce71e-490c-3f39-ac3c-b58f729daeb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: v2xinzhilian3.594888.xyz}}, udp: true}
+  - {name: 香港丨下载丨1Gbps, server: 45.136.197.134, port: 53590, type: ssr, cipher: chacha20-ietf, password: VsWqMoSE, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 22094:Aj8xZ2ppvjUkrB97, obfs-param: 4016c22094.microsoft.com, udp: true}
+  - {name: 香港丨RERR丨TEST 03, server: 47.242.67.216, port: 53590, type: ssr, cipher: chacha20-ietf, password: VsWqMoSE, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 22094:Aj8xZ2ppvjUkrB97, obfs-param: 4016c22094.microsoft.com, udp: true}
+  - {name: 香港丨RERR丨TEST 02, server: 154.209.88.246, port: 53590, type: ssr, cipher: chacha20-ietf, password: VsWqMoSE, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 22094:Aj8xZ2ppvjUkrB97, obfs-param: 4016c22094.microsoft.com, udp: true}
+  - {name: 香港丨RERR丨TEST 01, server: 154.38.91.147, port: 53590, type: ssr, cipher: chacha20-ietf, password: VsWqMoSE, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 22094:Aj8xZ2ppvjUkrB97, obfs-param: 4016c22094.microsoft.com, udp: true}
+  - {name: 香港E_油管阿伟科技44, server: hke-zf.jiashumao.net, port: 35401, type: trojan, password: 0dd91960-3f24-3ad3-9f21-6c73b38af325, sni: hke.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 香港E_油管阿伟科技1, server: hke-zf.jiashumao.net, port: 35401, type: trojan, password: 1822caa9-baca-3643-8449-1a36fbfd1b14, sni: hke.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 香港66ANYHK-HKT-动态IP-奈飞_油管阿伟科技43, server: zz1.lanlan.space, port: 42457, type: vmess, uuid: d10a1724-3303-31cb-b4b8-438025543d9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: zz1.lanlan.space}}, udp: true}
+  - {name: 香港65AZ-动态IP_油管阿伟科技42, server: zz1.lanlan.space, port: 12541, type: vmess, uuid: d10a1724-3303-31cb-b4b8-438025543d9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: zz1.lanlan.space}}, udp: true}
+  - {name: 香港19ANYHK-HKT-动态IP-奈飞_油管阿伟科技41, server: zz1.lanlan.space, port: 10083, type: vmess, uuid: d10a1724-3303-31cb-b4b8-438025543d9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: zz1.lanlan.space}}, udp: true}
+  - {name: 香港09, server: cm03.miruvip.com, port: 1663, type: ssr, cipher: chacha20-ietf, password: Miru, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 12554:8ADgrg, obfs-param: fd83a12554.microsoft.com, udp: true}
+  - {name: 香港08, server: cm03.miruvip.com, port: 1662, type: ssr, cipher: chacha20-ietf, password: Miru, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 12554:8ADgrg, obfs-param: fd83a12554.microsoft.com, udp: true}
+  - {name: 香港06, server: cm03.miruvip.com, port: 1660, type: ssr, cipher: chacha20-ietf, password: Miru, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 12554:8ADgrg, obfs-param: fd83a12554.microsoft.com, udp: true}
+  - {name: 乌克兰_油管阿伟科技51, server: wkl.jiashumao.net, port: 50519, type: trojan, password: 0dd91960-3f24-3ad3-9f21-6c73b38af325, sni: wkl.jiashumao.net, skip-cert-verify: true, udp: true}
   - {name: 乌克兰_油管阿伟科技22, server: wkl.jiashumao.net, port: 50519, type: trojan, password: 54d16b68-152e-3580-ba81-2394e25823a6, sni: wkl.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 土耳其B_油管阿伟科技5, server: trqb-zf.jiashumao.net, port: 31606, type: trojan, password: 1822caa9-baca-3643-8449-1a36fbfd1b14, sni: trqb.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 土耳其B_油管阿伟科技47, server: trqb-zf.jiashumao.net, port: 31606, type: trojan, password: 0dd91960-3f24-3ad3-9f21-6c73b38af325, sni: trqb.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 土耳其A_油管阿伟科技4, server: trqa-zf.jiashumao.net, port: 30606, type: trojan, password: 1822caa9-baca-3643-8449-1a36fbfd1b14, sni: trqa.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 泰国71@ANHR0_油管阿伟科技35, server: zz1.lanlan.space, port: 20011, type: vmess, uuid: d10a1724-3303-31cb-b4b8-438025543d9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: zz1.lanlan.space}}, udp: true}
+  - {name: 泰国_油管阿伟科技7, server: tg-zf.jiashumao.net, port: 28879, type: trojan, password: 1822caa9-baca-3643-8449-1a36fbfd1b14, sni: tg.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 台湾13ANYHK-动态IP-奈飞_油管阿伟科技33, server: zz1.lanlan.space, port: 51513, type: vmess, uuid: d10a1724-3303-31cb-b4b8-438025543d9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: zz1.lanlan.space}}, udp: true}
+  - {name: 台湾05, server: cm02.miruvip.com, port: 1676, type: ssr, cipher: chacha20-ietf, password: Miru, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 12554:8ADgrg, obfs-param: fd83a12554.microsoft.com, udp: true}
+  - {name: "台3[直连]-流媒体NF_油管阿伟科技57", server: tw3.594888.xyz, port: 25551, type: vmess, uuid: 540ce71e-490c-3f39-ac3c-b58f729daeb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: tw3.594888.xyz}}, udp: true}
+  - {name: 隧道|NF|香港01_油管阿伟科技66, server: cjl-moble.gatknqh.cn, port: 40105, type: vmess, uuid: c282e73f-7231-3d1c-aa34-eb2cd792d146, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 隧道|NF|台湾03_油管阿伟科技65, server: cjl-moble.gatknqh.cn, port: 40103, type: vmess, uuid: c282e73f-7231-3d1c-aa34-eb2cd792d146, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 隧道|NF|日本04_油管阿伟科技68, server: cjl-moble.gatknqh.cn, port: 40121, type: vmess, uuid: c282e73f-7231-3d1c-aa34-eb2cd792d146, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 隧道|NF|日本02_油管阿伟科技67, server: cjl-moble.gatknqh.cn, port: 40119, type: vmess, uuid: c282e73f-7231-3d1c-aa34-eb2cd792d146, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 隧道|NF|美国02_油管阿伟科技69, server: cjl-moble.gatknqh.cn, port: 40125, type: vmess, uuid: c282e73f-7231-3d1c-aa34-eb2cd792d146, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 隧道|NF|韩国02_油管阿伟科技71, server: cjl-moble.gatknqh.cn, port: 40123, type: vmess, uuid: c282e73f-7231-3d1c-aa34-eb2cd792d146, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 隧道|NF|韩国01_油管阿伟科技70, server: cjl-moble.gatknqh.cn, port: 40122, type: vmess, uuid: c282e73f-7231-3d1c-aa34-eb2cd792d146, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 隧道|NF|菲律宾01_油管阿伟科技73, server: cjl-moble.gatknqh.cn, port: 40126, type: vmess, uuid: c282e73f-7231-3d1c-aa34-eb2cd792d146, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 隧道|NF|德国01_油管阿伟科技72, server: cjl-moble.gatknqh.cn, port: 40127, type: vmess, uuid: c282e73f-7231-3d1c-aa34-eb2cd792d146, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 瑞典34AZ-动态IP_油管阿伟科技37, server: zz1.lanlan.space, port: 20000, type: vmess, uuid: d10a1724-3303-31cb-b4b8-438025543d9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: zz1.lanlan.space}}, udp: true}
+  - {name: 日本🇯🇵东京_油管阿伟科技71, server: armdj.zhdjc.me, port: 8080, type: vmess, uuid: d019484c-2181-4d4a-a0fb-302a55351156, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: armdj.zhdjc.me}}, udp: true}
+  - {name: 日本C_油管阿伟科技45, server: jpc-zf.jiashumao.net, port: 27301, type: trojan, password: 0dd91960-3f24-3ad3-9f21-6c73b38af325, sni: jpc.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 日本C_油管阿伟科技3, server: jpc-zf.jiashumao.net, port: 27301, type: trojan, password: 1822caa9-baca-3643-8449-1a36fbfd1b14, sni: jpc.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 日本B_油管阿伟科技2, server: jpb-zf.jiashumao.net, port: 20479, type: trojan, password: 1822caa9-baca-3643-8449-1a36fbfd1b14, sni: jpb.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 日本67AZ-动态IP_油管阿伟科技34, server: zz1.lanlan.space, port: 14751, type: vmess, uuid: d10a1724-3303-31cb-b4b8-438025543d9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: zz1.lanlan.space}}, udp: true}
+  - {name: 美国丨洛杉矶丨GIA, server: 172.247.14.58, port: 53590, type: ssr, cipher: chacha20-ietf, password: VsWqMoSE, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 22094:Aj8xZ2ppvjUkrB97, obfs-param: 4016c22094.microsoft.com, udp: true}
+  - {name: 美国🇺🇸纽约_4_油管阿伟科技69, server: 68.183.129.197, port: 8080, type: vmess, uuid: d019484c-2181-4d4a-a0fb-302a55351156, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}, udp: true}
+  - {name: 美国🇺🇸纽约_3_油管阿伟科技65, server: 68.183.129.197, port: 8080, type: vmess, uuid: 826b8d0a-e0d3-407a-927d-19953c170779, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}, udp: true}
+  - {name: 美国🇺🇸纽约_2—油管阿伟科技56, server: 68.183.129.197, port: 8080, type: vmess, uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}, udp: true}
+  - {name: 美国🇺🇸纽约_2_油管阿伟科技62, server: 68.183.129.197, port: 8080, type: vmess, uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}, udp: true}
+  - {name: 美国🇺🇸纽约_1_油管阿伟科技59, server: 68.183.129.197, port: 8080, type: vmess, uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}, udp: true}
+  - {name: 美国INAP_油管阿伟科技82, server: 45.43.27.122, port: 10001, type: vmess, uuid: 665086bd-c4ee-3406-bf86-9bb4d01a6a43, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 美国C_油管-阿伟科技74, server: usc-zf.jiashumao.net, port: 26972, type: trojan, password: 1d69b9af-a3bb-3ca0-9785-9937b9d8cea0, sni: ahbn.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 美国60DO_油管阿伟科技38, server: zz1.lanlan.space, port: 13024, type: vmess, uuid: d10a1724-3303-31cb-b4b8-438025543d9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: zz1.lanlan.space}}, udp: true}
+  - {name: "美8[直接]-流媒体_油管阿伟科技64", server: v2us8.594888.xyz, port: 20550, type: vmess, uuid: 540ce71e-490c-3f39-ac3c-b58f729daeb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: v2us8.594888.xyz}}, udp: true}
+  - {name: "美1[中转]-流媒体_油管阿伟科技63", server: cu.594888.xyz, port: 60995, type: vmess, uuid: 540ce71e-490c-3f39-ac3c-b58f729daeb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /maopus1, headers: {Host: tyoa.nbsd.win}}, udp: true}
+  - {name: 马来西亚_油管阿伟科技19, server: mlxy-zf.jiashumao.net, port: 27171, type: trojan, password: 54d16b68-152e-3580-ba81-2394e25823a6, sni: mlxy.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 洛杉矶2v2ray_油管阿伟科技55, server: los1.ydnode.us, port: 80, type: vmess, uuid: b6a487eb-2ccf-4640-856e-4a32f974c8b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: "", grpc-opts: {grpc-mode: none, grpc-service-name: los1.ydnode.us}, udp: true}
+  - {name: 洛杉矶 2 Trojan_油管阿伟科技54, server: los1.ydnode.us, port: 443, type: trojan, password: b6a487eb-2ccf-4640-856e-4a32f974c8b1, sni: los1.ydnode.us, skip-cert-verify: true, udp: true}
+  - {name: 流暢雲英國|直连|UK01_油管阿伟科技23, server: vu-uk01-direct01.vu-uk01.lc-node.com, port: 443, type: vmess, uuid: b7770d65-3be9-3e05-88bb-2a6408022380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vu-uk01-direct01.vu-uk01.lc-node.com}}, udp: true}
+  - {name: 流暢雲香港PROIPLC專綫02_油管阿伟科技27, server: lc-hk02-direct01.lc-hk02.lc-node.com, port: 443, type: vmess, uuid: b7770d65-3be9-3e05-88bb-2a6408022380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lc-hk02-direct01.lc-hk02.lc-node.com}}, udp: true}
+  - {name: 流暢雲香港PROIPLC專綫01_油管阿伟科技26, server: lc-hk01-direct01.lc-hk01.lc-node.com, port: 443, type: vmess, uuid: b7770d65-3be9-3e05-88bb-2a6408022380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lc-hk01-direct01.lc-hk01.lc-node.com}}, udp: true}
+  - {name: 流暢雲美國PRO|直連|US03_油管阿伟科技22, server: lc-us03-direct01.lc-us03.lc-node.com, port: 443, type: vmess, uuid: b7770d65-3be9-3e05-88bb-2a6408022380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lc-us03-direct01.lc-us03.lc-node.com}}, udp: true}
+  - {name: 流暢雲美國PRO|直連|US02_油管阿伟科技21, server: lc-us02-direct01.lc-us02.lc-node.com, port: 443, type: vmess, uuid: b7770d65-3be9-3e05-88bb-2a6408022380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lc-us02-direct01.lc-us02.lc-node.com}}, udp: true}
+  - {name: 流暢雲美國PRO|直連|US01_油管阿伟科技20, server: lc-us01-direct01.lc-us01.lc-node.com, port: 443, type: vmess, uuid: b7770d65-3be9-3e05-88bb-2a6408022380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lc-us01-direct01.lc-us01.lc-node.com}}, udp: true}
+  - {name: 流暢雲美國|直连|US06_油管阿伟科技19, server: lc-us06-direct01.lc-us06.lc-node.com, port: 443, type: vmess, uuid: b7770d65-3be9-3e05-88bb-2a6408022380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lc-us06-direct01.lc-us06.lc-node.com}}, udp: true}
+  - {name: 流暢雲美國|直连|US05_油管阿伟科技18, server: lc-us05-direct01.lc-us05.lc-node.com, port: 443, type: vmess, uuid: b7770d65-3be9-3e05-88bb-2a6408022380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lc-us05-direct01.lc-us05.lc-node.com}}, udp: true}
+  - {name: 流暢雲美國|直连|US04_油管阿伟科技17, server: dm-us02-direct02.dm-us02.lc-node.com, port: 443, type: vmess, uuid: b7770d65-3be9-3e05-88bb-2a6408022380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dm-us02-direct02.dm-us02.lc-node.com}}, udp: true}
+  - {name: 流暢雲美國|直连|US03_油管阿伟科技74, server: dm-us03-direct01.dm-us03.lc-node.com, port: 443, type: vmess, uuid: 1a9df927-08e8-3686-8296-580c9c330132, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dm-us03-direct01.dm-us03.lc-node.com}}, udp: true}
+  - {name: 流暢雲美國|直连|US03_油管阿伟科技16, server: dm-us03-direct01.dm-us03.lc-node.com, port: 443, type: vmess, uuid: b7770d65-3be9-3e05-88bb-2a6408022380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dm-us03-direct01.dm-us03.lc-node.com}}, udp: true}
+  - {name: 流暢雲美國|直连|US02_油管阿伟科技15, server: dm-us02-direct01.dm-us02.lc-node.com, port: 443, type: vmess, uuid: b7770d65-3be9-3e05-88bb-2a6408022380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dm-us02-direct01.dm-us02.lc-node.com}}, udp: true}
+  - {name: 流暢雲美國|直连|US01_油管阿伟科技14, server: dm-us01-direct01.dm-us01.lc-node.com, port: 443, type: vmess, uuid: b7770d65-3be9-3e05-88bb-2a6408022380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dm-us01-direct01.dm-us01.lc-node.com}}, udp: true}
+  - {name: 流暢雲韩国|直连|KR03_油管阿伟科技25, server: vu-kr01-direct01.vu-kr01.lc-node.com, port: 443, type: vmess, uuid: b7770d65-3be9-3e05-88bb-2a6408022380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vu-kr01-direct01.vu-kr01.lc-node.com}}, udp: true}
+  - {name: 流暢雲韩国|直连|KR02_油管阿伟科技24, server: lc-kr02-direct01.lc-kr02.lc-node.com, port: 443, type: vmess, uuid: b7770d65-3be9-3e05-88bb-2a6408022380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lc-kr02-direct01.lc-kr02.lc-node.com}}, udp: true}
+  - {name: 流暢雲俄罗斯|直連|RU01_油管阿伟科技13, server: jh-ru01-direct01.jh-ru01.lc-node.com, port: 443, type: vmess, uuid: b7770d65-3be9-3e05-88bb-2a6408022380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jh-ru01-direct01.jh-ru01.lc-node.com}}, udp: true}
+  - {name: 加拿大🇨🇦_2_油管阿伟科技70, server: 138.197.165.31, port: 8080, type: vmess, uuid: d019484c-2181-4d4a-a0fb-302a55351156, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 138.197.165.31}}, udp: true}
+  - {name: 加拿大🇨🇦_1_油管阿伟科技63, server: 138.197.165.31, port: 8080, type: vmess, uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 138.197.165.31}}, udp: true}
+  - {name: 加拿大_油管阿伟科技50, server: jnd.jiashumao.net, port: 30519, type: trojan, password: 0dd91960-3f24-3ad3-9f21-6c73b38af325, sni: jnd.jiashumao.net, skip-cert-verify: true, udp: true}
   - {name: 荷兰_油管阿伟科技23, server: hl.jiashumao.net, port: 45519, type: trojan, password: 54d16b68-152e-3580-ba81-2394e25823a6, sni: hl.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: "港6[直连]-流媒体NF_油管阿伟科技62", server: v2hk7.594888.xyz, port: 48633, type: vmess, uuid: 540ce71e-490c-3f39-ac3c-b58f729daeb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /maohk6, headers: {Host: v2hk7.594888.xyz}}, udp: true}
+  - {name: "港3[直连]-流媒体NF_油管阿伟科技61", server: v2hk3.594888.xyz, port: 24543, type: vmess, uuid: 540ce71e-490c-3f39-ac3c-b58f729daeb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /maohk3, headers: {Host: v2hk3.594888.xyz}}, udp: true}
+  - {name: 付费套餐无限制_油管阿伟科技9, server: free-kr.83871328.xyz, port: 15403, type: trojan, password: eba9ae65-4ce4-4794-abb1-a0a8139050c7, skip-cert-verify: true, udp: true}
+  - {name: 付费套餐无限制_2_油管阿伟科技31, server: free-kr.83871328.xyz, port: 15403, type: trojan, password: 39e200de-b600-4d8e-9849-5c375721b508, skip-cert-verify: true, udp: true}
+  - {name: 付费套餐无限制_1_油管阿伟科技12, server: free-kr.83871328.xyz, port: 15403, type: trojan, password: f0fb3f38-872d-4ea3-9bad-a847bbc632f8, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯丨莫斯科丨ETH, server: 185.143.220.45, port: 53590, type: ssr, cipher: chacha20-ietf, password: VsWqMoSE, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 22094:Aj8xZ2ppvjUkrB97, obfs-param: 4016c22094.microsoft.com, udp: true}
+  - {name: 迪拜04AZ-动态IP_油管阿伟科技40, server: zz1.lanlan.space, port: 42213, type: vmess, uuid: d10a1724-3303-31cb-b4b8-438025543d9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: zz1.lanlan.space}}, udp: true}
+  - {name: 德国🇩🇪-BEST_油管阿伟科技76, server: 49.12.82.249, port: 14202, type: vmess, uuid: d019484c-2181-4d4a-a0fb-302a55351156, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 49.12.82.249}}, udp: true}
+  - {name: 德国🇩🇪_2—油管阿伟科技60, server: 138.68.90.231, port: 8080, type: vmess, uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 138.68.90.231}}, udp: true}
+  - {name: 德国🇩🇪_2_油管阿伟科技75, server: 138.68.90.231, port: 8080, type: vmess, uuid: d019484c-2181-4d4a-a0fb-302a55351156, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 138.68.90.231}}, udp: true}
+  - {name: 德国🇩🇪_1_油管阿伟科技67, server: 138.68.90.231, port: 8080, type: vmess, uuid: e4e46233-376c-49be-b302-3ff6fce7a8fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 138.68.90.231}}, udp: true}
+  - {name: 澳洲_油管阿伟科技21, server: aozhou.jiashumao.net, port: 36580, type: trojan, password: 54d16b68-152e-3580-ba81-2394e25823a6, sni: aozhou.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚24AZ-动态IP_油管阿伟科技36, server: zz1.lanlan.space, port: 46510, type: vmess, uuid: d10a1724-3303-31cb-b4b8-438025543d9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: zz1.lanlan.space}}, udp: true}
+  - {name: 阿根廷_油管-阿伟科技77, server: agt-zf.jiashumao.net, port: 24540, type: trojan, password: 1d69b9af-a3bb-3ca0-9785-9937b9d8cea0, sni: agt.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 阿根廷_油管阿伟科技6, server: agt-zf.jiashumao.net, port: 24540, type: trojan, password: 1822caa9-baca-3643-8449-1a36fbfd1b14, sni: agt.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 阿根廷_油管阿伟科技48, server: agt-zf.jiashumao.net, port: 24540, type: trojan, password: 0dd91960-3f24-3ad3-9f21-6c73b38af325, sni: agt.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 阿根廷_油管阿伟科技18, server: agt-zf.jiashumao.net, port: 24540, type: trojan, password: 54d16b68-152e-3580-ba81-2394e25823a6, sni: agt.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 美国|01|三网优化2_油管阿伟科技10, server: bj.jkvip.buzz, port: 57439, type: trojan, password: f08f85c4-63fc-4a9c-b8a6-0e441f26e407, sni: usmax01.170203.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|08|OC_油管阿伟科技40, server: sgmax08.170203.xyz, port: 30326, type: trojan, password: 200bb2bb-8bee-41e8-b379-fcea2e84b6fb, sni: sgmax08.170203.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|03|OC_油管阿伟科技5, server: 0a01f3ad01.170203.xyz, port: 444, type: trojan, password: f08f85c4-63fc-4a9c-b8a6-0e441f26e407, sni: 0a01f3ad01.170203.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|03|OC_油管阿伟科技34, server: 0a01f3ad01.170203.xyz, port: 444, type: trojan, password: 200bb2bb-8bee-41e8-b379-fcea2e84b6fb, sni: 0a01f3ad01.170203.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|03|LIN_油管阿伟科技39, server: sgmax03.170203.xyz, port: 444, type: trojan, password: 200bb2bb-8bee-41e8-b379-fcea2e84b6fb, sni: sgmax03.170203.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|02|DO_油管阿伟科技35, server: sgmax02.170203.xyz, port: 10000, type: trojan, password: 200bb2bb-8bee-41e8-b379-fcea2e84b6fb, sni: sgmax02.170203.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|01|OC_油管阿伟科技41, server: sg01.170203.xyz, port: 444, type: trojan, password: 200bb2bb-8bee-41e8-b379-fcea2e84b6fb, sni: sg01.170203.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|01|LIN_油管阿伟科技6, server: sgmax01.170203.xyz, port: 444, type: trojan, password: f08f85c4-63fc-4a9c-b8a6-0e441f26e407, sni: sgmax01.170203.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡|01|LIN_油管阿伟科技38, server: sgmax01.170203.xyz, port: 444, type: trojan, password: 200bb2bb-8bee-41e8-b379-fcea2e84b6fb, sni: sgmax01.170203.xyz, skip-cert-verify: true, udp: true}
+  - {name: A-V2 新加坡三网优化2_油管阿伟科技55, server: sg2.bfstec.com, port: 26033, type: trojan, password: aa0db587-dfa5-3fee-938e-ab4ddc6f45b7, sni: sg2.bfstec.com, skip-cert-verify: true, udp: true}
+  - {name: v2-俄罗斯1_油管阿伟科技56, server: a5.iacgbt.com, port: 26014, type: trojan, password: aa0db587-dfa5-3fee-938e-ab4ddc6f45b7, sni: a5.iacgbt.com, skip-cert-verify: true, udp: true}
+  - {name: 韩国高速-1_油管阿伟科技75, server: hg.dianshangqw.xyz, port: 16666, type: vmess, uuid: a5fd0c2b-fb4a-367f-aafc-69ea7bd5cc8c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 韩国|01AZ_油管阿伟科技9, server: kr0001.170203.xyz, port: 43532, type: vmess, uuid: f08f85c4-63fc-4a9c-b8a6-0e441f26e407, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ok, headers: {Host: kr0001.170203.xyz}}, udp: true}
+  - {name: 日本高速_油管阿伟科技80, server: rb.dianshangqw.xyz, port: 16666, type: vmess, uuid: 9f9cef37-bad7-35e9-bca5-654c39069887, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 日本|05|LIN三网优化_油管阿伟科技36, server: bj.jkvip.buzz, port: 50666, type: trojan, password: 200bb2bb-8bee-41e8-b379-fcea2e84b6fb, sni: jpmax05.170203.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港高速_油管阿伟科技81, server: xgzh.dianshangqw.xyz, port: 16666, type: vmess, uuid: 9f9cef37-bad7-35e9-bca5-654c39069887, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 香港|23|奈飞BGP三网优化_油管阿伟科技37, server: bj.jkvip.buzz, port: 58096, type: trojan, password: 200bb2bb-8bee-41e8-b379-fcea2e84b6fb, sni: hkmax23.170203.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港|05_油管阿伟科技11, server: hkmax05.170203.xyz, port: 17559, type: trojan, password: f08f85c4-63fc-4a9c-b8a6-0e441f26e407, sni: hkmax05.170203.xyz, skip-cert-verify: true, udp: true}
+  - {name: A-T-香港解锁NF和D 1_油管阿伟科技52, server: nf-hk.iacgbt.com, port: 26014, type: trojan, password: aa0db587-dfa5-3fee-938e-ab4ddc6f45b7, sni: nf-hk.iacgbt.com, skip-cert-verify: true, udp: true}
+  - {name: A-T-香港2_油管阿伟科技54, server: hk3.bfstec.com, port: 26014, type: trojan, password: aa0db587-dfa5-3fee-938e-ab4ddc6f45b7, sni: hk3.bfstec.com, skip-cert-verify: true, udp: true}
+  - {name: A-T-香港_油管阿伟科技53, server: hk4.bfstec.com, port: 26014, type: trojan, password: aa0db587-dfa5-3fee-938e-ab4ddc6f45b7, sni: hk4.bfstec.com, skip-cert-verify: true, udp: true}
+  - {name: 英国|01|LIN三网优化_油管阿伟科技8, server: bj.jkvip.buzz, port: 53928, type: trojan, password: f08f85c4-63fc-4a9c-b8a6-0e441f26e407, sni: uk01.170203.xyz, skip-cert-verify: true, udp: true}
+  - {name: 英国|01|LIN_油管阿伟科技7, server: uk01.170203.xyz, port: 10000, type: trojan, password: f08f85c4-63fc-4a9c-b8a6-0e441f26e407, sni: uk01.170203.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾|04奈飞三网优化3_油管阿伟科技33, server: bj.jkvip.buzz, port: 28615, type: trojan, password: 200bb2bb-8bee-41e8-b379-fcea2e84b6fb, sni: tw01.170203.xyz, skip-cert-verify: true, udp: true}
+  - {name: xmss.vip_油管阿伟科技77, server: mf01.xmss.vip, port: 18888, type: ss, cipher: chacha20-ietf-poly1305, password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1, udp: true}
+  - {name: VPN-For-China-->milkcat.net_油管阿伟科技10, server: seoul.napsternetv.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: seoul.napsternetv.com}}, udp: true}
+  - {name: vip1-新加坡6||限速100M_油管阿伟科技77, server: 11.douluos.icu, port: 51011, type: vmess, uuid: 6c7c3ac7-1dd1-3482-bd4b-b13cc0160f3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 11.douluo.icu}}, udp: true}
+  - {name: vip1-香港4||限速100M_油管阿伟科技79, server: 13.douluos.icu, port: 53013, type: vmess, uuid: 6c7c3ac7-1dd1-3482-bd4b-b13cc0160f3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 13.douluo.icu}}, udp: true}
+  - {name: vip1-日本1||限速100M_油管阿伟科技78, server: 3.douluos.icu, port: 51003, type: vmess, uuid: 6c7c3ac7-1dd1-3482-bd4b-b13cc0160f3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1-越南-1-sc-IEPL【2x】_油管阿伟科技28, server: fsyy.fosi.hk, port: 25612, type: vmess, uuid: 9ce50564-04bd-3892-a3c5-6b7851792d89, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: fsyy.fosi.hk}}, udp: true}
+  - {name: V1-韩国-1-sc-IEPL【2x】_油管阿伟科技29, server: 118.212.143.4, port: 45258, type: vmess, uuid: 9ce50564-04bd-3892-a3c5-6b7851792d89, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 118.212.143.4}}, udp: true}
+  - {name: U.S.A(Los Angeles1)_2_油管阿伟科技51, server: dgcm.pdjs.top, port: 49003, type: trojan, password: b2dd238f-11e7-43aa-84b5-8c20ab24741f, sni: us-b.bbbb.pw, skip-cert-verify: true, udp: true}
+  - {name: U.S.A(Los Angeles1)_1_油管阿伟科技44, server: dgcm.pdjs.top, port: 49003, type: trojan, password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e, sni: us-b.bbbb.pw, skip-cert-verify: true, udp: true}
+  - {name: U.S.A(Las Vegas)_2_油管阿伟科技52, server: dgcm.pdjs.top, port: 49004, type: trojan, password: b2dd238f-11e7-43aa-84b5-8c20ab24741f, sni: us-c.bbbb.pw, skip-cert-verify: true, udp: true}
+  - {name: U.S.A(Las Vegas)_1_油管阿伟科技45, server: dgcm.pdjs.top, port: 49004, type: trojan, password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e, sni: us-c.bbbb.pw, skip-cert-verify: true, udp: true}
+  - {name: U.S.A(Dallas)_油管阿伟科技50, server: dgcm.pdjs.top, port: 49002, type: trojan, password: b2dd238f-11e7-43aa-84b5-8c20ab24741f, sni: us-a.bbbb.pw, skip-cert-verify: true, udp: true}
+  - {name: Taiwan(Taipei1)_油管阿伟科技47, server: dgcm.pdjs.top, port: 49008, type: trojan, password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e, sni: tw-a.bbbb.pw, skip-cert-verify: true, udp: true}
+  - {name: Taiwan(Taipei1)_2—油管阿伟科技41, server: dgcm.pdjs.top, port: 49008, type: trojan, password: b2dd238f-11e7-43aa-84b5-8c20ab24741f, sni: tw-a.bbbb.pw, skip-cert-verify: true, udp: true}
+  - {name: Luxembourg_2_油管阿伟科技53, server: dgcm.pdjs.top, port: 49010, type: trojan, password: b2dd238f-11e7-43aa-84b5-8c20ab24741f, sni: eu-a.bbbb.pw, skip-cert-verify: true, udp: true}
+  - {name: Luxembourg_1_油管阿伟科技48, server: dgcm.pdjs.top, port: 49010, type: trojan, password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e, sni: eu-a.bbbb.pw, skip-cert-verify: true, udp: true}
+  - {name: JCBB_英国02【vip1】_油管阿伟科技17, server: cu.kapoknode.com, port: 25884, type: vmess, uuid: 9cc38024-fac8-4d49-9c60-53b36b5cb14c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}, udp: true}
+  - {name: JCBB_英国01【vip1】_油管阿伟科技12, server: cm.kapoknode.com, port: 25884, type: vmess, uuid: c73bb927-59e3-4f0c-863f-c2ede3931a1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.kapoknode.com}}, udp: true}
+  - {name: JCBB_新加坡04【vip1】_油管阿伟科技14, server: cu.kapoknode.com, port: 25894, type: vmess, uuid: 9cc38024-fac8-4d49-9c60-53b36b5cb14c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}, udp: true}
+  - {name: JCBB_香港07【vip1】_油管阿伟科技13, server: cm.kapoknode.com, port: 25896, type: vmess, uuid: 9cc38024-fac8-4d49-9c60-53b36b5cb14c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.kapoknode.com}}, udp: true}
+  - {name: JCBB_香港04【vip1】_油管阿伟科技10, server: cu.kapoknode.com, port: 25898, type: vmess, uuid: c73bb927-59e3-4f0c-863f-c2ede3931a1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}, udp: true}
+  - {name: JCBB_日本03【vip1】_油管阿伟科技11, server: cm.kapoknode.com, port: 25887, type: vmess, uuid: c73bb927-59e3-4f0c-863f-c2ede3931a1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.kapoknode.com}}, udp: true}
+  - {name: JCBB_日本02【vip1】_油管阿伟科技15, server: cu.kapoknode.com, port: 25888, type: vmess, uuid: 9cc38024-fac8-4d49-9c60-53b36b5cb14c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}, udp: true}
+  - {name: JCBB_美国03【vip1】_油管阿伟科技16, server: cm.kapoknode.com, port: 25885, type: vmess, uuid: 9cc38024-fac8-4d49-9c60-53b36b5cb14c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.kapoknode.com}}, udp: true}
+  - {name: JCBB_德国02【vip1】_油管阿伟科技18, server: cu.kapoknode.com, port: 25883, type: vmess, uuid: 9cc38024-fac8-4d49-9c60-53b36b5cb14c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}, udp: true}
+  - {name: Japan(Osaka2)—油管阿伟科技40, server: dgcm.pdjs.top, port: 49007, type: trojan, password: b2dd238f-11e7-43aa-84b5-8c20ab24741f, sni: jp-b.bbbb.pw, skip-cert-verify: true, udp: true}
+  - {name: Japan(Osaka1)_油管阿伟科技46, server: dgcm.pdjs.top, port: 49006, type: trojan, password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e, sni: jp-a.bbbb.pw, skip-cert-verify: true, udp: true}
+  - {name: Japan(Osaka1)_2—油管阿伟科技39, server: dgcm.pdjs.top, port: 49006, type: trojan, password: b2dd238f-11e7-43aa-84b5-8c20ab24741f, sni: jp-a.bbbb.pw, skip-cert-verify: true, udp: true}
+  - {name: Hongkong(NewTerritories)—油管阿伟科技36, server: dgcm.pdjs.top, port: 49000, type: trojan, password: b2dd238f-11e7-43aa-84b5-8c20ab24741f, sni: hk-a.bbbb.pw, skip-cert-verify: true, udp: true}
+  - {name: Hongkong (owloon)_2_油管阿伟科技49, server: dgcm.pdjs.top, port: 49001, type: trojan, password: b2dd238f-11e7-43aa-84b5-8c20ab24741f, sni: hk-c.bbbb.pw, skip-cert-verify: true, udp: true}
+  - {name: Hongkong (owloon)_1_油管阿伟科技43, server: dgcm.pdjs.top, port: 49001, type: trojan, password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e, sni: hk-c.bbbb.pw, skip-cert-verify: true, udp: true}
+  - {name: Hongkong (New Territories)_油管阿伟科技42, server: dgcm.pdjs.top, port: 49000, type: trojan, password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e, sni: hk-a.bbbb.pw, skip-cert-verify: true, udp: true}
+  - {name: cn.xmss.vip_油管阿伟科技78, server: mf02.xmss.vip, port: 18888, type: ss, cipher: chacha20-ietf-poly1305, password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1, udp: true}
+  - {name: A-Vip1丨日本07丨BGP_油管阿伟科技76, server: jp07.jafiyun.world, port: 21133, type: vmess, uuid: 282d52ff-8f04-3623-a5e9-2e123bf306cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[日本]+廣日+-+01_油管阿伟科技56", server: 52.81.65.225, port: 21800, type: ss, cipher: aes-128-gcm, password: 38301bb7-ad00-474c-ae86-81f8fb74974d, udp: true}
+  - {name: "[日本]+廣港+-+02_油管阿伟科技57", server: 52.81.65.225, port: 27726, type: ss, cipher: aes-128-gcm, password: 38301bb7-ad00-474c-ae86-81f8fb74974d, udp: true}
+  - {name: "[Vip1]新加坡08[1.0|移动|流媒体解锁]_油管阿伟科技3", server: fly1.fastestcloud.xyz, port: 30014, type: vmess, uuid: 8ffa76f6-001a-4cd0-af35-015a6062fda9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: fly1.fastestcloud.xyz}}, udp: true}
+  - {name: "[Vip1]新加坡04[1.0|联通|流媒体解锁]_油管阿伟科技26", server: fly4.fastestcloud.xyz, port: 30013, type: vmess, uuid: 154d4c0a-2499-42ae-a2a6-05250ecbaa64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: fly4.fastestcloud.xyz}}, udp: true}
+  - {name: "[Vip1]新加坡02[1.0|联通|流媒体解锁]_油管阿伟科技2", server: fly3.fastestcloud.xyz, port: 30013, type: vmess, uuid: 8ffa76f6-001a-4cd0-af35-015a6062fda9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: fly3.fastestcloud.xyz}}, udp: true}
+  - {name: "[Vip1]香港09[1.0|移动|流媒体解锁]_油管阿伟科技79", server: fly1.fastestcloud.xyz, port: 30003, type: vmess, uuid: 8ffa76f6-001a-4cd0-af35-015a6062fda9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fly1.fastestcloud.xyz}}, udp: true}
+  - {name: "[Vip1]香港06[1.0|联通|流媒体解锁]_油管阿伟科技20", server: fly4.fastestcloud.xyz, port: 30002, type: vmess, uuid: 154d4c0a-2499-42ae-a2a6-05250ecbaa64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: fly4.fastestcloud.xyz}}, udp: true}
+  - {name: "[Vip1]香港04[1.0|联通|流媒体解锁]_油管阿伟科技30", server: fly4.fastestcloud.xyz, port: 30001, type: vmess, uuid: 7d8a2dec-3947-4afc-b192-d7eda4308729, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: fly4.fastestcloud.xyz}}, udp: true}
+  - {name: "[Vip1]香港01[1.0|移动|流媒体解锁]_油管阿伟科技19", server: fly5.fastestcloud.xyz, port: 30001, type: vmess, uuid: 154d4c0a-2499-42ae-a2a6-05250ecbaa64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: fly5.fastestcloud.xyz}}, udp: true}
+  - {name: "[Vip1]台湾07[1.0|移动|流媒体解锁]_油管阿伟科技25", server: fly2.fastestcloud.xyz, port: 30009, type: vmess, uuid: 154d4c0a-2499-42ae-a2a6-05250ecbaa64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: fly2.fastestcloud.xyz}}, udp: true}
+  - {name: "[Vip1]日本13[1.0|移动|流媒体解锁]_油管阿伟科技22", server: fly1.fastestcloud.xyz, port: 30017, type: vmess, uuid: 154d4c0a-2499-42ae-a2a6-05250ecbaa64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: fly1.fastestcloud.xyz}}, udp: true}
+  - {name: "[Vip1]日本09[1.0|联通|流媒体解锁]_油管阿伟科技24", server: fly4.fastestcloud.xyz, port: 30007, type: vmess, uuid: 154d4c0a-2499-42ae-a2a6-05250ecbaa64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: fly4.fastestcloud.xyz}}, udp: true}
+  - {name: "[Vip1]日本07[1.0|联通]_油管阿伟科技31", server: fly3.fastestcloud.xyz, port: 30006, type: vmess, uuid: 7d8a2dec-3947-4afc-b192-d7eda4308729, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: fly3.fastestcloud.xyz}}, udp: true}
+  - {name: "[Vip1]日本05[1.0|移动]_油管阿伟科技1", server: fly1.fastestcloud.xyz, port: 30006, type: vmess, uuid: 8ffa76f6-001a-4cd0-af35-015a6062fda9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: fly1.fastestcloud.xyz}}, udp: true}
+  - {name: "[Vip1]日本02[1.0|移动|流媒体解锁]_油管阿伟科技23", server: fly1.fastestcloud.xyz, port: 30005, type: vmess, uuid: 154d4c0a-2499-42ae-a2a6-05250ecbaa64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: fly1.fastestcloud.xyz}}, udp: true}
+  - {name: "[Vip1]美国15[1.0|联通|流媒体解锁]_油管阿伟科技29", server: fly3.fastestcloud.xyz, port: 30018, type: vmess, uuid: 154d4c0a-2499-42ae-a2a6-05250ecbaa64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: fly3.fastestcloud.xyz}}, udp: true}
+  - {name: "[Vip1]美国08[1.0|联通|流媒体解锁]_油管阿伟科技4", server: fly4.fastestcloud.xyz, port: 30011, type: vmess, uuid: 8ffa76f6-001a-4cd0-af35-015a6062fda9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: fly4.fastestcloud.xyz}}, udp: true}
+  - {name: "[Vip1]美国07[1.0|移动|流媒体解锁]_油管阿伟科技28", server: fly2.fastestcloud.xyz, port: 30011, type: vmess, uuid: 154d4c0a-2499-42ae-a2a6-05250ecbaa64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: fly2.fastestcloud.xyz}}, udp: true}
+  - {name: "[Vip1]美国06[1.0|联通|流媒体解锁]_油管阿伟科技32", server: fly3.fastestcloud.xyz, port: 30011, type: vmess, uuid: 7d8a2dec-3947-4afc-b192-d7eda4308729, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: fly3.fastestcloud.xyz}}, udp: true}
+  - {name: "[Vip1]美国01[1.0|移动|流媒体解锁]_油管阿伟科技27", server: fly1.fastestcloud.xyz, port: 30010, type: vmess, uuid: 154d4c0a-2499-42ae-a2a6-05250ecbaa64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: fly1.fastestcloud.xyz}}, udp: true}
+  - {name: "[Vip1]韩国03[1.0|联通]_油管阿伟科技80", server: fly3.fastestcloud.xyz, port: 30004, type: vmess, uuid: 8ffa76f6-001a-4cd0-af35-015a6062fda9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: fly3.fastestcloud.xyz}}, udp: true}
+  - {name: "[Vip1]韩国02[1.0|移动]_油管阿伟科技21", server: fly2.fastestcloud.xyz, port: 30004, type: vmess, uuid: 154d4c0a-2499-42ae-a2a6-05250ecbaa64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: fly2.fastestcloud.xyz}}, udp: true}
+  - {name: "[Vip1]德国01[1.0|移动|流媒体解锁]_油管阿伟科技30", server: fly1.fastestcloud.xyz, port: 30015, type: vmess, uuid: 154d4c0a-2499-42ae-a2a6-05250ecbaa64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fly1.fastestcloud.xyz}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - xmss.vip—油管阿伟科技31
-      - U.S.A(LosAngeles1)_1—油管阿伟科技32
-      - U.S.A(LasVegas)_1—油管阿伟科技33
-      - Japan(Osaka1)_1—油管阿伟科技34
-      - Taiwan(Taipei1)_1—油管阿伟科技35
-      - Hongkong(NewTerritories)—油管阿伟科技36
-      - U.S.A(LosAngeles1)_2—油管阿伟科技37
-      - U.S.A(LasVegas)_2—油管阿伟科技38
-      - Japan(Osaka1)_2—油管阿伟科技39
-      - Japan(Osaka2)—油管阿伟科技40
-      - Taiwan(Taipei1)_2—油管阿伟科技41
-      - 新加坡|Singapore|V2—油管阿伟科技47
-      - 新加坡🇸🇬_1—油管阿伟科技49
-      - 美国🇺🇸纽约_1—油管阿伟科技50
-      - 印度🇮🇳_1—油管阿伟科技52
+      - 英国🇬🇧_油管阿伟科技74
       - 英国🇬🇧_1—油管阿伟科技53
-      - 德国🇩🇪_1—油管阿伟科技54
-      - 新加坡🇸🇬_2—油管阿伟科技55
-      - 美国🇺🇸纽约_2—油管阿伟科技56
-      - 德国🇩🇪_2—油管阿伟科技60
-      - 美国🇺🇸纽约_3—油管阿伟科技61
-      - 英国🇬🇧_3—油管阿伟科技62
-      - 加拿大🇨🇦_3—油管阿伟科技64
-      - 英国🇬🇧_4—油管阿伟科技65
-      - 德国🇩🇪_4—油管阿伟科技66
-      - 英国🇬🇧_5—油管阿伟科技67
-      - 德国🇩🇪_5—油管阿伟科技68
-      - 新加坡🇸🇬_3—油管阿伟科技69
-      - 美国🇺🇸纽约_4—油管阿伟科技70
-      - 英国02_油管阿伟科技1
-      - GetAFreeNode-Gcore_油管阿伟科技2
-      - GetAFreeNode-LosAngeles_油管阿伟科技3
-      - GetAFreeNode-Frankfurt_油管阿伟科技4
-      - GetAFreeNode-Amsterdam_油管阿伟科技5
-      - GetAFreeNode-Novosibirsk_油管阿伟科技6
-      - GetAFreeNode-Vienna_油管阿伟科技7
-      - GetAFreeNode-Moscow_油管阿伟科技8
-      - VPN-for-China-->xeton.co_油管阿伟科技9
-      - VPN-For-China-->milkcat.net_油管阿伟科技10
-      - xmss.vip_油管阿伟科技11
-      - cn.xmss.vip_油管阿伟科技12
-      - 新加坡🇸🇬_油管阿伟科技13
-      - 美国🇺🇸纽约_油管阿伟科技14
-      - 洛杉矶 2 Trojan_油管阿伟科技15
-      - 洛杉矶2v2ray_油管阿伟科技16
-      - 美国INAP_油管阿伟科技17
-      - 阿根廷_油管阿伟科技18
-      - 马来西亚_油管阿伟科技19
+      - 英国08DO_油管阿伟科技39
+      - 英国_油管阿伟科技8
+      - 印度尼西亚07@ANHR0_油管阿伟科技32
+      - 印度🇮🇳_3_油管阿伟科技73
+      - 印度🇮🇳_2_油管阿伟科技66
+      - 印度🇮🇳_1_油管阿伟科技60
+      - 印度_油管-阿伟科技67
+      - 印度_油管阿伟科技49
       - 印度_油管阿伟科技20
-      - 澳洲_油管阿伟科技21
+      - 新加坡🇸🇬-linode_油管阿伟科技72
+      - 新加坡🇸🇬_4_油管阿伟科技68
+      - 新加坡🇸🇬_3_油管阿伟科技64
+      - 新加坡🇸🇬_2—油管阿伟科技55
+      - 新加坡🇸🇬_2_油管阿伟科技61
+      - 新加坡🇸🇬_1_油管阿伟科技58
+      - 新加坡B_油管阿伟科技46
+      - 新加坡03
+      - 新[直连]6-流媒体NF_油管阿伟科技60
+      - 新[直连]5-流媒体NF_油管阿伟科技59
+      - 新[直连]3-流媒体NF_油管阿伟科技58
+      - 香港丨下载丨1Gbps
+      - 香港丨RERR丨TEST 03
+      - 香港丨RERR丨TEST 02
+      - 香港丨RERR丨TEST 01
+      - 香港E_油管阿伟科技44
+      - 香港E_油管阿伟科技1
+      - 香港66ANYHK-HKT-动态IP-奈飞_油管阿伟科技43
+      - 香港65AZ-动态IP_油管阿伟科技42
+      - 香港19ANYHK-HKT-动态IP-奈飞_油管阿伟科技41
+      - 香港09
+      - 香港08
+      - 香港06
+      - 乌克兰_油管阿伟科技51
       - 乌克兰_油管阿伟科技22
+      - 土耳其B_油管阿伟科技5
+      - 土耳其B_油管阿伟科技47
+      - 土耳其A_油管阿伟科技4
+      - 泰国71@ANHR0_油管阿伟科技35
+      - 泰国_油管阿伟科技7
+      - 台湾13ANYHK-动态IP-奈飞_油管阿伟科技33
+      - 台湾05
+      - 台3[直连]-流媒体NF_油管阿伟科技57
+      - 隧道|NF|香港01_油管阿伟科技66
+      - 隧道|NF|台湾03_油管阿伟科技65
+      - 隧道|NF|日本04_油管阿伟科技68
+      - 隧道|NF|日本02_油管阿伟科技67
+      - 隧道|NF|美国02_油管阿伟科技69
+      - 隧道|NF|韩国02_油管阿伟科技71
+      - 隧道|NF|韩国01_油管阿伟科技70
+      - 隧道|NF|菲律宾01_油管阿伟科技73
+      - 隧道|NF|德国01_油管阿伟科技72
+      - 瑞典34AZ-动态IP_油管阿伟科技37
+      - 日本🇯🇵东京_油管阿伟科技71
+      - 日本C_油管阿伟科技45
+      - 日本C_油管阿伟科技3
+      - 日本B_油管阿伟科技2
+      - 日本67AZ-动态IP_油管阿伟科技34
+      - 美国丨洛杉矶丨GIA
+      - 美国🇺🇸纽约_4_油管阿伟科技69
+      - 美国🇺🇸纽约_3_油管阿伟科技65
+      - 美国🇺🇸纽约_2—油管阿伟科技56
+      - 美国🇺🇸纽约_2_油管阿伟科技62
+      - 美国🇺🇸纽约_1_油管阿伟科技59
+      - 美国INAP_油管阿伟科技82
+      - 美国C_油管-阿伟科技74
+      - 美国60DO_油管阿伟科技38
+      - 美8[直接]-流媒体_油管阿伟科技64
+      - 美1[中转]-流媒体_油管阿伟科技63
+      - 马来西亚_油管阿伟科技19
+      - 洛杉矶2v2ray_油管阿伟科技55
+      - 洛杉矶 2 Trojan_油管阿伟科技54
+      - 流暢雲英國|直连|UK01_油管阿伟科技23
+      - 流暢雲香港PROIPLC專綫02_油管阿伟科技27
+      - 流暢雲香港PROIPLC專綫01_油管阿伟科技26
+      - 流暢雲美國PRO|直連|US03_油管阿伟科技22
+      - 流暢雲美國PRO|直連|US02_油管阿伟科技21
+      - 流暢雲美國PRO|直連|US01_油管阿伟科技20
+      - 流暢雲美國|直连|US06_油管阿伟科技19
+      - 流暢雲美國|直连|US05_油管阿伟科技18
+      - 流暢雲美國|直连|US04_油管阿伟科技17
+      - 流暢雲美國|直连|US03_油管阿伟科技74
+      - 流暢雲美國|直连|US03_油管阿伟科技16
+      - 流暢雲美國|直连|US02_油管阿伟科技15
+      - 流暢雲美國|直连|US01_油管阿伟科技14
+      - 流暢雲韩国|直连|KR03_油管阿伟科技25
+      - 流暢雲韩国|直连|KR02_油管阿伟科技24
+      - 流暢雲俄罗斯|直連|RU01_油管阿伟科技13
+      - 加拿大🇨🇦_2_油管阿伟科技70
+      - 加拿大🇨🇦_1_油管阿伟科技63
+      - 加拿大_油管阿伟科技50
       - 荷兰_油管阿伟科技23
+      - 港6[直连]-流媒体NF_油管阿伟科技62
+      - 港3[直连]-流媒体NF_油管阿伟科技61
+      - 付费套餐无限制_油管阿伟科技9
+      - 付费套餐无限制_2_油管阿伟科技31
+      - 付费套餐无限制_1_油管阿伟科技12
+      - 俄罗斯丨莫斯科丨ETH
+      - 迪拜04AZ-动态IP_油管阿伟科技40
+      - 德国🇩🇪-BEST_油管阿伟科技76
+      - 德国🇩🇪_2—油管阿伟科技60
+      - 德国🇩🇪_2_油管阿伟科技75
+      - 德国🇩🇪_1_油管阿伟科技67
+      - 澳洲_油管阿伟科技21
+      - 澳大利亚24AZ-动态IP_油管阿伟科技36
+      - 阿根廷_油管-阿伟科技77
+      - 阿根廷_油管阿伟科技6
+      - 阿根廷_油管阿伟科技48
+      - 阿根廷_油管阿伟科技18
+      - 美国|01|三网优化2_油管阿伟科技10
+      - 新加坡|08|OC_油管阿伟科技40
+      - 新加坡|03|OC_油管阿伟科技5
+      - 新加坡|03|OC_油管阿伟科技34
+      - 新加坡|03|LIN_油管阿伟科技39
+      - 新加坡|02|DO_油管阿伟科技35
+      - 新加坡|01|OC_油管阿伟科技41
+      - 新加坡|01|LIN_油管阿伟科技6
+      - 新加坡|01|LIN_油管阿伟科技38
+      - A-V2 新加坡三网优化2_油管阿伟科技55
+      - v2-俄罗斯1_油管阿伟科技56
+      - 韩国高速-1_油管阿伟科技75
+      - 韩国|01AZ_油管阿伟科技9
+      - 日本高速_油管阿伟科技80
+      - 日本|05|LIN三网优化_油管阿伟科技36
+      - 香港高速_油管阿伟科技81
+      - 香港|23|奈飞BGP三网优化_油管阿伟科技37
+      - 香港|05_油管阿伟科技11
+      - A-T-香港解锁NF和D 1_油管阿伟科技52
+      - A-T-香港2_油管阿伟科技54
+      - A-T-香港_油管阿伟科技53
+      - 英国|01|LIN三网优化_油管阿伟科技8
+      - 英国|01|LIN_油管阿伟科技7
+      - 台湾|04奈飞三网优化3_油管阿伟科技33
+      - xmss.vip_油管阿伟科技77
+      - VPN-For-China-->milkcat.net_油管阿伟科技10
+      - vip1-新加坡6||限速100M_油管阿伟科技77
+      - vip1-香港4||限速100M_油管阿伟科技79
+      - vip1-日本1||限速100M_油管阿伟科技78
+      - V1-越南-1-sc-IEPL【2x】_油管阿伟科技28
+      - V1-韩国-1-sc-IEPL【2x】_油管阿伟科技29
+      - U.S.A(Los Angeles1)_2_油管阿伟科技51
+      - U.S.A(Los Angeles1)_1_油管阿伟科技44
+      - U.S.A(Las Vegas)_2_油管阿伟科技52
+      - U.S.A(Las Vegas)_1_油管阿伟科技45
+      - U.S.A(Dallas)_油管阿伟科技50
+      - Taiwan(Taipei1)_油管阿伟科技47
+      - Taiwan(Taipei1)_2—油管阿伟科技41
+      - Luxembourg_2_油管阿伟科技53
+      - Luxembourg_1_油管阿伟科技48
+      - JCBB_英国02【vip1】_油管阿伟科技17
+      - JCBB_英国01【vip1】_油管阿伟科技12
+      - JCBB_新加坡04【vip1】_油管阿伟科技14
+      - JCBB_香港07【vip1】_油管阿伟科技13
+      - JCBB_香港04【vip1】_油管阿伟科技10
+      - JCBB_日本03【vip1】_油管阿伟科技11
+      - JCBB_日本02【vip1】_油管阿伟科技15
+      - JCBB_美国03【vip1】_油管阿伟科技16
+      - JCBB_德国02【vip1】_油管阿伟科技18
+      - Japan(Osaka2)—油管阿伟科技40
+      - Japan(Osaka1)_油管阿伟科技46
+      - Japan(Osaka1)_2—油管阿伟科技39
+      - Hongkong(NewTerritories)—油管阿伟科技36
+      - Hongkong (owloon)_2_油管阿伟科技49
+      - Hongkong (owloon)_1_油管阿伟科技43
+      - Hongkong (New Territories)_油管阿伟科技42
+      - cn.xmss.vip_油管阿伟科技78
+      - A-Vip1丨日本07丨BGP_油管阿伟科技76
+      - "[日本]+廣日+-+01_油管阿伟科技56"
+      - "[日本]+廣港+-+02_油管阿伟科技57"
+      - "[Vip1]新加坡08[1.0|移动|流媒体解锁]_油管阿伟科技3"
+      - "[Vip1]新加坡04[1.0|联通|流媒体解锁]_油管阿伟科技26"
+      - "[Vip1]新加坡02[1.0|联通|流媒体解锁]_油管阿伟科技2"
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_油管阿伟科技79"
+      - "[Vip1]香港06[1.0|联通|流媒体解锁]_油管阿伟科技20"
+      - "[Vip1]香港04[1.0|联通|流媒体解锁]_油管阿伟科技30"
+      - "[Vip1]香港01[1.0|移动|流媒体解锁]_油管阿伟科技19"
+      - "[Vip1]台湾07[1.0|移动|流媒体解锁]_油管阿伟科技25"
+      - "[Vip1]日本13[1.0|移动|流媒体解锁]_油管阿伟科技22"
+      - "[Vip1]日本09[1.0|联通|流媒体解锁]_油管阿伟科技24"
+      - "[Vip1]日本07[1.0|联通]_油管阿伟科技31"
+      - "[Vip1]日本05[1.0|移动]_油管阿伟科技1"
+      - "[Vip1]日本02[1.0|移动|流媒体解锁]_油管阿伟科技23"
+      - "[Vip1]美国15[1.0|联通|流媒体解锁]_油管阿伟科技29"
+      - "[Vip1]美国08[1.0|联通|流媒体解锁]_油管阿伟科技4"
+      - "[Vip1]美国07[1.0|移动|流媒体解锁]_油管阿伟科技28"
+      - "[Vip1]美国06[1.0|联通|流媒体解锁]_油管阿伟科技32"
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_油管阿伟科技27"
+      - "[Vip1]韩国03[1.0|联通]_油管阿伟科技80"
+      - "[Vip1]韩国02[1.0|移动]_油管阿伟科技21"
+      - "[Vip1]德国01[1.0|移动|流媒体解锁]_油管阿伟科技30"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - xmss.vip—油管阿伟科技31
-      - U.S.A(LosAngeles1)_1—油管阿伟科技32
-      - U.S.A(LasVegas)_1—油管阿伟科技33
-      - Japan(Osaka1)_1—油管阿伟科技34
-      - Taiwan(Taipei1)_1—油管阿伟科技35
-      - Hongkong(NewTerritories)—油管阿伟科技36
-      - U.S.A(LosAngeles1)_2—油管阿伟科技37
-      - U.S.A(LasVegas)_2—油管阿伟科技38
-      - Japan(Osaka1)_2—油管阿伟科技39
-      - Japan(Osaka2)—油管阿伟科技40
-      - Taiwan(Taipei1)_2—油管阿伟科技41
-      - 新加坡|Singapore|V2—油管阿伟科技47
-      - 新加坡🇸🇬_1—油管阿伟科技49
-      - 美国🇺🇸纽约_1—油管阿伟科技50
-      - 印度🇮🇳_1—油管阿伟科技52
+      - 英国🇬🇧_油管阿伟科技74
       - 英国🇬🇧_1—油管阿伟科技53
-      - 德国🇩🇪_1—油管阿伟科技54
-      - 新加坡🇸🇬_2—油管阿伟科技55
-      - 美国🇺🇸纽约_2—油管阿伟科技56
-      - 德国🇩🇪_2—油管阿伟科技60
-      - 美国🇺🇸纽约_3—油管阿伟科技61
-      - 英国🇬🇧_3—油管阿伟科技62
-      - 加拿大🇨🇦_3—油管阿伟科技64
-      - 英国🇬🇧_4—油管阿伟科技65
-      - 德国🇩🇪_4—油管阿伟科技66
-      - 英国🇬🇧_5—油管阿伟科技67
-      - 德国🇩🇪_5—油管阿伟科技68
-      - 新加坡🇸🇬_3—油管阿伟科技69
-      - 美国🇺🇸纽约_4—油管阿伟科技70
-      - 英国02_油管阿伟科技1
-      - GetAFreeNode-Gcore_油管阿伟科技2
-      - GetAFreeNode-LosAngeles_油管阿伟科技3
-      - GetAFreeNode-Frankfurt_油管阿伟科技4
-      - GetAFreeNode-Amsterdam_油管阿伟科技5
-      - GetAFreeNode-Novosibirsk_油管阿伟科技6
-      - GetAFreeNode-Vienna_油管阿伟科技7
-      - GetAFreeNode-Moscow_油管阿伟科技8
-      - VPN-for-China-->xeton.co_油管阿伟科技9
-      - VPN-For-China-->milkcat.net_油管阿伟科技10
-      - xmss.vip_油管阿伟科技11
-      - cn.xmss.vip_油管阿伟科技12
-      - 新加坡🇸🇬_油管阿伟科技13
-      - 美国🇺🇸纽约_油管阿伟科技14
-      - 洛杉矶 2 Trojan_油管阿伟科技15
-      - 洛杉矶2v2ray_油管阿伟科技16
-      - 美国INAP_油管阿伟科技17
-      - 阿根廷_油管阿伟科技18
-      - 马来西亚_油管阿伟科技19
+      - 英国08DO_油管阿伟科技39
+      - 英国_油管阿伟科技8
+      - 印度尼西亚07@ANHR0_油管阿伟科技32
+      - 印度🇮🇳_3_油管阿伟科技73
+      - 印度🇮🇳_2_油管阿伟科技66
+      - 印度🇮🇳_1_油管阿伟科技60
+      - 印度_油管-阿伟科技67
+      - 印度_油管阿伟科技49
       - 印度_油管阿伟科技20
-      - 澳洲_油管阿伟科技21
+      - 新加坡🇸🇬-linode_油管阿伟科技72
+      - 新加坡🇸🇬_4_油管阿伟科技68
+      - 新加坡🇸🇬_3_油管阿伟科技64
+      - 新加坡🇸🇬_2—油管阿伟科技55
+      - 新加坡🇸🇬_2_油管阿伟科技61
+      - 新加坡🇸🇬_1_油管阿伟科技58
+      - 新加坡B_油管阿伟科技46
+      - 新加坡03
+      - 新[直连]6-流媒体NF_油管阿伟科技60
+      - 新[直连]5-流媒体NF_油管阿伟科技59
+      - 新[直连]3-流媒体NF_油管阿伟科技58
+      - 香港丨下载丨1Gbps
+      - 香港丨RERR丨TEST 03
+      - 香港丨RERR丨TEST 02
+      - 香港丨RERR丨TEST 01
+      - 香港E_油管阿伟科技44
+      - 香港E_油管阿伟科技1
+      - 香港66ANYHK-HKT-动态IP-奈飞_油管阿伟科技43
+      - 香港65AZ-动态IP_油管阿伟科技42
+      - 香港19ANYHK-HKT-动态IP-奈飞_油管阿伟科技41
+      - 香港09
+      - 香港08
+      - 香港06
+      - 乌克兰_油管阿伟科技51
       - 乌克兰_油管阿伟科技22
+      - 土耳其B_油管阿伟科技5
+      - 土耳其B_油管阿伟科技47
+      - 土耳其A_油管阿伟科技4
+      - 泰国71@ANHR0_油管阿伟科技35
+      - 泰国_油管阿伟科技7
+      - 台湾13ANYHK-动态IP-奈飞_油管阿伟科技33
+      - 台湾05
+      - 台3[直连]-流媒体NF_油管阿伟科技57
+      - 隧道|NF|香港01_油管阿伟科技66
+      - 隧道|NF|台湾03_油管阿伟科技65
+      - 隧道|NF|日本04_油管阿伟科技68
+      - 隧道|NF|日本02_油管阿伟科技67
+      - 隧道|NF|美国02_油管阿伟科技69
+      - 隧道|NF|韩国02_油管阿伟科技71
+      - 隧道|NF|韩国01_油管阿伟科技70
+      - 隧道|NF|菲律宾01_油管阿伟科技73
+      - 隧道|NF|德国01_油管阿伟科技72
+      - 瑞典34AZ-动态IP_油管阿伟科技37
+      - 日本🇯🇵东京_油管阿伟科技71
+      - 日本C_油管阿伟科技45
+      - 日本C_油管阿伟科技3
+      - 日本B_油管阿伟科技2
+      - 日本67AZ-动态IP_油管阿伟科技34
+      - 美国丨洛杉矶丨GIA
+      - 美国🇺🇸纽约_4_油管阿伟科技69
+      - 美国🇺🇸纽约_3_油管阿伟科技65
+      - 美国🇺🇸纽约_2—油管阿伟科技56
+      - 美国🇺🇸纽约_2_油管阿伟科技62
+      - 美国🇺🇸纽约_1_油管阿伟科技59
+      - 美国INAP_油管阿伟科技82
+      - 美国C_油管-阿伟科技74
+      - 美国60DO_油管阿伟科技38
+      - 美8[直接]-流媒体_油管阿伟科技64
+      - 美1[中转]-流媒体_油管阿伟科技63
+      - 马来西亚_油管阿伟科技19
+      - 洛杉矶2v2ray_油管阿伟科技55
+      - 洛杉矶 2 Trojan_油管阿伟科技54
+      - 流暢雲英國|直连|UK01_油管阿伟科技23
+      - 流暢雲香港PROIPLC專綫02_油管阿伟科技27
+      - 流暢雲香港PROIPLC專綫01_油管阿伟科技26
+      - 流暢雲美國PRO|直連|US03_油管阿伟科技22
+      - 流暢雲美國PRO|直連|US02_油管阿伟科技21
+      - 流暢雲美國PRO|直連|US01_油管阿伟科技20
+      - 流暢雲美國|直连|US06_油管阿伟科技19
+      - 流暢雲美國|直连|US05_油管阿伟科技18
+      - 流暢雲美國|直连|US04_油管阿伟科技17
+      - 流暢雲美國|直连|US03_油管阿伟科技74
+      - 流暢雲美國|直连|US03_油管阿伟科技16
+      - 流暢雲美國|直连|US02_油管阿伟科技15
+      - 流暢雲美國|直连|US01_油管阿伟科技14
+      - 流暢雲韩国|直连|KR03_油管阿伟科技25
+      - 流暢雲韩国|直连|KR02_油管阿伟科技24
+      - 流暢雲俄罗斯|直連|RU01_油管阿伟科技13
+      - 加拿大🇨🇦_2_油管阿伟科技70
+      - 加拿大🇨🇦_1_油管阿伟科技63
+      - 加拿大_油管阿伟科技50
       - 荷兰_油管阿伟科技23
+      - 港6[直连]-流媒体NF_油管阿伟科技62
+      - 港3[直连]-流媒体NF_油管阿伟科技61
+      - 付费套餐无限制_油管阿伟科技9
+      - 付费套餐无限制_2_油管阿伟科技31
+      - 付费套餐无限制_1_油管阿伟科技12
+      - 俄罗斯丨莫斯科丨ETH
+      - 迪拜04AZ-动态IP_油管阿伟科技40
+      - 德国🇩🇪-BEST_油管阿伟科技76
+      - 德国🇩🇪_2—油管阿伟科技60
+      - 德国🇩🇪_2_油管阿伟科技75
+      - 德国🇩🇪_1_油管阿伟科技67
+      - 澳洲_油管阿伟科技21
+      - 澳大利亚24AZ-动态IP_油管阿伟科技36
+      - 阿根廷_油管-阿伟科技77
+      - 阿根廷_油管阿伟科技6
+      - 阿根廷_油管阿伟科技48
+      - 阿根廷_油管阿伟科技18
+      - 美国|01|三网优化2_油管阿伟科技10
+      - 新加坡|08|OC_油管阿伟科技40
+      - 新加坡|03|OC_油管阿伟科技5
+      - 新加坡|03|OC_油管阿伟科技34
+      - 新加坡|03|LIN_油管阿伟科技39
+      - 新加坡|02|DO_油管阿伟科技35
+      - 新加坡|01|OC_油管阿伟科技41
+      - 新加坡|01|LIN_油管阿伟科技6
+      - 新加坡|01|LIN_油管阿伟科技38
+      - A-V2 新加坡三网优化2_油管阿伟科技55
+      - v2-俄罗斯1_油管阿伟科技56
+      - 韩国高速-1_油管阿伟科技75
+      - 韩国|01AZ_油管阿伟科技9
+      - 日本高速_油管阿伟科技80
+      - 日本|05|LIN三网优化_油管阿伟科技36
+      - 香港高速_油管阿伟科技81
+      - 香港|23|奈飞BGP三网优化_油管阿伟科技37
+      - 香港|05_油管阿伟科技11
+      - A-T-香港解锁NF和D 1_油管阿伟科技52
+      - A-T-香港2_油管阿伟科技54
+      - A-T-香港_油管阿伟科技53
+      - 英国|01|LIN三网优化_油管阿伟科技8
+      - 英国|01|LIN_油管阿伟科技7
+      - 台湾|04奈飞三网优化3_油管阿伟科技33
+      - xmss.vip_油管阿伟科技77
+      - VPN-For-China-->milkcat.net_油管阿伟科技10
+      - vip1-新加坡6||限速100M_油管阿伟科技77
+      - vip1-香港4||限速100M_油管阿伟科技79
+      - vip1-日本1||限速100M_油管阿伟科技78
+      - V1-越南-1-sc-IEPL【2x】_油管阿伟科技28
+      - V1-韩国-1-sc-IEPL【2x】_油管阿伟科技29
+      - U.S.A(Los Angeles1)_2_油管阿伟科技51
+      - U.S.A(Los Angeles1)_1_油管阿伟科技44
+      - U.S.A(Las Vegas)_2_油管阿伟科技52
+      - U.S.A(Las Vegas)_1_油管阿伟科技45
+      - U.S.A(Dallas)_油管阿伟科技50
+      - Taiwan(Taipei1)_油管阿伟科技47
+      - Taiwan(Taipei1)_2—油管阿伟科技41
+      - Luxembourg_2_油管阿伟科技53
+      - Luxembourg_1_油管阿伟科技48
+      - JCBB_英国02【vip1】_油管阿伟科技17
+      - JCBB_英国01【vip1】_油管阿伟科技12
+      - JCBB_新加坡04【vip1】_油管阿伟科技14
+      - JCBB_香港07【vip1】_油管阿伟科技13
+      - JCBB_香港04【vip1】_油管阿伟科技10
+      - JCBB_日本03【vip1】_油管阿伟科技11
+      - JCBB_日本02【vip1】_油管阿伟科技15
+      - JCBB_美国03【vip1】_油管阿伟科技16
+      - JCBB_德国02【vip1】_油管阿伟科技18
+      - Japan(Osaka2)—油管阿伟科技40
+      - Japan(Osaka1)_油管阿伟科技46
+      - Japan(Osaka1)_2—油管阿伟科技39
+      - Hongkong(NewTerritories)—油管阿伟科技36
+      - Hongkong (owloon)_2_油管阿伟科技49
+      - Hongkong (owloon)_1_油管阿伟科技43
+      - Hongkong (New Territories)_油管阿伟科技42
+      - cn.xmss.vip_油管阿伟科技78
+      - A-Vip1丨日本07丨BGP_油管阿伟科技76
+      - "[日本]+廣日+-+01_油管阿伟科技56"
+      - "[日本]+廣港+-+02_油管阿伟科技57"
+      - "[Vip1]新加坡08[1.0|移动|流媒体解锁]_油管阿伟科技3"
+      - "[Vip1]新加坡04[1.0|联通|流媒体解锁]_油管阿伟科技26"
+      - "[Vip1]新加坡02[1.0|联通|流媒体解锁]_油管阿伟科技2"
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_油管阿伟科技79"
+      - "[Vip1]香港06[1.0|联通|流媒体解锁]_油管阿伟科技20"
+      - "[Vip1]香港04[1.0|联通|流媒体解锁]_油管阿伟科技30"
+      - "[Vip1]香港01[1.0|移动|流媒体解锁]_油管阿伟科技19"
+      - "[Vip1]台湾07[1.0|移动|流媒体解锁]_油管阿伟科技25"
+      - "[Vip1]日本13[1.0|移动|流媒体解锁]_油管阿伟科技22"
+      - "[Vip1]日本09[1.0|联通|流媒体解锁]_油管阿伟科技24"
+      - "[Vip1]日本07[1.0|联通]_油管阿伟科技31"
+      - "[Vip1]日本05[1.0|移动]_油管阿伟科技1"
+      - "[Vip1]日本02[1.0|移动|流媒体解锁]_油管阿伟科技23"
+      - "[Vip1]美国15[1.0|联通|流媒体解锁]_油管阿伟科技29"
+      - "[Vip1]美国08[1.0|联通|流媒体解锁]_油管阿伟科技4"
+      - "[Vip1]美国07[1.0|移动|流媒体解锁]_油管阿伟科技28"
+      - "[Vip1]美国06[1.0|联通|流媒体解锁]_油管阿伟科技32"
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_油管阿伟科技27"
+      - "[Vip1]韩国03[1.0|联通]_油管阿伟科技80"
+      - "[Vip1]韩国02[1.0|移动]_油管阿伟科技21"
+      - "[Vip1]德国01[1.0|移动|流媒体解锁]_油管阿伟科技30"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - xmss.vip—油管阿伟科技31
-      - U.S.A(LosAngeles1)_1—油管阿伟科技32
-      - U.S.A(LasVegas)_1—油管阿伟科技33
-      - Japan(Osaka1)_1—油管阿伟科技34
-      - Taiwan(Taipei1)_1—油管阿伟科技35
-      - Hongkong(NewTerritories)—油管阿伟科技36
-      - U.S.A(LosAngeles1)_2—油管阿伟科技37
-      - U.S.A(LasVegas)_2—油管阿伟科技38
-      - Japan(Osaka1)_2—油管阿伟科技39
-      - Japan(Osaka2)—油管阿伟科技40
-      - Taiwan(Taipei1)_2—油管阿伟科技41
-      - 新加坡|Singapore|V2—油管阿伟科技47
-      - 新加坡🇸🇬_1—油管阿伟科技49
-      - 美国🇺🇸纽约_1—油管阿伟科技50
-      - 印度🇮🇳_1—油管阿伟科技52
+      - 英国🇬🇧_油管阿伟科技74
       - 英国🇬🇧_1—油管阿伟科技53
-      - 德国🇩🇪_1—油管阿伟科技54
-      - 新加坡🇸🇬_2—油管阿伟科技55
-      - 美国🇺🇸纽约_2—油管阿伟科技56
-      - 德国🇩🇪_2—油管阿伟科技60
-      - 美国🇺🇸纽约_3—油管阿伟科技61
-      - 英国🇬🇧_3—油管阿伟科技62
-      - 加拿大🇨🇦_3—油管阿伟科技64
-      - 英国🇬🇧_4—油管阿伟科技65
-      - 德国🇩🇪_4—油管阿伟科技66
-      - 英国🇬🇧_5—油管阿伟科技67
-      - 德国🇩🇪_5—油管阿伟科技68
-      - 新加坡🇸🇬_3—油管阿伟科技69
-      - 美国🇺🇸纽约_4—油管阿伟科技70
-      - 英国02_油管阿伟科技1
-      - GetAFreeNode-Gcore_油管阿伟科技2
-      - GetAFreeNode-LosAngeles_油管阿伟科技3
-      - GetAFreeNode-Frankfurt_油管阿伟科技4
-      - GetAFreeNode-Amsterdam_油管阿伟科技5
-      - GetAFreeNode-Novosibirsk_油管阿伟科技6
-      - GetAFreeNode-Vienna_油管阿伟科技7
-      - GetAFreeNode-Moscow_油管阿伟科技8
-      - VPN-for-China-->xeton.co_油管阿伟科技9
-      - VPN-For-China-->milkcat.net_油管阿伟科技10
-      - xmss.vip_油管阿伟科技11
-      - cn.xmss.vip_油管阿伟科技12
-      - 新加坡🇸🇬_油管阿伟科技13
-      - 美国🇺🇸纽约_油管阿伟科技14
-      - 洛杉矶 2 Trojan_油管阿伟科技15
-      - 洛杉矶2v2ray_油管阿伟科技16
-      - 美国INAP_油管阿伟科技17
-      - 阿根廷_油管阿伟科技18
-      - 马来西亚_油管阿伟科技19
+      - 英国08DO_油管阿伟科技39
+      - 英国_油管阿伟科技8
+      - 印度尼西亚07@ANHR0_油管阿伟科技32
+      - 印度🇮🇳_3_油管阿伟科技73
+      - 印度🇮🇳_2_油管阿伟科技66
+      - 印度🇮🇳_1_油管阿伟科技60
+      - 印度_油管-阿伟科技67
+      - 印度_油管阿伟科技49
       - 印度_油管阿伟科技20
-      - 澳洲_油管阿伟科技21
+      - 新加坡🇸🇬-linode_油管阿伟科技72
+      - 新加坡🇸🇬_4_油管阿伟科技68
+      - 新加坡🇸🇬_3_油管阿伟科技64
+      - 新加坡🇸🇬_2—油管阿伟科技55
+      - 新加坡🇸🇬_2_油管阿伟科技61
+      - 新加坡🇸🇬_1_油管阿伟科技58
+      - 新加坡B_油管阿伟科技46
+      - 新加坡03
+      - 新[直连]6-流媒体NF_油管阿伟科技60
+      - 新[直连]5-流媒体NF_油管阿伟科技59
+      - 新[直连]3-流媒体NF_油管阿伟科技58
+      - 香港丨下载丨1Gbps
+      - 香港丨RERR丨TEST 03
+      - 香港丨RERR丨TEST 02
+      - 香港丨RERR丨TEST 01
+      - 香港E_油管阿伟科技44
+      - 香港E_油管阿伟科技1
+      - 香港66ANYHK-HKT-动态IP-奈飞_油管阿伟科技43
+      - 香港65AZ-动态IP_油管阿伟科技42
+      - 香港19ANYHK-HKT-动态IP-奈飞_油管阿伟科技41
+      - 香港09
+      - 香港08
+      - 香港06
+      - 乌克兰_油管阿伟科技51
       - 乌克兰_油管阿伟科技22
+      - 土耳其B_油管阿伟科技5
+      - 土耳其B_油管阿伟科技47
+      - 土耳其A_油管阿伟科技4
+      - 泰国71@ANHR0_油管阿伟科技35
+      - 泰国_油管阿伟科技7
+      - 台湾13ANYHK-动态IP-奈飞_油管阿伟科技33
+      - 台湾05
+      - 台3[直连]-流媒体NF_油管阿伟科技57
+      - 隧道|NF|香港01_油管阿伟科技66
+      - 隧道|NF|台湾03_油管阿伟科技65
+      - 隧道|NF|日本04_油管阿伟科技68
+      - 隧道|NF|日本02_油管阿伟科技67
+      - 隧道|NF|美国02_油管阿伟科技69
+      - 隧道|NF|韩国02_油管阿伟科技71
+      - 隧道|NF|韩国01_油管阿伟科技70
+      - 隧道|NF|菲律宾01_油管阿伟科技73
+      - 隧道|NF|德国01_油管阿伟科技72
+      - 瑞典34AZ-动态IP_油管阿伟科技37
+      - 日本🇯🇵东京_油管阿伟科技71
+      - 日本C_油管阿伟科技45
+      - 日本C_油管阿伟科技3
+      - 日本B_油管阿伟科技2
+      - 日本67AZ-动态IP_油管阿伟科技34
+      - 美国丨洛杉矶丨GIA
+      - 美国🇺🇸纽约_4_油管阿伟科技69
+      - 美国🇺🇸纽约_3_油管阿伟科技65
+      - 美国🇺🇸纽约_2—油管阿伟科技56
+      - 美国🇺🇸纽约_2_油管阿伟科技62
+      - 美国🇺🇸纽约_1_油管阿伟科技59
+      - 美国INAP_油管阿伟科技82
+      - 美国C_油管-阿伟科技74
+      - 美国60DO_油管阿伟科技38
+      - 美8[直接]-流媒体_油管阿伟科技64
+      - 美1[中转]-流媒体_油管阿伟科技63
+      - 马来西亚_油管阿伟科技19
+      - 洛杉矶2v2ray_油管阿伟科技55
+      - 洛杉矶 2 Trojan_油管阿伟科技54
+      - 流暢雲英國|直连|UK01_油管阿伟科技23
+      - 流暢雲香港PROIPLC專綫02_油管阿伟科技27
+      - 流暢雲香港PROIPLC專綫01_油管阿伟科技26
+      - 流暢雲美國PRO|直連|US03_油管阿伟科技22
+      - 流暢雲美國PRO|直連|US02_油管阿伟科技21
+      - 流暢雲美國PRO|直連|US01_油管阿伟科技20
+      - 流暢雲美國|直连|US06_油管阿伟科技19
+      - 流暢雲美國|直连|US05_油管阿伟科技18
+      - 流暢雲美國|直连|US04_油管阿伟科技17
+      - 流暢雲美國|直连|US03_油管阿伟科技74
+      - 流暢雲美國|直连|US03_油管阿伟科技16
+      - 流暢雲美國|直连|US02_油管阿伟科技15
+      - 流暢雲美國|直连|US01_油管阿伟科技14
+      - 流暢雲韩国|直连|KR03_油管阿伟科技25
+      - 流暢雲韩国|直连|KR02_油管阿伟科技24
+      - 流暢雲俄罗斯|直連|RU01_油管阿伟科技13
+      - 加拿大🇨🇦_2_油管阿伟科技70
+      - 加拿大🇨🇦_1_油管阿伟科技63
+      - 加拿大_油管阿伟科技50
       - 荷兰_油管阿伟科技23
+      - 港6[直连]-流媒体NF_油管阿伟科技62
+      - 港3[直连]-流媒体NF_油管阿伟科技61
+      - 付费套餐无限制_油管阿伟科技9
+      - 付费套餐无限制_2_油管阿伟科技31
+      - 付费套餐无限制_1_油管阿伟科技12
+      - 俄罗斯丨莫斯科丨ETH
+      - 迪拜04AZ-动态IP_油管阿伟科技40
+      - 德国🇩🇪-BEST_油管阿伟科技76
+      - 德国🇩🇪_2—油管阿伟科技60
+      - 德国🇩🇪_2_油管阿伟科技75
+      - 德国🇩🇪_1_油管阿伟科技67
+      - 澳洲_油管阿伟科技21
+      - 澳大利亚24AZ-动态IP_油管阿伟科技36
+      - 阿根廷_油管-阿伟科技77
+      - 阿根廷_油管阿伟科技6
+      - 阿根廷_油管阿伟科技48
+      - 阿根廷_油管阿伟科技18
+      - 美国|01|三网优化2_油管阿伟科技10
+      - 新加坡|08|OC_油管阿伟科技40
+      - 新加坡|03|OC_油管阿伟科技5
+      - 新加坡|03|OC_油管阿伟科技34
+      - 新加坡|03|LIN_油管阿伟科技39
+      - 新加坡|02|DO_油管阿伟科技35
+      - 新加坡|01|OC_油管阿伟科技41
+      - 新加坡|01|LIN_油管阿伟科技6
+      - 新加坡|01|LIN_油管阿伟科技38
+      - A-V2 新加坡三网优化2_油管阿伟科技55
+      - v2-俄罗斯1_油管阿伟科技56
+      - 韩国高速-1_油管阿伟科技75
+      - 韩国|01AZ_油管阿伟科技9
+      - 日本高速_油管阿伟科技80
+      - 日本|05|LIN三网优化_油管阿伟科技36
+      - 香港高速_油管阿伟科技81
+      - 香港|23|奈飞BGP三网优化_油管阿伟科技37
+      - 香港|05_油管阿伟科技11
+      - A-T-香港解锁NF和D 1_油管阿伟科技52
+      - A-T-香港2_油管阿伟科技54
+      - A-T-香港_油管阿伟科技53
+      - 英国|01|LIN三网优化_油管阿伟科技8
+      - 英国|01|LIN_油管阿伟科技7
+      - 台湾|04奈飞三网优化3_油管阿伟科技33
+      - xmss.vip_油管阿伟科技77
+      - VPN-For-China-->milkcat.net_油管阿伟科技10
+      - vip1-新加坡6||限速100M_油管阿伟科技77
+      - vip1-香港4||限速100M_油管阿伟科技79
+      - vip1-日本1||限速100M_油管阿伟科技78
+      - V1-越南-1-sc-IEPL【2x】_油管阿伟科技28
+      - V1-韩国-1-sc-IEPL【2x】_油管阿伟科技29
+      - U.S.A(Los Angeles1)_2_油管阿伟科技51
+      - U.S.A(Los Angeles1)_1_油管阿伟科技44
+      - U.S.A(Las Vegas)_2_油管阿伟科技52
+      - U.S.A(Las Vegas)_1_油管阿伟科技45
+      - U.S.A(Dallas)_油管阿伟科技50
+      - Taiwan(Taipei1)_油管阿伟科技47
+      - Taiwan(Taipei1)_2—油管阿伟科技41
+      - Luxembourg_2_油管阿伟科技53
+      - Luxembourg_1_油管阿伟科技48
+      - JCBB_英国02【vip1】_油管阿伟科技17
+      - JCBB_英国01【vip1】_油管阿伟科技12
+      - JCBB_新加坡04【vip1】_油管阿伟科技14
+      - JCBB_香港07【vip1】_油管阿伟科技13
+      - JCBB_香港04【vip1】_油管阿伟科技10
+      - JCBB_日本03【vip1】_油管阿伟科技11
+      - JCBB_日本02【vip1】_油管阿伟科技15
+      - JCBB_美国03【vip1】_油管阿伟科技16
+      - JCBB_德国02【vip1】_油管阿伟科技18
+      - Japan(Osaka2)—油管阿伟科技40
+      - Japan(Osaka1)_油管阿伟科技46
+      - Japan(Osaka1)_2—油管阿伟科技39
+      - Hongkong(NewTerritories)—油管阿伟科技36
+      - Hongkong (owloon)_2_油管阿伟科技49
+      - Hongkong (owloon)_1_油管阿伟科技43
+      - Hongkong (New Territories)_油管阿伟科技42
+      - cn.xmss.vip_油管阿伟科技78
+      - A-Vip1丨日本07丨BGP_油管阿伟科技76
+      - "[日本]+廣日+-+01_油管阿伟科技56"
+      - "[日本]+廣港+-+02_油管阿伟科技57"
+      - "[Vip1]新加坡08[1.0|移动|流媒体解锁]_油管阿伟科技3"
+      - "[Vip1]新加坡04[1.0|联通|流媒体解锁]_油管阿伟科技26"
+      - "[Vip1]新加坡02[1.0|联通|流媒体解锁]_油管阿伟科技2"
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_油管阿伟科技79"
+      - "[Vip1]香港06[1.0|联通|流媒体解锁]_油管阿伟科技20"
+      - "[Vip1]香港04[1.0|联通|流媒体解锁]_油管阿伟科技30"
+      - "[Vip1]香港01[1.0|移动|流媒体解锁]_油管阿伟科技19"
+      - "[Vip1]台湾07[1.0|移动|流媒体解锁]_油管阿伟科技25"
+      - "[Vip1]日本13[1.0|移动|流媒体解锁]_油管阿伟科技22"
+      - "[Vip1]日本09[1.0|联通|流媒体解锁]_油管阿伟科技24"
+      - "[Vip1]日本07[1.0|联通]_油管阿伟科技31"
+      - "[Vip1]日本05[1.0|移动]_油管阿伟科技1"
+      - "[Vip1]日本02[1.0|移动|流媒体解锁]_油管阿伟科技23"
+      - "[Vip1]美国15[1.0|联通|流媒体解锁]_油管阿伟科技29"
+      - "[Vip1]美国08[1.0|联通|流媒体解锁]_油管阿伟科技4"
+      - "[Vip1]美国07[1.0|移动|流媒体解锁]_油管阿伟科技28"
+      - "[Vip1]美国06[1.0|联通|流媒体解锁]_油管阿伟科技32"
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_油管阿伟科技27"
+      - "[Vip1]韩国03[1.0|联通]_油管阿伟科技80"
+      - "[Vip1]韩国02[1.0|移动]_油管阿伟科技21"
+      - "[Vip1]德国01[1.0|移动|流媒体解锁]_油管阿伟科技30"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -248,235 +804,828 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - xmss.vip—油管阿伟科技31
-      - U.S.A(LosAngeles1)_1—油管阿伟科技32
-      - U.S.A(LasVegas)_1—油管阿伟科技33
-      - Japan(Osaka1)_1—油管阿伟科技34
-      - Taiwan(Taipei1)_1—油管阿伟科技35
-      - Hongkong(NewTerritories)—油管阿伟科技36
-      - U.S.A(LosAngeles1)_2—油管阿伟科技37
-      - U.S.A(LasVegas)_2—油管阿伟科技38
-      - Japan(Osaka1)_2—油管阿伟科技39
-      - Japan(Osaka2)—油管阿伟科技40
-      - Taiwan(Taipei1)_2—油管阿伟科技41
-      - 新加坡|Singapore|V2—油管阿伟科技47
-      - 新加坡🇸🇬_1—油管阿伟科技49
-      - 美国🇺🇸纽约_1—油管阿伟科技50
-      - 印度🇮🇳_1—油管阿伟科技52
+      - 英国🇬🇧_油管阿伟科技74
       - 英国🇬🇧_1—油管阿伟科技53
-      - 德国🇩🇪_1—油管阿伟科技54
-      - 新加坡🇸🇬_2—油管阿伟科技55
-      - 美国🇺🇸纽约_2—油管阿伟科技56
-      - 德国🇩🇪_2—油管阿伟科技60
-      - 美国🇺🇸纽约_3—油管阿伟科技61
-      - 英国🇬🇧_3—油管阿伟科技62
-      - 加拿大🇨🇦_3—油管阿伟科技64
-      - 英国🇬🇧_4—油管阿伟科技65
-      - 德国🇩🇪_4—油管阿伟科技66
-      - 英国🇬🇧_5—油管阿伟科技67
-      - 德国🇩🇪_5—油管阿伟科技68
-      - 新加坡🇸🇬_3—油管阿伟科技69
-      - 美国🇺🇸纽约_4—油管阿伟科技70
-      - 英国02_油管阿伟科技1
-      - GetAFreeNode-Gcore_油管阿伟科技2
-      - GetAFreeNode-LosAngeles_油管阿伟科技3
-      - GetAFreeNode-Frankfurt_油管阿伟科技4
-      - GetAFreeNode-Amsterdam_油管阿伟科技5
-      - GetAFreeNode-Novosibirsk_油管阿伟科技6
-      - GetAFreeNode-Vienna_油管阿伟科技7
-      - GetAFreeNode-Moscow_油管阿伟科技8
-      - VPN-for-China-->xeton.co_油管阿伟科技9
-      - VPN-For-China-->milkcat.net_油管阿伟科技10
-      - xmss.vip_油管阿伟科技11
-      - cn.xmss.vip_油管阿伟科技12
-      - 新加坡🇸🇬_油管阿伟科技13
-      - 美国🇺🇸纽约_油管阿伟科技14
-      - 洛杉矶 2 Trojan_油管阿伟科技15
-      - 洛杉矶2v2ray_油管阿伟科技16
-      - 美国INAP_油管阿伟科技17
-      - 阿根廷_油管阿伟科技18
-      - 马来西亚_油管阿伟科技19
+      - 英国08DO_油管阿伟科技39
+      - 英国_油管阿伟科技8
+      - 印度尼西亚07@ANHR0_油管阿伟科技32
+      - 印度🇮🇳_3_油管阿伟科技73
+      - 印度🇮🇳_2_油管阿伟科技66
+      - 印度🇮🇳_1_油管阿伟科技60
+      - 印度_油管-阿伟科技67
+      - 印度_油管阿伟科技49
       - 印度_油管阿伟科技20
-      - 澳洲_油管阿伟科技21
+      - 新加坡🇸🇬-linode_油管阿伟科技72
+      - 新加坡🇸🇬_4_油管阿伟科技68
+      - 新加坡🇸🇬_3_油管阿伟科技64
+      - 新加坡🇸🇬_2—油管阿伟科技55
+      - 新加坡🇸🇬_2_油管阿伟科技61
+      - 新加坡🇸🇬_1_油管阿伟科技58
+      - 新加坡B_油管阿伟科技46
+      - 新加坡03
+      - 新[直连]6-流媒体NF_油管阿伟科技60
+      - 新[直连]5-流媒体NF_油管阿伟科技59
+      - 新[直连]3-流媒体NF_油管阿伟科技58
+      - 香港丨下载丨1Gbps
+      - 香港丨RERR丨TEST 03
+      - 香港丨RERR丨TEST 02
+      - 香港丨RERR丨TEST 01
+      - 香港E_油管阿伟科技44
+      - 香港E_油管阿伟科技1
+      - 香港66ANYHK-HKT-动态IP-奈飞_油管阿伟科技43
+      - 香港65AZ-动态IP_油管阿伟科技42
+      - 香港19ANYHK-HKT-动态IP-奈飞_油管阿伟科技41
+      - 香港09
+      - 香港08
+      - 香港06
+      - 乌克兰_油管阿伟科技51
       - 乌克兰_油管阿伟科技22
+      - 土耳其B_油管阿伟科技5
+      - 土耳其B_油管阿伟科技47
+      - 土耳其A_油管阿伟科技4
+      - 泰国71@ANHR0_油管阿伟科技35
+      - 泰国_油管阿伟科技7
+      - 台湾13ANYHK-动态IP-奈飞_油管阿伟科技33
+      - 台湾05
+      - 台3[直连]-流媒体NF_油管阿伟科技57
+      - 隧道|NF|香港01_油管阿伟科技66
+      - 隧道|NF|台湾03_油管阿伟科技65
+      - 隧道|NF|日本04_油管阿伟科技68
+      - 隧道|NF|日本02_油管阿伟科技67
+      - 隧道|NF|美国02_油管阿伟科技69
+      - 隧道|NF|韩国02_油管阿伟科技71
+      - 隧道|NF|韩国01_油管阿伟科技70
+      - 隧道|NF|菲律宾01_油管阿伟科技73
+      - 隧道|NF|德国01_油管阿伟科技72
+      - 瑞典34AZ-动态IP_油管阿伟科技37
+      - 日本🇯🇵东京_油管阿伟科技71
+      - 日本C_油管阿伟科技45
+      - 日本C_油管阿伟科技3
+      - 日本B_油管阿伟科技2
+      - 日本67AZ-动态IP_油管阿伟科技34
+      - 美国丨洛杉矶丨GIA
+      - 美国🇺🇸纽约_4_油管阿伟科技69
+      - 美国🇺🇸纽约_3_油管阿伟科技65
+      - 美国🇺🇸纽约_2—油管阿伟科技56
+      - 美国🇺🇸纽约_2_油管阿伟科技62
+      - 美国🇺🇸纽约_1_油管阿伟科技59
+      - 美国INAP_油管阿伟科技82
+      - 美国C_油管-阿伟科技74
+      - 美国60DO_油管阿伟科技38
+      - 美8[直接]-流媒体_油管阿伟科技64
+      - 美1[中转]-流媒体_油管阿伟科技63
+      - 马来西亚_油管阿伟科技19
+      - 洛杉矶2v2ray_油管阿伟科技55
+      - 洛杉矶 2 Trojan_油管阿伟科技54
+      - 流暢雲英國|直连|UK01_油管阿伟科技23
+      - 流暢雲香港PROIPLC專綫02_油管阿伟科技27
+      - 流暢雲香港PROIPLC專綫01_油管阿伟科技26
+      - 流暢雲美國PRO|直連|US03_油管阿伟科技22
+      - 流暢雲美國PRO|直連|US02_油管阿伟科技21
+      - 流暢雲美國PRO|直連|US01_油管阿伟科技20
+      - 流暢雲美國|直连|US06_油管阿伟科技19
+      - 流暢雲美國|直连|US05_油管阿伟科技18
+      - 流暢雲美國|直连|US04_油管阿伟科技17
+      - 流暢雲美國|直连|US03_油管阿伟科技74
+      - 流暢雲美國|直连|US03_油管阿伟科技16
+      - 流暢雲美國|直连|US02_油管阿伟科技15
+      - 流暢雲美國|直连|US01_油管阿伟科技14
+      - 流暢雲韩国|直连|KR03_油管阿伟科技25
+      - 流暢雲韩国|直连|KR02_油管阿伟科技24
+      - 流暢雲俄罗斯|直連|RU01_油管阿伟科技13
+      - 加拿大🇨🇦_2_油管阿伟科技70
+      - 加拿大🇨🇦_1_油管阿伟科技63
+      - 加拿大_油管阿伟科技50
       - 荷兰_油管阿伟科技23
+      - 港6[直连]-流媒体NF_油管阿伟科技62
+      - 港3[直连]-流媒体NF_油管阿伟科技61
+      - 付费套餐无限制_油管阿伟科技9
+      - 付费套餐无限制_2_油管阿伟科技31
+      - 付费套餐无限制_1_油管阿伟科技12
+      - 俄罗斯丨莫斯科丨ETH
+      - 迪拜04AZ-动态IP_油管阿伟科技40
+      - 德国🇩🇪-BEST_油管阿伟科技76
+      - 德国🇩🇪_2—油管阿伟科技60
+      - 德国🇩🇪_2_油管阿伟科技75
+      - 德国🇩🇪_1_油管阿伟科技67
+      - 澳洲_油管阿伟科技21
+      - 澳大利亚24AZ-动态IP_油管阿伟科技36
+      - 阿根廷_油管-阿伟科技77
+      - 阿根廷_油管阿伟科技6
+      - 阿根廷_油管阿伟科技48
+      - 阿根廷_油管阿伟科技18
+      - 美国|01|三网优化2_油管阿伟科技10
+      - 新加坡|08|OC_油管阿伟科技40
+      - 新加坡|03|OC_油管阿伟科技5
+      - 新加坡|03|OC_油管阿伟科技34
+      - 新加坡|03|LIN_油管阿伟科技39
+      - 新加坡|02|DO_油管阿伟科技35
+      - 新加坡|01|OC_油管阿伟科技41
+      - 新加坡|01|LIN_油管阿伟科技6
+      - 新加坡|01|LIN_油管阿伟科技38
+      - A-V2 新加坡三网优化2_油管阿伟科技55
+      - v2-俄罗斯1_油管阿伟科技56
+      - 韩国高速-1_油管阿伟科技75
+      - 韩国|01AZ_油管阿伟科技9
+      - 日本高速_油管阿伟科技80
+      - 日本|05|LIN三网优化_油管阿伟科技36
+      - 香港高速_油管阿伟科技81
+      - 香港|23|奈飞BGP三网优化_油管阿伟科技37
+      - 香港|05_油管阿伟科技11
+      - A-T-香港解锁NF和D 1_油管阿伟科技52
+      - A-T-香港2_油管阿伟科技54
+      - A-T-香港_油管阿伟科技53
+      - 英国|01|LIN三网优化_油管阿伟科技8
+      - 英国|01|LIN_油管阿伟科技7
+      - 台湾|04奈飞三网优化3_油管阿伟科技33
+      - xmss.vip_油管阿伟科技77
+      - VPN-For-China-->milkcat.net_油管阿伟科技10
+      - vip1-新加坡6||限速100M_油管阿伟科技77
+      - vip1-香港4||限速100M_油管阿伟科技79
+      - vip1-日本1||限速100M_油管阿伟科技78
+      - V1-越南-1-sc-IEPL【2x】_油管阿伟科技28
+      - V1-韩国-1-sc-IEPL【2x】_油管阿伟科技29
+      - U.S.A(Los Angeles1)_2_油管阿伟科技51
+      - U.S.A(Los Angeles1)_1_油管阿伟科技44
+      - U.S.A(Las Vegas)_2_油管阿伟科技52
+      - U.S.A(Las Vegas)_1_油管阿伟科技45
+      - U.S.A(Dallas)_油管阿伟科技50
+      - Taiwan(Taipei1)_油管阿伟科技47
+      - Taiwan(Taipei1)_2—油管阿伟科技41
+      - Luxembourg_2_油管阿伟科技53
+      - Luxembourg_1_油管阿伟科技48
+      - JCBB_英国02【vip1】_油管阿伟科技17
+      - JCBB_英国01【vip1】_油管阿伟科技12
+      - JCBB_新加坡04【vip1】_油管阿伟科技14
+      - JCBB_香港07【vip1】_油管阿伟科技13
+      - JCBB_香港04【vip1】_油管阿伟科技10
+      - JCBB_日本03【vip1】_油管阿伟科技11
+      - JCBB_日本02【vip1】_油管阿伟科技15
+      - JCBB_美国03【vip1】_油管阿伟科技16
+      - JCBB_德国02【vip1】_油管阿伟科技18
+      - Japan(Osaka2)—油管阿伟科技40
+      - Japan(Osaka1)_油管阿伟科技46
+      - Japan(Osaka1)_2—油管阿伟科技39
+      - Hongkong(NewTerritories)—油管阿伟科技36
+      - Hongkong (owloon)_2_油管阿伟科技49
+      - Hongkong (owloon)_1_油管阿伟科技43
+      - Hongkong (New Territories)_油管阿伟科技42
+      - cn.xmss.vip_油管阿伟科技78
+      - A-Vip1丨日本07丨BGP_油管阿伟科技76
+      - "[日本]+廣日+-+01_油管阿伟科技56"
+      - "[日本]+廣港+-+02_油管阿伟科技57"
+      - "[Vip1]新加坡08[1.0|移动|流媒体解锁]_油管阿伟科技3"
+      - "[Vip1]新加坡04[1.0|联通|流媒体解锁]_油管阿伟科技26"
+      - "[Vip1]新加坡02[1.0|联通|流媒体解锁]_油管阿伟科技2"
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_油管阿伟科技79"
+      - "[Vip1]香港06[1.0|联通|流媒体解锁]_油管阿伟科技20"
+      - "[Vip1]香港04[1.0|联通|流媒体解锁]_油管阿伟科技30"
+      - "[Vip1]香港01[1.0|移动|流媒体解锁]_油管阿伟科技19"
+      - "[Vip1]台湾07[1.0|移动|流媒体解锁]_油管阿伟科技25"
+      - "[Vip1]日本13[1.0|移动|流媒体解锁]_油管阿伟科技22"
+      - "[Vip1]日本09[1.0|联通|流媒体解锁]_油管阿伟科技24"
+      - "[Vip1]日本07[1.0|联通]_油管阿伟科技31"
+      - "[Vip1]日本05[1.0|移动]_油管阿伟科技1"
+      - "[Vip1]日本02[1.0|移动|流媒体解锁]_油管阿伟科技23"
+      - "[Vip1]美国15[1.0|联通|流媒体解锁]_油管阿伟科技29"
+      - "[Vip1]美国08[1.0|联通|流媒体解锁]_油管阿伟科技4"
+      - "[Vip1]美国07[1.0|移动|流媒体解锁]_油管阿伟科技28"
+      - "[Vip1]美国06[1.0|联通|流媒体解锁]_油管阿伟科技32"
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_油管阿伟科技27"
+      - "[Vip1]韩国03[1.0|联通]_油管阿伟科技80"
+      - "[Vip1]韩国02[1.0|移动]_油管阿伟科技21"
+      - "[Vip1]德国01[1.0|移动|流媒体解锁]_油管阿伟科技30"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港丨下载丨1Gbps
+      - 香港丨RERR丨TEST 03
+      - 香港丨RERR丨TEST 02
+      - 香港丨RERR丨TEST 01
+      - 香港E_油管阿伟科技44
+      - 香港E_油管阿伟科技1
+      - 香港66ANYHK-HKT-动态IP-奈飞_油管阿伟科技43
+      - 香港65AZ-动态IP_油管阿伟科技42
+      - 香港19ANYHK-HKT-动态IP-奈飞_油管阿伟科技41
+      - 香港09
+      - 香港08
+      - 香港06
+      - 台湾13ANYHK-动态IP-奈飞_油管阿伟科技33
+      - 台湾05
+      - 台3[直连]-流媒体NF_油管阿伟科技57
+      - 隧道|NF|香港01_油管阿伟科技66
+      - 隧道|NF|台湾03_油管阿伟科技65
+      - 流暢雲香港PROIPLC專綫02_油管阿伟科技27
+      - 流暢雲香港PROIPLC專綫01_油管阿伟科技26
+      - 港6[直连]-流媒体NF_油管阿伟科技62
+      - 港3[直连]-流媒体NF_油管阿伟科技61
+      - 香港高速_油管阿伟科技81
+      - 香港|23|奈飞BGP三网优化_油管阿伟科技37
+      - 香港|05_油管阿伟科技11
+      - A-T-香港解锁NF和D 1_油管阿伟科技52
+      - A-T-香港2_油管阿伟科技54
+      - A-T-香港_油管阿伟科技53
+      - 台湾|04奈飞三网优化3_油管阿伟科技33
+      - vip1-香港4||限速100M_油管阿伟科技79
+      - JCBB_香港07【vip1】_油管阿伟科技13
+      - JCBB_香港04【vip1】_油管阿伟科技10
+      - "[日本]+廣港+-+02_油管阿伟科技57"
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_油管阿伟科技79"
+      - "[Vip1]香港06[1.0|联通|流媒体解锁]_油管阿伟科技20"
+      - "[Vip1]香港04[1.0|联通|流媒体解锁]_油管阿伟科技30"
+      - "[Vip1]香港01[1.0|移动|流媒体解锁]_油管阿伟科技19"
+      - "[Vip1]台湾07[1.0|移动|流媒体解锁]_油管阿伟科技25"
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - xmss.vip—油管阿伟科技31
-      - U.S.A(LosAngeles1)_1—油管阿伟科技32
-      - U.S.A(LasVegas)_1—油管阿伟科技33
-      - Japan(Osaka1)_1—油管阿伟科技34
-      - Taiwan(Taipei1)_1—油管阿伟科技35
-      - Hongkong(NewTerritories)—油管阿伟科技36
-      - U.S.A(LosAngeles1)_2—油管阿伟科技37
-      - U.S.A(LasVegas)_2—油管阿伟科技38
-      - Japan(Osaka1)_2—油管阿伟科技39
-      - Japan(Osaka2)—油管阿伟科技40
-      - Taiwan(Taipei1)_2—油管阿伟科技41
-      - 新加坡|Singapore|V2—油管阿伟科技47
-      - 新加坡🇸🇬_1—油管阿伟科技49
-      - 美国🇺🇸纽约_1—油管阿伟科技50
-      - 印度🇮🇳_1—油管阿伟科技52
+      - 英国🇬🇧_油管阿伟科技74
       - 英国🇬🇧_1—油管阿伟科技53
-      - 德国🇩🇪_1—油管阿伟科技54
-      - 新加坡🇸🇬_2—油管阿伟科技55
-      - 美国🇺🇸纽约_2—油管阿伟科技56
-      - 德国🇩🇪_2—油管阿伟科技60
-      - 美国🇺🇸纽约_3—油管阿伟科技61
-      - 英国🇬🇧_3—油管阿伟科技62
-      - 加拿大🇨🇦_3—油管阿伟科技64
-      - 英国🇬🇧_4—油管阿伟科技65
-      - 德国🇩🇪_4—油管阿伟科技66
-      - 英国🇬🇧_5—油管阿伟科技67
-      - 德国🇩🇪_5—油管阿伟科技68
-      - 新加坡🇸🇬_3—油管阿伟科技69
-      - 美国🇺🇸纽约_4—油管阿伟科技70
-      - 英国02_油管阿伟科技1
-      - GetAFreeNode-Gcore_油管阿伟科技2
-      - GetAFreeNode-LosAngeles_油管阿伟科技3
-      - GetAFreeNode-Frankfurt_油管阿伟科技4
-      - GetAFreeNode-Amsterdam_油管阿伟科技5
-      - GetAFreeNode-Novosibirsk_油管阿伟科技6
-      - GetAFreeNode-Vienna_油管阿伟科技7
-      - GetAFreeNode-Moscow_油管阿伟科技8
-      - VPN-for-China-->xeton.co_油管阿伟科技9
-      - VPN-For-China-->milkcat.net_油管阿伟科技10
-      - xmss.vip_油管阿伟科技11
-      - cn.xmss.vip_油管阿伟科技12
-      - 新加坡🇸🇬_油管阿伟科技13
-      - 美国🇺🇸纽约_油管阿伟科技14
-      - 洛杉矶 2 Trojan_油管阿伟科技15
-      - 洛杉矶2v2ray_油管阿伟科技16
-      - 美国INAP_油管阿伟科技17
-      - 阿根廷_油管阿伟科技18
-      - 马来西亚_油管阿伟科技19
+      - 英国08DO_油管阿伟科技39
+      - 英国_油管阿伟科技8
+      - 印度尼西亚07@ANHR0_油管阿伟科技32
+      - 印度🇮🇳_3_油管阿伟科技73
+      - 印度🇮🇳_2_油管阿伟科技66
+      - 印度🇮🇳_1_油管阿伟科技60
+      - 印度_油管-阿伟科技67
+      - 印度_油管阿伟科技49
       - 印度_油管阿伟科技20
-      - 澳洲_油管阿伟科技21
+      - 新加坡🇸🇬-linode_油管阿伟科技72
+      - 新加坡🇸🇬_4_油管阿伟科技68
+      - 新加坡🇸🇬_3_油管阿伟科技64
+      - 新加坡🇸🇬_2—油管阿伟科技55
+      - 新加坡🇸🇬_2_油管阿伟科技61
+      - 新加坡🇸🇬_1_油管阿伟科技58
+      - 新加坡B_油管阿伟科技46
+      - 新加坡03
+      - 新[直连]6-流媒体NF_油管阿伟科技60
+      - 新[直连]5-流媒体NF_油管阿伟科技59
+      - 新[直连]3-流媒体NF_油管阿伟科技58
+      - 香港丨下载丨1Gbps
+      - 香港丨RERR丨TEST 03
+      - 香港丨RERR丨TEST 02
+      - 香港丨RERR丨TEST 01
+      - 香港E_油管阿伟科技44
+      - 香港E_油管阿伟科技1
+      - 香港66ANYHK-HKT-动态IP-奈飞_油管阿伟科技43
+      - 香港65AZ-动态IP_油管阿伟科技42
+      - 香港19ANYHK-HKT-动态IP-奈飞_油管阿伟科技41
+      - 香港09
+      - 香港08
+      - 香港06
+      - 乌克兰_油管阿伟科技51
       - 乌克兰_油管阿伟科技22
+      - 土耳其B_油管阿伟科技5
+      - 土耳其B_油管阿伟科技47
+      - 土耳其A_油管阿伟科技4
+      - 泰国71@ANHR0_油管阿伟科技35
+      - 泰国_油管阿伟科技7
+      - 台湾13ANYHK-动态IP-奈飞_油管阿伟科技33
+      - 台湾05
+      - 台3[直连]-流媒体NF_油管阿伟科技57
+      - 隧道|NF|香港01_油管阿伟科技66
+      - 隧道|NF|台湾03_油管阿伟科技65
+      - 隧道|NF|日本04_油管阿伟科技68
+      - 隧道|NF|日本02_油管阿伟科技67
+      - 隧道|NF|美国02_油管阿伟科技69
+      - 隧道|NF|韩国02_油管阿伟科技71
+      - 隧道|NF|韩国01_油管阿伟科技70
+      - 隧道|NF|菲律宾01_油管阿伟科技73
+      - 隧道|NF|德国01_油管阿伟科技72
+      - 瑞典34AZ-动态IP_油管阿伟科技37
+      - 日本🇯🇵东京_油管阿伟科技71
+      - 日本C_油管阿伟科技45
+      - 日本C_油管阿伟科技3
+      - 日本B_油管阿伟科技2
+      - 日本67AZ-动态IP_油管阿伟科技34
+      - 美国丨洛杉矶丨GIA
+      - 美国🇺🇸纽约_4_油管阿伟科技69
+      - 美国🇺🇸纽约_3_油管阿伟科技65
+      - 美国🇺🇸纽约_2—油管阿伟科技56
+      - 美国🇺🇸纽约_2_油管阿伟科技62
+      - 美国🇺🇸纽约_1_油管阿伟科技59
+      - 美国INAP_油管阿伟科技82
+      - 美国C_油管-阿伟科技74
+      - 美国60DO_油管阿伟科技38
+      - 美8[直接]-流媒体_油管阿伟科技64
+      - 美1[中转]-流媒体_油管阿伟科技63
+      - 马来西亚_油管阿伟科技19
+      - 洛杉矶2v2ray_油管阿伟科技55
+      - 洛杉矶 2 Trojan_油管阿伟科技54
+      - 流暢雲英國|直连|UK01_油管阿伟科技23
+      - 流暢雲香港PROIPLC專綫02_油管阿伟科技27
+      - 流暢雲香港PROIPLC專綫01_油管阿伟科技26
+      - 流暢雲美國PRO|直連|US03_油管阿伟科技22
+      - 流暢雲美國PRO|直連|US02_油管阿伟科技21
+      - 流暢雲美國PRO|直連|US01_油管阿伟科技20
+      - 流暢雲美國|直连|US06_油管阿伟科技19
+      - 流暢雲美國|直连|US05_油管阿伟科技18
+      - 流暢雲美國|直连|US04_油管阿伟科技17
+      - 流暢雲美國|直连|US03_油管阿伟科技74
+      - 流暢雲美國|直连|US03_油管阿伟科技16
+      - 流暢雲美國|直连|US02_油管阿伟科技15
+      - 流暢雲美國|直连|US01_油管阿伟科技14
+      - 流暢雲韩国|直连|KR03_油管阿伟科技25
+      - 流暢雲韩国|直连|KR02_油管阿伟科技24
+      - 流暢雲俄罗斯|直連|RU01_油管阿伟科技13
+      - 加拿大🇨🇦_2_油管阿伟科技70
+      - 加拿大🇨🇦_1_油管阿伟科技63
+      - 加拿大_油管阿伟科技50
       - 荷兰_油管阿伟科技23
+      - 港6[直连]-流媒体NF_油管阿伟科技62
+      - 港3[直连]-流媒体NF_油管阿伟科技61
+      - 付费套餐无限制_油管阿伟科技9
+      - 付费套餐无限制_2_油管阿伟科技31
+      - 付费套餐无限制_1_油管阿伟科技12
+      - 俄罗斯丨莫斯科丨ETH
+      - 迪拜04AZ-动态IP_油管阿伟科技40
+      - 德国🇩🇪-BEST_油管阿伟科技76
+      - 德国🇩🇪_2—油管阿伟科技60
+      - 德国🇩🇪_2_油管阿伟科技75
+      - 德国🇩🇪_1_油管阿伟科技67
+      - 澳洲_油管阿伟科技21
+      - 澳大利亚24AZ-动态IP_油管阿伟科技36
+      - 阿根廷_油管-阿伟科技77
+      - 阿根廷_油管阿伟科技6
+      - 阿根廷_油管阿伟科技48
+      - 阿根廷_油管阿伟科技18
+      - 美国|01|三网优化2_油管阿伟科技10
+      - 新加坡|08|OC_油管阿伟科技40
+      - 新加坡|03|OC_油管阿伟科技5
+      - 新加坡|03|OC_油管阿伟科技34
+      - 新加坡|03|LIN_油管阿伟科技39
+      - 新加坡|02|DO_油管阿伟科技35
+      - 新加坡|01|OC_油管阿伟科技41
+      - 新加坡|01|LIN_油管阿伟科技6
+      - 新加坡|01|LIN_油管阿伟科技38
+      - A-V2 新加坡三网优化2_油管阿伟科技55
+      - v2-俄罗斯1_油管阿伟科技56
+      - 韩国高速-1_油管阿伟科技75
+      - 韩国|01AZ_油管阿伟科技9
+      - 日本高速_油管阿伟科技80
+      - 日本|05|LIN三网优化_油管阿伟科技36
+      - 香港高速_油管阿伟科技81
+      - 香港|23|奈飞BGP三网优化_油管阿伟科技37
+      - 香港|05_油管阿伟科技11
+      - A-T-香港解锁NF和D 1_油管阿伟科技52
+      - A-T-香港2_油管阿伟科技54
+      - A-T-香港_油管阿伟科技53
+      - 英国|01|LIN三网优化_油管阿伟科技8
+      - 英国|01|LIN_油管阿伟科技7
+      - 台湾|04奈飞三网优化3_油管阿伟科技33
+      - xmss.vip_油管阿伟科技77
+      - VPN-For-China-->milkcat.net_油管阿伟科技10
+      - vip1-新加坡6||限速100M_油管阿伟科技77
+      - vip1-香港4||限速100M_油管阿伟科技79
+      - vip1-日本1||限速100M_油管阿伟科技78
+      - V1-越南-1-sc-IEPL【2x】_油管阿伟科技28
+      - V1-韩国-1-sc-IEPL【2x】_油管阿伟科技29
+      - U.S.A(Los Angeles1)_2_油管阿伟科技51
+      - U.S.A(Los Angeles1)_1_油管阿伟科技44
+      - U.S.A(Las Vegas)_2_油管阿伟科技52
+      - U.S.A(Las Vegas)_1_油管阿伟科技45
+      - U.S.A(Dallas)_油管阿伟科技50
+      - Taiwan(Taipei1)_油管阿伟科技47
+      - Taiwan(Taipei1)_2—油管阿伟科技41
+      - Luxembourg_2_油管阿伟科技53
+      - Luxembourg_1_油管阿伟科技48
+      - JCBB_英国02【vip1】_油管阿伟科技17
+      - JCBB_英国01【vip1】_油管阿伟科技12
+      - JCBB_新加坡04【vip1】_油管阿伟科技14
+      - JCBB_香港07【vip1】_油管阿伟科技13
+      - JCBB_香港04【vip1】_油管阿伟科技10
+      - JCBB_日本03【vip1】_油管阿伟科技11
+      - JCBB_日本02【vip1】_油管阿伟科技15
+      - JCBB_美国03【vip1】_油管阿伟科技16
+      - JCBB_德国02【vip1】_油管阿伟科技18
+      - Japan(Osaka2)—油管阿伟科技40
+      - Japan(Osaka1)_油管阿伟科技46
+      - Japan(Osaka1)_2—油管阿伟科技39
+      - Hongkong(NewTerritories)—油管阿伟科技36
+      - Hongkong (owloon)_2_油管阿伟科技49
+      - Hongkong (owloon)_1_油管阿伟科技43
+      - Hongkong (New Territories)_油管阿伟科技42
+      - cn.xmss.vip_油管阿伟科技78
+      - A-Vip1丨日本07丨BGP_油管阿伟科技76
+      - "[日本]+廣日+-+01_油管阿伟科技56"
+      - "[日本]+廣港+-+02_油管阿伟科技57"
+      - "[Vip1]新加坡08[1.0|移动|流媒体解锁]_油管阿伟科技3"
+      - "[Vip1]新加坡04[1.0|联通|流媒体解锁]_油管阿伟科技26"
+      - "[Vip1]新加坡02[1.0|联通|流媒体解锁]_油管阿伟科技2"
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_油管阿伟科技79"
+      - "[Vip1]香港06[1.0|联通|流媒体解锁]_油管阿伟科技20"
+      - "[Vip1]香港04[1.0|联通|流媒体解锁]_油管阿伟科技30"
+      - "[Vip1]香港01[1.0|移动|流媒体解锁]_油管阿伟科技19"
+      - "[Vip1]台湾07[1.0|移动|流媒体解锁]_油管阿伟科技25"
+      - "[Vip1]日本13[1.0|移动|流媒体解锁]_油管阿伟科技22"
+      - "[Vip1]日本09[1.0|联通|流媒体解锁]_油管阿伟科技24"
+      - "[Vip1]日本07[1.0|联通]_油管阿伟科技31"
+      - "[Vip1]日本05[1.0|移动]_油管阿伟科技1"
+      - "[Vip1]日本02[1.0|移动|流媒体解锁]_油管阿伟科技23"
+      - "[Vip1]美国15[1.0|联通|流媒体解锁]_油管阿伟科技29"
+      - "[Vip1]美国08[1.0|联通|流媒体解锁]_油管阿伟科技4"
+      - "[Vip1]美国07[1.0|移动|流媒体解锁]_油管阿伟科技28"
+      - "[Vip1]美国06[1.0|联通|流媒体解锁]_油管阿伟科技32"
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_油管阿伟科技27"
+      - "[Vip1]韩国03[1.0|联通]_油管阿伟科技80"
+      - "[Vip1]韩国02[1.0|移动]_油管阿伟科技21"
+      - "[Vip1]德国01[1.0|移动|流媒体解锁]_油管阿伟科技30"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - xmss.vip—油管阿伟科技31
-      - U.S.A(LosAngeles1)_1—油管阿伟科技32
-      - U.S.A(LasVegas)_1—油管阿伟科技33
-      - Japan(Osaka1)_1—油管阿伟科技34
-      - Taiwan(Taipei1)_1—油管阿伟科技35
-      - Hongkong(NewTerritories)—油管阿伟科技36
-      - U.S.A(LosAngeles1)_2—油管阿伟科技37
-      - U.S.A(LasVegas)_2—油管阿伟科技38
-      - Japan(Osaka1)_2—油管阿伟科技39
-      - Japan(Osaka2)—油管阿伟科技40
-      - Taiwan(Taipei1)_2—油管阿伟科技41
-      - 新加坡|Singapore|V2—油管阿伟科技47
-      - 新加坡🇸🇬_1—油管阿伟科技49
-      - 美国🇺🇸纽约_1—油管阿伟科技50
-      - 印度🇮🇳_1—油管阿伟科技52
+      - 英国🇬🇧_油管阿伟科技74
       - 英国🇬🇧_1—油管阿伟科技53
-      - 德国🇩🇪_1—油管阿伟科技54
-      - 新加坡🇸🇬_2—油管阿伟科技55
-      - 美国🇺🇸纽约_2—油管阿伟科技56
-      - 德国🇩🇪_2—油管阿伟科技60
-      - 美国🇺🇸纽约_3—油管阿伟科技61
-      - 英国🇬🇧_3—油管阿伟科技62
-      - 加拿大🇨🇦_3—油管阿伟科技64
-      - 英国🇬🇧_4—油管阿伟科技65
-      - 德国🇩🇪_4—油管阿伟科技66
-      - 英国🇬🇧_5—油管阿伟科技67
-      - 德国🇩🇪_5—油管阿伟科技68
-      - 新加坡🇸🇬_3—油管阿伟科技69
-      - 美国🇺🇸纽约_4—油管阿伟科技70
-      - 英国02_油管阿伟科技1
-      - GetAFreeNode-Gcore_油管阿伟科技2
-      - GetAFreeNode-LosAngeles_油管阿伟科技3
-      - GetAFreeNode-Frankfurt_油管阿伟科技4
-      - GetAFreeNode-Amsterdam_油管阿伟科技5
-      - GetAFreeNode-Novosibirsk_油管阿伟科技6
-      - GetAFreeNode-Vienna_油管阿伟科技7
-      - GetAFreeNode-Moscow_油管阿伟科技8
-      - VPN-for-China-->xeton.co_油管阿伟科技9
-      - VPN-For-China-->milkcat.net_油管阿伟科技10
-      - xmss.vip_油管阿伟科技11
-      - cn.xmss.vip_油管阿伟科技12
-      - 新加坡🇸🇬_油管阿伟科技13
-      - 美国🇺🇸纽约_油管阿伟科技14
-      - 洛杉矶 2 Trojan_油管阿伟科技15
-      - 洛杉矶2v2ray_油管阿伟科技16
-      - 美国INAP_油管阿伟科技17
-      - 阿根廷_油管阿伟科技18
-      - 马来西亚_油管阿伟科技19
+      - 英国08DO_油管阿伟科技39
+      - 英国_油管阿伟科技8
+      - 印度尼西亚07@ANHR0_油管阿伟科技32
+      - 印度🇮🇳_3_油管阿伟科技73
+      - 印度🇮🇳_2_油管阿伟科技66
+      - 印度🇮🇳_1_油管阿伟科技60
+      - 印度_油管-阿伟科技67
+      - 印度_油管阿伟科技49
       - 印度_油管阿伟科技20
-      - 澳洲_油管阿伟科技21
+      - 新加坡🇸🇬-linode_油管阿伟科技72
+      - 新加坡🇸🇬_4_油管阿伟科技68
+      - 新加坡🇸🇬_3_油管阿伟科技64
+      - 新加坡🇸🇬_2—油管阿伟科技55
+      - 新加坡🇸🇬_2_油管阿伟科技61
+      - 新加坡🇸🇬_1_油管阿伟科技58
+      - 新加坡B_油管阿伟科技46
+      - 新加坡03
+      - 新[直连]6-流媒体NF_油管阿伟科技60
+      - 新[直连]5-流媒体NF_油管阿伟科技59
+      - 新[直连]3-流媒体NF_油管阿伟科技58
+      - 香港丨下载丨1Gbps
+      - 香港丨RERR丨TEST 03
+      - 香港丨RERR丨TEST 02
+      - 香港丨RERR丨TEST 01
+      - 香港E_油管阿伟科技44
+      - 香港E_油管阿伟科技1
+      - 香港66ANYHK-HKT-动态IP-奈飞_油管阿伟科技43
+      - 香港65AZ-动态IP_油管阿伟科技42
+      - 香港19ANYHK-HKT-动态IP-奈飞_油管阿伟科技41
+      - 香港09
+      - 香港08
+      - 香港06
+      - 乌克兰_油管阿伟科技51
       - 乌克兰_油管阿伟科技22
+      - 土耳其B_油管阿伟科技5
+      - 土耳其B_油管阿伟科技47
+      - 土耳其A_油管阿伟科技4
+      - 泰国71@ANHR0_油管阿伟科技35
+      - 泰国_油管阿伟科技7
+      - 台湾13ANYHK-动态IP-奈飞_油管阿伟科技33
+      - 台湾05
+      - 台3[直连]-流媒体NF_油管阿伟科技57
+      - 隧道|NF|香港01_油管阿伟科技66
+      - 隧道|NF|台湾03_油管阿伟科技65
+      - 隧道|NF|日本04_油管阿伟科技68
+      - 隧道|NF|日本02_油管阿伟科技67
+      - 隧道|NF|美国02_油管阿伟科技69
+      - 隧道|NF|韩国02_油管阿伟科技71
+      - 隧道|NF|韩国01_油管阿伟科技70
+      - 隧道|NF|菲律宾01_油管阿伟科技73
+      - 隧道|NF|德国01_油管阿伟科技72
+      - 瑞典34AZ-动态IP_油管阿伟科技37
+      - 日本🇯🇵东京_油管阿伟科技71
+      - 日本C_油管阿伟科技45
+      - 日本C_油管阿伟科技3
+      - 日本B_油管阿伟科技2
+      - 日本67AZ-动态IP_油管阿伟科技34
+      - 美国丨洛杉矶丨GIA
+      - 美国🇺🇸纽约_4_油管阿伟科技69
+      - 美国🇺🇸纽约_3_油管阿伟科技65
+      - 美国🇺🇸纽约_2—油管阿伟科技56
+      - 美国🇺🇸纽约_2_油管阿伟科技62
+      - 美国🇺🇸纽约_1_油管阿伟科技59
+      - 美国INAP_油管阿伟科技82
+      - 美国C_油管-阿伟科技74
+      - 美国60DO_油管阿伟科技38
+      - 美8[直接]-流媒体_油管阿伟科技64
+      - 美1[中转]-流媒体_油管阿伟科技63
+      - 马来西亚_油管阿伟科技19
+      - 洛杉矶2v2ray_油管阿伟科技55
+      - 洛杉矶 2 Trojan_油管阿伟科技54
+      - 流暢雲英國|直连|UK01_油管阿伟科技23
+      - 流暢雲香港PROIPLC專綫02_油管阿伟科技27
+      - 流暢雲香港PROIPLC專綫01_油管阿伟科技26
+      - 流暢雲美國PRO|直連|US03_油管阿伟科技22
+      - 流暢雲美國PRO|直連|US02_油管阿伟科技21
+      - 流暢雲美國PRO|直連|US01_油管阿伟科技20
+      - 流暢雲美國|直连|US06_油管阿伟科技19
+      - 流暢雲美國|直连|US05_油管阿伟科技18
+      - 流暢雲美國|直连|US04_油管阿伟科技17
+      - 流暢雲美國|直连|US03_油管阿伟科技74
+      - 流暢雲美國|直连|US03_油管阿伟科技16
+      - 流暢雲美國|直连|US02_油管阿伟科技15
+      - 流暢雲美國|直连|US01_油管阿伟科技14
+      - 流暢雲韩国|直连|KR03_油管阿伟科技25
+      - 流暢雲韩国|直连|KR02_油管阿伟科技24
+      - 流暢雲俄罗斯|直連|RU01_油管阿伟科技13
+      - 加拿大🇨🇦_2_油管阿伟科技70
+      - 加拿大🇨🇦_1_油管阿伟科技63
+      - 加拿大_油管阿伟科技50
       - 荷兰_油管阿伟科技23
+      - 港6[直连]-流媒体NF_油管阿伟科技62
+      - 港3[直连]-流媒体NF_油管阿伟科技61
+      - 付费套餐无限制_油管阿伟科技9
+      - 付费套餐无限制_2_油管阿伟科技31
+      - 付费套餐无限制_1_油管阿伟科技12
+      - 俄罗斯丨莫斯科丨ETH
+      - 迪拜04AZ-动态IP_油管阿伟科技40
+      - 德国🇩🇪-BEST_油管阿伟科技76
+      - 德国🇩🇪_2—油管阿伟科技60
+      - 德国🇩🇪_2_油管阿伟科技75
+      - 德国🇩🇪_1_油管阿伟科技67
+      - 澳洲_油管阿伟科技21
+      - 澳大利亚24AZ-动态IP_油管阿伟科技36
+      - 阿根廷_油管-阿伟科技77
+      - 阿根廷_油管阿伟科技6
+      - 阿根廷_油管阿伟科技48
+      - 阿根廷_油管阿伟科技18
+      - 美国|01|三网优化2_油管阿伟科技10
+      - 新加坡|08|OC_油管阿伟科技40
+      - 新加坡|03|OC_油管阿伟科技5
+      - 新加坡|03|OC_油管阿伟科技34
+      - 新加坡|03|LIN_油管阿伟科技39
+      - 新加坡|02|DO_油管阿伟科技35
+      - 新加坡|01|OC_油管阿伟科技41
+      - 新加坡|01|LIN_油管阿伟科技6
+      - 新加坡|01|LIN_油管阿伟科技38
+      - A-V2 新加坡三网优化2_油管阿伟科技55
+      - v2-俄罗斯1_油管阿伟科技56
+      - 韩国高速-1_油管阿伟科技75
+      - 韩国|01AZ_油管阿伟科技9
+      - 日本高速_油管阿伟科技80
+      - 日本|05|LIN三网优化_油管阿伟科技36
+      - 香港高速_油管阿伟科技81
+      - 香港|23|奈飞BGP三网优化_油管阿伟科技37
+      - 香港|05_油管阿伟科技11
+      - A-T-香港解锁NF和D 1_油管阿伟科技52
+      - A-T-香港2_油管阿伟科技54
+      - A-T-香港_油管阿伟科技53
+      - 英国|01|LIN三网优化_油管阿伟科技8
+      - 英国|01|LIN_油管阿伟科技7
+      - 台湾|04奈飞三网优化3_油管阿伟科技33
+      - xmss.vip_油管阿伟科技77
+      - VPN-For-China-->milkcat.net_油管阿伟科技10
+      - vip1-新加坡6||限速100M_油管阿伟科技77
+      - vip1-香港4||限速100M_油管阿伟科技79
+      - vip1-日本1||限速100M_油管阿伟科技78
+      - V1-越南-1-sc-IEPL【2x】_油管阿伟科技28
+      - V1-韩国-1-sc-IEPL【2x】_油管阿伟科技29
+      - U.S.A(Los Angeles1)_2_油管阿伟科技51
+      - U.S.A(Los Angeles1)_1_油管阿伟科技44
+      - U.S.A(Las Vegas)_2_油管阿伟科技52
+      - U.S.A(Las Vegas)_1_油管阿伟科技45
+      - U.S.A(Dallas)_油管阿伟科技50
+      - Taiwan(Taipei1)_油管阿伟科技47
+      - Taiwan(Taipei1)_2—油管阿伟科技41
+      - Luxembourg_2_油管阿伟科技53
+      - Luxembourg_1_油管阿伟科技48
+      - JCBB_英国02【vip1】_油管阿伟科技17
+      - JCBB_英国01【vip1】_油管阿伟科技12
+      - JCBB_新加坡04【vip1】_油管阿伟科技14
+      - JCBB_香港07【vip1】_油管阿伟科技13
+      - JCBB_香港04【vip1】_油管阿伟科技10
+      - JCBB_日本03【vip1】_油管阿伟科技11
+      - JCBB_日本02【vip1】_油管阿伟科技15
+      - JCBB_美国03【vip1】_油管阿伟科技16
+      - JCBB_德国02【vip1】_油管阿伟科技18
+      - Japan(Osaka2)—油管阿伟科技40
+      - Japan(Osaka1)_油管阿伟科技46
+      - Japan(Osaka1)_2—油管阿伟科技39
+      - Hongkong(NewTerritories)—油管阿伟科技36
+      - Hongkong (owloon)_2_油管阿伟科技49
+      - Hongkong (owloon)_1_油管阿伟科技43
+      - Hongkong (New Territories)_油管阿伟科技42
+      - cn.xmss.vip_油管阿伟科技78
+      - A-Vip1丨日本07丨BGP_油管阿伟科技76
+      - "[日本]+廣日+-+01_油管阿伟科技56"
+      - "[日本]+廣港+-+02_油管阿伟科技57"
+      - "[Vip1]新加坡08[1.0|移动|流媒体解锁]_油管阿伟科技3"
+      - "[Vip1]新加坡04[1.0|联通|流媒体解锁]_油管阿伟科技26"
+      - "[Vip1]新加坡02[1.0|联通|流媒体解锁]_油管阿伟科技2"
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_油管阿伟科技79"
+      - "[Vip1]香港06[1.0|联通|流媒体解锁]_油管阿伟科技20"
+      - "[Vip1]香港04[1.0|联通|流媒体解锁]_油管阿伟科技30"
+      - "[Vip1]香港01[1.0|移动|流媒体解锁]_油管阿伟科技19"
+      - "[Vip1]台湾07[1.0|移动|流媒体解锁]_油管阿伟科技25"
+      - "[Vip1]日本13[1.0|移动|流媒体解锁]_油管阿伟科技22"
+      - "[Vip1]日本09[1.0|联通|流媒体解锁]_油管阿伟科技24"
+      - "[Vip1]日本07[1.0|联通]_油管阿伟科技31"
+      - "[Vip1]日本05[1.0|移动]_油管阿伟科技1"
+      - "[Vip1]日本02[1.0|移动|流媒体解锁]_油管阿伟科技23"
+      - "[Vip1]美国15[1.0|联通|流媒体解锁]_油管阿伟科技29"
+      - "[Vip1]美国08[1.0|联通|流媒体解锁]_油管阿伟科技4"
+      - "[Vip1]美国07[1.0|移动|流媒体解锁]_油管阿伟科技28"
+      - "[Vip1]美国06[1.0|联通|流媒体解锁]_油管阿伟科技32"
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_油管阿伟科技27"
+      - "[Vip1]韩国03[1.0|联通]_油管阿伟科技80"
+      - "[Vip1]韩国02[1.0|移动]_油管阿伟科技21"
+      - "[Vip1]德国01[1.0|移动|流媒体解锁]_油管阿伟科技30"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - xmss.vip—油管阿伟科技31
-      - U.S.A(LosAngeles1)_1—油管阿伟科技32
-      - U.S.A(LasVegas)_1—油管阿伟科技33
-      - Japan(Osaka1)_1—油管阿伟科技34
-      - Taiwan(Taipei1)_1—油管阿伟科技35
-      - Hongkong(NewTerritories)—油管阿伟科技36
-      - U.S.A(LosAngeles1)_2—油管阿伟科技37
-      - U.S.A(LasVegas)_2—油管阿伟科技38
-      - Japan(Osaka1)_2—油管阿伟科技39
-      - Japan(Osaka2)—油管阿伟科技40
-      - Taiwan(Taipei1)_2—油管阿伟科技41
-      - 新加坡|Singapore|V2—油管阿伟科技47
-      - 新加坡🇸🇬_1—油管阿伟科技49
-      - 美国🇺🇸纽约_1—油管阿伟科技50
-      - 印度🇮🇳_1—油管阿伟科技52
+      - 英国🇬🇧_油管阿伟科技74
       - 英国🇬🇧_1—油管阿伟科技53
-      - 德国🇩🇪_1—油管阿伟科技54
-      - 新加坡🇸🇬_2—油管阿伟科技55
-      - 美国🇺🇸纽约_2—油管阿伟科技56
-      - 德国🇩🇪_2—油管阿伟科技60
-      - 美国🇺🇸纽约_3—油管阿伟科技61
-      - 英国🇬🇧_3—油管阿伟科技62
-      - 加拿大🇨🇦_3—油管阿伟科技64
-      - 英国🇬🇧_4—油管阿伟科技65
-      - 德国🇩🇪_4—油管阿伟科技66
-      - 英国🇬🇧_5—油管阿伟科技67
-      - 德国🇩🇪_5—油管阿伟科技68
-      - 新加坡🇸🇬_3—油管阿伟科技69
-      - 美国🇺🇸纽约_4—油管阿伟科技70
-      - 英国02_油管阿伟科技1
-      - GetAFreeNode-Gcore_油管阿伟科技2
-      - GetAFreeNode-LosAngeles_油管阿伟科技3
-      - GetAFreeNode-Frankfurt_油管阿伟科技4
-      - GetAFreeNode-Amsterdam_油管阿伟科技5
-      - GetAFreeNode-Novosibirsk_油管阿伟科技6
-      - GetAFreeNode-Vienna_油管阿伟科技7
-      - GetAFreeNode-Moscow_油管阿伟科技8
-      - VPN-for-China-->xeton.co_油管阿伟科技9
-      - VPN-For-China-->milkcat.net_油管阿伟科技10
-      - xmss.vip_油管阿伟科技11
-      - cn.xmss.vip_油管阿伟科技12
-      - 新加坡🇸🇬_油管阿伟科技13
-      - 美国🇺🇸纽约_油管阿伟科技14
-      - 洛杉矶 2 Trojan_油管阿伟科技15
-      - 洛杉矶2v2ray_油管阿伟科技16
-      - 美国INAP_油管阿伟科技17
-      - 阿根廷_油管阿伟科技18
-      - 马来西亚_油管阿伟科技19
+      - 英国08DO_油管阿伟科技39
+      - 英国_油管阿伟科技8
+      - 印度尼西亚07@ANHR0_油管阿伟科技32
+      - 印度🇮🇳_3_油管阿伟科技73
+      - 印度🇮🇳_2_油管阿伟科技66
+      - 印度🇮🇳_1_油管阿伟科技60
+      - 印度_油管-阿伟科技67
+      - 印度_油管阿伟科技49
       - 印度_油管阿伟科技20
-      - 澳洲_油管阿伟科技21
+      - 新加坡🇸🇬-linode_油管阿伟科技72
+      - 新加坡🇸🇬_4_油管阿伟科技68
+      - 新加坡🇸🇬_3_油管阿伟科技64
+      - 新加坡🇸🇬_2—油管阿伟科技55
+      - 新加坡🇸🇬_2_油管阿伟科技61
+      - 新加坡🇸🇬_1_油管阿伟科技58
+      - 新加坡B_油管阿伟科技46
+      - 新加坡03
+      - 新[直连]6-流媒体NF_油管阿伟科技60
+      - 新[直连]5-流媒体NF_油管阿伟科技59
+      - 新[直连]3-流媒体NF_油管阿伟科技58
+      - 香港丨下载丨1Gbps
+      - 香港丨RERR丨TEST 03
+      - 香港丨RERR丨TEST 02
+      - 香港丨RERR丨TEST 01
+      - 香港E_油管阿伟科技44
+      - 香港E_油管阿伟科技1
+      - 香港66ANYHK-HKT-动态IP-奈飞_油管阿伟科技43
+      - 香港65AZ-动态IP_油管阿伟科技42
+      - 香港19ANYHK-HKT-动态IP-奈飞_油管阿伟科技41
+      - 香港09
+      - 香港08
+      - 香港06
+      - 乌克兰_油管阿伟科技51
       - 乌克兰_油管阿伟科技22
+      - 土耳其B_油管阿伟科技5
+      - 土耳其B_油管阿伟科技47
+      - 土耳其A_油管阿伟科技4
+      - 泰国71@ANHR0_油管阿伟科技35
+      - 泰国_油管阿伟科技7
+      - 台湾13ANYHK-动态IP-奈飞_油管阿伟科技33
+      - 台湾05
+      - 台3[直连]-流媒体NF_油管阿伟科技57
+      - 隧道|NF|香港01_油管阿伟科技66
+      - 隧道|NF|台湾03_油管阿伟科技65
+      - 隧道|NF|日本04_油管阿伟科技68
+      - 隧道|NF|日本02_油管阿伟科技67
+      - 隧道|NF|美国02_油管阿伟科技69
+      - 隧道|NF|韩国02_油管阿伟科技71
+      - 隧道|NF|韩国01_油管阿伟科技70
+      - 隧道|NF|菲律宾01_油管阿伟科技73
+      - 隧道|NF|德国01_油管阿伟科技72
+      - 瑞典34AZ-动态IP_油管阿伟科技37
+      - 日本🇯🇵东京_油管阿伟科技71
+      - 日本C_油管阿伟科技45
+      - 日本C_油管阿伟科技3
+      - 日本B_油管阿伟科技2
+      - 日本67AZ-动态IP_油管阿伟科技34
+      - 美国丨洛杉矶丨GIA
+      - 美国🇺🇸纽约_4_油管阿伟科技69
+      - 美国🇺🇸纽约_3_油管阿伟科技65
+      - 美国🇺🇸纽约_2—油管阿伟科技56
+      - 美国🇺🇸纽约_2_油管阿伟科技62
+      - 美国🇺🇸纽约_1_油管阿伟科技59
+      - 美国INAP_油管阿伟科技82
+      - 美国C_油管-阿伟科技74
+      - 美国60DO_油管阿伟科技38
+      - 美8[直接]-流媒体_油管阿伟科技64
+      - 美1[中转]-流媒体_油管阿伟科技63
+      - 马来西亚_油管阿伟科技19
+      - 洛杉矶2v2ray_油管阿伟科技55
+      - 洛杉矶 2 Trojan_油管阿伟科技54
+      - 流暢雲英國|直连|UK01_油管阿伟科技23
+      - 流暢雲香港PROIPLC專綫02_油管阿伟科技27
+      - 流暢雲香港PROIPLC專綫01_油管阿伟科技26
+      - 流暢雲美國PRO|直連|US03_油管阿伟科技22
+      - 流暢雲美國PRO|直連|US02_油管阿伟科技21
+      - 流暢雲美國PRO|直連|US01_油管阿伟科技20
+      - 流暢雲美國|直连|US06_油管阿伟科技19
+      - 流暢雲美國|直连|US05_油管阿伟科技18
+      - 流暢雲美國|直连|US04_油管阿伟科技17
+      - 流暢雲美國|直连|US03_油管阿伟科技74
+      - 流暢雲美國|直连|US03_油管阿伟科技16
+      - 流暢雲美國|直连|US02_油管阿伟科技15
+      - 流暢雲美國|直连|US01_油管阿伟科技14
+      - 流暢雲韩国|直连|KR03_油管阿伟科技25
+      - 流暢雲韩国|直连|KR02_油管阿伟科技24
+      - 流暢雲俄罗斯|直連|RU01_油管阿伟科技13
+      - 加拿大🇨🇦_2_油管阿伟科技70
+      - 加拿大🇨🇦_1_油管阿伟科技63
+      - 加拿大_油管阿伟科技50
       - 荷兰_油管阿伟科技23
+      - 港6[直连]-流媒体NF_油管阿伟科技62
+      - 港3[直连]-流媒体NF_油管阿伟科技61
+      - 付费套餐无限制_油管阿伟科技9
+      - 付费套餐无限制_2_油管阿伟科技31
+      - 付费套餐无限制_1_油管阿伟科技12
+      - 俄罗斯丨莫斯科丨ETH
+      - 迪拜04AZ-动态IP_油管阿伟科技40
+      - 德国🇩🇪-BEST_油管阿伟科技76
+      - 德国🇩🇪_2—油管阿伟科技60
+      - 德国🇩🇪_2_油管阿伟科技75
+      - 德国🇩🇪_1_油管阿伟科技67
+      - 澳洲_油管阿伟科技21
+      - 澳大利亚24AZ-动态IP_油管阿伟科技36
+      - 阿根廷_油管-阿伟科技77
+      - 阿根廷_油管阿伟科技6
+      - 阿根廷_油管阿伟科技48
+      - 阿根廷_油管阿伟科技18
+      - 美国|01|三网优化2_油管阿伟科技10
+      - 新加坡|08|OC_油管阿伟科技40
+      - 新加坡|03|OC_油管阿伟科技5
+      - 新加坡|03|OC_油管阿伟科技34
+      - 新加坡|03|LIN_油管阿伟科技39
+      - 新加坡|02|DO_油管阿伟科技35
+      - 新加坡|01|OC_油管阿伟科技41
+      - 新加坡|01|LIN_油管阿伟科技6
+      - 新加坡|01|LIN_油管阿伟科技38
+      - A-V2 新加坡三网优化2_油管阿伟科技55
+      - v2-俄罗斯1_油管阿伟科技56
+      - 韩国高速-1_油管阿伟科技75
+      - 韩国|01AZ_油管阿伟科技9
+      - 日本高速_油管阿伟科技80
+      - 日本|05|LIN三网优化_油管阿伟科技36
+      - 香港高速_油管阿伟科技81
+      - 香港|23|奈飞BGP三网优化_油管阿伟科技37
+      - 香港|05_油管阿伟科技11
+      - A-T-香港解锁NF和D 1_油管阿伟科技52
+      - A-T-香港2_油管阿伟科技54
+      - A-T-香港_油管阿伟科技53
+      - 英国|01|LIN三网优化_油管阿伟科技8
+      - 英国|01|LIN_油管阿伟科技7
+      - 台湾|04奈飞三网优化3_油管阿伟科技33
+      - xmss.vip_油管阿伟科技77
+      - VPN-For-China-->milkcat.net_油管阿伟科技10
+      - vip1-新加坡6||限速100M_油管阿伟科技77
+      - vip1-香港4||限速100M_油管阿伟科技79
+      - vip1-日本1||限速100M_油管阿伟科技78
+      - V1-越南-1-sc-IEPL【2x】_油管阿伟科技28
+      - V1-韩国-1-sc-IEPL【2x】_油管阿伟科技29
+      - U.S.A(Los Angeles1)_2_油管阿伟科技51
+      - U.S.A(Los Angeles1)_1_油管阿伟科技44
+      - U.S.A(Las Vegas)_2_油管阿伟科技52
+      - U.S.A(Las Vegas)_1_油管阿伟科技45
+      - U.S.A(Dallas)_油管阿伟科技50
+      - Taiwan(Taipei1)_油管阿伟科技47
+      - Taiwan(Taipei1)_2—油管阿伟科技41
+      - Luxembourg_2_油管阿伟科技53
+      - Luxembourg_1_油管阿伟科技48
+      - JCBB_英国02【vip1】_油管阿伟科技17
+      - JCBB_英国01【vip1】_油管阿伟科技12
+      - JCBB_新加坡04【vip1】_油管阿伟科技14
+      - JCBB_香港07【vip1】_油管阿伟科技13
+      - JCBB_香港04【vip1】_油管阿伟科技10
+      - JCBB_日本03【vip1】_油管阿伟科技11
+      - JCBB_日本02【vip1】_油管阿伟科技15
+      - JCBB_美国03【vip1】_油管阿伟科技16
+      - JCBB_德国02【vip1】_油管阿伟科技18
+      - Japan(Osaka2)—油管阿伟科技40
+      - Japan(Osaka1)_油管阿伟科技46
+      - Japan(Osaka1)_2—油管阿伟科技39
+      - Hongkong(NewTerritories)—油管阿伟科技36
+      - Hongkong (owloon)_2_油管阿伟科技49
+      - Hongkong (owloon)_1_油管阿伟科技43
+      - Hongkong (New Territories)_油管阿伟科技42
+      - cn.xmss.vip_油管阿伟科技78
+      - A-Vip1丨日本07丨BGP_油管阿伟科技76
+      - "[日本]+廣日+-+01_油管阿伟科技56"
+      - "[日本]+廣港+-+02_油管阿伟科技57"
+      - "[Vip1]新加坡08[1.0|移动|流媒体解锁]_油管阿伟科技3"
+      - "[Vip1]新加坡04[1.0|联通|流媒体解锁]_油管阿伟科技26"
+      - "[Vip1]新加坡02[1.0|联通|流媒体解锁]_油管阿伟科技2"
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_油管阿伟科技79"
+      - "[Vip1]香港06[1.0|联通|流媒体解锁]_油管阿伟科技20"
+      - "[Vip1]香港04[1.0|联通|流媒体解锁]_油管阿伟科技30"
+      - "[Vip1]香港01[1.0|移动|流媒体解锁]_油管阿伟科技19"
+      - "[Vip1]台湾07[1.0|移动|流媒体解锁]_油管阿伟科技25"
+      - "[Vip1]日本13[1.0|移动|流媒体解锁]_油管阿伟科技22"
+      - "[Vip1]日本09[1.0|联通|流媒体解锁]_油管阿伟科技24"
+      - "[Vip1]日本07[1.0|联通]_油管阿伟科技31"
+      - "[Vip1]日本05[1.0|移动]_油管阿伟科技1"
+      - "[Vip1]日本02[1.0|移动|流媒体解锁]_油管阿伟科技23"
+      - "[Vip1]美国15[1.0|联通|流媒体解锁]_油管阿伟科技29"
+      - "[Vip1]美国08[1.0|联通|流媒体解锁]_油管阿伟科技4"
+      - "[Vip1]美国07[1.0|移动|流媒体解锁]_油管阿伟科技28"
+      - "[Vip1]美国06[1.0|联通|流媒体解锁]_油管阿伟科技32"
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_油管阿伟科技27"
+      - "[Vip1]韩国03[1.0|联通]_油管阿伟科技80"
+      - "[Vip1]韩国02[1.0|移动]_油管阿伟科技21"
+      - "[Vip1]德国01[1.0|移动|流媒体解锁]_油管阿伟科技30"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -492,58 +1641,197 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - xmss.vip—油管阿伟科技31
-      - U.S.A(LosAngeles1)_1—油管阿伟科技32
-      - U.S.A(LasVegas)_1—油管阿伟科技33
-      - Japan(Osaka1)_1—油管阿伟科技34
-      - Taiwan(Taipei1)_1—油管阿伟科技35
-      - Hongkong(NewTerritories)—油管阿伟科技36
-      - U.S.A(LosAngeles1)_2—油管阿伟科技37
-      - U.S.A(LasVegas)_2—油管阿伟科技38
-      - Japan(Osaka1)_2—油管阿伟科技39
-      - Japan(Osaka2)—油管阿伟科技40
-      - Taiwan(Taipei1)_2—油管阿伟科技41
-      - 新加坡|Singapore|V2—油管阿伟科技47
-      - 新加坡🇸🇬_1—油管阿伟科技49
-      - 美国🇺🇸纽约_1—油管阿伟科技50
-      - 印度🇮🇳_1—油管阿伟科技52
+      - 英国🇬🇧_油管阿伟科技74
       - 英国🇬🇧_1—油管阿伟科技53
-      - 德国🇩🇪_1—油管阿伟科技54
-      - 新加坡🇸🇬_2—油管阿伟科技55
-      - 美国🇺🇸纽约_2—油管阿伟科技56
-      - 德国🇩🇪_2—油管阿伟科技60
-      - 美国🇺🇸纽约_3—油管阿伟科技61
-      - 英国🇬🇧_3—油管阿伟科技62
-      - 加拿大🇨🇦_3—油管阿伟科技64
-      - 英国🇬🇧_4—油管阿伟科技65
-      - 德国🇩🇪_4—油管阿伟科技66
-      - 英国🇬🇧_5—油管阿伟科技67
-      - 德国🇩🇪_5—油管阿伟科技68
-      - 新加坡🇸🇬_3—油管阿伟科技69
-      - 美国🇺🇸纽约_4—油管阿伟科技70
-      - 英国02_油管阿伟科技1
-      - GetAFreeNode-Gcore_油管阿伟科技2
-      - GetAFreeNode-LosAngeles_油管阿伟科技3
-      - GetAFreeNode-Frankfurt_油管阿伟科技4
-      - GetAFreeNode-Amsterdam_油管阿伟科技5
-      - GetAFreeNode-Novosibirsk_油管阿伟科技6
-      - GetAFreeNode-Vienna_油管阿伟科技7
-      - GetAFreeNode-Moscow_油管阿伟科技8
-      - VPN-for-China-->xeton.co_油管阿伟科技9
-      - VPN-For-China-->milkcat.net_油管阿伟科技10
-      - xmss.vip_油管阿伟科技11
-      - cn.xmss.vip_油管阿伟科技12
-      - 新加坡🇸🇬_油管阿伟科技13
-      - 美国🇺🇸纽约_油管阿伟科技14
-      - 洛杉矶 2 Trojan_油管阿伟科技15
-      - 洛杉矶2v2ray_油管阿伟科技16
-      - 美国INAP_油管阿伟科技17
-      - 阿根廷_油管阿伟科技18
-      - 马来西亚_油管阿伟科技19
+      - 英国08DO_油管阿伟科技39
+      - 英国_油管阿伟科技8
+      - 印度尼西亚07@ANHR0_油管阿伟科技32
+      - 印度🇮🇳_3_油管阿伟科技73
+      - 印度🇮🇳_2_油管阿伟科技66
+      - 印度🇮🇳_1_油管阿伟科技60
+      - 印度_油管-阿伟科技67
+      - 印度_油管阿伟科技49
       - 印度_油管阿伟科技20
-      - 澳洲_油管阿伟科技21
+      - 新加坡🇸🇬-linode_油管阿伟科技72
+      - 新加坡🇸🇬_4_油管阿伟科技68
+      - 新加坡🇸🇬_3_油管阿伟科技64
+      - 新加坡🇸🇬_2—油管阿伟科技55
+      - 新加坡🇸🇬_2_油管阿伟科技61
+      - 新加坡🇸🇬_1_油管阿伟科技58
+      - 新加坡B_油管阿伟科技46
+      - 新加坡03
+      - 新[直连]6-流媒体NF_油管阿伟科技60
+      - 新[直连]5-流媒体NF_油管阿伟科技59
+      - 新[直连]3-流媒体NF_油管阿伟科技58
+      - 香港丨下载丨1Gbps
+      - 香港丨RERR丨TEST 03
+      - 香港丨RERR丨TEST 02
+      - 香港丨RERR丨TEST 01
+      - 香港E_油管阿伟科技44
+      - 香港E_油管阿伟科技1
+      - 香港66ANYHK-HKT-动态IP-奈飞_油管阿伟科技43
+      - 香港65AZ-动态IP_油管阿伟科技42
+      - 香港19ANYHK-HKT-动态IP-奈飞_油管阿伟科技41
+      - 香港09
+      - 香港08
+      - 香港06
+      - 乌克兰_油管阿伟科技51
       - 乌克兰_油管阿伟科技22
+      - 土耳其B_油管阿伟科技5
+      - 土耳其B_油管阿伟科技47
+      - 土耳其A_油管阿伟科技4
+      - 泰国71@ANHR0_油管阿伟科技35
+      - 泰国_油管阿伟科技7
+      - 台湾13ANYHK-动态IP-奈飞_油管阿伟科技33
+      - 台湾05
+      - 台3[直连]-流媒体NF_油管阿伟科技57
+      - 隧道|NF|香港01_油管阿伟科技66
+      - 隧道|NF|台湾03_油管阿伟科技65
+      - 隧道|NF|日本04_油管阿伟科技68
+      - 隧道|NF|日本02_油管阿伟科技67
+      - 隧道|NF|美国02_油管阿伟科技69
+      - 隧道|NF|韩国02_油管阿伟科技71
+      - 隧道|NF|韩国01_油管阿伟科技70
+      - 隧道|NF|菲律宾01_油管阿伟科技73
+      - 隧道|NF|德国01_油管阿伟科技72
+      - 瑞典34AZ-动态IP_油管阿伟科技37
+      - 日本🇯🇵东京_油管阿伟科技71
+      - 日本C_油管阿伟科技45
+      - 日本C_油管阿伟科技3
+      - 日本B_油管阿伟科技2
+      - 日本67AZ-动态IP_油管阿伟科技34
+      - 美国丨洛杉矶丨GIA
+      - 美国🇺🇸纽约_4_油管阿伟科技69
+      - 美国🇺🇸纽约_3_油管阿伟科技65
+      - 美国🇺🇸纽约_2—油管阿伟科技56
+      - 美国🇺🇸纽约_2_油管阿伟科技62
+      - 美国🇺🇸纽约_1_油管阿伟科技59
+      - 美国INAP_油管阿伟科技82
+      - 美国C_油管-阿伟科技74
+      - 美国60DO_油管阿伟科技38
+      - 美8[直接]-流媒体_油管阿伟科技64
+      - 美1[中转]-流媒体_油管阿伟科技63
+      - 马来西亚_油管阿伟科技19
+      - 洛杉矶2v2ray_油管阿伟科技55
+      - 洛杉矶 2 Trojan_油管阿伟科技54
+      - 流暢雲英國|直连|UK01_油管阿伟科技23
+      - 流暢雲香港PROIPLC專綫02_油管阿伟科技27
+      - 流暢雲香港PROIPLC專綫01_油管阿伟科技26
+      - 流暢雲美國PRO|直連|US03_油管阿伟科技22
+      - 流暢雲美國PRO|直連|US02_油管阿伟科技21
+      - 流暢雲美國PRO|直連|US01_油管阿伟科技20
+      - 流暢雲美國|直连|US06_油管阿伟科技19
+      - 流暢雲美國|直连|US05_油管阿伟科技18
+      - 流暢雲美國|直连|US04_油管阿伟科技17
+      - 流暢雲美國|直连|US03_油管阿伟科技74
+      - 流暢雲美國|直连|US03_油管阿伟科技16
+      - 流暢雲美國|直连|US02_油管阿伟科技15
+      - 流暢雲美國|直连|US01_油管阿伟科技14
+      - 流暢雲韩国|直连|KR03_油管阿伟科技25
+      - 流暢雲韩国|直连|KR02_油管阿伟科技24
+      - 流暢雲俄罗斯|直連|RU01_油管阿伟科技13
+      - 加拿大🇨🇦_2_油管阿伟科技70
+      - 加拿大🇨🇦_1_油管阿伟科技63
+      - 加拿大_油管阿伟科技50
       - 荷兰_油管阿伟科技23
+      - 港6[直连]-流媒体NF_油管阿伟科技62
+      - 港3[直连]-流媒体NF_油管阿伟科技61
+      - 付费套餐无限制_油管阿伟科技9
+      - 付费套餐无限制_2_油管阿伟科技31
+      - 付费套餐无限制_1_油管阿伟科技12
+      - 俄罗斯丨莫斯科丨ETH
+      - 迪拜04AZ-动态IP_油管阿伟科技40
+      - 德国🇩🇪-BEST_油管阿伟科技76
+      - 德国🇩🇪_2—油管阿伟科技60
+      - 德国🇩🇪_2_油管阿伟科技75
+      - 德国🇩🇪_1_油管阿伟科技67
+      - 澳洲_油管阿伟科技21
+      - 澳大利亚24AZ-动态IP_油管阿伟科技36
+      - 阿根廷_油管-阿伟科技77
+      - 阿根廷_油管阿伟科技6
+      - 阿根廷_油管阿伟科技48
+      - 阿根廷_油管阿伟科技18
+      - 美国|01|三网优化2_油管阿伟科技10
+      - 新加坡|08|OC_油管阿伟科技40
+      - 新加坡|03|OC_油管阿伟科技5
+      - 新加坡|03|OC_油管阿伟科技34
+      - 新加坡|03|LIN_油管阿伟科技39
+      - 新加坡|02|DO_油管阿伟科技35
+      - 新加坡|01|OC_油管阿伟科技41
+      - 新加坡|01|LIN_油管阿伟科技6
+      - 新加坡|01|LIN_油管阿伟科技38
+      - A-V2 新加坡三网优化2_油管阿伟科技55
+      - v2-俄罗斯1_油管阿伟科技56
+      - 韩国高速-1_油管阿伟科技75
+      - 韩国|01AZ_油管阿伟科技9
+      - 日本高速_油管阿伟科技80
+      - 日本|05|LIN三网优化_油管阿伟科技36
+      - 香港高速_油管阿伟科技81
+      - 香港|23|奈飞BGP三网优化_油管阿伟科技37
+      - 香港|05_油管阿伟科技11
+      - A-T-香港解锁NF和D 1_油管阿伟科技52
+      - A-T-香港2_油管阿伟科技54
+      - A-T-香港_油管阿伟科技53
+      - 英国|01|LIN三网优化_油管阿伟科技8
+      - 英国|01|LIN_油管阿伟科技7
+      - 台湾|04奈飞三网优化3_油管阿伟科技33
+      - xmss.vip_油管阿伟科技77
+      - VPN-For-China-->milkcat.net_油管阿伟科技10
+      - vip1-新加坡6||限速100M_油管阿伟科技77
+      - vip1-香港4||限速100M_油管阿伟科技79
+      - vip1-日本1||限速100M_油管阿伟科技78
+      - V1-越南-1-sc-IEPL【2x】_油管阿伟科技28
+      - V1-韩国-1-sc-IEPL【2x】_油管阿伟科技29
+      - U.S.A(Los Angeles1)_2_油管阿伟科技51
+      - U.S.A(Los Angeles1)_1_油管阿伟科技44
+      - U.S.A(Las Vegas)_2_油管阿伟科技52
+      - U.S.A(Las Vegas)_1_油管阿伟科技45
+      - U.S.A(Dallas)_油管阿伟科技50
+      - Taiwan(Taipei1)_油管阿伟科技47
+      - Taiwan(Taipei1)_2—油管阿伟科技41
+      - Luxembourg_2_油管阿伟科技53
+      - Luxembourg_1_油管阿伟科技48
+      - JCBB_英国02【vip1】_油管阿伟科技17
+      - JCBB_英国01【vip1】_油管阿伟科技12
+      - JCBB_新加坡04【vip1】_油管阿伟科技14
+      - JCBB_香港07【vip1】_油管阿伟科技13
+      - JCBB_香港04【vip1】_油管阿伟科技10
+      - JCBB_日本03【vip1】_油管阿伟科技11
+      - JCBB_日本02【vip1】_油管阿伟科技15
+      - JCBB_美国03【vip1】_油管阿伟科技16
+      - JCBB_德国02【vip1】_油管阿伟科技18
+      - Japan(Osaka2)—油管阿伟科技40
+      - Japan(Osaka1)_油管阿伟科技46
+      - Japan(Osaka1)_2—油管阿伟科技39
+      - Hongkong(NewTerritories)—油管阿伟科技36
+      - Hongkong (owloon)_2_油管阿伟科技49
+      - Hongkong (owloon)_1_油管阿伟科技43
+      - Hongkong (New Territories)_油管阿伟科技42
+      - cn.xmss.vip_油管阿伟科技78
+      - A-Vip1丨日本07丨BGP_油管阿伟科技76
+      - "[日本]+廣日+-+01_油管阿伟科技56"
+      - "[日本]+廣港+-+02_油管阿伟科技57"
+      - "[Vip1]新加坡08[1.0|移动|流媒体解锁]_油管阿伟科技3"
+      - "[Vip1]新加坡04[1.0|联通|流媒体解锁]_油管阿伟科技26"
+      - "[Vip1]新加坡02[1.0|联通|流媒体解锁]_油管阿伟科技2"
+      - "[Vip1]香港09[1.0|移动|流媒体解锁]_油管阿伟科技79"
+      - "[Vip1]香港06[1.0|联通|流媒体解锁]_油管阿伟科技20"
+      - "[Vip1]香港04[1.0|联通|流媒体解锁]_油管阿伟科技30"
+      - "[Vip1]香港01[1.0|移动|流媒体解锁]_油管阿伟科技19"
+      - "[Vip1]台湾07[1.0|移动|流媒体解锁]_油管阿伟科技25"
+      - "[Vip1]日本13[1.0|移动|流媒体解锁]_油管阿伟科技22"
+      - "[Vip1]日本09[1.0|联通|流媒体解锁]_油管阿伟科技24"
+      - "[Vip1]日本07[1.0|联通]_油管阿伟科技31"
+      - "[Vip1]日本05[1.0|移动]_油管阿伟科技1"
+      - "[Vip1]日本02[1.0|移动|流媒体解锁]_油管阿伟科技23"
+      - "[Vip1]美国15[1.0|联通|流媒体解锁]_油管阿伟科技29"
+      - "[Vip1]美国08[1.0|联通|流媒体解锁]_油管阿伟科技4"
+      - "[Vip1]美国07[1.0|移动|流媒体解锁]_油管阿伟科技28"
+      - "[Vip1]美国06[1.0|联通|流媒体解锁]_油管阿伟科技32"
+      - "[Vip1]美国01[1.0|移动|流媒体解锁]_油管阿伟科技27"
+      - "[Vip1]韩国03[1.0|联通]_油管阿伟科技80"
+      - "[Vip1]韩国02[1.0|移动]_油管阿伟科技21"
+      - "[Vip1]德国01[1.0|移动|流媒体解锁]_油管阿伟科技30"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
