@@ -1,10 +1,11 @@
-﻿port: 7890
+port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 使用前更新订阅-更多节点关注YouTube频道-阿伟科技, server: 使用前更新订阅-更多节点关注YouTube频道-阿伟科技, port: 888, type: vmess, uuid: YouTube频道-阿伟科技, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 流暢雲 俄罗斯|直連|RU 01, server: jh-ru01-direct01.jh-ru01.lc-node.com, port: 443, type: vmess, uuid: b08e9b1f-b546-3919-b42d-88e684a12b24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jh-ru01-direct01.jh-ru01.lc-node.com}}, udp: true}
   - {name: 流暢雲 台湾|直连|TW 01, server: lc-tw01-direct01.lc-tw01.lc-node.com, port: 443, type: vmess, uuid: b08e9b1f-b546-3919-b42d-88e684a12b24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lc-tw01-direct01.lc-tw01.lc-node.com}}, udp: true}
   - {name: 流暢雲 台湾|直连|TW 02, server: lc-tw02-direct01.lc-tw02.lc-node.com, port: 443, type: vmess, uuid: b08e9b1f-b546-3919-b42d-88e684a12b24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lc-tw02-direct01.lc-tw02.lc-node.com}}, udp: true}
@@ -190,7 +191,6 @@ proxies:
   - {name: 波兰, server: bl.jiashumao.net, port: 43505, type: trojan, password: 9f214f8d-2b75-3141-bdd1-26ff125c9233, sni: bl.jiashumao.net, skip-cert-verify: true, udp: true}
   - {name: 英国, server: yg.jiashumao.net, port: 36419, type: trojan, password: 9f214f8d-2b75-3141-bdd1-26ff125c9233, sni: yg.jiashumao.net, skip-cert-verify: true, udp: true}
   - {name: 法国, server: fg.jiashumao.net, port: 35580, type: trojan, password: 9f214f8d-2b75-3141-bdd1-26ff125c9233, sni: fg.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: 注1:请定时更新订阅, server: zzfjfgjytjyrtehrt54gsgsdfggedrh5re4364352536234yddd56gsffdsherhbresgsdfdsfssdxxww.us, port: 443, type: trojan, password: 9f214f8d-2b75-3141-bdd1-26ff125c9233, sni: zzfjfgjytjyrtehrt54gsgsdfggedrh5re4364352536234yddd56gsffdsherhbresgsdfdsfssdxxww.us, skip-cert-verify: true, udp: true}
   - {name: JCBB_香港01【vip1】, server: cm.kapoknode.com, port: 25899, type: vmess, uuid: ca9bcfec-b691-4d56-8f6f-c6f41ee1a40b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.kapoknode.com}}, udp: true}
   - {name: JCBB_香港02【vip1】, server: cu.kapoknode.com, port: 25899, type: vmess, uuid: ca9bcfec-b691-4d56-8f6f-c6f41ee1a40b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}, udp: true}
   - {name: JCBB_香港03【vip1】, server: cm.kapoknode.com, port: 25898, type: vmess, uuid: ca9bcfec-b691-4d56-8f6f-c6f41ee1a40b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.kapoknode.com}}, udp: true}
@@ -221,6 +221,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 使用前更新订阅-更多节点关注YouTube频道-阿伟科技
       - 流暢雲 俄罗斯|直連|RU 01
       - 流暢雲 台湾|直连|TW 01
       - 流暢雲 台湾|直连|TW 02
@@ -406,7 +407,6 @@ proxy-groups:
       - 波兰
       - 英国
       - 法国
-      - 注1:请定时更新订阅
       - JCBB_香港01【vip1】
       - JCBB_香港02【vip1】
       - JCBB_香港03【vip1】
@@ -436,6 +436,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 使用前更新订阅-更多节点关注YouTube频道-阿伟科技
       - 流暢雲 俄罗斯|直連|RU 01
       - 流暢雲 台湾|直连|TW 01
       - 流暢雲 台湾|直连|TW 02
@@ -621,7 +622,6 @@ proxy-groups:
       - 波兰
       - 英国
       - 法国
-      - 注1:请定时更新订阅
       - JCBB_香港01【vip1】
       - JCBB_香港02【vip1】
       - JCBB_香港03【vip1】
@@ -652,6 +652,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 使用前更新订阅-更多节点关注YouTube频道-阿伟科技
       - 流暢雲 俄罗斯|直連|RU 01
       - 流暢雲 台湾|直连|TW 01
       - 流暢雲 台湾|直连|TW 02
@@ -837,7 +838,6 @@ proxy-groups:
       - 波兰
       - 英国
       - 法国
-      - 注1:请定时更新订阅
       - JCBB_香港01【vip1】
       - JCBB_香港02【vip1】
       - JCBB_香港03【vip1】
@@ -880,6 +880,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 使用前更新订阅-更多节点关注YouTube频道-阿伟科技
       - 流暢雲 俄罗斯|直連|RU 01
       - 流暢雲 台湾|直连|TW 01
       - 流暢雲 台湾|直连|TW 02
@@ -1065,7 +1066,6 @@ proxy-groups:
       - 波兰
       - 英国
       - 法国
-      - 注1:请定时更新订阅
       - JCBB_香港01【vip1】
       - JCBB_香港02【vip1】
       - JCBB_香港03【vip1】
@@ -1173,6 +1173,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 使用前更新订阅-更多节点关注YouTube频道-阿伟科技
       - 流暢雲 俄罗斯|直連|RU 01
       - 流暢雲 台湾|直连|TW 01
       - 流暢雲 台湾|直连|TW 02
@@ -1358,7 +1359,6 @@ proxy-groups:
       - 波兰
       - 英国
       - 法国
-      - 注1:请定时更新订阅
       - JCBB_香港01【vip1】
       - JCBB_香港02【vip1】
       - JCBB_香港03【vip1】
@@ -1388,6 +1388,7 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 使用前更新订阅-更多节点关注YouTube频道-阿伟科技
       - 流暢雲 俄罗斯|直連|RU 01
       - 流暢雲 台湾|直连|TW 01
       - 流暢雲 台湾|直连|TW 02
@@ -1573,7 +1574,6 @@ proxy-groups:
       - 波兰
       - 英国
       - 法国
-      - 注1:请定时更新订阅
       - JCBB_香港01【vip1】
       - JCBB_香港02【vip1】
       - JCBB_香港03【vip1】
@@ -1604,6 +1604,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 使用前更新订阅-更多节点关注YouTube频道-阿伟科技
       - 流暢雲 俄罗斯|直連|RU 01
       - 流暢雲 台湾|直连|TW 01
       - 流暢雲 台湾|直连|TW 02
@@ -1789,7 +1790,6 @@ proxy-groups:
       - 波兰
       - 英国
       - 法国
-      - 注1:请定时更新订阅
       - JCBB_香港01【vip1】
       - JCBB_香港02【vip1】
       - JCBB_香港03【vip1】
@@ -1829,6 +1829,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 使用前更新订阅-更多节点关注YouTube频道-阿伟科技
       - 流暢雲 俄罗斯|直連|RU 01
       - 流暢雲 台湾|直连|TW 01
       - 流暢雲 台湾|直连|TW 02
@@ -2014,7 +2015,6 @@ proxy-groups:
       - 波兰
       - 英国
       - 法国
-      - 注1:请定时更新订阅
       - JCBB_香港01【vip1】
       - JCBB_香港02【vip1】
       - JCBB_香港03【vip1】
