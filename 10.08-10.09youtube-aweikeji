@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-10-08 20:08:20
+#  创建时间：2022-10-09 09:04:17
 #  模版：v2rayse默认模版
-#  节点数量：64
+#  节点数量：175
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -14,69 +14,180 @@ log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
   - {"type":"vmess","name":"不定时更新订阅，更多节点关注YouTube频道-阿伟科技","server":"3.sg.zz.xxxxx.x-t-fuckword.network","port":"36679","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"JCBB_香港03【vip1】","ws-opts":{"path":"/","headers":{"host":"43.248.134.180"}},"server":"43.248.134.180","port":"25898","uuid":"e33e2346-31fa-4b27-a075-645c450efe97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"JCBB_香港04【vip1】","ws-opts":{"path":"/","headers":{"host":"43.248.134.180"}},"server":"43.248.134.180","port":"25898","uuid":"e33e2346-31fa-4b27-a075-645c450efe97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"JCBB_新加坡01【vip1】","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25895","uuid":"e33e2346-31fa-4b27-a075-645c450efe97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"JCBB_新加坡02【vip1】","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25895","uuid":"e33e2346-31fa-4b27-a075-645c450efe97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"JCBB_日本01【vip1】","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25888","uuid":"e33e2346-31fa-4b27-a075-645c450efe97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"JCBB_日本02【vip1】","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25888","uuid":"e33e2346-31fa-4b27-a075-645c450efe97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"JCBB_日本03【vip1】","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25887","uuid":"e33e2346-31fa-4b27-a075-645c450efe97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"JCBB_日本04【vip1】","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25887","uuid":"e33e2346-31fa-4b27-a075-645c450efe97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"[Vip1]香港05[1.0|移动|流媒体解锁]","ws-opts":{"path":"/fly","headers":{"host":"fly1.fastestcloud.xyz"}},"server":"fly1.fastestcloud.xyz","port":"40003","uuid":"cd477506-33af-41ec-b3db-0499ddb1c2b9","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"[Vip1]香港09[1.0|移动|流媒体解锁]","ws-opts":{"path":"/","headers":{"host":"fly1.fastestcloud.xyz"}},"server":"fly1.fastestcloud.xyz","port":"40005","uuid":"cd477506-33af-41ec-b3db-0499ddb1c2b9","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"[Vip1]香港10[1.0|移动|流媒体解锁]","ws-opts":{"path":"/","headers":{"host":"fly2.fastestcloud.xyz"}},"server":"fly2.fastestcloud.xyz","port":"40005","uuid":"cd477506-33af-41ec-b3db-0499ddb1c2b9","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"[Vip1]日本01[1.0|移动|流媒体解锁]","ws-opts":{"path":"/fly","headers":{"host":"fly2.fastestcloud.xyz"}},"server":"fly2.fastestcloud.xyz","port":"30005","uuid":"cd477506-33af-41ec-b3db-0499ddb1c2b9","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"[Vip1]日本02[1.0|移动|流媒体解锁]","ws-opts":{"path":"/fly","headers":{"host":"fly1.fastestcloud.xyz"}},"server":"fly1.fastestcloud.xyz","port":"30005","uuid":"cd477506-33af-41ec-b3db-0499ddb1c2b9","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"[Vip1]日本03[1.0|联通|流媒体解锁]","ws-opts":{"path":"/fly","headers":{"host":"fly3.fastestcloud.xyz"}},"server":"fly3.fastestcloud.xyz","port":"30005","uuid":"cd477506-33af-41ec-b3db-0499ddb1c2b9","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"[Vip1]日本05[1.0|移动]","ws-opts":{"path":"/fly","headers":{"host":"fly1.fastestcloud.xyz"}},"server":"fly1.fastestcloud.xyz","port":"30006","uuid":"cd477506-33af-41ec-b3db-0499ddb1c2b9","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"[Vip1]日本06[1.0|移动]","ws-opts":{"path":"/fly","headers":{"host":"fly2.fastestcloud.xyz"}},"server":"fly2.fastestcloud.xyz","port":"30006","uuid":"cd477506-33af-41ec-b3db-0499ddb1c2b9","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"[Vip1]日本07[1.0|联通]","ws-opts":{"path":"/fly","headers":{"host":"fly3.fastestcloud.xyz"}},"server":"fly3.fastestcloud.xyz","port":"30006","uuid":"cd477506-33af-41ec-b3db-0499ddb1c2b9","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"[Vip1]台湾02[1.0|联通|流媒体解锁]","ws-opts":{"path":"/fly","headers":{"host":"fly4.fastestcloud.xyz"}},"server":"fly4.fastestcloud.xyz","port":"30008","uuid":"cd477506-33af-41ec-b3db-0499ddb1c2b9","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"[Vip1]美国13[1.0|移动|流媒体解锁]","ws-opts":{"path":"/fly","headers":{"host":"fly1.fastestcloud.xyz"}},"server":"fly1.fastestcloud.xyz","port":"30018","uuid":"cd477506-33af-41ec-b3db-0499ddb1c2b9","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"[Vip1]美国15[1.0|联通|流媒体解锁]","ws-opts":{"path":"/fly","headers":{"host":"fly3.fastestcloud.xyz"}},"server":"fly3.fastestcloud.xyz","port":"30018","uuid":"cd477506-33af-41ec-b3db-0499ddb1c2b9","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"新加坡|02|奈飞DO三网优化","server":"cn-hnct.zeichuan.xyz","port":38373,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"sgmax02.170203.xyz"}
-  - {"type":"trojan","name":"新加坡|04|奈飞DO三网优化","server":"cn-hnct.zeichuan.xyz","port":10705,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"sgmax04.170203.xyz"}
-  - {"type":"trojan","name":"新加坡|03|奈飞OC电信优化2","server":"szdx.acnawscn.uk","port":31654,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"0a01f3ad01.170203.xyz"}
-  - {"type":"trojan","name":"新加坡|03|奈飞OC电信优化3","server":"14.29.214.131","port":19589,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"0a01f3ad01.170203.xyz"}
-  - {"type":"trojan","name":"新加坡|02|奈飞DO电信优化2","server":"szdx.acnawscn.uk","port":30983,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"sgmax02.170203.xyz"}
-  - {"type":"trojan","name":"新加坡|04|奈飞DO电信优化2","server":"szdx.acnawscn.uk","port":31442,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"sgmax04.170203.xyz"}
-  - {"type":"trojan","name":"新加坡|03|奈飞OC三网优化","server":"cn-hnct.zeichuan.xyz","port":14851,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"0a01f3ad01.170203.xyz"}
-  - {"type":"trojan","name":"新加坡|03|LIN三网优化","server":"59.36.167.231","port":49862,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"sgmax03.170203.xyz"}
-  - {"type":"trojan","name":"新加坡|08|OC三网优化","server":"ctw.zeichuan.wiki","port":32390,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"sgmax08.170203.xyz"}
-  - {"type":"trojan","name":"新加坡|01|OC三网优化","server":"14.29.214.131","port":11362,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"sg01.170203.xyz"}
-  - {"type":"trojan","name":"韩国|01奈飞OC","server":"kr001.170203.xyz","port":31025,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"kr001.170203.xyz"}
-  - {"type":"trojan","name":"韩国|01|AZ中转","server":"14.29.214.131","port":28485,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"kr001.170203.xyz"}
-  - {"type":"trojan","name":"日本|05|LIN三网优化","server":"cn-hnct.zeichuan.xyz","port":47208,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"jpmax05.170203.xyz"}
-  - {"type":"trojan","name":"日本|01|LIN三网优化","server":"cn-hnct.zeichuan.xyz","port":12529,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"jp01.170203.xyz"}
-  - {"type":"trojan","name":"日本|高速|01|LIN","server":"jpmax01.170203.xyz","port":10000,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"jpmax01.170203.xyz"}
-  - {"type":"trojan","name":"日本|03|LIN三网优化","server":"cn-hnct.zeichuan.xyz","port":26717,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"jpmax03.170203.xyz"}
-  - {"type":"trojan","name":"日本|高速|01|LIN三网优化","server":"cn-hnct.zeichuan.xyz","port":38681,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"jpmax01.170203.xyz"}
-  - {"type":"trojan","name":"香港|17电信优化","server":"szdx.acnawscn.uk","port":12876,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"hkmax17.170203.xyz"}
-  - {"type":"trojan","name":"香港|17三网优化","server":"gz.suyun.live","port":39114,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"hkmax17.170203.xyz"}
-  - {"type":"trojan","name":"香港|13|奈飞BGP三网优化","server":"ctw.zeichuan.wiki","port":47629,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"hkmax13.170203.xyz"}
-  - {"type":"trojan","name":"香港|13奈飞BGP三网优化","server":"cn-hnct.zeichuan.xyz","port":46261,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"hk13.170203.xyz"}
-  - {"type":"trojan","name":"香港|01AZ","server":"hkmax01.170203.xyz","port":14444,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"hkmax01.170203.xyz"}
-  - {"type":"trojan","name":"香港|01AZ三网优化2","server":"ctw.zeichuan.wiki","port":60768,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"hkmax01.170203.xyz"}
-  - {"type":"trojan","name":"香港|01AZ电信优化","server":"szdx.acnawscn.uk","port":28288,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"hkmax01.170203.xyz"}
-  - {"type":"trojan","name":"香港|02奈飞三网优化","server":"cn-hnct.zeichuan.xyz","port":23224,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"hkmax02.170203.xyz"}
-  - {"type":"trojan","name":"香港|13奈飞BGP三网优化2","server":"cn-hnct.zeichuan.xyz","port":29046,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"hk13.170203.xyz"}
-  - {"type":"trojan","name":"香港|13奈飞BGP三网优化3","server":"ctw.zeichuan.wiki","port":44985,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"hk13.170203.xyz"}
-  - {"type":"trojan","name":"香港|04|奈飞三网优化2","server":"ctw.zeichuan.wiki","port":59352,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"hkmax04.170203.xyz"}
-  - {"type":"trojan","name":"香港|04|奈飞电信优化","server":"szdx.acnawscn.uk","port":21100,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"hkmax04.170203.xyz"}
-  - {"type":"trojan","name":"香港|13|奈飞BGP三网优化2","server":"ctw.zeichuan.wiki","port":17005,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"hkmax13.170203.xyz"}
-  - {"type":"trojan","name":"香港|07电信优化","server":"szdx.acnawscn.uk","port":28288,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"hkmax01.170203.xyz"}
-  - {"type":"trojan","name":"香港|02电信优化","server":"szdx.acnawscn.uk","port":43223,"password":"a6fb2389-bcef-468e-946e-73940a7d0143","udp":true,"skip-cert-verify":true,"sni":"hkmax02.170203.xyz"}
-  - {"type":"trojan","name":"香港A","server":"szdx-anhb.jiashumao.net","port":22481,"password":"99f677a9-e563-3df5-889c-c3e9790a8b21","udp":true,"skip-cert-verify":true,"sni":"ahbn.jiashumao.net"}
-  - {"type":"trojan","name":"香港B","server":"bnbq-zf.jiashumao.net","port":26381,"password":"99f677a9-e563-3df5-889c-c3e9790a8b21","udp":true,"skip-cert-verify":true,"sni":"bnbq.jiashumao.net"}
-  - {"type":"trojan","name":"香港C","server":"hkc-zf.jiashumao.net","port":33481,"password":"99f677a9-e563-3df5-889c-c3e9790a8b21","udp":true,"skip-cert-verify":true,"sni":"hkc.jiashumao.net"}
-  - {"type":"trojan","name":"香港D","server":"hkd-zf.jiashumao.net","port":28481,"password":"99f677a9-e563-3df5-889c-c3e9790a8b21","udp":true,"skip-cert-verify":true,"sni":"hkd.jiashumao.net"}
-  - {"type":"trojan","name":"香港E","server":"hke-zf.jiashumao.net","port":35401,"password":"99f677a9-e563-3df5-889c-c3e9790a8b21","udp":true,"skip-cert-verify":true,"sni":"hke.jiashumao.net"}
-  - {"type":"trojan","name":"香港F","server":"hkf-zf.jiashumao.net","port":15123,"password":"99f677a9-e563-3df5-889c-c3e9790a8b21","udp":true,"skip-cert-verify":true,"sni":"hkf.jiashumao.net"}
-  - {"type":"trojan","name":"台湾A","server":"twa-zf.jiashumao.net","port":27919,"password":"99f677a9-e563-3df5-889c-c3e9790a8b21","udp":true,"skip-cert-verify":true,"sni":"twa.jiashumao.net"}
-  - {"type":"trojan","name":"台湾B","server":"twb-zf.jiashumao.net","port":25888,"password":"99f677a9-e563-3df5-889c-c3e9790a8b21","udp":true,"skip-cert-verify":true,"sni":"twb.jiashumao.net"}
-  - {"type":"trojan","name":"泰国","server":"tg-zf.jiashumao.net","port":28879,"password":"99f677a9-e563-3df5-889c-c3e9790a8b21","udp":true,"skip-cert-verify":true,"sni":"tg.jiashumao.net"}
-  - {"type":"trojan","name":"韩国","server":"hanguo.jiashumao.net","port":34210,"password":"99f677a9-e563-3df5-889c-c3e9790a8b21","udp":true,"skip-cert-verify":true,"sni":"hanguo.jiashumao.net"}
-  - {"type":"trojan","name":"马来西亚","server":"mlxy-zf.jiashumao.net","port":27171,"password":"99f677a9-e563-3df5-889c-c3e9790a8b21","udp":true,"skip-cert-verify":true,"sni":"mlxy.jiashumao.net"}
+  - {"type":"trojan","name":"越南_油管阿伟科技1","server":"yn-zf.jiashumao.net","port":40375,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"yn.jiashumao.net"}
+  - {"type":"trojan","name":"印度_油管阿伟科技2","server":"yd.jiashumao.net","port":29957,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"yd.jiashumao.net"}
+  - {"type":"trojan","name":"新加坡C_油管阿伟科技3","server":"xjpc-zf.jiashumao.net","port":34785,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"xjc.jiashumao.net"}
+  - {"type":"trojan","name":"新加坡B_油管阿伟科技4","server":"xjpb-zf.jiashumao.net","port":29465,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"xjp.jiashumao.net"}
+  - {"type":"trojan","name":"新加坡A_油管阿伟科技5","server":"xjpa-zf.jiashumao.net","port":14687,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"xjpa.jiashumao.net"}
+  - {"type":"vmess","name":"新[中转]2-DisneyNetflix流媒体_油管阿伟科技6","ws-opts":{"path":"/maopsg2","headers":{"host":"office.com"}},"server":"cu.594888.xyz","port":"60995","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"新[中转]1-DisneyNetflix流媒体_油管阿伟科技7","ws-opts":{"path":"/maopsg1","headers":{"host":"office.com"}},"server":"cu.594888.xyz","port":"60995","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"新[直连]8-流媒体NF_油管阿伟科技8","ws-opts":{"path":"/hls/sg8.m3u8","headers":{"host":"sg8.netflix6.com"}},"server":"sg8.netflix6.com","port":"443","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"新[直连]7-流媒体NF_油管阿伟科技9","ws-opts":{"path":"/hls/sg7.m3u8","headers":{"host":"sg7.netflix6.com"}},"server":"sg7.netflix6.com","port":"443","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"新[直连]6-流媒体NF_油管阿伟科技10","ws-opts":{"path":"/hls/sg6.m3u8","headers":{"host":"sg6.netflix6.com"}},"server":"sg6.netflix6.com","port":"443","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"新[直连]5-流媒体NF_油管阿伟科技11","ws-opts":{"path":"/hls/sg5.m3u8","headers":{"host":"sg5.netflix6.com"}},"server":"sg5.netflix6.com","port":"443","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"新[直连]4-流媒体NF_油管阿伟科技12","ws-opts":{"path":"/hls/sg4.m3u8","headers":{"host":"sg4.netflix6.com"}},"server":"sg4.netflix6.com","port":"443","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"新[直连]3-流媒体NF_油管阿伟科技13","ws-opts":{"path":"/hls/sg3.m3u8","headers":{"host":"sg3.netflix6.com"}},"server":"sg3.netflix6.com","port":"443","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"新[直连]2-流媒体NF_油管阿伟科技14","ws-opts":{"path":"/hls/sg2.m3u8","headers":{"host":"sg2.netflix6.com"}},"server":"sg2.netflix6.com","port":"443","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"新[直连]1-流媒体NF_油管阿伟科技15","ws-opts":{"path":"/hls/sg1.m3u8","headers":{"host":"sg1.netflix6.com"}},"server":"sg1.netflix6.com","port":"443","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"香港G_油管阿伟科技16","server":"hkg-zf.jiashumao.net","port":15134,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"hkg.jiashumao.net"}
+  - {"type":"trojan","name":"香港F_油管阿伟科技17","server":"hkf-zf.jiashumao.net","port":15123,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"hkf.jiashumao.net"}
+  - {"type":"trojan","name":"香港E_油管阿伟科技18","server":"hke-zf.jiashumao.net","port":35401,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"hke.jiashumao.net"}
+  - {"type":"trojan","name":"香港D_油管阿伟科技19","server":"hkd-zf.jiashumao.net","port":28481,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"hkd.jiashumao.net"}
+  - {"type":"trojan","name":"香港C_油管阿伟科技20","server":"hkc-zf.jiashumao.net","port":33481,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"hkc.jiashumao.net"}
+  - {"type":"trojan","name":"香港B_油管阿伟科技21","server":"bnbq-zf.jiashumao.net","port":26381,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"bnbq.jiashumao.net"}
+  - {"type":"trojan","name":"香港A_油管阿伟科技22","server":"szdx-anhb.jiashumao.net","port":22481,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"ahbn.jiashumao.net"}
+  - {"type":"trojan","name":"西班牙_油管阿伟科技23","server":"xby-zf.jiashumao.net","port":48501,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"xby.jiashumao.net"}
+  - {"type":"trojan","name":"泰国_油管阿伟科技24","server":"tg-zf.jiashumao.net","port":28879,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"tg.jiashumao.net"}
+  - {"type":"trojan","name":"台湾D_油管阿伟科技25","server":"twd-zf.jiashumao.net","port":13149,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"twd.jiashumao.net"}
+  - {"type":"trojan","name":"台湾C_油管阿伟科技26","server":"twc-zf.jiashumao.net","port":17144,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"twc.jiashumao.net"}
+  - {"type":"trojan","name":"台湾B_油管阿伟科技27","server":"twb-zf.jiashumao.net","port":25888,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"twb.jiashumao.net"}
+  - {"type":"vmess","name":"台4[直连]-流媒体NF_油管阿伟科技28","ws-opts":{"path":"/v2ray","headers":{"host":"tw4.594888.xyz"}},"server":"tw4.594888.xyz","port":"11463","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"台3[直连]-流媒体NF_油管阿伟科技29","ws-opts":{"path":"/v2ray","headers":{"host":"tw3.594888.xyz"}},"server":"tw3.594888.xyz","port":"25551","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"台1[直连]-流媒体NF_油管阿伟科技30","ws-opts":{"path":"/videos/stream","headers":{"host":"hinet.nbsd.win"}},"server":"hinet.nbsd.win","port":"443","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"隧道|NF|英国01_油管阿伟科技31","server":"cjl-moble.gatknqh.cn","port":"40128","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|新加坡09_油管阿伟科技32","server":"cjl-moble.gatknqh.cn","port":"40117","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|新加坡06_油管阿伟科技33","server":"cjl-moble.gatknqh.cn","port":"40114","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|新加坡05_油管阿伟科技34","server":"cjl-moble.gatknqh.cn","port":"40113","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|新加坡04_油管阿伟科技35","server":"cjl-moble.gatknqh.cn","port":"40112","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|新加坡03_油管阿伟科技36","server":"cjl-moble.gatknqh.cn","port":"40111","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|新加坡01_油管阿伟科技37","server":"cjl-moble.gatknqh.cn","port":"40109","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|香港04_油管阿伟科技38","server":"cjl-moble.gatknqh.cn","port":"40108","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|香港03_油管阿伟科技39","server":"cjl-moble.gatknqh.cn","port":"40107","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|香港02_油管阿伟科技40","server":"cjl-moble.gatknqh.cn","port":"40106","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|香港01_油管阿伟科技41","server":"cjl-moble.gatknqh.cn","port":"40105","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|台湾04_油管阿伟科技42","server":"cjl-moble.gatknqh.cn","port":"40104","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|台湾02_油管阿伟科技43","server":"cjl-moble.gatknqh.cn","port":"40102","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|台湾01_油管阿伟科技44","server":"cjl-moble.gatknqh.cn","port":"40101","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|日本04_油管阿伟科技45","server":"cjl-moble.gatknqh.cn","port":"40121","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|日本03_油管阿伟科技46","server":"cjl-moble.gatknqh.cn","port":"40120","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|日本02_油管阿伟科技47","server":"cjl-moble.gatknqh.cn","port":"40119","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|日本01_油管阿伟科技48","server":"cjl-moble.gatknqh.cn","port":"40118","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|美国02_油管阿伟科技49","server":"cjl-moble.gatknqh.cn","port":"40125","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|美国01_油管阿伟科技50","server":"cjl-moble.gatknqh.cn","port":"40124","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|韩国02_油管阿伟科技51","server":"cjl-moble.gatknqh.cn","port":"40123","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|韩国01_油管阿伟科技52","server":"cjl-moble.gatknqh.cn","port":"40122","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|菲律宾01_油管阿伟科技53","server":"cjl-moble.gatknqh.cn","port":"40126","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|德国01_油管阿伟科技54","server":"cjl-moble.gatknqh.cn","port":"40127","uuid":"8ac1cfd4-ffb0-37de-8a5f-1fe01f0417da","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"日本D_油管阿伟科技55","server":"jpd-zf.jiashumao.net","port":16144,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"jpd.jiashumao.net"}
+  - {"type":"trojan","name":"日本C_油管阿伟科技56","server":"jpc-zf.jiashumao.net","port":27301,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"jpc.jiashumao.net"}
+  - {"type":"trojan","name":"日本B_油管阿伟科技57","server":"jpb-zf.jiashumao.net","port":20479,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"jpb.jiashumao.net"}
+  - {"type":"trojan","name":"日本A_油管阿伟科技58","server":"jpa-zf.jiashumao.net","port":29881,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"jpa.jiashumao.net"}
+  - {"type":"vmess","name":"日2[中转]-流媒体NF_油管阿伟科技59","ws-opts":{"path":"/maojp2","headers":{"host":"office.com"}},"server":"cu.594888.xyz","port":"60996","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"日1[中转]-流媒体NF_油管阿伟科技60","ws-opts":{"path":"/maojp1","headers":{"host":"office.com"}},"server":"cu.594888.xyz","port":"60995","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"美国C_油管阿伟科技61","server":"usc-zf.jiashumao.net","port":26972,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"ahbn.jiashumao.net"}
+  - {"type":"vmess","name":"美2[直连]-流媒体_油管阿伟科技62","ws-opts":{"path":"/hls/us2.m3u8","headers":{"host":"us2.netflix6.com"}},"server":"us2.netflix6.com","port":"443","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美1[中转]-流媒体_油管阿伟科技63","ws-opts":{"path":"/maopus1","headers":{"host":"tyoa.nbsd.win"}},"server":"cu.594888.xyz","port":"60995","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美1[直连]-流媒体_油管阿伟科技64","ws-opts":{"path":"/hls/us1.m3u8","headers":{"host":"us1.netflix6.com"}},"server":"us1.netflix6.com","port":"443","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"马来西亚_油管阿伟科技65","server":"mlxy-zf.jiashumao.net","port":27171,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"mlxy.jiashumao.net"}
+  - {"type":"trojan","name":"加拿大_油管阿伟科技66","server":"jnd.jiashumao.net","port":443,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"jnd.jiashumao.net"}
+  - {"type":"trojan","name":"韩国_油管阿伟科技67","server":"hanguo.jiashumao.net","port":34210,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"hanguo.jiashumao.net"}
+  - {"type":"vmess","name":"港HGC2[直连]-流媒体NF_油管阿伟科技68","ws-opts":{"path":"/v2ray","headers":{"host":"hgc2.594888.xyz"}},"server":"hgc2.594888.xyz","port":"47550","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"港8[直连]-流媒体NF_油管阿伟科技69","ws-opts":{"path":"/hls/hk8.m3u8","headers":{"host":"hk8.netflix6.com"}},"server":"hk8.netflix6.com","port":"443","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"港6[直连]-流媒体NF_油管阿伟科技70","ws-opts":{"path":"/hls/hk6.m3u8","headers":{"host":"hk6.netflix6.com"}},"server":"hk6.netflix6.com","port":"443","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"港5[直连]-流媒体NF_油管阿伟科技71","ws-opts":{"path":"/hls/hk5.m3u8","headers":{"host":"hk5.netflix6.com"}},"server":"hk5.netflix6.com","port":"443","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"港3[直连]-流媒体NF_油管阿伟科技72","ws-opts":{"path":"/hls/hk3.m3u8","headers":{"host":"hk3.netflix6.com"}},"server":"hk3.netflix6.com","port":"443","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"港2[中转]-DisneyNetflix流媒体_油管阿伟科技73","ws-opts":{"path":"/maophk2","headers":{"host":"office.com"}},"server":"cu.594888.xyz","port":"60995","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"港2[直连]-流媒体NF_油管阿伟科技74","ws-opts":{"path":"/hls/hk2.m3u8","headers":{"host":"hk2.netflix6.com"}},"server":"hk2.netflix6.com","port":"443","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"港1[中转]-DisneyNetflix流媒体_油管阿伟科技75","ws-opts":{"path":"/maophk1","headers":{"host":"office.com"}},"server":"cu.594888.xyz","port":"60995","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"港1[直连]-流媒体NF_油管阿伟科技76","ws-opts":{"path":"/maohk1","headers":{"host":"v2hk1.594888.xyz"}},"server":"103.166.127.139","port":"35203","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"法国_油管阿伟科技77","server":"fg.jiashumao.net","port":443,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"fg.jiashumao.net"}
+  - {"type":"trojan","name":"波兰_油管阿伟科技78","server":"bl.jiashumao.net","port":43505,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"bl.jiashumao.net"}
+  - {"type":"trojan","name":"澳门_油管阿伟科技79","server":"ma-zf.jiashumao.net","port":22983,"password":"296abf03-08e0-3a3f-b830-cc8aa2696cdc","udp":true,"skip-cert-verify":true,"sni":"ma-ctm.jiashumao.net"}
+  - {"type":"vmess","name":"澳大利亚_油管阿伟科技80","ws-opts":{"path":"/v2ray","headers":{"host":"v2au1.594888.xyz"}},"server":"v2au1.594888.xyz","port":"34561","uuid":"75a78bcc-f4fa-3723-909a-d9a2cd80b972","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇺🇲+美国|04|RN_1_油管阿伟科技81","server":"usmax040.170203.xyz","port":444,"password":"4ce41d86-152c-434c-a53d-e380a6f96681","udp":true,"skip-cert-verify":true,"sni":"usmax040.170203.xyz"}
+  - {"type":"trojan","name":"🇺🇲+美国|04|RN_2_油管阿伟科技82","server":"usmax040.170203.xyz","port":444,"password":"fc82bfc9-f897-4db4-af6c-4f91a1d33c15","udp":true,"skip-cert-verify":true,"sni":"usmax040.170203.xyz"}
+  - {"type":"trojan","name":"🇺🇲+美国|03|RN_1_油管阿伟科技83","server":"usmax03.170203.xyz","port":443,"password":"4ce41d86-152c-434c-a53d-e380a6f96681","udp":true,"skip-cert-verify":true,"sni":"usmax03.170203.xyz"}
+  - {"type":"trojan","name":"🇺🇲+美国|03|RN_2_油管阿伟科技84","server":"usmax03.170203.xyz","port":443,"password":"fc82bfc9-f897-4db4-af6c-4f91a1d33c15","udp":true,"skip-cert-verify":true,"sni":"usmax03.170203.xyz"}
+  - {"type":"trojan","name":"🇺🇲+美国|01|奈飞电信优化_1_油管阿伟科技85","server":"14.29.214.131","port":32973,"password":"4ce41d86-152c-434c-a53d-e380a6f96681","udp":true,"skip-cert-verify":true,"sni":"usmax01.170203.xyz"}
+  - {"type":"trojan","name":"🇺🇲+美国|01|奈飞电信优化_2_油管阿伟科技86","server":"14.29.214.131","port":32973,"password":"fc82bfc9-f897-4db4-af6c-4f91a1d33c15","udp":true,"skip-cert-verify":true,"sni":"usmax01.170203.xyz"}
+  - {"type":"trojan","name":"🇸🇬+新加坡|03|奈飞OC电信优化3_1_油管阿伟科技87","server":"14.29.214.131","port":19589,"password":"4ce41d86-152c-434c-a53d-e380a6f96681","udp":true,"skip-cert-verify":true,"sni":"0a01f3ad01.170203.xyz"}
+  - {"type":"trojan","name":"🇸🇬+新加坡|03|奈飞OC电信优化3_2_油管阿伟科技88","server":"14.29.214.131","port":19589,"password":"fc82bfc9-f897-4db4-af6c-4f91a1d33c15","udp":true,"skip-cert-verify":true,"sni":"0a01f3ad01.170203.xyz"}
+  - {"type":"trojan","name":"🇸🇬+新加坡|03|LIN三网优化_1_油管阿伟科技89","server":"59.36.167.231","port":49862,"password":"4ce41d86-152c-434c-a53d-e380a6f96681","udp":true,"skip-cert-verify":true,"sni":"sgmax03.170203.xyz"}
+  - {"type":"trojan","name":"🇸🇬+新加坡|03|LIN三网优化_2_油管阿伟科技90","server":"59.36.167.231","port":49862,"password":"fc82bfc9-f897-4db4-af6c-4f91a1d33c15","udp":true,"skip-cert-verify":true,"sni":"sgmax03.170203.xyz"}
+  - {"type":"trojan","name":"🇸🇬+新加坡|01|OC三网优化_1_油管阿伟科技91","server":"14.29.214.131","port":11362,"password":"4ce41d86-152c-434c-a53d-e380a6f96681","udp":true,"skip-cert-verify":true,"sni":"sg01.170203.xyz"}
+  - {"type":"trojan","name":"🇸🇬+新加坡|01|OC三网优化_2_油管阿伟科技92","server":"14.29.214.131","port":11362,"password":"fc82bfc9-f897-4db4-af6c-4f91a1d33c15","udp":true,"skip-cert-verify":true,"sni":"sg01.170203.xyz"}
+  - {"type":"trojan","name":"🇸🇬+新加坡|01|LIN三网优化_1_油管阿伟科技93","server":"14.29.214.131","port":27952,"password":"4ce41d86-152c-434c-a53d-e380a6f96681","udp":true,"skip-cert-verify":true,"sni":"sgmax01.170203.xyz"}
+  - {"type":"trojan","name":"🇸🇬+新加坡|01|LIN三网优化_2_油管阿伟科技94","server":"14.29.214.131","port":27952,"password":"fc82bfc9-f897-4db4-af6c-4f91a1d33c15","udp":true,"skip-cert-verify":true,"sni":"sgmax01.170203.xyz"}
+  - {"type":"trojan","name":"🇰🇷+韩国|01奈飞OC_1_油管阿伟科技95","server":"kr001.170203.xyz","port":31025,"password":"4ce41d86-152c-434c-a53d-e380a6f96681","udp":true,"skip-cert-verify":true,"sni":"kr001.170203.xyz"}
+  - {"type":"trojan","name":"🇰🇷+韩国|01奈飞OC_2_油管阿伟科技96","server":"kr001.170203.xyz","port":31025,"password":"fc82bfc9-f897-4db4-af6c-4f91a1d33c15","udp":true,"skip-cert-verify":true,"sni":"kr001.170203.xyz"}
+  - {"type":"trojan","name":"🇰🇷+韩国|01|AZ中转_1_油管阿伟科技97","server":"14.29.214.131","port":28485,"password":"4ce41d86-152c-434c-a53d-e380a6f96681","udp":true,"skip-cert-verify":true,"sni":"kr001.170203.xyz"}
+  - {"type":"trojan","name":"🇰🇷+韩国|01|AZ中转_2_油管阿伟科技98","server":"14.29.214.131","port":28485,"password":"fc82bfc9-f897-4db4-af6c-4f91a1d33c15","udp":true,"skip-cert-verify":true,"sni":"kr001.170203.xyz"}
+  - {"type":"vmess","name":"🇯🇵日本高速1_油管阿伟科技99","ws-opts":{"path":"/v2ray","headers":{"host":"www.baidu.com"}},"server":"rb1.dianshangqw.xyz","port":"16666","uuid":"7ce2de84-286a-3b95-9384-9ce9a36798cf","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵日本高速_油管阿伟科技100","ws-opts":{"path":"/v2ray","headers":{"host":"www.baidu.com"}},"server":"rb.dianshangqw.xyz","port":"16666","uuid":"7ce2de84-286a-3b95-9384-9ce9a36798cf","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇯🇵+日本|高速|01|LIN_1_油管阿伟科技101","server":"jpmax01.170203.xyz","port":10000,"password":"4ce41d86-152c-434c-a53d-e380a6f96681","udp":true,"skip-cert-verify":true,"sni":"jpmax01.170203.xyz"}
+  - {"type":"trojan","name":"🇯🇵+日本|高速|01|LIN_2_油管阿伟科技102","server":"jpmax01.170203.xyz","port":10000,"password":"fc82bfc9-f897-4db4-af6c-4f91a1d33c15","udp":true,"skip-cert-verify":true,"sni":"jpmax01.170203.xyz"}
+  - {"type":"trojan","name":"🇯🇵+日本|01|LIN_1_油管阿伟科技103","server":"jp01.170203.xyz","port":444,"password":"4ce41d86-152c-434c-a53d-e380a6f96681","udp":true,"skip-cert-verify":true,"sni":"jp01.170203.xyz"}
+  - {"type":"trojan","name":"🇯🇵+日本|01|LIN_2_油管阿伟科技104","server":"jp01.170203.xyz","port":444,"password":"fc82bfc9-f897-4db4-af6c-4f91a1d33c15","udp":true,"skip-cert-verify":true,"sni":"jp01.170203.xyz"}
+  - {"type":"vmess","name":"🇭🇰香港三网高速-7_油管阿伟科技105","ws-opts":{"path":"/v2ray","headers":{"host":"www.baidu.com"}},"server":"xg7.dianshangqw.xyz","port":"16666","uuid":"7ce2de84-286a-3b95-9384-9ce9a36798cf","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰香港高速-6_油管阿伟科技106","ws-opts":{"path":"/v2ray","headers":{"host":"www.baidu.com"}},"server":"xg6.dianshangqw.xyz","port":"16666","uuid":"7ce2de84-286a-3b95-9384-9ce9a36798cf","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰香港高速-5_油管阿伟科技107","ws-opts":{"path":"/v2ray","headers":{"host":"www.baidu.com"}},"server":"xg5.dianshangqw.xyz","port":"16666","uuid":"7ce2de84-286a-3b95-9384-9ce9a36798cf","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰香港高速-4_油管阿伟科技108","ws-opts":{"path":"/v2ray","headers":{"host":"www.baidu.com"}},"server":"xg4.dianshangqw.xyz","port":"16666","uuid":"7ce2de84-286a-3b95-9384-9ce9a36798cf","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰香港高速3_油管阿伟科技109","ws-opts":{"path":"/v2ray","headers":{"host":"www.baidu.com"}},"server":"xgzh.dianshangqw.xyz","port":"16666","uuid":"7ce2de84-286a-3b95-9384-9ce9a36798cf","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇭🇰+香港|23|奈飞BGP三网优化2_1_油管阿伟科技110","server":"14.29.214.131","port":59080,"password":"4ce41d86-152c-434c-a53d-e380a6f96681","udp":true,"skip-cert-verify":true,"sni":"hkmax23.170203.xyz"}
+  - {"type":"trojan","name":"🇭🇰+香港|23|奈飞BGP三网优化2_2_油管阿伟科技111","server":"14.29.214.131","port":59080,"password":"fc82bfc9-f897-4db4-af6c-4f91a1d33c15","udp":true,"skip-cert-verify":true,"sni":"hkmax23.170203.xyz"}
+  - {"type":"trojan","name":"🇭🇰+香港|21_1_油管阿伟科技112","server":"hkmax21.170203.xyz","port":14444,"password":"4ce41d86-152c-434c-a53d-e380a6f96681","udp":true,"skip-cert-verify":true,"sni":"hkmax21.170203.xyz"}
+  - {"type":"trojan","name":"🇭🇰+香港|21_2_油管阿伟科技113","server":"hkmax21.170203.xyz","port":14444,"password":"fc82bfc9-f897-4db4-af6c-4f91a1d33c15","udp":true,"skip-cert-verify":true,"sni":"hkmax21.170203.xyz"}
+  - {"type":"trojan","name":"🇭🇰+香港|17三网优化_1_油管阿伟科技114","server":"gz.suyun.live","port":39114,"password":"4ce41d86-152c-434c-a53d-e380a6f96681","udp":true,"skip-cert-verify":true,"sni":"hkmax17.170203.xyz"}
+  - {"type":"trojan","name":"🇭🇰+香港|17三网优化_2_油管阿伟科技115","server":"gz.suyun.live","port":39114,"password":"fc82bfc9-f897-4db4-af6c-4f91a1d33c15","udp":true,"skip-cert-verify":true,"sni":"hkmax17.170203.xyz"}
+  - {"type":"trojan","name":"🇭🇰+香港|13|奈飞BGP三网优化3_1_油管阿伟科技116","server":"14.29.214.131","port":49930,"password":"4ce41d86-152c-434c-a53d-e380a6f96681","udp":true,"skip-cert-verify":true,"sni":"hkmax13.170203.xyz"}
+  - {"type":"trojan","name":"🇭🇰+香港|13|奈飞BGP三网优化3_2_油管阿伟科技117","server":"14.29.214.131","port":49930,"password":"fc82bfc9-f897-4db4-af6c-4f91a1d33c15","udp":true,"skip-cert-verify":true,"sni":"hkmax13.170203.xyz"}
+  - {"type":"trojan","name":"🇭🇰+香港|05中转_1_油管阿伟科技118","server":"gz.suyun.live","port":39116,"password":"4ce41d86-152c-434c-a53d-e380a6f96681","udp":true,"skip-cert-verify":true,"sni":"hkmax05.170203.xyz"}
+  - {"type":"trojan","name":"🇭🇰+香港|05中转_2_油管阿伟科技119","server":"gz.suyun.live","port":39116,"password":"fc82bfc9-f897-4db4-af6c-4f91a1d33c15","udp":true,"skip-cert-verify":true,"sni":"hkmax05.170203.xyz"}
+  - {"type":"trojan","name":"🇭🇰+香港|01AZ_1_油管阿伟科技120","server":"hkmax01.170203.xyz","port":14444,"password":"4ce41d86-152c-434c-a53d-e380a6f96681","udp":true,"skip-cert-verify":true,"sni":"hkmax01.170203.xyz"}
+  - {"type":"trojan","name":"🇭🇰+香港|01AZ_2_油管阿伟科技121","server":"hkmax01.170203.xyz","port":14444,"password":"fc82bfc9-f897-4db4-af6c-4f91a1d33c15","udp":true,"skip-cert-verify":true,"sni":"hkmax01.170203.xyz"}
+  - {"type":"vmess","name":"🇭🇰a香港高速-1_油管阿伟科技122","ws-opts":{"path":"/v2ray","headers":{"host":"www.baidu.com"}},"server":"azxg.dianshangqw.xyz","port":"16666","uuid":"7ce2de84-286a-3b95-9384-9ce9a36798cf","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇨🇳+台湾|02奈飞三网优化6_油管阿伟科技123","server":"59.36.167.231","port":47116,"password":"fc82bfc9-f897-4db4-af6c-4f91a1d33c15","udp":true,"skip-cert-verify":true,"sni":"tw01.170203.xyz"}
+  - {"type":"trojan","name":"🇨🇳+台湾|02奈飞三网优化5_油管阿伟科技124","server":"59.36.167.231","port":39846,"password":"fc82bfc9-f897-4db4-af6c-4f91a1d33c15","udp":true,"skip-cert-verify":true,"sni":"tw01.170203.xyz"}
+  - {"type":"trojan","name":"🇨🇳+台湾|02奈飞三网优化2_油管阿伟科技125","server":"14.29.214.131","port":57495,"password":"4ce41d86-152c-434c-a53d-e380a6f96681","udp":true,"skip-cert-verify":true,"sni":"tw02.170203.xyz"}
+  - {"type":"vmess","name":"JCBB_印度02【vip1】_1_油管阿伟科技126","ws-opts":{"path":"/"},"server":"cu.kapoknode.com","port":"25882","uuid":"ae613a47-5180-4c93-aec4-705bfa253a17","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"JCBB_印度02【vip1】_2_油管阿伟科技127","ws-opts":{"path":"/"},"server":"cu.kapoknode.com","port":"25882","uuid":"1536280b-b77c-4d58-b453-705039995d5d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"JCBB_新加坡01【vip1】_1_油管阿伟科技128","ws-opts":{"path":"/"},"server":"cu.kapoknode.com","port":"25895","uuid":"ae613a47-5180-4c93-aec4-705bfa253a17","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"JCBB_新加坡01【vip1】_2_油管阿伟科技129","ws-opts":{"path":"/"},"server":"cu.kapoknode.com","port":"25895","uuid":"1536280b-b77c-4d58-b453-705039995d5d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"JCBB_香港03【vip1】_油管阿伟科技130","ws-opts":{"path":"/"},"server":"43.248.134.180","port":"25898","uuid":"ae613a47-5180-4c93-aec4-705bfa253a17","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"JCBB_香港01【vip1】_1_油管阿伟科技131","ws-opts":{"path":"/"},"server":"43.248.134.180","port":"25899","uuid":"ae613a47-5180-4c93-aec4-705bfa253a17","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"JCBB_香港01【vip1】_2_油管阿伟科技132","ws-opts":{"path":"/"},"server":"43.248.134.180","port":"25899","uuid":"1536280b-b77c-4d58-b453-705039995d5d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"JCBB_日本03【vip1】_1_油管阿伟科技133","ws-opts":{"path":"/"},"server":"cu.kapoknode.com","port":"25887","uuid":"ae613a47-5180-4c93-aec4-705bfa253a17","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"JCBB_日本03【vip1】_2_油管阿伟科技134","ws-opts":{"path":"/"},"server":"cu.kapoknode.com","port":"25887","uuid":"1536280b-b77c-4d58-b453-705039995d5d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"JCBB_日本01【vip1】_1_油管阿伟科技135","ws-opts":{"path":"/"},"server":"cu.kapoknode.com","port":"25888","uuid":"ae613a47-5180-4c93-aec4-705bfa253a17","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"JCBB_日本01【vip1】_2_油管阿伟科技136","ws-opts":{"path":"/"},"server":"cu.kapoknode.com","port":"25888","uuid":"1536280b-b77c-4d58-b453-705039995d5d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"JCBB_德国01【vip1】_油管阿伟科技137","ws-opts":{"path":"/"},"server":"cm.kapoknode.com","port":"25883","uuid":"ae613a47-5180-4c93-aec4-705bfa253a17","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]新加坡07[1.0|联通|流媒体解锁]_油管阿伟科技138","ws-opts":{"path":"/fly"},"server":"fly4.fastestcloud.xyz","port":"30014","uuid":"f3742cc6-e803-4309-84e0-6e288ac63349","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]香港10[1.0|移动|流媒体解锁]_1_油管阿伟科技139","ws-opts":{"path":"/"},"server":"fly2.fastestcloud.xyz","port":"40005","uuid":"f3742cc6-e803-4309-84e0-6e288ac63349","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]香港10[1.0|移动|流媒体解锁]_2_油管阿伟科技140","ws-opts":{"path":"/"},"server":"fly2.fastestcloud.xyz","port":"40005","uuid":"7ab8c896-a5f7-422f-a542-f6e8576d8d48","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]香港09[1.0|移动|流媒体解锁]_1_油管阿伟科技141","ws-opts":{"path":"/"},"server":"fly1.fastestcloud.xyz","port":"40005","uuid":"f3742cc6-e803-4309-84e0-6e288ac63349","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]香港09[1.0|移动|流媒体解锁]_2_油管阿伟科技142","ws-opts":{"path":"/"},"server":"fly1.fastestcloud.xyz","port":"40005","uuid":"7ab8c896-a5f7-422f-a542-f6e8576d8d48","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]香港06[1.0|联通|流媒体解锁]_1_油管阿伟科技143","ws-opts":{"path":"/fly"},"server":"fly2.fastestcloud.xyz","port":"40003","uuid":"f3742cc6-e803-4309-84e0-6e288ac63349","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]香港06[1.0|联通|流媒体解锁]_2_油管阿伟科技144","ws-opts":{"path":"/fly"},"server":"fly2.fastestcloud.xyz","port":"40003","uuid":"7ab8c896-a5f7-422f-a542-f6e8576d8d48","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]香港05[1.0|移动|流媒体解锁]_1_油管阿伟科技145","ws-opts":{"path":"/fly"},"server":"fly1.fastestcloud.xyz","port":"40003","uuid":"f3742cc6-e803-4309-84e0-6e288ac63349","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]香港05[1.0|移动|流媒体解锁]_2_油管阿伟科技146","ws-opts":{"path":"/fly"},"server":"fly1.fastestcloud.xyz","port":"40003","uuid":"7ab8c896-a5f7-422f-a542-f6e8576d8d48","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]台湾02[1.0|联通|流媒体解锁]_1_油管阿伟科技147","ws-opts":{"path":"/fly"},"server":"fly4.fastestcloud.xyz","port":"30008","uuid":"f3742cc6-e803-4309-84e0-6e288ac63349","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]台湾02[1.0|联通|流媒体解锁]_2_油管阿伟科技148","ws-opts":{"path":"/fly"},"server":"fly4.fastestcloud.xyz","port":"30008","uuid":"7ab8c896-a5f7-422f-a542-f6e8576d8d48","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]日本07[1.0|联通]_1_油管阿伟科技149","ws-opts":{"path":"/fly"},"server":"fly3.fastestcloud.xyz","port":"30006","uuid":"f3742cc6-e803-4309-84e0-6e288ac63349","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]日本07[1.0|联通]_2_油管阿伟科技150","ws-opts":{"path":"/fly"},"server":"fly3.fastestcloud.xyz","port":"30006","uuid":"7ab8c896-a5f7-422f-a542-f6e8576d8d48","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]日本06[1.0|移动]_1_油管阿伟科技151","ws-opts":{"path":"/fly"},"server":"fly2.fastestcloud.xyz","port":"30006","uuid":"f3742cc6-e803-4309-84e0-6e288ac63349","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]日本06[1.0|移动]_2_油管阿伟科技152","ws-opts":{"path":"/fly"},"server":"fly2.fastestcloud.xyz","port":"30006","uuid":"7ab8c896-a5f7-422f-a542-f6e8576d8d48","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]日本05[1.0|移动]_1_油管阿伟科技153","ws-opts":{"path":"/fly"},"server":"fly1.fastestcloud.xyz","port":"30006","uuid":"f3742cc6-e803-4309-84e0-6e288ac63349","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]日本05[1.0|移动]_2_油管阿伟科技154","ws-opts":{"path":"/fly"},"server":"fly1.fastestcloud.xyz","port":"30006","uuid":"7ab8c896-a5f7-422f-a542-f6e8576d8d48","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]日本03[1.0|联通|流媒体解锁]_1_油管阿伟科技155","ws-opts":{"path":"/fly"},"server":"fly3.fastestcloud.xyz","port":"30005","uuid":"f3742cc6-e803-4309-84e0-6e288ac63349","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]日本03[1.0|联通|流媒体解锁]_2_油管阿伟科技156","ws-opts":{"path":"/fly"},"server":"fly3.fastestcloud.xyz","port":"30005","uuid":"7ab8c896-a5f7-422f-a542-f6e8576d8d48","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]日本02[1.0|移动|流媒体解锁]_1_油管阿伟科技157","ws-opts":{"path":"/fly"},"server":"fly1.fastestcloud.xyz","port":"30005","uuid":"f3742cc6-e803-4309-84e0-6e288ac63349","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]日本02[1.0|移动|流媒体解锁]_2_油管阿伟科技158","ws-opts":{"path":"/fly"},"server":"fly1.fastestcloud.xyz","port":"30005","uuid":"7ab8c896-a5f7-422f-a542-f6e8576d8d48","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]日本01[1.0|移动|流媒体解锁]_1_油管阿伟科技159","ws-opts":{"path":"/fly"},"server":"fly2.fastestcloud.xyz","port":"30005","uuid":"f3742cc6-e803-4309-84e0-6e288ac63349","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]日本01[1.0|移动|流媒体解锁]_2_油管阿伟科技160","ws-opts":{"path":"/fly"},"server":"fly2.fastestcloud.xyz","port":"30005","uuid":"7ab8c896-a5f7-422f-a542-f6e8576d8d48","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]美国16[1.0|联通|流媒体解锁]_1_油管阿伟科技161","ws-opts":{"path":"/fly"},"server":"fly4.fastestcloud.xyz","port":"30018","uuid":"f3742cc6-e803-4309-84e0-6e288ac63349","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]美国16[1.0|联通|流媒体解锁]_2_油管阿伟科技162","ws-opts":{"path":"/fly"},"server":"fly4.fastestcloud.xyz","port":"30018","uuid":"7ab8c896-a5f7-422f-a542-f6e8576d8d48","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]美国15[1.0|联通|流媒体解锁]_1_油管阿伟科技163","ws-opts":{"path":"/fly"},"server":"fly3.fastestcloud.xyz","port":"30018","uuid":"f3742cc6-e803-4309-84e0-6e288ac63349","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]美国15[1.0|联通|流媒体解锁]_2_油管阿伟科技164","ws-opts":{"path":"/fly"},"server":"fly3.fastestcloud.xyz","port":"30018","uuid":"7ab8c896-a5f7-422f-a542-f6e8576d8d48","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]美国13[1.0|移动|流媒体解锁]_1_油管阿伟科技165","ws-opts":{"path":"/fly"},"server":"fly1.fastestcloud.xyz","port":"30018","uuid":"f3742cc6-e803-4309-84e0-6e288ac63349","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]美国13[1.0|移动|流媒体解锁]_2_油管阿伟科技166","ws-opts":{"path":"/fly"},"server":"fly1.fastestcloud.xyz","port":"30018","uuid":"7ab8c896-a5f7-422f-a542-f6e8576d8d48","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]韩国04[1.0|联通]_1_油管阿伟科技167","ws-opts":{"path":"/fly"},"server":"fly4.fastestcloud.xyz","port":"30004","uuid":"f3742cc6-e803-4309-84e0-6e288ac63349","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]韩国04[1.0|联通]_2_油管阿伟科技168","ws-opts":{"path":"/fly"},"server":"fly4.fastestcloud.xyz","port":"30004","uuid":"7ab8c896-a5f7-422f-a542-f6e8576d8d48","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]韩国03[1.0|联通]_1_油管阿伟科技169","ws-opts":{"path":"/fly"},"server":"fly3.fastestcloud.xyz","port":"30004","uuid":"f3742cc6-e803-4309-84e0-6e288ac63349","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]韩国03[1.0|联通]_2_油管阿伟科技170","ws-opts":{"path":"/fly"},"server":"fly3.fastestcloud.xyz","port":"30004","uuid":"7ab8c896-a5f7-422f-a542-f6e8576d8d48","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]韩国02[1.0|移动]_1_油管阿伟科技171","ws-opts":{"path":"/fly"},"server":"fly2.fastestcloud.xyz","port":"30004","uuid":"f3742cc6-e803-4309-84e0-6e288ac63349","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]韩国02[1.0|移动]_2_油管阿伟科技172","ws-opts":{"path":"/fly"},"server":"fly2.fastestcloud.xyz","port":"30004","uuid":"7ab8c896-a5f7-422f-a542-f6e8576d8d48","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]韩国01[1.0|移动]_1_油管阿伟科技173","ws-opts":{"path":"/fly"},"server":"fly1.fastestcloud.xyz","port":"30004","uuid":"f3742cc6-e803-4309-84e0-6e288ac63349","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]韩国01[1.0|移动]_2_油管阿伟科技174","ws-opts":{"path":"/fly"},"server":"fly1.fastestcloud.xyz","port":"30004","uuid":"7ab8c896-a5f7-422f-a542-f6e8576d8d48","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -84,69 +195,180 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 不定时更新订阅，更多节点关注YouTube频道-阿伟科技
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_新加坡01【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_日本02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本04【vip1】
-      - '[Vip1]香港05[1.0|移动|流媒体解锁]'
-      - '[Vip1]香港09[1.0|移动|流媒体解锁]'
-      - '[Vip1]香港10[1.0|移动|流媒体解锁]'
-      - '[Vip1]日本01[1.0|移动|流媒体解锁]'
-      - '[Vip1]日本02[1.0|移动|流媒体解锁]'
-      - '[Vip1]日本03[1.0|联通|流媒体解锁]'
-      - '[Vip1]日本05[1.0|移动]'
-      - '[Vip1]日本06[1.0|移动]'
-      - '[Vip1]日本07[1.0|联通]'
-      - '[Vip1]台湾02[1.0|联通|流媒体解锁]'
-      - '[Vip1]美国13[1.0|移动|流媒体解锁]'
-      - '[Vip1]美国15[1.0|联通|流媒体解锁]'
-      - 新加坡|02|奈飞DO三网优化
-      - 新加坡|04|奈飞DO三网优化
-      - 新加坡|03|奈飞OC电信优化2
-      - 新加坡|03|奈飞OC电信优化3
-      - 新加坡|02|奈飞DO电信优化2
-      - 新加坡|04|奈飞DO电信优化2
-      - 新加坡|03|奈飞OC三网优化
-      - 新加坡|03|LIN三网优化
-      - 新加坡|08|OC三网优化
-      - 新加坡|01|OC三网优化
-      - 韩国|01奈飞OC
-      - 韩国|01|AZ中转
-      - 日本|05|LIN三网优化
-      - 日本|01|LIN三网优化
-      - 日本|高速|01|LIN
-      - 日本|03|LIN三网优化
-      - 日本|高速|01|LIN三网优化
-      - 香港|17电信优化
-      - 香港|17三网优化
-      - 香港|13|奈飞BGP三网优化
-      - 香港|13奈飞BGP三网优化
-      - 香港|01AZ
-      - 香港|01AZ三网优化2
-      - 香港|01AZ电信优化
-      - 香港|02奈飞三网优化
-      - 香港|13奈飞BGP三网优化2
-      - 香港|13奈飞BGP三网优化3
-      - 香港|04|奈飞三网优化2
-      - 香港|04|奈飞电信优化
-      - 香港|13|奈飞BGP三网优化2
-      - 香港|07电信优化
-      - 香港|02电信优化
-      - 香港A
-      - 香港B
-      - 香港C
-      - 香港D
-      - 香港E
-      - 香港F
-      - 台湾A
-      - 台湾B
-      - 泰国
-      - 韩国
-      - 马来西亚
+      - 越南_油管阿伟科技1
+      - 印度_油管阿伟科技2
+      - 新加坡C_油管阿伟科技3
+      - 新加坡B_油管阿伟科技4
+      - 新加坡A_油管阿伟科技5
+      - 新[中转]2-DisneyNetflix流媒体_油管阿伟科技6
+      - 新[中转]1-DisneyNetflix流媒体_油管阿伟科技7
+      - 新[直连]8-流媒体NF_油管阿伟科技8
+      - 新[直连]7-流媒体NF_油管阿伟科技9
+      - 新[直连]6-流媒体NF_油管阿伟科技10
+      - 新[直连]5-流媒体NF_油管阿伟科技11
+      - 新[直连]4-流媒体NF_油管阿伟科技12
+      - 新[直连]3-流媒体NF_油管阿伟科技13
+      - 新[直连]2-流媒体NF_油管阿伟科技14
+      - 新[直连]1-流媒体NF_油管阿伟科技15
+      - 香港G_油管阿伟科技16
+      - 香港F_油管阿伟科技17
+      - 香港E_油管阿伟科技18
+      - 香港D_油管阿伟科技19
+      - 香港C_油管阿伟科技20
+      - 香港B_油管阿伟科技21
+      - 香港A_油管阿伟科技22
+      - 西班牙_油管阿伟科技23
+      - 泰国_油管阿伟科技24
+      - 台湾D_油管阿伟科技25
+      - 台湾C_油管阿伟科技26
+      - 台湾B_油管阿伟科技27
+      - 台4[直连]-流媒体NF_油管阿伟科技28
+      - 台3[直连]-流媒体NF_油管阿伟科技29
+      - 台1[直连]-流媒体NF_油管阿伟科技30
+      - 隧道|NF|英国01_油管阿伟科技31
+      - 隧道|NF|新加坡09_油管阿伟科技32
+      - 隧道|NF|新加坡06_油管阿伟科技33
+      - 隧道|NF|新加坡05_油管阿伟科技34
+      - 隧道|NF|新加坡04_油管阿伟科技35
+      - 隧道|NF|新加坡03_油管阿伟科技36
+      - 隧道|NF|新加坡01_油管阿伟科技37
+      - 隧道|NF|香港04_油管阿伟科技38
+      - 隧道|NF|香港03_油管阿伟科技39
+      - 隧道|NF|香港02_油管阿伟科技40
+      - 隧道|NF|香港01_油管阿伟科技41
+      - 隧道|NF|台湾04_油管阿伟科技42
+      - 隧道|NF|台湾02_油管阿伟科技43
+      - 隧道|NF|台湾01_油管阿伟科技44
+      - 隧道|NF|日本04_油管阿伟科技45
+      - 隧道|NF|日本03_油管阿伟科技46
+      - 隧道|NF|日本02_油管阿伟科技47
+      - 隧道|NF|日本01_油管阿伟科技48
+      - 隧道|NF|美国02_油管阿伟科技49
+      - 隧道|NF|美国01_油管阿伟科技50
+      - 隧道|NF|韩国02_油管阿伟科技51
+      - 隧道|NF|韩国01_油管阿伟科技52
+      - 隧道|NF|菲律宾01_油管阿伟科技53
+      - 隧道|NF|德国01_油管阿伟科技54
+      - 日本D_油管阿伟科技55
+      - 日本C_油管阿伟科技56
+      - 日本B_油管阿伟科技57
+      - 日本A_油管阿伟科技58
+      - 日2[中转]-流媒体NF_油管阿伟科技59
+      - 日1[中转]-流媒体NF_油管阿伟科技60
+      - 美国C_油管阿伟科技61
+      - 美2[直连]-流媒体_油管阿伟科技62
+      - 美1[中转]-流媒体_油管阿伟科技63
+      - 美1[直连]-流媒体_油管阿伟科技64
+      - 马来西亚_油管阿伟科技65
+      - 加拿大_油管阿伟科技66
+      - 韩国_油管阿伟科技67
+      - 港HGC2[直连]-流媒体NF_油管阿伟科技68
+      - 港8[直连]-流媒体NF_油管阿伟科技69
+      - 港6[直连]-流媒体NF_油管阿伟科技70
+      - 港5[直连]-流媒体NF_油管阿伟科技71
+      - 港3[直连]-流媒体NF_油管阿伟科技72
+      - 港2[中转]-DisneyNetflix流媒体_油管阿伟科技73
+      - 港2[直连]-流媒体NF_油管阿伟科技74
+      - 港1[中转]-DisneyNetflix流媒体_油管阿伟科技75
+      - 港1[直连]-流媒体NF_油管阿伟科技76
+      - 法国_油管阿伟科技77
+      - 波兰_油管阿伟科技78
+      - 澳门_油管阿伟科技79
+      - 澳大利亚_油管阿伟科技80
+      - 🇺🇲+美国|04|RN_1_油管阿伟科技81
+      - 🇺🇲+美国|04|RN_2_油管阿伟科技82
+      - 🇺🇲+美国|03|RN_1_油管阿伟科技83
+      - 🇺🇲+美国|03|RN_2_油管阿伟科技84
+      - 🇺🇲+美国|01|奈飞电信优化_1_油管阿伟科技85
+      - 🇺🇲+美国|01|奈飞电信优化_2_油管阿伟科技86
+      - 🇸🇬+新加坡|03|奈飞OC电信优化3_1_油管阿伟科技87
+      - 🇸🇬+新加坡|03|奈飞OC电信优化3_2_油管阿伟科技88
+      - 🇸🇬+新加坡|03|LIN三网优化_1_油管阿伟科技89
+      - 🇸🇬+新加坡|03|LIN三网优化_2_油管阿伟科技90
+      - 🇸🇬+新加坡|01|OC三网优化_1_油管阿伟科技91
+      - 🇸🇬+新加坡|01|OC三网优化_2_油管阿伟科技92
+      - 🇸🇬+新加坡|01|LIN三网优化_1_油管阿伟科技93
+      - 🇸🇬+新加坡|01|LIN三网优化_2_油管阿伟科技94
+      - 🇰🇷+韩国|01奈飞OC_1_油管阿伟科技95
+      - 🇰🇷+韩国|01奈飞OC_2_油管阿伟科技96
+      - 🇰🇷+韩国|01|AZ中转_1_油管阿伟科技97
+      - 🇰🇷+韩国|01|AZ中转_2_油管阿伟科技98
+      - 🇯🇵日本高速1_油管阿伟科技99
+      - 🇯🇵日本高速_油管阿伟科技100
+      - 🇯🇵+日本|高速|01|LIN_1_油管阿伟科技101
+      - 🇯🇵+日本|高速|01|LIN_2_油管阿伟科技102
+      - 🇯🇵+日本|01|LIN_1_油管阿伟科技103
+      - 🇯🇵+日本|01|LIN_2_油管阿伟科技104
+      - 🇭🇰香港三网高速-7_油管阿伟科技105
+      - 🇭🇰香港高速-6_油管阿伟科技106
+      - 🇭🇰香港高速-5_油管阿伟科技107
+      - 🇭🇰香港高速-4_油管阿伟科技108
+      - 🇭🇰香港高速3_油管阿伟科技109
+      - 🇭🇰+香港|23|奈飞BGP三网优化2_1_油管阿伟科技110
+      - 🇭🇰+香港|23|奈飞BGP三网优化2_2_油管阿伟科技111
+      - 🇭🇰+香港|21_1_油管阿伟科技112
+      - 🇭🇰+香港|21_2_油管阿伟科技113
+      - 🇭🇰+香港|17三网优化_1_油管阿伟科技114
+      - 🇭🇰+香港|17三网优化_2_油管阿伟科技115
+      - 🇭🇰+香港|13|奈飞BGP三网优化3_1_油管阿伟科技116
+      - 🇭🇰+香港|13|奈飞BGP三网优化3_2_油管阿伟科技117
+      - 🇭🇰+香港|05中转_1_油管阿伟科技118
+      - 🇭🇰+香港|05中转_2_油管阿伟科技119
+      - 🇭🇰+香港|01AZ_1_油管阿伟科技120
+      - 🇭🇰+香港|01AZ_2_油管阿伟科技121
+      - 🇭🇰a香港高速-1_油管阿伟科技122
+      - 🇨🇳+台湾|02奈飞三网优化6_油管阿伟科技123
+      - 🇨🇳+台湾|02奈飞三网优化5_油管阿伟科技124
+      - 🇨🇳+台湾|02奈飞三网优化2_油管阿伟科技125
+      - JCBB_印度02【vip1】_1_油管阿伟科技126
+      - JCBB_印度02【vip1】_2_油管阿伟科技127
+      - JCBB_新加坡01【vip1】_1_油管阿伟科技128
+      - JCBB_新加坡01【vip1】_2_油管阿伟科技129
+      - JCBB_香港03【vip1】_油管阿伟科技130
+      - JCBB_香港01【vip1】_1_油管阿伟科技131
+      - JCBB_香港01【vip1】_2_油管阿伟科技132
+      - JCBB_日本03【vip1】_1_油管阿伟科技133
+      - JCBB_日本03【vip1】_2_油管阿伟科技134
+      - JCBB_日本01【vip1】_1_油管阿伟科技135
+      - JCBB_日本01【vip1】_2_油管阿伟科技136
+      - JCBB_德国01【vip1】_油管阿伟科技137
+      - '[Vip1]新加坡07[1.0|联通|流媒体解锁]_油管阿伟科技138'
+      - '[Vip1]香港10[1.0|移动|流媒体解锁]_1_油管阿伟科技139'
+      - '[Vip1]香港10[1.0|移动|流媒体解锁]_2_油管阿伟科技140'
+      - '[Vip1]香港09[1.0|移动|流媒体解锁]_1_油管阿伟科技141'
+      - '[Vip1]香港09[1.0|移动|流媒体解锁]_2_油管阿伟科技142'
+      - '[Vip1]香港06[1.0|联通|流媒体解锁]_1_油管阿伟科技143'
+      - '[Vip1]香港06[1.0|联通|流媒体解锁]_2_油管阿伟科技144'
+      - '[Vip1]香港05[1.0|移动|流媒体解锁]_1_油管阿伟科技145'
+      - '[Vip1]香港05[1.0|移动|流媒体解锁]_2_油管阿伟科技146'
+      - '[Vip1]台湾02[1.0|联通|流媒体解锁]_1_油管阿伟科技147'
+      - '[Vip1]台湾02[1.0|联通|流媒体解锁]_2_油管阿伟科技148'
+      - '[Vip1]日本07[1.0|联通]_1_油管阿伟科技149'
+      - '[Vip1]日本07[1.0|联通]_2_油管阿伟科技150'
+      - '[Vip1]日本06[1.0|移动]_1_油管阿伟科技151'
+      - '[Vip1]日本06[1.0|移动]_2_油管阿伟科技152'
+      - '[Vip1]日本05[1.0|移动]_1_油管阿伟科技153'
+      - '[Vip1]日本05[1.0|移动]_2_油管阿伟科技154'
+      - '[Vip1]日本03[1.0|联通|流媒体解锁]_1_油管阿伟科技155'
+      - '[Vip1]日本03[1.0|联通|流媒体解锁]_2_油管阿伟科技156'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_1_油管阿伟科技157'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_2_油管阿伟科技158'
+      - '[Vip1]日本01[1.0|移动|流媒体解锁]_1_油管阿伟科技159'
+      - '[Vip1]日本01[1.0|移动|流媒体解锁]_2_油管阿伟科技160'
+      - '[Vip1]美国16[1.0|联通|流媒体解锁]_1_油管阿伟科技161'
+      - '[Vip1]美国16[1.0|联通|流媒体解锁]_2_油管阿伟科技162'
+      - '[Vip1]美国15[1.0|联通|流媒体解锁]_1_油管阿伟科技163'
+      - '[Vip1]美国15[1.0|联通|流媒体解锁]_2_油管阿伟科技164'
+      - '[Vip1]美国13[1.0|移动|流媒体解锁]_1_油管阿伟科技165'
+      - '[Vip1]美国13[1.0|移动|流媒体解锁]_2_油管阿伟科技166'
+      - '[Vip1]韩国04[1.0|联通]_1_油管阿伟科技167'
+      - '[Vip1]韩国04[1.0|联通]_2_油管阿伟科技168'
+      - '[Vip1]韩国03[1.0|联通]_1_油管阿伟科技169'
+      - '[Vip1]韩国03[1.0|联通]_2_油管阿伟科技170'
+      - '[Vip1]韩国02[1.0|移动]_1_油管阿伟科技171'
+      - '[Vip1]韩国02[1.0|移动]_2_油管阿伟科技172'
+      - '[Vip1]韩国01[1.0|移动]_1_油管阿伟科技173'
+      - '[Vip1]韩国01[1.0|移动]_2_油管阿伟科技174'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -154,69 +376,180 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 不定时更新订阅，更多节点关注YouTube频道-阿伟科技
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_新加坡01【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_日本02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本04【vip1】
-      - '[Vip1]香港05[1.0|移动|流媒体解锁]'
-      - '[Vip1]香港09[1.0|移动|流媒体解锁]'
-      - '[Vip1]香港10[1.0|移动|流媒体解锁]'
-      - '[Vip1]日本01[1.0|移动|流媒体解锁]'
-      - '[Vip1]日本02[1.0|移动|流媒体解锁]'
-      - '[Vip1]日本03[1.0|联通|流媒体解锁]'
-      - '[Vip1]日本05[1.0|移动]'
-      - '[Vip1]日本06[1.0|移动]'
-      - '[Vip1]日本07[1.0|联通]'
-      - '[Vip1]台湾02[1.0|联通|流媒体解锁]'
-      - '[Vip1]美国13[1.0|移动|流媒体解锁]'
-      - '[Vip1]美国15[1.0|联通|流媒体解锁]'
-      - 新加坡|02|奈飞DO三网优化
-      - 新加坡|04|奈飞DO三网优化
-      - 新加坡|03|奈飞OC电信优化2
-      - 新加坡|03|奈飞OC电信优化3
-      - 新加坡|02|奈飞DO电信优化2
-      - 新加坡|04|奈飞DO电信优化2
-      - 新加坡|03|奈飞OC三网优化
-      - 新加坡|03|LIN三网优化
-      - 新加坡|08|OC三网优化
-      - 新加坡|01|OC三网优化
-      - 韩国|01奈飞OC
-      - 韩国|01|AZ中转
-      - 日本|05|LIN三网优化
-      - 日本|01|LIN三网优化
-      - 日本|高速|01|LIN
-      - 日本|03|LIN三网优化
-      - 日本|高速|01|LIN三网优化
-      - 香港|17电信优化
-      - 香港|17三网优化
-      - 香港|13|奈飞BGP三网优化
-      - 香港|13奈飞BGP三网优化
-      - 香港|01AZ
-      - 香港|01AZ三网优化2
-      - 香港|01AZ电信优化
-      - 香港|02奈飞三网优化
-      - 香港|13奈飞BGP三网优化2
-      - 香港|13奈飞BGP三网优化3
-      - 香港|04|奈飞三网优化2
-      - 香港|04|奈飞电信优化
-      - 香港|13|奈飞BGP三网优化2
-      - 香港|07电信优化
-      - 香港|02电信优化
-      - 香港A
-      - 香港B
-      - 香港C
-      - 香港D
-      - 香港E
-      - 香港F
-      - 台湾A
-      - 台湾B
-      - 泰国
-      - 韩国
-      - 马来西亚
+      - 越南_油管阿伟科技1
+      - 印度_油管阿伟科技2
+      - 新加坡C_油管阿伟科技3
+      - 新加坡B_油管阿伟科技4
+      - 新加坡A_油管阿伟科技5
+      - 新[中转]2-DisneyNetflix流媒体_油管阿伟科技6
+      - 新[中转]1-DisneyNetflix流媒体_油管阿伟科技7
+      - 新[直连]8-流媒体NF_油管阿伟科技8
+      - 新[直连]7-流媒体NF_油管阿伟科技9
+      - 新[直连]6-流媒体NF_油管阿伟科技10
+      - 新[直连]5-流媒体NF_油管阿伟科技11
+      - 新[直连]4-流媒体NF_油管阿伟科技12
+      - 新[直连]3-流媒体NF_油管阿伟科技13
+      - 新[直连]2-流媒体NF_油管阿伟科技14
+      - 新[直连]1-流媒体NF_油管阿伟科技15
+      - 香港G_油管阿伟科技16
+      - 香港F_油管阿伟科技17
+      - 香港E_油管阿伟科技18
+      - 香港D_油管阿伟科技19
+      - 香港C_油管阿伟科技20
+      - 香港B_油管阿伟科技21
+      - 香港A_油管阿伟科技22
+      - 西班牙_油管阿伟科技23
+      - 泰国_油管阿伟科技24
+      - 台湾D_油管阿伟科技25
+      - 台湾C_油管阿伟科技26
+      - 台湾B_油管阿伟科技27
+      - 台4[直连]-流媒体NF_油管阿伟科技28
+      - 台3[直连]-流媒体NF_油管阿伟科技29
+      - 台1[直连]-流媒体NF_油管阿伟科技30
+      - 隧道|NF|英国01_油管阿伟科技31
+      - 隧道|NF|新加坡09_油管阿伟科技32
+      - 隧道|NF|新加坡06_油管阿伟科技33
+      - 隧道|NF|新加坡05_油管阿伟科技34
+      - 隧道|NF|新加坡04_油管阿伟科技35
+      - 隧道|NF|新加坡03_油管阿伟科技36
+      - 隧道|NF|新加坡01_油管阿伟科技37
+      - 隧道|NF|香港04_油管阿伟科技38
+      - 隧道|NF|香港03_油管阿伟科技39
+      - 隧道|NF|香港02_油管阿伟科技40
+      - 隧道|NF|香港01_油管阿伟科技41
+      - 隧道|NF|台湾04_油管阿伟科技42
+      - 隧道|NF|台湾02_油管阿伟科技43
+      - 隧道|NF|台湾01_油管阿伟科技44
+      - 隧道|NF|日本04_油管阿伟科技45
+      - 隧道|NF|日本03_油管阿伟科技46
+      - 隧道|NF|日本02_油管阿伟科技47
+      - 隧道|NF|日本01_油管阿伟科技48
+      - 隧道|NF|美国02_油管阿伟科技49
+      - 隧道|NF|美国01_油管阿伟科技50
+      - 隧道|NF|韩国02_油管阿伟科技51
+      - 隧道|NF|韩国01_油管阿伟科技52
+      - 隧道|NF|菲律宾01_油管阿伟科技53
+      - 隧道|NF|德国01_油管阿伟科技54
+      - 日本D_油管阿伟科技55
+      - 日本C_油管阿伟科技56
+      - 日本B_油管阿伟科技57
+      - 日本A_油管阿伟科技58
+      - 日2[中转]-流媒体NF_油管阿伟科技59
+      - 日1[中转]-流媒体NF_油管阿伟科技60
+      - 美国C_油管阿伟科技61
+      - 美2[直连]-流媒体_油管阿伟科技62
+      - 美1[中转]-流媒体_油管阿伟科技63
+      - 美1[直连]-流媒体_油管阿伟科技64
+      - 马来西亚_油管阿伟科技65
+      - 加拿大_油管阿伟科技66
+      - 韩国_油管阿伟科技67
+      - 港HGC2[直连]-流媒体NF_油管阿伟科技68
+      - 港8[直连]-流媒体NF_油管阿伟科技69
+      - 港6[直连]-流媒体NF_油管阿伟科技70
+      - 港5[直连]-流媒体NF_油管阿伟科技71
+      - 港3[直连]-流媒体NF_油管阿伟科技72
+      - 港2[中转]-DisneyNetflix流媒体_油管阿伟科技73
+      - 港2[直连]-流媒体NF_油管阿伟科技74
+      - 港1[中转]-DisneyNetflix流媒体_油管阿伟科技75
+      - 港1[直连]-流媒体NF_油管阿伟科技76
+      - 法国_油管阿伟科技77
+      - 波兰_油管阿伟科技78
+      - 澳门_油管阿伟科技79
+      - 澳大利亚_油管阿伟科技80
+      - 🇺🇲+美国|04|RN_1_油管阿伟科技81
+      - 🇺🇲+美国|04|RN_2_油管阿伟科技82
+      - 🇺🇲+美国|03|RN_1_油管阿伟科技83
+      - 🇺🇲+美国|03|RN_2_油管阿伟科技84
+      - 🇺🇲+美国|01|奈飞电信优化_1_油管阿伟科技85
+      - 🇺🇲+美国|01|奈飞电信优化_2_油管阿伟科技86
+      - 🇸🇬+新加坡|03|奈飞OC电信优化3_1_油管阿伟科技87
+      - 🇸🇬+新加坡|03|奈飞OC电信优化3_2_油管阿伟科技88
+      - 🇸🇬+新加坡|03|LIN三网优化_1_油管阿伟科技89
+      - 🇸🇬+新加坡|03|LIN三网优化_2_油管阿伟科技90
+      - 🇸🇬+新加坡|01|OC三网优化_1_油管阿伟科技91
+      - 🇸🇬+新加坡|01|OC三网优化_2_油管阿伟科技92
+      - 🇸🇬+新加坡|01|LIN三网优化_1_油管阿伟科技93
+      - 🇸🇬+新加坡|01|LIN三网优化_2_油管阿伟科技94
+      - 🇰🇷+韩国|01奈飞OC_1_油管阿伟科技95
+      - 🇰🇷+韩国|01奈飞OC_2_油管阿伟科技96
+      - 🇰🇷+韩国|01|AZ中转_1_油管阿伟科技97
+      - 🇰🇷+韩国|01|AZ中转_2_油管阿伟科技98
+      - 🇯🇵日本高速1_油管阿伟科技99
+      - 🇯🇵日本高速_油管阿伟科技100
+      - 🇯🇵+日本|高速|01|LIN_1_油管阿伟科技101
+      - 🇯🇵+日本|高速|01|LIN_2_油管阿伟科技102
+      - 🇯🇵+日本|01|LIN_1_油管阿伟科技103
+      - 🇯🇵+日本|01|LIN_2_油管阿伟科技104
+      - 🇭🇰香港三网高速-7_油管阿伟科技105
+      - 🇭🇰香港高速-6_油管阿伟科技106
+      - 🇭🇰香港高速-5_油管阿伟科技107
+      - 🇭🇰香港高速-4_油管阿伟科技108
+      - 🇭🇰香港高速3_油管阿伟科技109
+      - 🇭🇰+香港|23|奈飞BGP三网优化2_1_油管阿伟科技110
+      - 🇭🇰+香港|23|奈飞BGP三网优化2_2_油管阿伟科技111
+      - 🇭🇰+香港|21_1_油管阿伟科技112
+      - 🇭🇰+香港|21_2_油管阿伟科技113
+      - 🇭🇰+香港|17三网优化_1_油管阿伟科技114
+      - 🇭🇰+香港|17三网优化_2_油管阿伟科技115
+      - 🇭🇰+香港|13|奈飞BGP三网优化3_1_油管阿伟科技116
+      - 🇭🇰+香港|13|奈飞BGP三网优化3_2_油管阿伟科技117
+      - 🇭🇰+香港|05中转_1_油管阿伟科技118
+      - 🇭🇰+香港|05中转_2_油管阿伟科技119
+      - 🇭🇰+香港|01AZ_1_油管阿伟科技120
+      - 🇭🇰+香港|01AZ_2_油管阿伟科技121
+      - 🇭🇰a香港高速-1_油管阿伟科技122
+      - 🇨🇳+台湾|02奈飞三网优化6_油管阿伟科技123
+      - 🇨🇳+台湾|02奈飞三网优化5_油管阿伟科技124
+      - 🇨🇳+台湾|02奈飞三网优化2_油管阿伟科技125
+      - JCBB_印度02【vip1】_1_油管阿伟科技126
+      - JCBB_印度02【vip1】_2_油管阿伟科技127
+      - JCBB_新加坡01【vip1】_1_油管阿伟科技128
+      - JCBB_新加坡01【vip1】_2_油管阿伟科技129
+      - JCBB_香港03【vip1】_油管阿伟科技130
+      - JCBB_香港01【vip1】_1_油管阿伟科技131
+      - JCBB_香港01【vip1】_2_油管阿伟科技132
+      - JCBB_日本03【vip1】_1_油管阿伟科技133
+      - JCBB_日本03【vip1】_2_油管阿伟科技134
+      - JCBB_日本01【vip1】_1_油管阿伟科技135
+      - JCBB_日本01【vip1】_2_油管阿伟科技136
+      - JCBB_德国01【vip1】_油管阿伟科技137
+      - '[Vip1]新加坡07[1.0|联通|流媒体解锁]_油管阿伟科技138'
+      - '[Vip1]香港10[1.0|移动|流媒体解锁]_1_油管阿伟科技139'
+      - '[Vip1]香港10[1.0|移动|流媒体解锁]_2_油管阿伟科技140'
+      - '[Vip1]香港09[1.0|移动|流媒体解锁]_1_油管阿伟科技141'
+      - '[Vip1]香港09[1.0|移动|流媒体解锁]_2_油管阿伟科技142'
+      - '[Vip1]香港06[1.0|联通|流媒体解锁]_1_油管阿伟科技143'
+      - '[Vip1]香港06[1.0|联通|流媒体解锁]_2_油管阿伟科技144'
+      - '[Vip1]香港05[1.0|移动|流媒体解锁]_1_油管阿伟科技145'
+      - '[Vip1]香港05[1.0|移动|流媒体解锁]_2_油管阿伟科技146'
+      - '[Vip1]台湾02[1.0|联通|流媒体解锁]_1_油管阿伟科技147'
+      - '[Vip1]台湾02[1.0|联通|流媒体解锁]_2_油管阿伟科技148'
+      - '[Vip1]日本07[1.0|联通]_1_油管阿伟科技149'
+      - '[Vip1]日本07[1.0|联通]_2_油管阿伟科技150'
+      - '[Vip1]日本06[1.0|移动]_1_油管阿伟科技151'
+      - '[Vip1]日本06[1.0|移动]_2_油管阿伟科技152'
+      - '[Vip1]日本05[1.0|移动]_1_油管阿伟科技153'
+      - '[Vip1]日本05[1.0|移动]_2_油管阿伟科技154'
+      - '[Vip1]日本03[1.0|联通|流媒体解锁]_1_油管阿伟科技155'
+      - '[Vip1]日本03[1.0|联通|流媒体解锁]_2_油管阿伟科技156'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_1_油管阿伟科技157'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_2_油管阿伟科技158'
+      - '[Vip1]日本01[1.0|移动|流媒体解锁]_1_油管阿伟科技159'
+      - '[Vip1]日本01[1.0|移动|流媒体解锁]_2_油管阿伟科技160'
+      - '[Vip1]美国16[1.0|联通|流媒体解锁]_1_油管阿伟科技161'
+      - '[Vip1]美国16[1.0|联通|流媒体解锁]_2_油管阿伟科技162'
+      - '[Vip1]美国15[1.0|联通|流媒体解锁]_1_油管阿伟科技163'
+      - '[Vip1]美国15[1.0|联通|流媒体解锁]_2_油管阿伟科技164'
+      - '[Vip1]美国13[1.0|移动|流媒体解锁]_1_油管阿伟科技165'
+      - '[Vip1]美国13[1.0|移动|流媒体解锁]_2_油管阿伟科技166'
+      - '[Vip1]韩国04[1.0|联通]_1_油管阿伟科技167'
+      - '[Vip1]韩国04[1.0|联通]_2_油管阿伟科技168'
+      - '[Vip1]韩国03[1.0|联通]_1_油管阿伟科技169'
+      - '[Vip1]韩国03[1.0|联通]_2_油管阿伟科技170'
+      - '[Vip1]韩国02[1.0|移动]_1_油管阿伟科技171'
+      - '[Vip1]韩国02[1.0|移动]_2_油管阿伟科技172'
+      - '[Vip1]韩国01[1.0|移动]_1_油管阿伟科技173'
+      - '[Vip1]韩国01[1.0|移动]_2_油管阿伟科技174'
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -224,276 +557,720 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 不定时更新订阅，更多节点关注YouTube频道-阿伟科技
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_新加坡01【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_日本02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本04【vip1】
-      - '[Vip1]香港05[1.0|移动|流媒体解锁]'
-      - '[Vip1]香港09[1.0|移动|流媒体解锁]'
-      - '[Vip1]香港10[1.0|移动|流媒体解锁]'
-      - '[Vip1]日本01[1.0|移动|流媒体解锁]'
-      - '[Vip1]日本02[1.0|移动|流媒体解锁]'
-      - '[Vip1]日本03[1.0|联通|流媒体解锁]'
-      - '[Vip1]日本05[1.0|移动]'
-      - '[Vip1]日本06[1.0|移动]'
-      - '[Vip1]日本07[1.0|联通]'
-      - '[Vip1]台湾02[1.0|联通|流媒体解锁]'
-      - '[Vip1]美国13[1.0|移动|流媒体解锁]'
-      - '[Vip1]美国15[1.0|联通|流媒体解锁]'
-      - 新加坡|02|奈飞DO三网优化
-      - 新加坡|04|奈飞DO三网优化
-      - 新加坡|03|奈飞OC电信优化2
-      - 新加坡|03|奈飞OC电信优化3
-      - 新加坡|02|奈飞DO电信优化2
-      - 新加坡|04|奈飞DO电信优化2
-      - 新加坡|03|奈飞OC三网优化
-      - 新加坡|03|LIN三网优化
-      - 新加坡|08|OC三网优化
-      - 新加坡|01|OC三网优化
-      - 韩国|01奈飞OC
-      - 韩国|01|AZ中转
-      - 日本|05|LIN三网优化
-      - 日本|01|LIN三网优化
-      - 日本|高速|01|LIN
-      - 日本|03|LIN三网优化
-      - 日本|高速|01|LIN三网优化
-      - 香港|17电信优化
-      - 香港|17三网优化
-      - 香港|13|奈飞BGP三网优化
-      - 香港|13奈飞BGP三网优化
-      - 香港|01AZ
-      - 香港|01AZ三网优化2
-      - 香港|01AZ电信优化
-      - 香港|02奈飞三网优化
-      - 香港|13奈飞BGP三网优化2
-      - 香港|13奈飞BGP三网优化3
-      - 香港|04|奈飞三网优化2
-      - 香港|04|奈飞电信优化
-      - 香港|13|奈飞BGP三网优化2
-      - 香港|07电信优化
-      - 香港|02电信优化
-      - 香港A
-      - 香港B
-      - 香港C
-      - 香港D
-      - 香港E
-      - 香港F
-      - 台湾A
-      - 台湾B
-      - 泰国
-      - 韩国
-      - 马来西亚
+      - 越南_油管阿伟科技1
+      - 印度_油管阿伟科技2
+      - 新加坡C_油管阿伟科技3
+      - 新加坡B_油管阿伟科技4
+      - 新加坡A_油管阿伟科技5
+      - 新[中转]2-DisneyNetflix流媒体_油管阿伟科技6
+      - 新[中转]1-DisneyNetflix流媒体_油管阿伟科技7
+      - 新[直连]8-流媒体NF_油管阿伟科技8
+      - 新[直连]7-流媒体NF_油管阿伟科技9
+      - 新[直连]6-流媒体NF_油管阿伟科技10
+      - 新[直连]5-流媒体NF_油管阿伟科技11
+      - 新[直连]4-流媒体NF_油管阿伟科技12
+      - 新[直连]3-流媒体NF_油管阿伟科技13
+      - 新[直连]2-流媒体NF_油管阿伟科技14
+      - 新[直连]1-流媒体NF_油管阿伟科技15
+      - 香港G_油管阿伟科技16
+      - 香港F_油管阿伟科技17
+      - 香港E_油管阿伟科技18
+      - 香港D_油管阿伟科技19
+      - 香港C_油管阿伟科技20
+      - 香港B_油管阿伟科技21
+      - 香港A_油管阿伟科技22
+      - 西班牙_油管阿伟科技23
+      - 泰国_油管阿伟科技24
+      - 台湾D_油管阿伟科技25
+      - 台湾C_油管阿伟科技26
+      - 台湾B_油管阿伟科技27
+      - 台4[直连]-流媒体NF_油管阿伟科技28
+      - 台3[直连]-流媒体NF_油管阿伟科技29
+      - 台1[直连]-流媒体NF_油管阿伟科技30
+      - 隧道|NF|英国01_油管阿伟科技31
+      - 隧道|NF|新加坡09_油管阿伟科技32
+      - 隧道|NF|新加坡06_油管阿伟科技33
+      - 隧道|NF|新加坡05_油管阿伟科技34
+      - 隧道|NF|新加坡04_油管阿伟科技35
+      - 隧道|NF|新加坡03_油管阿伟科技36
+      - 隧道|NF|新加坡01_油管阿伟科技37
+      - 隧道|NF|香港04_油管阿伟科技38
+      - 隧道|NF|香港03_油管阿伟科技39
+      - 隧道|NF|香港02_油管阿伟科技40
+      - 隧道|NF|香港01_油管阿伟科技41
+      - 隧道|NF|台湾04_油管阿伟科技42
+      - 隧道|NF|台湾02_油管阿伟科技43
+      - 隧道|NF|台湾01_油管阿伟科技44
+      - 隧道|NF|日本04_油管阿伟科技45
+      - 隧道|NF|日本03_油管阿伟科技46
+      - 隧道|NF|日本02_油管阿伟科技47
+      - 隧道|NF|日本01_油管阿伟科技48
+      - 隧道|NF|美国02_油管阿伟科技49
+      - 隧道|NF|美国01_油管阿伟科技50
+      - 隧道|NF|韩国02_油管阿伟科技51
+      - 隧道|NF|韩国01_油管阿伟科技52
+      - 隧道|NF|菲律宾01_油管阿伟科技53
+      - 隧道|NF|德国01_油管阿伟科技54
+      - 日本D_油管阿伟科技55
+      - 日本C_油管阿伟科技56
+      - 日本B_油管阿伟科技57
+      - 日本A_油管阿伟科技58
+      - 日2[中转]-流媒体NF_油管阿伟科技59
+      - 日1[中转]-流媒体NF_油管阿伟科技60
+      - 美国C_油管阿伟科技61
+      - 美2[直连]-流媒体_油管阿伟科技62
+      - 美1[中转]-流媒体_油管阿伟科技63
+      - 美1[直连]-流媒体_油管阿伟科技64
+      - 马来西亚_油管阿伟科技65
+      - 加拿大_油管阿伟科技66
+      - 韩国_油管阿伟科技67
+      - 港HGC2[直连]-流媒体NF_油管阿伟科技68
+      - 港8[直连]-流媒体NF_油管阿伟科技69
+      - 港6[直连]-流媒体NF_油管阿伟科技70
+      - 港5[直连]-流媒体NF_油管阿伟科技71
+      - 港3[直连]-流媒体NF_油管阿伟科技72
+      - 港2[中转]-DisneyNetflix流媒体_油管阿伟科技73
+      - 港2[直连]-流媒体NF_油管阿伟科技74
+      - 港1[中转]-DisneyNetflix流媒体_油管阿伟科技75
+      - 港1[直连]-流媒体NF_油管阿伟科技76
+      - 法国_油管阿伟科技77
+      - 波兰_油管阿伟科技78
+      - 澳门_油管阿伟科技79
+      - 澳大利亚_油管阿伟科技80
+      - 🇺🇲+美国|04|RN_1_油管阿伟科技81
+      - 🇺🇲+美国|04|RN_2_油管阿伟科技82
+      - 🇺🇲+美国|03|RN_1_油管阿伟科技83
+      - 🇺🇲+美国|03|RN_2_油管阿伟科技84
+      - 🇺🇲+美国|01|奈飞电信优化_1_油管阿伟科技85
+      - 🇺🇲+美国|01|奈飞电信优化_2_油管阿伟科技86
+      - 🇸🇬+新加坡|03|奈飞OC电信优化3_1_油管阿伟科技87
+      - 🇸🇬+新加坡|03|奈飞OC电信优化3_2_油管阿伟科技88
+      - 🇸🇬+新加坡|03|LIN三网优化_1_油管阿伟科技89
+      - 🇸🇬+新加坡|03|LIN三网优化_2_油管阿伟科技90
+      - 🇸🇬+新加坡|01|OC三网优化_1_油管阿伟科技91
+      - 🇸🇬+新加坡|01|OC三网优化_2_油管阿伟科技92
+      - 🇸🇬+新加坡|01|LIN三网优化_1_油管阿伟科技93
+      - 🇸🇬+新加坡|01|LIN三网优化_2_油管阿伟科技94
+      - 🇰🇷+韩国|01奈飞OC_1_油管阿伟科技95
+      - 🇰🇷+韩国|01奈飞OC_2_油管阿伟科技96
+      - 🇰🇷+韩国|01|AZ中转_1_油管阿伟科技97
+      - 🇰🇷+韩国|01|AZ中转_2_油管阿伟科技98
+      - 🇯🇵日本高速1_油管阿伟科技99
+      - 🇯🇵日本高速_油管阿伟科技100
+      - 🇯🇵+日本|高速|01|LIN_1_油管阿伟科技101
+      - 🇯🇵+日本|高速|01|LIN_2_油管阿伟科技102
+      - 🇯🇵+日本|01|LIN_1_油管阿伟科技103
+      - 🇯🇵+日本|01|LIN_2_油管阿伟科技104
+      - 🇭🇰香港三网高速-7_油管阿伟科技105
+      - 🇭🇰香港高速-6_油管阿伟科技106
+      - 🇭🇰香港高速-5_油管阿伟科技107
+      - 🇭🇰香港高速-4_油管阿伟科技108
+      - 🇭🇰香港高速3_油管阿伟科技109
+      - 🇭🇰+香港|23|奈飞BGP三网优化2_1_油管阿伟科技110
+      - 🇭🇰+香港|23|奈飞BGP三网优化2_2_油管阿伟科技111
+      - 🇭🇰+香港|21_1_油管阿伟科技112
+      - 🇭🇰+香港|21_2_油管阿伟科技113
+      - 🇭🇰+香港|17三网优化_1_油管阿伟科技114
+      - 🇭🇰+香港|17三网优化_2_油管阿伟科技115
+      - 🇭🇰+香港|13|奈飞BGP三网优化3_1_油管阿伟科技116
+      - 🇭🇰+香港|13|奈飞BGP三网优化3_2_油管阿伟科技117
+      - 🇭🇰+香港|05中转_1_油管阿伟科技118
+      - 🇭🇰+香港|05中转_2_油管阿伟科技119
+      - 🇭🇰+香港|01AZ_1_油管阿伟科技120
+      - 🇭🇰+香港|01AZ_2_油管阿伟科技121
+      - 🇭🇰a香港高速-1_油管阿伟科技122
+      - 🇨🇳+台湾|02奈飞三网优化6_油管阿伟科技123
+      - 🇨🇳+台湾|02奈飞三网优化5_油管阿伟科技124
+      - 🇨🇳+台湾|02奈飞三网优化2_油管阿伟科技125
+      - JCBB_印度02【vip1】_1_油管阿伟科技126
+      - JCBB_印度02【vip1】_2_油管阿伟科技127
+      - JCBB_新加坡01【vip1】_1_油管阿伟科技128
+      - JCBB_新加坡01【vip1】_2_油管阿伟科技129
+      - JCBB_香港03【vip1】_油管阿伟科技130
+      - JCBB_香港01【vip1】_1_油管阿伟科技131
+      - JCBB_香港01【vip1】_2_油管阿伟科技132
+      - JCBB_日本03【vip1】_1_油管阿伟科技133
+      - JCBB_日本03【vip1】_2_油管阿伟科技134
+      - JCBB_日本01【vip1】_1_油管阿伟科技135
+      - JCBB_日本01【vip1】_2_油管阿伟科技136
+      - JCBB_德国01【vip1】_油管阿伟科技137
+      - '[Vip1]新加坡07[1.0|联通|流媒体解锁]_油管阿伟科技138'
+      - '[Vip1]香港10[1.0|移动|流媒体解锁]_1_油管阿伟科技139'
+      - '[Vip1]香港10[1.0|移动|流媒体解锁]_2_油管阿伟科技140'
+      - '[Vip1]香港09[1.0|移动|流媒体解锁]_1_油管阿伟科技141'
+      - '[Vip1]香港09[1.0|移动|流媒体解锁]_2_油管阿伟科技142'
+      - '[Vip1]香港06[1.0|联通|流媒体解锁]_1_油管阿伟科技143'
+      - '[Vip1]香港06[1.0|联通|流媒体解锁]_2_油管阿伟科技144'
+      - '[Vip1]香港05[1.0|移动|流媒体解锁]_1_油管阿伟科技145'
+      - '[Vip1]香港05[1.0|移动|流媒体解锁]_2_油管阿伟科技146'
+      - '[Vip1]台湾02[1.0|联通|流媒体解锁]_1_油管阿伟科技147'
+      - '[Vip1]台湾02[1.0|联通|流媒体解锁]_2_油管阿伟科技148'
+      - '[Vip1]日本07[1.0|联通]_1_油管阿伟科技149'
+      - '[Vip1]日本07[1.0|联通]_2_油管阿伟科技150'
+      - '[Vip1]日本06[1.0|移动]_1_油管阿伟科技151'
+      - '[Vip1]日本06[1.0|移动]_2_油管阿伟科技152'
+      - '[Vip1]日本05[1.0|移动]_1_油管阿伟科技153'
+      - '[Vip1]日本05[1.0|移动]_2_油管阿伟科技154'
+      - '[Vip1]日本03[1.0|联通|流媒体解锁]_1_油管阿伟科技155'
+      - '[Vip1]日本03[1.0|联通|流媒体解锁]_2_油管阿伟科技156'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_1_油管阿伟科技157'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_2_油管阿伟科技158'
+      - '[Vip1]日本01[1.0|移动|流媒体解锁]_1_油管阿伟科技159'
+      - '[Vip1]日本01[1.0|移动|流媒体解锁]_2_油管阿伟科技160'
+      - '[Vip1]美国16[1.0|联通|流媒体解锁]_1_油管阿伟科技161'
+      - '[Vip1]美国16[1.0|联通|流媒体解锁]_2_油管阿伟科技162'
+      - '[Vip1]美国15[1.0|联通|流媒体解锁]_1_油管阿伟科技163'
+      - '[Vip1]美国15[1.0|联通|流媒体解锁]_2_油管阿伟科技164'
+      - '[Vip1]美国13[1.0|移动|流媒体解锁]_1_油管阿伟科技165'
+      - '[Vip1]美国13[1.0|移动|流媒体解锁]_2_油管阿伟科技166'
+      - '[Vip1]韩国04[1.0|联通]_1_油管阿伟科技167'
+      - '[Vip1]韩国04[1.0|联通]_2_油管阿伟科技168'
+      - '[Vip1]韩国03[1.0|联通]_1_油管阿伟科技169'
+      - '[Vip1]韩国03[1.0|联通]_2_油管阿伟科技170'
+      - '[Vip1]韩国02[1.0|移动]_1_油管阿伟科技171'
+      - '[Vip1]韩国02[1.0|移动]_2_油管阿伟科技172'
+      - '[Vip1]韩国01[1.0|移动]_1_油管阿伟科技173'
+      - '[Vip1]韩国01[1.0|移动]_2_油管阿伟科技174'
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 不定时更新订阅，更多节点关注YouTube频道-阿伟科技
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_新加坡01【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_日本02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本04【vip1】
-      - '[Vip1]香港05[1.0|移动|流媒体解锁]'
-      - '[Vip1]香港09[1.0|移动|流媒体解锁]'
-      - '[Vip1]香港10[1.0|移动|流媒体解锁]'
-      - '[Vip1]日本01[1.0|移动|流媒体解锁]'
-      - '[Vip1]日本02[1.0|移动|流媒体解锁]'
-      - '[Vip1]日本03[1.0|联通|流媒体解锁]'
-      - '[Vip1]日本05[1.0|移动]'
-      - '[Vip1]日本06[1.0|移动]'
-      - '[Vip1]日本07[1.0|联通]'
-      - '[Vip1]台湾02[1.0|联通|流媒体解锁]'
-      - '[Vip1]美国13[1.0|移动|流媒体解锁]'
-      - '[Vip1]美国15[1.0|联通|流媒体解锁]'
-      - 新加坡|02|奈飞DO三网优化
-      - 新加坡|04|奈飞DO三网优化
-      - 新加坡|03|奈飞OC电信优化2
-      - 新加坡|03|奈飞OC电信优化3
-      - 新加坡|02|奈飞DO电信优化2
-      - 新加坡|04|奈飞DO电信优化2
-      - 新加坡|03|奈飞OC三网优化
-      - 新加坡|03|LIN三网优化
-      - 新加坡|08|OC三网优化
-      - 新加坡|01|OC三网优化
-      - 韩国|01奈飞OC
-      - 韩国|01|AZ中转
-      - 日本|05|LIN三网优化
-      - 日本|01|LIN三网优化
-      - 日本|高速|01|LIN
-      - 日本|03|LIN三网优化
-      - 日本|高速|01|LIN三网优化
-      - 香港|17电信优化
-      - 香港|17三网优化
-      - 香港|13|奈飞BGP三网优化
-      - 香港|13奈飞BGP三网优化
-      - 香港|01AZ
-      - 香港|01AZ三网优化2
-      - 香港|01AZ电信优化
-      - 香港|02奈飞三网优化
-      - 香港|13奈飞BGP三网优化2
-      - 香港|13奈飞BGP三网优化3
-      - 香港|04|奈飞三网优化2
-      - 香港|04|奈飞电信优化
-      - 香港|13|奈飞BGP三网优化2
-      - 香港|07电信优化
-      - 香港|02电信优化
-      - 香港A
-      - 香港B
-      - 香港C
-      - 香港D
-      - 香港E
-      - 香港F
-      - 台湾A
-      - 台湾B
-      - 泰国
-      - 韩国
-      - 马来西亚
+      - 越南_油管阿伟科技1
+      - 印度_油管阿伟科技2
+      - 新加坡C_油管阿伟科技3
+      - 新加坡B_油管阿伟科技4
+      - 新加坡A_油管阿伟科技5
+      - 新[中转]2-DisneyNetflix流媒体_油管阿伟科技6
+      - 新[中转]1-DisneyNetflix流媒体_油管阿伟科技7
+      - 新[直连]8-流媒体NF_油管阿伟科技8
+      - 新[直连]7-流媒体NF_油管阿伟科技9
+      - 新[直连]6-流媒体NF_油管阿伟科技10
+      - 新[直连]5-流媒体NF_油管阿伟科技11
+      - 新[直连]4-流媒体NF_油管阿伟科技12
+      - 新[直连]3-流媒体NF_油管阿伟科技13
+      - 新[直连]2-流媒体NF_油管阿伟科技14
+      - 新[直连]1-流媒体NF_油管阿伟科技15
+      - 香港G_油管阿伟科技16
+      - 香港F_油管阿伟科技17
+      - 香港E_油管阿伟科技18
+      - 香港D_油管阿伟科技19
+      - 香港C_油管阿伟科技20
+      - 香港B_油管阿伟科技21
+      - 香港A_油管阿伟科技22
+      - 西班牙_油管阿伟科技23
+      - 泰国_油管阿伟科技24
+      - 台湾D_油管阿伟科技25
+      - 台湾C_油管阿伟科技26
+      - 台湾B_油管阿伟科技27
+      - 台4[直连]-流媒体NF_油管阿伟科技28
+      - 台3[直连]-流媒体NF_油管阿伟科技29
+      - 台1[直连]-流媒体NF_油管阿伟科技30
+      - 隧道|NF|英国01_油管阿伟科技31
+      - 隧道|NF|新加坡09_油管阿伟科技32
+      - 隧道|NF|新加坡06_油管阿伟科技33
+      - 隧道|NF|新加坡05_油管阿伟科技34
+      - 隧道|NF|新加坡04_油管阿伟科技35
+      - 隧道|NF|新加坡03_油管阿伟科技36
+      - 隧道|NF|新加坡01_油管阿伟科技37
+      - 隧道|NF|香港04_油管阿伟科技38
+      - 隧道|NF|香港03_油管阿伟科技39
+      - 隧道|NF|香港02_油管阿伟科技40
+      - 隧道|NF|香港01_油管阿伟科技41
+      - 隧道|NF|台湾04_油管阿伟科技42
+      - 隧道|NF|台湾02_油管阿伟科技43
+      - 隧道|NF|台湾01_油管阿伟科技44
+      - 隧道|NF|日本04_油管阿伟科技45
+      - 隧道|NF|日本03_油管阿伟科技46
+      - 隧道|NF|日本02_油管阿伟科技47
+      - 隧道|NF|日本01_油管阿伟科技48
+      - 隧道|NF|美国02_油管阿伟科技49
+      - 隧道|NF|美国01_油管阿伟科技50
+      - 隧道|NF|韩国02_油管阿伟科技51
+      - 隧道|NF|韩国01_油管阿伟科技52
+      - 隧道|NF|菲律宾01_油管阿伟科技53
+      - 隧道|NF|德国01_油管阿伟科技54
+      - 日本D_油管阿伟科技55
+      - 日本C_油管阿伟科技56
+      - 日本B_油管阿伟科技57
+      - 日本A_油管阿伟科技58
+      - 日2[中转]-流媒体NF_油管阿伟科技59
+      - 日1[中转]-流媒体NF_油管阿伟科技60
+      - 美国C_油管阿伟科技61
+      - 美2[直连]-流媒体_油管阿伟科技62
+      - 美1[中转]-流媒体_油管阿伟科技63
+      - 美1[直连]-流媒体_油管阿伟科技64
+      - 马来西亚_油管阿伟科技65
+      - 加拿大_油管阿伟科技66
+      - 韩国_油管阿伟科技67
+      - 港HGC2[直连]-流媒体NF_油管阿伟科技68
+      - 港8[直连]-流媒体NF_油管阿伟科技69
+      - 港6[直连]-流媒体NF_油管阿伟科技70
+      - 港5[直连]-流媒体NF_油管阿伟科技71
+      - 港3[直连]-流媒体NF_油管阿伟科技72
+      - 港2[中转]-DisneyNetflix流媒体_油管阿伟科技73
+      - 港2[直连]-流媒体NF_油管阿伟科技74
+      - 港1[中转]-DisneyNetflix流媒体_油管阿伟科技75
+      - 港1[直连]-流媒体NF_油管阿伟科技76
+      - 法国_油管阿伟科技77
+      - 波兰_油管阿伟科技78
+      - 澳门_油管阿伟科技79
+      - 澳大利亚_油管阿伟科技80
+      - 🇺🇲+美国|04|RN_1_油管阿伟科技81
+      - 🇺🇲+美国|04|RN_2_油管阿伟科技82
+      - 🇺🇲+美国|03|RN_1_油管阿伟科技83
+      - 🇺🇲+美国|03|RN_2_油管阿伟科技84
+      - 🇺🇲+美国|01|奈飞电信优化_1_油管阿伟科技85
+      - 🇺🇲+美国|01|奈飞电信优化_2_油管阿伟科技86
+      - 🇸🇬+新加坡|03|奈飞OC电信优化3_1_油管阿伟科技87
+      - 🇸🇬+新加坡|03|奈飞OC电信优化3_2_油管阿伟科技88
+      - 🇸🇬+新加坡|03|LIN三网优化_1_油管阿伟科技89
+      - 🇸🇬+新加坡|03|LIN三网优化_2_油管阿伟科技90
+      - 🇸🇬+新加坡|01|OC三网优化_1_油管阿伟科技91
+      - 🇸🇬+新加坡|01|OC三网优化_2_油管阿伟科技92
+      - 🇸🇬+新加坡|01|LIN三网优化_1_油管阿伟科技93
+      - 🇸🇬+新加坡|01|LIN三网优化_2_油管阿伟科技94
+      - 🇰🇷+韩国|01奈飞OC_1_油管阿伟科技95
+      - 🇰🇷+韩国|01奈飞OC_2_油管阿伟科技96
+      - 🇰🇷+韩国|01|AZ中转_1_油管阿伟科技97
+      - 🇰🇷+韩国|01|AZ中转_2_油管阿伟科技98
+      - 🇯🇵日本高速1_油管阿伟科技99
+      - 🇯🇵日本高速_油管阿伟科技100
+      - 🇯🇵+日本|高速|01|LIN_1_油管阿伟科技101
+      - 🇯🇵+日本|高速|01|LIN_2_油管阿伟科技102
+      - 🇯🇵+日本|01|LIN_1_油管阿伟科技103
+      - 🇯🇵+日本|01|LIN_2_油管阿伟科技104
+      - 🇭🇰香港三网高速-7_油管阿伟科技105
+      - 🇭🇰香港高速-6_油管阿伟科技106
+      - 🇭🇰香港高速-5_油管阿伟科技107
+      - 🇭🇰香港高速-4_油管阿伟科技108
+      - 🇭🇰香港高速3_油管阿伟科技109
+      - 🇭🇰+香港|23|奈飞BGP三网优化2_1_油管阿伟科技110
+      - 🇭🇰+香港|23|奈飞BGP三网优化2_2_油管阿伟科技111
+      - 🇭🇰+香港|21_1_油管阿伟科技112
+      - 🇭🇰+香港|21_2_油管阿伟科技113
+      - 🇭🇰+香港|17三网优化_1_油管阿伟科技114
+      - 🇭🇰+香港|17三网优化_2_油管阿伟科技115
+      - 🇭🇰+香港|13|奈飞BGP三网优化3_1_油管阿伟科技116
+      - 🇭🇰+香港|13|奈飞BGP三网优化3_2_油管阿伟科技117
+      - 🇭🇰+香港|05中转_1_油管阿伟科技118
+      - 🇭🇰+香港|05中转_2_油管阿伟科技119
+      - 🇭🇰+香港|01AZ_1_油管阿伟科技120
+      - 🇭🇰+香港|01AZ_2_油管阿伟科技121
+      - 🇭🇰a香港高速-1_油管阿伟科技122
+      - 🇨🇳+台湾|02奈飞三网优化6_油管阿伟科技123
+      - 🇨🇳+台湾|02奈飞三网优化5_油管阿伟科技124
+      - 🇨🇳+台湾|02奈飞三网优化2_油管阿伟科技125
+      - JCBB_印度02【vip1】_1_油管阿伟科技126
+      - JCBB_印度02【vip1】_2_油管阿伟科技127
+      - JCBB_新加坡01【vip1】_1_油管阿伟科技128
+      - JCBB_新加坡01【vip1】_2_油管阿伟科技129
+      - JCBB_香港03【vip1】_油管阿伟科技130
+      - JCBB_香港01【vip1】_1_油管阿伟科技131
+      - JCBB_香港01【vip1】_2_油管阿伟科技132
+      - JCBB_日本03【vip1】_1_油管阿伟科技133
+      - JCBB_日本03【vip1】_2_油管阿伟科技134
+      - JCBB_日本01【vip1】_1_油管阿伟科技135
+      - JCBB_日本01【vip1】_2_油管阿伟科技136
+      - JCBB_德国01【vip1】_油管阿伟科技137
+      - '[Vip1]新加坡07[1.0|联通|流媒体解锁]_油管阿伟科技138'
+      - '[Vip1]香港10[1.0|移动|流媒体解锁]_1_油管阿伟科技139'
+      - '[Vip1]香港10[1.0|移动|流媒体解锁]_2_油管阿伟科技140'
+      - '[Vip1]香港09[1.0|移动|流媒体解锁]_1_油管阿伟科技141'
+      - '[Vip1]香港09[1.0|移动|流媒体解锁]_2_油管阿伟科技142'
+      - '[Vip1]香港06[1.0|联通|流媒体解锁]_1_油管阿伟科技143'
+      - '[Vip1]香港06[1.0|联通|流媒体解锁]_2_油管阿伟科技144'
+      - '[Vip1]香港05[1.0|移动|流媒体解锁]_1_油管阿伟科技145'
+      - '[Vip1]香港05[1.0|移动|流媒体解锁]_2_油管阿伟科技146'
+      - '[Vip1]台湾02[1.0|联通|流媒体解锁]_1_油管阿伟科技147'
+      - '[Vip1]台湾02[1.0|联通|流媒体解锁]_2_油管阿伟科技148'
+      - '[Vip1]日本07[1.0|联通]_1_油管阿伟科技149'
+      - '[Vip1]日本07[1.0|联通]_2_油管阿伟科技150'
+      - '[Vip1]日本06[1.0|移动]_1_油管阿伟科技151'
+      - '[Vip1]日本06[1.0|移动]_2_油管阿伟科技152'
+      - '[Vip1]日本05[1.0|移动]_1_油管阿伟科技153'
+      - '[Vip1]日本05[1.0|移动]_2_油管阿伟科技154'
+      - '[Vip1]日本03[1.0|联通|流媒体解锁]_1_油管阿伟科技155'
+      - '[Vip1]日本03[1.0|联通|流媒体解锁]_2_油管阿伟科技156'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_1_油管阿伟科技157'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_2_油管阿伟科技158'
+      - '[Vip1]日本01[1.0|移动|流媒体解锁]_1_油管阿伟科技159'
+      - '[Vip1]日本01[1.0|移动|流媒体解锁]_2_油管阿伟科技160'
+      - '[Vip1]美国16[1.0|联通|流媒体解锁]_1_油管阿伟科技161'
+      - '[Vip1]美国16[1.0|联通|流媒体解锁]_2_油管阿伟科技162'
+      - '[Vip1]美国15[1.0|联通|流媒体解锁]_1_油管阿伟科技163'
+      - '[Vip1]美国15[1.0|联通|流媒体解锁]_2_油管阿伟科技164'
+      - '[Vip1]美国13[1.0|移动|流媒体解锁]_1_油管阿伟科技165'
+      - '[Vip1]美国13[1.0|移动|流媒体解锁]_2_油管阿伟科技166'
+      - '[Vip1]韩国04[1.0|联通]_1_油管阿伟科技167'
+      - '[Vip1]韩国04[1.0|联通]_2_油管阿伟科技168'
+      - '[Vip1]韩国03[1.0|联通]_1_油管阿伟科技169'
+      - '[Vip1]韩国03[1.0|联通]_2_油管阿伟科技170'
+      - '[Vip1]韩国02[1.0|移动]_1_油管阿伟科技171'
+      - '[Vip1]韩国02[1.0|移动]_2_油管阿伟科技172'
+      - '[Vip1]韩国01[1.0|移动]_1_油管阿伟科技173'
+      - '[Vip1]韩国01[1.0|移动]_2_油管阿伟科技174'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 不定时更新订阅，更多节点关注YouTube频道-阿伟科技
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_新加坡01【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_日本02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本04【vip1】
-      - '[Vip1]香港05[1.0|移动|流媒体解锁]'
-      - '[Vip1]香港09[1.0|移动|流媒体解锁]'
-      - '[Vip1]香港10[1.0|移动|流媒体解锁]'
-      - '[Vip1]日本01[1.0|移动|流媒体解锁]'
-      - '[Vip1]日本02[1.0|移动|流媒体解锁]'
-      - '[Vip1]日本03[1.0|联通|流媒体解锁]'
-      - '[Vip1]日本05[1.0|移动]'
-      - '[Vip1]日本06[1.0|移动]'
-      - '[Vip1]日本07[1.0|联通]'
-      - '[Vip1]台湾02[1.0|联通|流媒体解锁]'
-      - '[Vip1]美国13[1.0|移动|流媒体解锁]'
-      - '[Vip1]美国15[1.0|联通|流媒体解锁]'
-      - 新加坡|02|奈飞DO三网优化
-      - 新加坡|04|奈飞DO三网优化
-      - 新加坡|03|奈飞OC电信优化2
-      - 新加坡|03|奈飞OC电信优化3
-      - 新加坡|02|奈飞DO电信优化2
-      - 新加坡|04|奈飞DO电信优化2
-      - 新加坡|03|奈飞OC三网优化
-      - 新加坡|03|LIN三网优化
-      - 新加坡|08|OC三网优化
-      - 新加坡|01|OC三网优化
-      - 韩国|01奈飞OC
-      - 韩国|01|AZ中转
-      - 日本|05|LIN三网优化
-      - 日本|01|LIN三网优化
-      - 日本|高速|01|LIN
-      - 日本|03|LIN三网优化
-      - 日本|高速|01|LIN三网优化
-      - 香港|17电信优化
-      - 香港|17三网优化
-      - 香港|13|奈飞BGP三网优化
-      - 香港|13奈飞BGP三网优化
-      - 香港|01AZ
-      - 香港|01AZ三网优化2
-      - 香港|01AZ电信优化
-      - 香港|02奈飞三网优化
-      - 香港|13奈飞BGP三网优化2
-      - 香港|13奈飞BGP三网优化3
-      - 香港|04|奈飞三网优化2
-      - 香港|04|奈飞电信优化
-      - 香港|13|奈飞BGP三网优化2
-      - 香港|07电信优化
-      - 香港|02电信优化
-      - 香港A
-      - 香港B
-      - 香港C
-      - 香港D
-      - 香港E
-      - 香港F
-      - 台湾A
-      - 台湾B
-      - 泰国
-      - 韩国
-      - 马来西亚
+      - 越南_油管阿伟科技1
+      - 印度_油管阿伟科技2
+      - 新加坡C_油管阿伟科技3
+      - 新加坡B_油管阿伟科技4
+      - 新加坡A_油管阿伟科技5
+      - 新[中转]2-DisneyNetflix流媒体_油管阿伟科技6
+      - 新[中转]1-DisneyNetflix流媒体_油管阿伟科技7
+      - 新[直连]8-流媒体NF_油管阿伟科技8
+      - 新[直连]7-流媒体NF_油管阿伟科技9
+      - 新[直连]6-流媒体NF_油管阿伟科技10
+      - 新[直连]5-流媒体NF_油管阿伟科技11
+      - 新[直连]4-流媒体NF_油管阿伟科技12
+      - 新[直连]3-流媒体NF_油管阿伟科技13
+      - 新[直连]2-流媒体NF_油管阿伟科技14
+      - 新[直连]1-流媒体NF_油管阿伟科技15
+      - 香港G_油管阿伟科技16
+      - 香港F_油管阿伟科技17
+      - 香港E_油管阿伟科技18
+      - 香港D_油管阿伟科技19
+      - 香港C_油管阿伟科技20
+      - 香港B_油管阿伟科技21
+      - 香港A_油管阿伟科技22
+      - 西班牙_油管阿伟科技23
+      - 泰国_油管阿伟科技24
+      - 台湾D_油管阿伟科技25
+      - 台湾C_油管阿伟科技26
+      - 台湾B_油管阿伟科技27
+      - 台4[直连]-流媒体NF_油管阿伟科技28
+      - 台3[直连]-流媒体NF_油管阿伟科技29
+      - 台1[直连]-流媒体NF_油管阿伟科技30
+      - 隧道|NF|英国01_油管阿伟科技31
+      - 隧道|NF|新加坡09_油管阿伟科技32
+      - 隧道|NF|新加坡06_油管阿伟科技33
+      - 隧道|NF|新加坡05_油管阿伟科技34
+      - 隧道|NF|新加坡04_油管阿伟科技35
+      - 隧道|NF|新加坡03_油管阿伟科技36
+      - 隧道|NF|新加坡01_油管阿伟科技37
+      - 隧道|NF|香港04_油管阿伟科技38
+      - 隧道|NF|香港03_油管阿伟科技39
+      - 隧道|NF|香港02_油管阿伟科技40
+      - 隧道|NF|香港01_油管阿伟科技41
+      - 隧道|NF|台湾04_油管阿伟科技42
+      - 隧道|NF|台湾02_油管阿伟科技43
+      - 隧道|NF|台湾01_油管阿伟科技44
+      - 隧道|NF|日本04_油管阿伟科技45
+      - 隧道|NF|日本03_油管阿伟科技46
+      - 隧道|NF|日本02_油管阿伟科技47
+      - 隧道|NF|日本01_油管阿伟科技48
+      - 隧道|NF|美国02_油管阿伟科技49
+      - 隧道|NF|美国01_油管阿伟科技50
+      - 隧道|NF|韩国02_油管阿伟科技51
+      - 隧道|NF|韩国01_油管阿伟科技52
+      - 隧道|NF|菲律宾01_油管阿伟科技53
+      - 隧道|NF|德国01_油管阿伟科技54
+      - 日本D_油管阿伟科技55
+      - 日本C_油管阿伟科技56
+      - 日本B_油管阿伟科技57
+      - 日本A_油管阿伟科技58
+      - 日2[中转]-流媒体NF_油管阿伟科技59
+      - 日1[中转]-流媒体NF_油管阿伟科技60
+      - 美国C_油管阿伟科技61
+      - 美2[直连]-流媒体_油管阿伟科技62
+      - 美1[中转]-流媒体_油管阿伟科技63
+      - 美1[直连]-流媒体_油管阿伟科技64
+      - 马来西亚_油管阿伟科技65
+      - 加拿大_油管阿伟科技66
+      - 韩国_油管阿伟科技67
+      - 港HGC2[直连]-流媒体NF_油管阿伟科技68
+      - 港8[直连]-流媒体NF_油管阿伟科技69
+      - 港6[直连]-流媒体NF_油管阿伟科技70
+      - 港5[直连]-流媒体NF_油管阿伟科技71
+      - 港3[直连]-流媒体NF_油管阿伟科技72
+      - 港2[中转]-DisneyNetflix流媒体_油管阿伟科技73
+      - 港2[直连]-流媒体NF_油管阿伟科技74
+      - 港1[中转]-DisneyNetflix流媒体_油管阿伟科技75
+      - 港1[直连]-流媒体NF_油管阿伟科技76
+      - 法国_油管阿伟科技77
+      - 波兰_油管阿伟科技78
+      - 澳门_油管阿伟科技79
+      - 澳大利亚_油管阿伟科技80
+      - 🇺🇲+美国|04|RN_1_油管阿伟科技81
+      - 🇺🇲+美国|04|RN_2_油管阿伟科技82
+      - 🇺🇲+美国|03|RN_1_油管阿伟科技83
+      - 🇺🇲+美国|03|RN_2_油管阿伟科技84
+      - 🇺🇲+美国|01|奈飞电信优化_1_油管阿伟科技85
+      - 🇺🇲+美国|01|奈飞电信优化_2_油管阿伟科技86
+      - 🇸🇬+新加坡|03|奈飞OC电信优化3_1_油管阿伟科技87
+      - 🇸🇬+新加坡|03|奈飞OC电信优化3_2_油管阿伟科技88
+      - 🇸🇬+新加坡|03|LIN三网优化_1_油管阿伟科技89
+      - 🇸🇬+新加坡|03|LIN三网优化_2_油管阿伟科技90
+      - 🇸🇬+新加坡|01|OC三网优化_1_油管阿伟科技91
+      - 🇸🇬+新加坡|01|OC三网优化_2_油管阿伟科技92
+      - 🇸🇬+新加坡|01|LIN三网优化_1_油管阿伟科技93
+      - 🇸🇬+新加坡|01|LIN三网优化_2_油管阿伟科技94
+      - 🇰🇷+韩国|01奈飞OC_1_油管阿伟科技95
+      - 🇰🇷+韩国|01奈飞OC_2_油管阿伟科技96
+      - 🇰🇷+韩国|01|AZ中转_1_油管阿伟科技97
+      - 🇰🇷+韩国|01|AZ中转_2_油管阿伟科技98
+      - 🇯🇵日本高速1_油管阿伟科技99
+      - 🇯🇵日本高速_油管阿伟科技100
+      - 🇯🇵+日本|高速|01|LIN_1_油管阿伟科技101
+      - 🇯🇵+日本|高速|01|LIN_2_油管阿伟科技102
+      - 🇯🇵+日本|01|LIN_1_油管阿伟科技103
+      - 🇯🇵+日本|01|LIN_2_油管阿伟科技104
+      - 🇭🇰香港三网高速-7_油管阿伟科技105
+      - 🇭🇰香港高速-6_油管阿伟科技106
+      - 🇭🇰香港高速-5_油管阿伟科技107
+      - 🇭🇰香港高速-4_油管阿伟科技108
+      - 🇭🇰香港高速3_油管阿伟科技109
+      - 🇭🇰+香港|23|奈飞BGP三网优化2_1_油管阿伟科技110
+      - 🇭🇰+香港|23|奈飞BGP三网优化2_2_油管阿伟科技111
+      - 🇭🇰+香港|21_1_油管阿伟科技112
+      - 🇭🇰+香港|21_2_油管阿伟科技113
+      - 🇭🇰+香港|17三网优化_1_油管阿伟科技114
+      - 🇭🇰+香港|17三网优化_2_油管阿伟科技115
+      - 🇭🇰+香港|13|奈飞BGP三网优化3_1_油管阿伟科技116
+      - 🇭🇰+香港|13|奈飞BGP三网优化3_2_油管阿伟科技117
+      - 🇭🇰+香港|05中转_1_油管阿伟科技118
+      - 🇭🇰+香港|05中转_2_油管阿伟科技119
+      - 🇭🇰+香港|01AZ_1_油管阿伟科技120
+      - 🇭🇰+香港|01AZ_2_油管阿伟科技121
+      - 🇭🇰a香港高速-1_油管阿伟科技122
+      - 🇨🇳+台湾|02奈飞三网优化6_油管阿伟科技123
+      - 🇨🇳+台湾|02奈飞三网优化5_油管阿伟科技124
+      - 🇨🇳+台湾|02奈飞三网优化2_油管阿伟科技125
+      - JCBB_印度02【vip1】_1_油管阿伟科技126
+      - JCBB_印度02【vip1】_2_油管阿伟科技127
+      - JCBB_新加坡01【vip1】_1_油管阿伟科技128
+      - JCBB_新加坡01【vip1】_2_油管阿伟科技129
+      - JCBB_香港03【vip1】_油管阿伟科技130
+      - JCBB_香港01【vip1】_1_油管阿伟科技131
+      - JCBB_香港01【vip1】_2_油管阿伟科技132
+      - JCBB_日本03【vip1】_1_油管阿伟科技133
+      - JCBB_日本03【vip1】_2_油管阿伟科技134
+      - JCBB_日本01【vip1】_1_油管阿伟科技135
+      - JCBB_日本01【vip1】_2_油管阿伟科技136
+      - JCBB_德国01【vip1】_油管阿伟科技137
+      - '[Vip1]新加坡07[1.0|联通|流媒体解锁]_油管阿伟科技138'
+      - '[Vip1]香港10[1.0|移动|流媒体解锁]_1_油管阿伟科技139'
+      - '[Vip1]香港10[1.0|移动|流媒体解锁]_2_油管阿伟科技140'
+      - '[Vip1]香港09[1.0|移动|流媒体解锁]_1_油管阿伟科技141'
+      - '[Vip1]香港09[1.0|移动|流媒体解锁]_2_油管阿伟科技142'
+      - '[Vip1]香港06[1.0|联通|流媒体解锁]_1_油管阿伟科技143'
+      - '[Vip1]香港06[1.0|联通|流媒体解锁]_2_油管阿伟科技144'
+      - '[Vip1]香港05[1.0|移动|流媒体解锁]_1_油管阿伟科技145'
+      - '[Vip1]香港05[1.0|移动|流媒体解锁]_2_油管阿伟科技146'
+      - '[Vip1]台湾02[1.0|联通|流媒体解锁]_1_油管阿伟科技147'
+      - '[Vip1]台湾02[1.0|联通|流媒体解锁]_2_油管阿伟科技148'
+      - '[Vip1]日本07[1.0|联通]_1_油管阿伟科技149'
+      - '[Vip1]日本07[1.0|联通]_2_油管阿伟科技150'
+      - '[Vip1]日本06[1.0|移动]_1_油管阿伟科技151'
+      - '[Vip1]日本06[1.0|移动]_2_油管阿伟科技152'
+      - '[Vip1]日本05[1.0|移动]_1_油管阿伟科技153'
+      - '[Vip1]日本05[1.0|移动]_2_油管阿伟科技154'
+      - '[Vip1]日本03[1.0|联通|流媒体解锁]_1_油管阿伟科技155'
+      - '[Vip1]日本03[1.0|联通|流媒体解锁]_2_油管阿伟科技156'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_1_油管阿伟科技157'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_2_油管阿伟科技158'
+      - '[Vip1]日本01[1.0|移动|流媒体解锁]_1_油管阿伟科技159'
+      - '[Vip1]日本01[1.0|移动|流媒体解锁]_2_油管阿伟科技160'
+      - '[Vip1]美国16[1.0|联通|流媒体解锁]_1_油管阿伟科技161'
+      - '[Vip1]美国16[1.0|联通|流媒体解锁]_2_油管阿伟科技162'
+      - '[Vip1]美国15[1.0|联通|流媒体解锁]_1_油管阿伟科技163'
+      - '[Vip1]美国15[1.0|联通|流媒体解锁]_2_油管阿伟科技164'
+      - '[Vip1]美国13[1.0|移动|流媒体解锁]_1_油管阿伟科技165'
+      - '[Vip1]美国13[1.0|移动|流媒体解锁]_2_油管阿伟科技166'
+      - '[Vip1]韩国04[1.0|联通]_1_油管阿伟科技167'
+      - '[Vip1]韩国04[1.0|联通]_2_油管阿伟科技168'
+      - '[Vip1]韩国03[1.0|联通]_1_油管阿伟科技169'
+      - '[Vip1]韩国03[1.0|联通]_2_油管阿伟科技170'
+      - '[Vip1]韩国02[1.0|移动]_1_油管阿伟科技171'
+      - '[Vip1]韩国02[1.0|移动]_2_油管阿伟科技172'
+      - '[Vip1]韩国01[1.0|移动]_1_油管阿伟科技173'
+      - '[Vip1]韩国01[1.0|移动]_2_油管阿伟科技174'
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 不定时更新订阅，更多节点关注YouTube频道-阿伟科技
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_新加坡01【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_日本02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本04【vip1】
-      - '[Vip1]香港05[1.0|移动|流媒体解锁]'
-      - '[Vip1]香港09[1.0|移动|流媒体解锁]'
-      - '[Vip1]香港10[1.0|移动|流媒体解锁]'
-      - '[Vip1]日本01[1.0|移动|流媒体解锁]'
-      - '[Vip1]日本02[1.0|移动|流媒体解锁]'
-      - '[Vip1]日本03[1.0|联通|流媒体解锁]'
-      - '[Vip1]日本05[1.0|移动]'
-      - '[Vip1]日本06[1.0|移动]'
-      - '[Vip1]日本07[1.0|联通]'
-      - '[Vip1]台湾02[1.0|联通|流媒体解锁]'
-      - '[Vip1]美国13[1.0|移动|流媒体解锁]'
-      - '[Vip1]美国15[1.0|联通|流媒体解锁]'
-      - 新加坡|02|奈飞DO三网优化
-      - 新加坡|04|奈飞DO三网优化
-      - 新加坡|03|奈飞OC电信优化2
-      - 新加坡|03|奈飞OC电信优化3
-      - 新加坡|02|奈飞DO电信优化2
-      - 新加坡|04|奈飞DO电信优化2
-      - 新加坡|03|奈飞OC三网优化
-      - 新加坡|03|LIN三网优化
-      - 新加坡|08|OC三网优化
-      - 新加坡|01|OC三网优化
-      - 韩国|01奈飞OC
-      - 韩国|01|AZ中转
-      - 日本|05|LIN三网优化
-      - 日本|01|LIN三网优化
-      - 日本|高速|01|LIN
-      - 日本|03|LIN三网优化
-      - 日本|高速|01|LIN三网优化
-      - 香港|17电信优化
-      - 香港|17三网优化
-      - 香港|13|奈飞BGP三网优化
-      - 香港|13奈飞BGP三网优化
-      - 香港|01AZ
-      - 香港|01AZ三网优化2
-      - 香港|01AZ电信优化
-      - 香港|02奈飞三网优化
-      - 香港|13奈飞BGP三网优化2
-      - 香港|13奈飞BGP三网优化3
-      - 香港|04|奈飞三网优化2
-      - 香港|04|奈飞电信优化
-      - 香港|13|奈飞BGP三网优化2
-      - 香港|07电信优化
-      - 香港|02电信优化
-      - 香港A
-      - 香港B
-      - 香港C
-      - 香港D
-      - 香港E
-      - 香港F
-      - 台湾A
-      - 台湾B
-      - 泰国
-      - 韩国
-      - 马来西亚
+      - 越南_油管阿伟科技1
+      - 印度_油管阿伟科技2
+      - 新加坡C_油管阿伟科技3
+      - 新加坡B_油管阿伟科技4
+      - 新加坡A_油管阿伟科技5
+      - 新[中转]2-DisneyNetflix流媒体_油管阿伟科技6
+      - 新[中转]1-DisneyNetflix流媒体_油管阿伟科技7
+      - 新[直连]8-流媒体NF_油管阿伟科技8
+      - 新[直连]7-流媒体NF_油管阿伟科技9
+      - 新[直连]6-流媒体NF_油管阿伟科技10
+      - 新[直连]5-流媒体NF_油管阿伟科技11
+      - 新[直连]4-流媒体NF_油管阿伟科技12
+      - 新[直连]3-流媒体NF_油管阿伟科技13
+      - 新[直连]2-流媒体NF_油管阿伟科技14
+      - 新[直连]1-流媒体NF_油管阿伟科技15
+      - 香港G_油管阿伟科技16
+      - 香港F_油管阿伟科技17
+      - 香港E_油管阿伟科技18
+      - 香港D_油管阿伟科技19
+      - 香港C_油管阿伟科技20
+      - 香港B_油管阿伟科技21
+      - 香港A_油管阿伟科技22
+      - 西班牙_油管阿伟科技23
+      - 泰国_油管阿伟科技24
+      - 台湾D_油管阿伟科技25
+      - 台湾C_油管阿伟科技26
+      - 台湾B_油管阿伟科技27
+      - 台4[直连]-流媒体NF_油管阿伟科技28
+      - 台3[直连]-流媒体NF_油管阿伟科技29
+      - 台1[直连]-流媒体NF_油管阿伟科技30
+      - 隧道|NF|英国01_油管阿伟科技31
+      - 隧道|NF|新加坡09_油管阿伟科技32
+      - 隧道|NF|新加坡06_油管阿伟科技33
+      - 隧道|NF|新加坡05_油管阿伟科技34
+      - 隧道|NF|新加坡04_油管阿伟科技35
+      - 隧道|NF|新加坡03_油管阿伟科技36
+      - 隧道|NF|新加坡01_油管阿伟科技37
+      - 隧道|NF|香港04_油管阿伟科技38
+      - 隧道|NF|香港03_油管阿伟科技39
+      - 隧道|NF|香港02_油管阿伟科技40
+      - 隧道|NF|香港01_油管阿伟科技41
+      - 隧道|NF|台湾04_油管阿伟科技42
+      - 隧道|NF|台湾02_油管阿伟科技43
+      - 隧道|NF|台湾01_油管阿伟科技44
+      - 隧道|NF|日本04_油管阿伟科技45
+      - 隧道|NF|日本03_油管阿伟科技46
+      - 隧道|NF|日本02_油管阿伟科技47
+      - 隧道|NF|日本01_油管阿伟科技48
+      - 隧道|NF|美国02_油管阿伟科技49
+      - 隧道|NF|美国01_油管阿伟科技50
+      - 隧道|NF|韩国02_油管阿伟科技51
+      - 隧道|NF|韩国01_油管阿伟科技52
+      - 隧道|NF|菲律宾01_油管阿伟科技53
+      - 隧道|NF|德国01_油管阿伟科技54
+      - 日本D_油管阿伟科技55
+      - 日本C_油管阿伟科技56
+      - 日本B_油管阿伟科技57
+      - 日本A_油管阿伟科技58
+      - 日2[中转]-流媒体NF_油管阿伟科技59
+      - 日1[中转]-流媒体NF_油管阿伟科技60
+      - 美国C_油管阿伟科技61
+      - 美2[直连]-流媒体_油管阿伟科技62
+      - 美1[中转]-流媒体_油管阿伟科技63
+      - 美1[直连]-流媒体_油管阿伟科技64
+      - 马来西亚_油管阿伟科技65
+      - 加拿大_油管阿伟科技66
+      - 韩国_油管阿伟科技67
+      - 港HGC2[直连]-流媒体NF_油管阿伟科技68
+      - 港8[直连]-流媒体NF_油管阿伟科技69
+      - 港6[直连]-流媒体NF_油管阿伟科技70
+      - 港5[直连]-流媒体NF_油管阿伟科技71
+      - 港3[直连]-流媒体NF_油管阿伟科技72
+      - 港2[中转]-DisneyNetflix流媒体_油管阿伟科技73
+      - 港2[直连]-流媒体NF_油管阿伟科技74
+      - 港1[中转]-DisneyNetflix流媒体_油管阿伟科技75
+      - 港1[直连]-流媒体NF_油管阿伟科技76
+      - 法国_油管阿伟科技77
+      - 波兰_油管阿伟科技78
+      - 澳门_油管阿伟科技79
+      - 澳大利亚_油管阿伟科技80
+      - 🇺🇲+美国|04|RN_1_油管阿伟科技81
+      - 🇺🇲+美国|04|RN_2_油管阿伟科技82
+      - 🇺🇲+美国|03|RN_1_油管阿伟科技83
+      - 🇺🇲+美国|03|RN_2_油管阿伟科技84
+      - 🇺🇲+美国|01|奈飞电信优化_1_油管阿伟科技85
+      - 🇺🇲+美国|01|奈飞电信优化_2_油管阿伟科技86
+      - 🇸🇬+新加坡|03|奈飞OC电信优化3_1_油管阿伟科技87
+      - 🇸🇬+新加坡|03|奈飞OC电信优化3_2_油管阿伟科技88
+      - 🇸🇬+新加坡|03|LIN三网优化_1_油管阿伟科技89
+      - 🇸🇬+新加坡|03|LIN三网优化_2_油管阿伟科技90
+      - 🇸🇬+新加坡|01|OC三网优化_1_油管阿伟科技91
+      - 🇸🇬+新加坡|01|OC三网优化_2_油管阿伟科技92
+      - 🇸🇬+新加坡|01|LIN三网优化_1_油管阿伟科技93
+      - 🇸🇬+新加坡|01|LIN三网优化_2_油管阿伟科技94
+      - 🇰🇷+韩国|01奈飞OC_1_油管阿伟科技95
+      - 🇰🇷+韩国|01奈飞OC_2_油管阿伟科技96
+      - 🇰🇷+韩国|01|AZ中转_1_油管阿伟科技97
+      - 🇰🇷+韩国|01|AZ中转_2_油管阿伟科技98
+      - 🇯🇵日本高速1_油管阿伟科技99
+      - 🇯🇵日本高速_油管阿伟科技100
+      - 🇯🇵+日本|高速|01|LIN_1_油管阿伟科技101
+      - 🇯🇵+日本|高速|01|LIN_2_油管阿伟科技102
+      - 🇯🇵+日本|01|LIN_1_油管阿伟科技103
+      - 🇯🇵+日本|01|LIN_2_油管阿伟科技104
+      - 🇭🇰香港三网高速-7_油管阿伟科技105
+      - 🇭🇰香港高速-6_油管阿伟科技106
+      - 🇭🇰香港高速-5_油管阿伟科技107
+      - 🇭🇰香港高速-4_油管阿伟科技108
+      - 🇭🇰香港高速3_油管阿伟科技109
+      - 🇭🇰+香港|23|奈飞BGP三网优化2_1_油管阿伟科技110
+      - 🇭🇰+香港|23|奈飞BGP三网优化2_2_油管阿伟科技111
+      - 🇭🇰+香港|21_1_油管阿伟科技112
+      - 🇭🇰+香港|21_2_油管阿伟科技113
+      - 🇭🇰+香港|17三网优化_1_油管阿伟科技114
+      - 🇭🇰+香港|17三网优化_2_油管阿伟科技115
+      - 🇭🇰+香港|13|奈飞BGP三网优化3_1_油管阿伟科技116
+      - 🇭🇰+香港|13|奈飞BGP三网优化3_2_油管阿伟科技117
+      - 🇭🇰+香港|05中转_1_油管阿伟科技118
+      - 🇭🇰+香港|05中转_2_油管阿伟科技119
+      - 🇭🇰+香港|01AZ_1_油管阿伟科技120
+      - 🇭🇰+香港|01AZ_2_油管阿伟科技121
+      - 🇭🇰a香港高速-1_油管阿伟科技122
+      - 🇨🇳+台湾|02奈飞三网优化6_油管阿伟科技123
+      - 🇨🇳+台湾|02奈飞三网优化5_油管阿伟科技124
+      - 🇨🇳+台湾|02奈飞三网优化2_油管阿伟科技125
+      - JCBB_印度02【vip1】_1_油管阿伟科技126
+      - JCBB_印度02【vip1】_2_油管阿伟科技127
+      - JCBB_新加坡01【vip1】_1_油管阿伟科技128
+      - JCBB_新加坡01【vip1】_2_油管阿伟科技129
+      - JCBB_香港03【vip1】_油管阿伟科技130
+      - JCBB_香港01【vip1】_1_油管阿伟科技131
+      - JCBB_香港01【vip1】_2_油管阿伟科技132
+      - JCBB_日本03【vip1】_1_油管阿伟科技133
+      - JCBB_日本03【vip1】_2_油管阿伟科技134
+      - JCBB_日本01【vip1】_1_油管阿伟科技135
+      - JCBB_日本01【vip1】_2_油管阿伟科技136
+      - JCBB_德国01【vip1】_油管阿伟科技137
+      - '[Vip1]新加坡07[1.0|联通|流媒体解锁]_油管阿伟科技138'
+      - '[Vip1]香港10[1.0|移动|流媒体解锁]_1_油管阿伟科技139'
+      - '[Vip1]香港10[1.0|移动|流媒体解锁]_2_油管阿伟科技140'
+      - '[Vip1]香港09[1.0|移动|流媒体解锁]_1_油管阿伟科技141'
+      - '[Vip1]香港09[1.0|移动|流媒体解锁]_2_油管阿伟科技142'
+      - '[Vip1]香港06[1.0|联通|流媒体解锁]_1_油管阿伟科技143'
+      - '[Vip1]香港06[1.0|联通|流媒体解锁]_2_油管阿伟科技144'
+      - '[Vip1]香港05[1.0|移动|流媒体解锁]_1_油管阿伟科技145'
+      - '[Vip1]香港05[1.0|移动|流媒体解锁]_2_油管阿伟科技146'
+      - '[Vip1]台湾02[1.0|联通|流媒体解锁]_1_油管阿伟科技147'
+      - '[Vip1]台湾02[1.0|联通|流媒体解锁]_2_油管阿伟科技148'
+      - '[Vip1]日本07[1.0|联通]_1_油管阿伟科技149'
+      - '[Vip1]日本07[1.0|联通]_2_油管阿伟科技150'
+      - '[Vip1]日本06[1.0|移动]_1_油管阿伟科技151'
+      - '[Vip1]日本06[1.0|移动]_2_油管阿伟科技152'
+      - '[Vip1]日本05[1.0|移动]_1_油管阿伟科技153'
+      - '[Vip1]日本05[1.0|移动]_2_油管阿伟科技154'
+      - '[Vip1]日本03[1.0|联通|流媒体解锁]_1_油管阿伟科技155'
+      - '[Vip1]日本03[1.0|联通|流媒体解锁]_2_油管阿伟科技156'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_1_油管阿伟科技157'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_2_油管阿伟科技158'
+      - '[Vip1]日本01[1.0|移动|流媒体解锁]_1_油管阿伟科技159'
+      - '[Vip1]日本01[1.0|移动|流媒体解锁]_2_油管阿伟科技160'
+      - '[Vip1]美国16[1.0|联通|流媒体解锁]_1_油管阿伟科技161'
+      - '[Vip1]美国16[1.0|联通|流媒体解锁]_2_油管阿伟科技162'
+      - '[Vip1]美国15[1.0|联通|流媒体解锁]_1_油管阿伟科技163'
+      - '[Vip1]美国15[1.0|联通|流媒体解锁]_2_油管阿伟科技164'
+      - '[Vip1]美国13[1.0|移动|流媒体解锁]_1_油管阿伟科技165'
+      - '[Vip1]美国13[1.0|移动|流媒体解锁]_2_油管阿伟科技166'
+      - '[Vip1]韩国04[1.0|联通]_1_油管阿伟科技167'
+      - '[Vip1]韩国04[1.0|联通]_2_油管阿伟科技168'
+      - '[Vip1]韩国03[1.0|联通]_1_油管阿伟科技169'
+      - '[Vip1]韩国03[1.0|联通]_2_油管阿伟科技170'
+      - '[Vip1]韩国02[1.0|移动]_1_油管阿伟科技171'
+      - '[Vip1]韩国02[1.0|移动]_2_油管阿伟科技172'
+      - '[Vip1]韩国01[1.0|移动]_1_油管阿伟科技173'
+      - '[Vip1]韩国01[1.0|移动]_2_油管阿伟科技174'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -517,69 +1294,180 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 不定时更新订阅，更多节点关注YouTube频道-阿伟科技
-      - JCBB_香港03【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_新加坡01【vip1】
-      - JCBB_新加坡02【vip1】
-      - JCBB_日本01【vip1】
-      - JCBB_日本02【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本04【vip1】
-      - '[Vip1]香港05[1.0|移动|流媒体解锁]'
-      - '[Vip1]香港09[1.0|移动|流媒体解锁]'
-      - '[Vip1]香港10[1.0|移动|流媒体解锁]'
-      - '[Vip1]日本01[1.0|移动|流媒体解锁]'
-      - '[Vip1]日本02[1.0|移动|流媒体解锁]'
-      - '[Vip1]日本03[1.0|联通|流媒体解锁]'
-      - '[Vip1]日本05[1.0|移动]'
-      - '[Vip1]日本06[1.0|移动]'
-      - '[Vip1]日本07[1.0|联通]'
-      - '[Vip1]台湾02[1.0|联通|流媒体解锁]'
-      - '[Vip1]美国13[1.0|移动|流媒体解锁]'
-      - '[Vip1]美国15[1.0|联通|流媒体解锁]'
-      - 新加坡|02|奈飞DO三网优化
-      - 新加坡|04|奈飞DO三网优化
-      - 新加坡|03|奈飞OC电信优化2
-      - 新加坡|03|奈飞OC电信优化3
-      - 新加坡|02|奈飞DO电信优化2
-      - 新加坡|04|奈飞DO电信优化2
-      - 新加坡|03|奈飞OC三网优化
-      - 新加坡|03|LIN三网优化
-      - 新加坡|08|OC三网优化
-      - 新加坡|01|OC三网优化
-      - 韩国|01奈飞OC
-      - 韩国|01|AZ中转
-      - 日本|05|LIN三网优化
-      - 日本|01|LIN三网优化
-      - 日本|高速|01|LIN
-      - 日本|03|LIN三网优化
-      - 日本|高速|01|LIN三网优化
-      - 香港|17电信优化
-      - 香港|17三网优化
-      - 香港|13|奈飞BGP三网优化
-      - 香港|13奈飞BGP三网优化
-      - 香港|01AZ
-      - 香港|01AZ三网优化2
-      - 香港|01AZ电信优化
-      - 香港|02奈飞三网优化
-      - 香港|13奈飞BGP三网优化2
-      - 香港|13奈飞BGP三网优化3
-      - 香港|04|奈飞三网优化2
-      - 香港|04|奈飞电信优化
-      - 香港|13|奈飞BGP三网优化2
-      - 香港|07电信优化
-      - 香港|02电信优化
-      - 香港A
-      - 香港B
-      - 香港C
-      - 香港D
-      - 香港E
-      - 香港F
-      - 台湾A
-      - 台湾B
-      - 泰国
-      - 韩国
-      - 马来西亚
+      - 越南_油管阿伟科技1
+      - 印度_油管阿伟科技2
+      - 新加坡C_油管阿伟科技3
+      - 新加坡B_油管阿伟科技4
+      - 新加坡A_油管阿伟科技5
+      - 新[中转]2-DisneyNetflix流媒体_油管阿伟科技6
+      - 新[中转]1-DisneyNetflix流媒体_油管阿伟科技7
+      - 新[直连]8-流媒体NF_油管阿伟科技8
+      - 新[直连]7-流媒体NF_油管阿伟科技9
+      - 新[直连]6-流媒体NF_油管阿伟科技10
+      - 新[直连]5-流媒体NF_油管阿伟科技11
+      - 新[直连]4-流媒体NF_油管阿伟科技12
+      - 新[直连]3-流媒体NF_油管阿伟科技13
+      - 新[直连]2-流媒体NF_油管阿伟科技14
+      - 新[直连]1-流媒体NF_油管阿伟科技15
+      - 香港G_油管阿伟科技16
+      - 香港F_油管阿伟科技17
+      - 香港E_油管阿伟科技18
+      - 香港D_油管阿伟科技19
+      - 香港C_油管阿伟科技20
+      - 香港B_油管阿伟科技21
+      - 香港A_油管阿伟科技22
+      - 西班牙_油管阿伟科技23
+      - 泰国_油管阿伟科技24
+      - 台湾D_油管阿伟科技25
+      - 台湾C_油管阿伟科技26
+      - 台湾B_油管阿伟科技27
+      - 台4[直连]-流媒体NF_油管阿伟科技28
+      - 台3[直连]-流媒体NF_油管阿伟科技29
+      - 台1[直连]-流媒体NF_油管阿伟科技30
+      - 隧道|NF|英国01_油管阿伟科技31
+      - 隧道|NF|新加坡09_油管阿伟科技32
+      - 隧道|NF|新加坡06_油管阿伟科技33
+      - 隧道|NF|新加坡05_油管阿伟科技34
+      - 隧道|NF|新加坡04_油管阿伟科技35
+      - 隧道|NF|新加坡03_油管阿伟科技36
+      - 隧道|NF|新加坡01_油管阿伟科技37
+      - 隧道|NF|香港04_油管阿伟科技38
+      - 隧道|NF|香港03_油管阿伟科技39
+      - 隧道|NF|香港02_油管阿伟科技40
+      - 隧道|NF|香港01_油管阿伟科技41
+      - 隧道|NF|台湾04_油管阿伟科技42
+      - 隧道|NF|台湾02_油管阿伟科技43
+      - 隧道|NF|台湾01_油管阿伟科技44
+      - 隧道|NF|日本04_油管阿伟科技45
+      - 隧道|NF|日本03_油管阿伟科技46
+      - 隧道|NF|日本02_油管阿伟科技47
+      - 隧道|NF|日本01_油管阿伟科技48
+      - 隧道|NF|美国02_油管阿伟科技49
+      - 隧道|NF|美国01_油管阿伟科技50
+      - 隧道|NF|韩国02_油管阿伟科技51
+      - 隧道|NF|韩国01_油管阿伟科技52
+      - 隧道|NF|菲律宾01_油管阿伟科技53
+      - 隧道|NF|德国01_油管阿伟科技54
+      - 日本D_油管阿伟科技55
+      - 日本C_油管阿伟科技56
+      - 日本B_油管阿伟科技57
+      - 日本A_油管阿伟科技58
+      - 日2[中转]-流媒体NF_油管阿伟科技59
+      - 日1[中转]-流媒体NF_油管阿伟科技60
+      - 美国C_油管阿伟科技61
+      - 美2[直连]-流媒体_油管阿伟科技62
+      - 美1[中转]-流媒体_油管阿伟科技63
+      - 美1[直连]-流媒体_油管阿伟科技64
+      - 马来西亚_油管阿伟科技65
+      - 加拿大_油管阿伟科技66
+      - 韩国_油管阿伟科技67
+      - 港HGC2[直连]-流媒体NF_油管阿伟科技68
+      - 港8[直连]-流媒体NF_油管阿伟科技69
+      - 港6[直连]-流媒体NF_油管阿伟科技70
+      - 港5[直连]-流媒体NF_油管阿伟科技71
+      - 港3[直连]-流媒体NF_油管阿伟科技72
+      - 港2[中转]-DisneyNetflix流媒体_油管阿伟科技73
+      - 港2[直连]-流媒体NF_油管阿伟科技74
+      - 港1[中转]-DisneyNetflix流媒体_油管阿伟科技75
+      - 港1[直连]-流媒体NF_油管阿伟科技76
+      - 法国_油管阿伟科技77
+      - 波兰_油管阿伟科技78
+      - 澳门_油管阿伟科技79
+      - 澳大利亚_油管阿伟科技80
+      - 🇺🇲+美国|04|RN_1_油管阿伟科技81
+      - 🇺🇲+美国|04|RN_2_油管阿伟科技82
+      - 🇺🇲+美国|03|RN_1_油管阿伟科技83
+      - 🇺🇲+美国|03|RN_2_油管阿伟科技84
+      - 🇺🇲+美国|01|奈飞电信优化_1_油管阿伟科技85
+      - 🇺🇲+美国|01|奈飞电信优化_2_油管阿伟科技86
+      - 🇸🇬+新加坡|03|奈飞OC电信优化3_1_油管阿伟科技87
+      - 🇸🇬+新加坡|03|奈飞OC电信优化3_2_油管阿伟科技88
+      - 🇸🇬+新加坡|03|LIN三网优化_1_油管阿伟科技89
+      - 🇸🇬+新加坡|03|LIN三网优化_2_油管阿伟科技90
+      - 🇸🇬+新加坡|01|OC三网优化_1_油管阿伟科技91
+      - 🇸🇬+新加坡|01|OC三网优化_2_油管阿伟科技92
+      - 🇸🇬+新加坡|01|LIN三网优化_1_油管阿伟科技93
+      - 🇸🇬+新加坡|01|LIN三网优化_2_油管阿伟科技94
+      - 🇰🇷+韩国|01奈飞OC_1_油管阿伟科技95
+      - 🇰🇷+韩国|01奈飞OC_2_油管阿伟科技96
+      - 🇰🇷+韩国|01|AZ中转_1_油管阿伟科技97
+      - 🇰🇷+韩国|01|AZ中转_2_油管阿伟科技98
+      - 🇯🇵日本高速1_油管阿伟科技99
+      - 🇯🇵日本高速_油管阿伟科技100
+      - 🇯🇵+日本|高速|01|LIN_1_油管阿伟科技101
+      - 🇯🇵+日本|高速|01|LIN_2_油管阿伟科技102
+      - 🇯🇵+日本|01|LIN_1_油管阿伟科技103
+      - 🇯🇵+日本|01|LIN_2_油管阿伟科技104
+      - 🇭🇰香港三网高速-7_油管阿伟科技105
+      - 🇭🇰香港高速-6_油管阿伟科技106
+      - 🇭🇰香港高速-5_油管阿伟科技107
+      - 🇭🇰香港高速-4_油管阿伟科技108
+      - 🇭🇰香港高速3_油管阿伟科技109
+      - 🇭🇰+香港|23|奈飞BGP三网优化2_1_油管阿伟科技110
+      - 🇭🇰+香港|23|奈飞BGP三网优化2_2_油管阿伟科技111
+      - 🇭🇰+香港|21_1_油管阿伟科技112
+      - 🇭🇰+香港|21_2_油管阿伟科技113
+      - 🇭🇰+香港|17三网优化_1_油管阿伟科技114
+      - 🇭🇰+香港|17三网优化_2_油管阿伟科技115
+      - 🇭🇰+香港|13|奈飞BGP三网优化3_1_油管阿伟科技116
+      - 🇭🇰+香港|13|奈飞BGP三网优化3_2_油管阿伟科技117
+      - 🇭🇰+香港|05中转_1_油管阿伟科技118
+      - 🇭🇰+香港|05中转_2_油管阿伟科技119
+      - 🇭🇰+香港|01AZ_1_油管阿伟科技120
+      - 🇭🇰+香港|01AZ_2_油管阿伟科技121
+      - 🇭🇰a香港高速-1_油管阿伟科技122
+      - 🇨🇳+台湾|02奈飞三网优化6_油管阿伟科技123
+      - 🇨🇳+台湾|02奈飞三网优化5_油管阿伟科技124
+      - 🇨🇳+台湾|02奈飞三网优化2_油管阿伟科技125
+      - JCBB_印度02【vip1】_1_油管阿伟科技126
+      - JCBB_印度02【vip1】_2_油管阿伟科技127
+      - JCBB_新加坡01【vip1】_1_油管阿伟科技128
+      - JCBB_新加坡01【vip1】_2_油管阿伟科技129
+      - JCBB_香港03【vip1】_油管阿伟科技130
+      - JCBB_香港01【vip1】_1_油管阿伟科技131
+      - JCBB_香港01【vip1】_2_油管阿伟科技132
+      - JCBB_日本03【vip1】_1_油管阿伟科技133
+      - JCBB_日本03【vip1】_2_油管阿伟科技134
+      - JCBB_日本01【vip1】_1_油管阿伟科技135
+      - JCBB_日本01【vip1】_2_油管阿伟科技136
+      - JCBB_德国01【vip1】_油管阿伟科技137
+      - '[Vip1]新加坡07[1.0|联通|流媒体解锁]_油管阿伟科技138'
+      - '[Vip1]香港10[1.0|移动|流媒体解锁]_1_油管阿伟科技139'
+      - '[Vip1]香港10[1.0|移动|流媒体解锁]_2_油管阿伟科技140'
+      - '[Vip1]香港09[1.0|移动|流媒体解锁]_1_油管阿伟科技141'
+      - '[Vip1]香港09[1.0|移动|流媒体解锁]_2_油管阿伟科技142'
+      - '[Vip1]香港06[1.0|联通|流媒体解锁]_1_油管阿伟科技143'
+      - '[Vip1]香港06[1.0|联通|流媒体解锁]_2_油管阿伟科技144'
+      - '[Vip1]香港05[1.0|移动|流媒体解锁]_1_油管阿伟科技145'
+      - '[Vip1]香港05[1.0|移动|流媒体解锁]_2_油管阿伟科技146'
+      - '[Vip1]台湾02[1.0|联通|流媒体解锁]_1_油管阿伟科技147'
+      - '[Vip1]台湾02[1.0|联通|流媒体解锁]_2_油管阿伟科技148'
+      - '[Vip1]日本07[1.0|联通]_1_油管阿伟科技149'
+      - '[Vip1]日本07[1.0|联通]_2_油管阿伟科技150'
+      - '[Vip1]日本06[1.0|移动]_1_油管阿伟科技151'
+      - '[Vip1]日本06[1.0|移动]_2_油管阿伟科技152'
+      - '[Vip1]日本05[1.0|移动]_1_油管阿伟科技153'
+      - '[Vip1]日本05[1.0|移动]_2_油管阿伟科技154'
+      - '[Vip1]日本03[1.0|联通|流媒体解锁]_1_油管阿伟科技155'
+      - '[Vip1]日本03[1.0|联通|流媒体解锁]_2_油管阿伟科技156'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_1_油管阿伟科技157'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_2_油管阿伟科技158'
+      - '[Vip1]日本01[1.0|移动|流媒体解锁]_1_油管阿伟科技159'
+      - '[Vip1]日本01[1.0|移动|流媒体解锁]_2_油管阿伟科技160'
+      - '[Vip1]美国16[1.0|联通|流媒体解锁]_1_油管阿伟科技161'
+      - '[Vip1]美国16[1.0|联通|流媒体解锁]_2_油管阿伟科技162'
+      - '[Vip1]美国15[1.0|联通|流媒体解锁]_1_油管阿伟科技163'
+      - '[Vip1]美国15[1.0|联通|流媒体解锁]_2_油管阿伟科技164'
+      - '[Vip1]美国13[1.0|移动|流媒体解锁]_1_油管阿伟科技165'
+      - '[Vip1]美国13[1.0|移动|流媒体解锁]_2_油管阿伟科技166'
+      - '[Vip1]韩国04[1.0|联通]_1_油管阿伟科技167'
+      - '[Vip1]韩国04[1.0|联通]_2_油管阿伟科技168'
+      - '[Vip1]韩国03[1.0|联通]_1_油管阿伟科技169'
+      - '[Vip1]韩国03[1.0|联通]_2_油管阿伟科技170'
+      - '[Vip1]韩国02[1.0|移动]_1_油管阿伟科技171'
+      - '[Vip1]韩国02[1.0|移动]_2_油管阿伟科技172'
+      - '[Vip1]韩国01[1.0|移动]_1_油管阿伟科技173'
+      - '[Vip1]韩国01[1.0|移动]_2_油管阿伟科技174'
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
