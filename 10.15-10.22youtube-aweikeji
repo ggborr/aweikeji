@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-10-19 08:43:46
+#  创建时间：2022-10-19 08:44:00
 #  模版：v2rayse默认模版
-#  节点数量：35
+#  节点数量：32
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -45,9 +45,6 @@ proxies:
   - {"type":"trojan","name":"🚇+[+移动+]+香港+·+E1+|+02","server":"sinagz01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":30005,"password":"39d74df4-f86d-4f8d-b891-3a054bd136e4","udp":true,"skip-cert-verify":true,"sni":"v2hgc01.fuqiangren.com"}
   - {"type":"trojan","name":"🚇+[+移动+]+香港+·+E1+|+03","server":"sinagz01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":30006,"password":"39d74df4-f86d-4f8d-b891-3a054bd136e4","udp":true,"skip-cert-verify":true,"sni":"v2hgc02.fuqiangren.com"}
   - {"type":"trojan","name":"🚇+[+移动+]+香港+·+E1+|+04","server":"sinagz01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":30038,"password":"39d74df4-f86d-4f8d-b891-3a054bd136e4","udp":true,"skip-cert-verify":true,"sni":"v2hgc02.fuqiangren.com"}
-  - {"type":"vmess","name":"距离下次重置剩余：1天","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}},"server":"sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30009","uuid":"39d74df4-f86d-4f8d-b891-3a054bd136e4","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"剩余流量：10GB","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}},"server":"sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30009","uuid":"39d74df4-f86d-4f8d-b891-3a054bd136e4","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"套餐到期：2022-10-19","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}},"server":"sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30009","uuid":"39d74df4-f86d-4f8d-b891-3a054bd136e4","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -86,9 +83,6 @@ proxy-groups:
       - 🚇+[+移动+]+香港+·+E1+|+02
       - 🚇+[+移动+]+香港+·+E1+|+03
       - 🚇+[+移动+]+香港+·+E1+|+04
-      - 距离下次重置剩余：1天
-      - 剩余流量：10GB
-      - 套餐到期：2022-10-19
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -127,9 +121,6 @@ proxy-groups:
       - 🚇+[+移动+]+香港+·+E1+|+02
       - 🚇+[+移动+]+香港+·+E1+|+03
       - 🚇+[+移动+]+香港+·+E1+|+04
-      - 距离下次重置剩余：1天
-      - 剩余流量：10GB
-      - 套餐到期：2022-10-19
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -168,9 +159,6 @@ proxy-groups:
       - 🚇+[+移动+]+香港+·+E1+|+02
       - 🚇+[+移动+]+香港+·+E1+|+03
       - 🚇+[+移动+]+香港+·+E1+|+04
-      - 距离下次重置剩余：1天
-      - 剩余流量：10GB
-      - 套餐到期：2022-10-19
   - name: 📲 电报信息
     type: select
     proxies:
@@ -208,9 +196,6 @@ proxy-groups:
       - 🚇+[+移动+]+香港+·+E1+|+02
       - 🚇+[+移动+]+香港+·+E1+|+03
       - 🚇+[+移动+]+香港+·+E1+|+04
-      - 距离下次重置剩余：1天
-      - 剩余流量：10GB
-      - 套餐到期：2022-10-19
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -248,9 +233,6 @@ proxy-groups:
       - 🚇+[+移动+]+香港+·+E1+|+02
       - 🚇+[+移动+]+香港+·+E1+|+03
       - 🚇+[+移动+]+香港+·+E1+|+04
-      - 距离下次重置剩余：1天
-      - 剩余流量：10GB
-      - 套餐到期：2022-10-19
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -288,9 +270,6 @@ proxy-groups:
       - 🚇+[+移动+]+香港+·+E1+|+02
       - 🚇+[+移动+]+香港+·+E1+|+03
       - 🚇+[+移动+]+香港+·+E1+|+04
-      - 距离下次重置剩余：1天
-      - 剩余流量：10GB
-      - 套餐到期：2022-10-19
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -345,9 +324,6 @@ proxy-groups:
       - 🚇+[+移动+]+香港+·+E1+|+02
       - 🚇+[+移动+]+香港+·+E1+|+03
       - 🚇+[+移动+]+香港+·+E1+|+04
-      - 距离下次重置剩余：1天
-      - 剩余流量：10GB
-      - 套餐到期：2022-10-19
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
