@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-10-21 13:08:04
+#  创建时间：2022-10-21 16:55:38
 #  模版：v2rayse默认模版
-#  节点数量：94
+#  节点数量：135
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -15,98 +15,139 @@ external-controller: 0.0.0.0:9090
 proxies:
   - {"type":"vmess","name":"不定时更新订阅，更多节点关注YouTube阿伟科技","server":"4.3.1.fuckppppp.today","port":"58418","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"导入订阅链接，开启自动更新1H","server":"120.226.189.121","port":"26022","uuid":"969a2445-04d8-3f35-abe0-15fd31e05585","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"新加坡|03|奈飞OC电信优化2","server":"bj.daozun.cc","port":14525,"password":"015185c6-031e-4759-93b7-a9ab2fd3244f","udp":true,"skip-cert-verify":true,"sni":"0a01f3ad01.170203.xyz"}
-  - {"type":"vmess","name":"新[中转]2-DisneyNetflix流媒体","ws-opts":{"path":"/maopsg2","headers":{"host":"office.com"}},"server":"cu.594888.xyz","port":"60995","uuid":"bb62c4e4-e306-38e4-a60a-412919f07b8c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"新[直连]7-流媒体NF","ws-opts":{"path":"/hls/sg7.m3u8","headers":{"host":"sg7.netflix6.com"}},"server":"sg7.netflix6.com","port":"443","uuid":"bb62c4e4-e306-38e4-a60a-412919f07b8c","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"新[直连]6-流媒体NF","ws-opts":{"path":"/hls/sg6.m3u8","headers":{"host":"sg6.netflix6.com"}},"server":"sg6.netflix6.com","port":"443","uuid":"bb62c4e4-e306-38e4-a60a-412919f07b8c","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"新[直连]5-流媒体NF","ws-opts":{"path":"/hls/sg5.m3u8","headers":{"host":"sg5.netflix6.com"}},"server":"sg5.netflix6.com","port":"443","uuid":"bb62c4e4-e306-38e4-a60a-412919f07b8c","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"新[直连]3-流媒体NF_1","ws-opts":{"path":"/hls/sg3.m3u8","headers":{"host":"sg3.netflix6.com"}},"server":"sg3.netflix6.com","port":"443","uuid":"bb62c4e4-e306-38e4-a60a-412919f07b8c","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"新[直连]3-流媒体NF_2","ws-opts":{"path":"/hls/sg3.m3u8","headers":{"host":"sg3.netflix6.com"}},"server":"sg3.netflix6.com","port":"443","uuid":"bb62c4e4-e306-38e4-a60a-412919f07b8c","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"新[直连]2-流媒体NF","ws-opts":{"path":"/hls/sg2.m3u8","headers":{"host":"sg2.netflix6.com"}},"server":"sg2.netflix6.com","port":"443","uuid":"bb62c4e4-e306-38e4-a60a-412919f07b8c","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"香港|01AZ三网优化2","server":"52.184.88.5","port":15530,"password":"015185c6-031e-4759-93b7-a9ab2fd3244f","udp":true,"skip-cert-verify":true,"sni":"hkmax01.170203.xyz"}
-  - {"type":"ss","name":"香港|01|SS三网优化","server":"hn.suyun.live","port":54005,"cipher":"chacha20-ietf-poly1305","password":"015185c6-031e-4759-93b7-a9ab2fd3244f"}
-  - {"type":"trojan","name":"台湾|01奈飞三网优化3","server":"35.72.161.129","port":13901,"password":"015185c6-031e-4759-93b7-a9ab2fd3244f","udp":true,"skip-cert-verify":true,"sni":"tw01.170203.xyz"}
-  - {"type":"trojan","name":"日本|01|LIN","server":"jp01.170203.xyz","port":444,"password":"015185c6-031e-4759-93b7-a9ab2fd3244f","udp":true,"skip-cert-verify":true,"sni":"jp01.170203.xyz"}
-  - {"type":"vmess","name":"日2[中转]-流媒体NF","ws-opts":{"path":"/maojp2","headers":{"host":"office.com"}},"server":"cu.594888.xyz","port":"60996","uuid":"bb62c4e4-e306-38e4-a60a-412919f07b8c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"美国|05|DO","server":"159.203.188.193","port":10000,"password":"015185c6-031e-4759-93b7-a9ab2fd3244f","udp":true,"skip-cert-verify":true,"sni":"usmax05.170203.xyz"}
-  - {"type":"trojan","name":"韩国|01奈飞OC","server":"131.186.28.65","port":31025,"password":"015185c6-031e-4759-93b7-a9ab2fd3244f","udp":true,"skip-cert-verify":true,"sni":"kr001.170203.xyz"}
-  - {"type":"vmess","name":"港6[直连]-流媒体NF","ws-opts":{"path":"/hls/hk6.m3u8","headers":{"host":"hk6.netflix6.com"}},"server":"hk6.netflix6.com","port":"443","uuid":"bb62c4e4-e306-38e4-a60a-412919f07b8c","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"港5[直连]-流媒体NF","ws-opts":{"path":"/hls/hk5.m3u8","headers":{"host":"hk5.netflix6.com"}},"server":"hk5.netflix6.com","port":"443","uuid":"bb62c4e4-e306-38e4-a60a-412919f07b8c","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"港1[直连]-流媒体NF","ws-opts":{"path":"/maohk1","headers":{"host":"v2hk1.594888.xyz"}},"server":"103.166.127.139","port":"35203","uuid":"bb62c4e4-e306-38e4-a60a-412919f07b8c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"德国|01|DO","server":"159.65.115.119","port":10000,"password":"015185c6-031e-4759-93b7-a9ab2fd3244f","udp":true,"skip-cert-verify":true,"sni":"de01.170203.xyz"}
-  - {"type":"vmess","name":"🚇[联通]香港·F1|03_1","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}},"server":"sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30024","uuid":"1d99bca3-62f4-4cd7-9be5-30a457376673","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🚇[联通]香港·F1|03_2","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}},"server":"sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30024","uuid":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🚇[联通]香港·F1|02","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}},"server":"sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30023","uuid":"1d99bca3-62f4-4cd7-9be5-30a457376673","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🚇[联通]日本·F1|04_1","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}},"server":"sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30045","uuid":"1d99bca3-62f4-4cd7-9be5-30a457376673","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🚇[联通]日本·F1|04_2","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}},"server":"sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30045","uuid":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🚇[联通]日本·F1|03","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}},"server":"sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30021","uuid":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🚇[联通]日本·F1|02","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}},"server":"sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30044","uuid":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🚇[联通]日本·F1|01","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}},"server":"sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30009","uuid":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"🚇+[+联通+]+韩国+·+E1+|+02_1","server":"sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":30057,"password":"1d99bca3-62f4-4cd7-9be5-30a457376673","udp":true,"skip-cert-verify":true,"sni":"v1kr02.fuqiangren.com"}
-  - {"type":"trojan","name":"🚇+[+联通+]+韩国+·+E1+|+02_2","server":"sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":30057,"password":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","udp":true,"skip-cert-verify":true,"sni":"v1kr02.fuqiangren.com"}
-  - {"type":"trojan","name":"🚇+[+联通+]+韩国+·+E1+|+01","server":"sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":30056,"password":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","udp":true,"skip-cert-verify":true,"sni":"v1kr01.fuqiangren.com"}
-  - {"type":"vmess","name":"🚇[v1]英国|02","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}},"server":"sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30025","uuid":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🚇[v1]英国|01","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}},"server":"sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30016","uuid":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🚇[v1]印度|02","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}},"server":"sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30028","uuid":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🚇[v1]印度|01","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}},"server":"sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30027","uuid":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"🚇+[+v1+]+新加坡+|+03","server":"sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":30049,"password":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","udp":true,"skip-cert-verify":true,"sni":"v2sg02.fuqiangren.com"}
-  - {"type":"trojan","name":"🚇+[+v1+]+新加坡+|+02_1","server":"sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":30050,"password":"1d99bca3-62f4-4cd7-9be5-30a457376673","udp":true,"skip-cert-verify":true,"sni":"v2sg02.fuqiangren.com"}
-  - {"type":"trojan","name":"🚇+[+v1+]+新加坡+|+02_2","server":"sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":30050,"password":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","udp":true,"skip-cert-verify":true,"sni":"v2sg02.fuqiangren.com"}
-  - {"type":"vmess","name":"🚇[v1]新加坡|01","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}},"server":"sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30035","uuid":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"🚇+[+v1+]+泰国+|+01","server":"sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":30052,"password":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","udp":true,"skip-cert-verify":true,"sni":"v2th01.fuqiangren.com"}
-  - {"type":"trojan","name":"🚇+[+v1+]+日本+|+06_1","server":"sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":30055,"password":"1d99bca3-62f4-4cd7-9be5-30a457376673","udp":true,"skip-cert-verify":true,"sni":"v1jp02.fuqiangren.com"}
-  - {"type":"trojan","name":"🚇+[+v1+]+日本+|+06_2","server":"sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":30055,"password":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","udp":true,"skip-cert-verify":true,"sni":"v1jp02.fuqiangren.com"}
-  - {"type":"trojan","name":"🚇+[+v1+]+日本+|+05","server":"sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":30054,"password":"1d99bca3-62f4-4cd7-9be5-30a457376673","udp":true,"skip-cert-verify":true,"sni":"v1jp01.fuqiangren.com"}
-  - {"type":"vmess","name":"🚇[v1]美国|03","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}},"server":"sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30000","uuid":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🚇[v1]美国|02","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}},"server":"sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30048","uuid":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"📺️[v1]英国原生|02","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}},"server":"sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30041","uuid":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"📺️[v1]英国原生|01","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}},"server":"sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30040","uuid":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"📺️[v1]香港原生|02","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}},"server":"sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30008","uuid":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"📺️[v1]香港原生|01_1","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}},"server":"sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30007","uuid":"1d99bca3-62f4-4cd7-9be5-30a457376673","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"📺️[v1]香港原生|01_2","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}},"server":"sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30007","uuid":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"📺️+[+v1+]+台湾原生+|+02","server":"sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":30003,"password":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","udp":true,"skip-cert-verify":true,"sni":"v2tw01.fuqiangren.com"}
-  - {"type":"trojan","name":"📺️+[+v1+]+台湾原生+|+01","server":"sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":30002,"password":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","udp":true,"skip-cert-verify":true,"sni":"v2tw01.fuqiangren.com"}
-  - {"type":"vmess","name":"📺️[v1]美国原生|01","ws-opts":{"path":"/"},"server":"sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30043","uuid":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"💎+[+T1+]+新加坡+|+02_1","server":"sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":20223,"password":"1d99bca3-62f4-4cd7-9be5-30a457376673","udp":true,"skip-cert-verify":true,"sni":"v2sg01.fuqiangren.com"}
-  - {"type":"trojan","name":"💎+[+T1+]+新加坡+|+02_2","server":"sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":20223,"password":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","udp":true,"skip-cert-verify":true,"sni":"v2sg01.fuqiangren.com"}
-  - {"type":"trojan","name":"💎+[+T1+]+新加坡+|+01_1","server":"sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":20222,"password":"1d99bca3-62f4-4cd7-9be5-30a457376673","udp":true,"skip-cert-verify":true,"sni":"v2sg01.fuqiangren.com"}
-  - {"type":"trojan","name":"💎+[+T1+]+新加坡+|+01_2","server":"sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":20222,"password":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","udp":true,"skip-cert-verify":true,"sni":"v2sg01.fuqiangren.com"}
-  - {"type":"trojan","name":"💎+[+T1+]+日本+|+02_1","server":"sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":20221,"password":"1d99bca3-62f4-4cd7-9be5-30a457376673","udp":true,"skip-cert-verify":true,"sni":"v2jp01.fuqiangren.com"}
-  - {"type":"trojan","name":"💎+[+T1+]+日本+|+02_2","server":"sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":20221,"password":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","udp":true,"skip-cert-verify":true,"sni":"v2jp01.fuqiangren.com"}
-  - {"type":"trojan","name":"💎+[+T1+]+日本+|+01_1","server":"sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":20220,"password":"1d99bca3-62f4-4cd7-9be5-30a457376673","udp":true,"skip-cert-verify":true,"sni":"v2jp01.fuqiangren.com"}
-  - {"type":"trojan","name":"💎+[+T1+]+日本+|+01_2","server":"sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":20220,"password":"eb68f669-71cb-48d4-a33f-0f7bd8a715e0","udp":true,"skip-cert-verify":true,"sni":"v2jp01.fuqiangren.com"}
-  - {"type":"vmess","name":"Korea1-Tiktok_1","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"v9-vn.tiktokcdn.com"}},"server":"korea-1.4g.mkvn.net","port":"80","uuid":"d7e005f3-5106-482f-b03d-501591b97820","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Korea1-Tiktok_2","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"v9-vn.tiktokcdn.com"}},"server":"korea-1.4g.mkvn.net","port":"80","uuid":"46125583-336e-49b6-b5ea-de431407d0bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Korea1-Garena_1","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"korea-1.4g.mkvn.net","port":"80","uuid":"d7e005f3-5106-482f-b03d-501591b97820","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Korea1-Garena_2","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"korea-1.4g.mkvn.net","port":"80","uuid":"46125583-336e-49b6-b5ea-de431407d0bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"JCBB_印度02【vip1】","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25882","uuid":"7ec23651-9f1f-4d8d-9c6a-f1827bacb3ff","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"JCBB_香港08【vip1】","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25896","uuid":"7ec23651-9f1f-4d8d-9c6a-f1827bacb3ff","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"JCBB_香港06【vip1】","ws-opts":{"path":"/","headers":{"host":"cm.kapoknode.com"}},"server":"cm.kapoknode.com","port":"25897","uuid":"7ec23651-9f1f-4d8d-9c6a-f1827bacb3ff","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"JCBB_香港05【vip1】","ws-opts":{"path":"/","headers":{"host":"cm.kapoknode.com"}},"server":"cm.kapoknode.com","port":"25897","uuid":"7ec23651-9f1f-4d8d-9c6a-f1827bacb3ff","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"JCBB_香港04【vip1】","ws-opts":{"path":"/","headers":{"host":"cm.kapoknode.com"}},"server":"cm.kapoknode.com","port":"25898","uuid":"7ec23651-9f1f-4d8d-9c6a-f1827bacb3ff","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"JCBB_日本04【vip1】","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25887","uuid":"7ec23651-9f1f-4d8d-9c6a-f1827bacb3ff","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"JCBB_日本03【vip1】","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25887","uuid":"7ec23651-9f1f-4d8d-9c6a-f1827bacb3ff","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"JCBB_日本02【vip1】","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25888","uuid":"7ec23651-9f1f-4d8d-9c6a-f1827bacb3ff","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"JCBB_日本01【vip1】","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25888","uuid":"7ec23651-9f1f-4d8d-9c6a-f1827bacb3ff","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"JCBB_德国01【vip1】","ws-opts":{"path":"/","headers":{"host":"cm.kapoknode.com"}},"server":"cm.kapoknode.com","port":"25883","uuid":"7ec23651-9f1f-4d8d-9c6a-f1827bacb3ff","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Japan1-Tiktok_1","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"v9-vn.tiktokcdn.com"}},"server":"japan-1.4g.mkvn.net","port":"80","uuid":"d7e005f3-5106-482f-b03d-501591b97820","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Japan1-Tiktok_2","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"v9-vn.tiktokcdn.com"}},"server":"japan-1.4g.mkvn.net","port":"80","uuid":"46125583-336e-49b6-b5ea-de431407d0bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Japan1-Garena_1","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"japan-1.4g.mkvn.net","port":"80","uuid":"d7e005f3-5106-482f-b03d-501591b97820","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Japan1-Garena_2","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"japan-1.4g.mkvn.net","port":"80","uuid":"46125583-336e-49b6-b5ea-de431407d0bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HongKong3-Tiktok_1","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"v9-vn.tiktokcdn.com"}},"server":"hk-3.4g.mkvn.net","port":"80","uuid":"d7e005f3-5106-482f-b03d-501591b97820","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HongKong3-Tiktok_2","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"v9-vn.tiktokcdn.com"}},"server":"hk-3.4g.mkvn.net","port":"80","uuid":"46125583-336e-49b6-b5ea-de431407d0bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HongKong3-Garena_1","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"hk-3.4g.mkvn.net","port":"80","uuid":"d7e005f3-5106-482f-b03d-501591b97820","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HongKong3-Garena_2","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"hk-3.4g.mkvn.net","port":"80","uuid":"46125583-336e-49b6-b5ea-de431407d0bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HongKong2-Tiktok_1","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"v9-vn.tiktokcdn.com"}},"server":"hk-2.4g.mkvn.net","port":"80","uuid":"d7e005f3-5106-482f-b03d-501591b97820","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HongKong2-Tiktok_2","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"v9-vn.tiktokcdn.com"}},"server":"hk-2.4g.mkvn.net","port":"80","uuid":"46125583-336e-49b6-b5ea-de431407d0bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HongKong2-Garena_1","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"hk-2.4g.mkvn.net","port":"80","uuid":"d7e005f3-5106-482f-b03d-501591b97820","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HongKong2-Garena_2","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"hk-2.4g.mkvn.net","port":"80","uuid":"46125583-336e-49b6-b5ea-de431407d0bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HàNội2-Garena","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"hanoi-2.4g.mkvn.net","port":"80","uuid":"46125583-336e-49b6-b5ea-de431407d0bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"[VIP]台湾|500M|-解锁流媒体倍率1.5x_1","ws-opts":{"path":"/"},"server":"tw.33yun.xyz","port":"80","uuid":"89498784-4d3a-42cf-ae85-d60f800119cd","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"[VIP]台湾|500M|-解锁流媒体倍率1.5x_2","ws-opts":{"path":"/"},"server":"tw.33yun.xyz","port":"80","uuid":"7f0584b2-d7b0-4dbd-a5a4-9af3ae86bdc2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"[VIP]俄罗斯直连电信联通优化倍率1.0x_1","server":"194.50.170.87","port":"10001","uuid":"89498784-4d3a-42cf-ae85-d60f800119cd","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"[VIP]俄罗斯直连电信联通优化倍率1.0x_2","server":"194.50.170.87","port":"10001","uuid":"89498784-4d3a-42cf-ae85-d60f800119cd","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"[VIP]AZ|香港|1000M|倍率1.0","server":"tr2.33yun.xyz","port":"33001","uuid":"89498784-4d3a-42cf-ae85-d60f800119cd","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"[VIP]俄罗斯直连电信联通优化倍率1.0x","server":"194.50.170.87","port":"10001","uuid":"0b81c0cb-d953-4c9b-962e-a05b56d4bb84","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"[VIP]台湾|500M|-解锁流媒体倍率1.5x","ws-opts":{"path":"/"},"server":"tw.33yun.xyz","port":"80","uuid":"0b81c0cb-d953-4c9b-962e-a05b56d4bb84","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]韩国01[1.0|移动]","ws-opts":{"path":"/fly","headers":{"host":"fly1.fastestcloud.xyz"}},"server":"fly1.fastestcloud.xyz","port":"30004","uuid":"0bbf60a1-702d-4acc-a811-65004e04b18e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]韩国02[1.0|移动]","ws-opts":{"path":"/fly","headers":{"host":"fly2.fastestcloud.xyz"}},"server":"fly2.fastestcloud.xyz","port":"30004","uuid":"0bbf60a1-702d-4acc-a811-65004e04b18e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]美国01[1.0|移动|流媒体解锁]_1","ws-opts":{"path":"/fly","headers":{"host":"fly1.fastestcloud.xyz"}},"server":"fly1.fastestcloud.xyz","port":"30080","uuid":"62c5862d-33ce-4738-ad08-c132f66a81d5","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]美国01[1.0|移动|流媒体解锁]_2","ws-opts":{"path":"/fly","headers":{"host":"fly1.fastestcloud.xyz"}},"server":"fly1.fastestcloud.xyz","port":"30080","uuid":"0bbf60a1-702d-4acc-a811-65004e04b18e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]日本02[1.0|移动|流媒体解锁]_1","ws-opts":{"path":"/fly","headers":{"host":"fly1.fastestcloud.xyz"}},"server":"fly1.fastestcloud.xyz","port":"30005","uuid":"62c5862d-33ce-4738-ad08-c132f66a81d5","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]日本02[1.0|移动|流媒体解锁]_2","ws-opts":{"path":"/fly","headers":{"host":"fly1.fastestcloud.xyz"}},"server":"fly1.fastestcloud.xyz","port":"30005","uuid":"0bbf60a1-702d-4acc-a811-65004e04b18e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]日本13[1.0|移动|流媒体解锁]_1","ws-opts":{"path":"/fly","headers":{"host":"fly1.fastestcloud.xyz"}},"server":"fly1.fastestcloud.xyz","port":"30017","uuid":"62c5862d-33ce-4738-ad08-c132f66a81d5","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]日本13[1.0|移动|流媒体解锁]_2","ws-opts":{"path":"/fly","headers":{"host":"fly1.fastestcloud.xyz"}},"server":"fly1.fastestcloud.xyz","port":"30017","uuid":"0bbf60a1-702d-4acc-a811-65004e04b18e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]香港05[1.0|移动|流媒体解锁]","ws-opts":{"path":"/fly","headers":{"host":"fly1.fastestcloud.xyz"}},"server":"fly1.fastestcloud.xyz","port":"40003","uuid":"62c5862d-33ce-4738-ad08-c132f66a81d5","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]香港06[1.0|联通|流媒体解锁]","ws-opts":{"path":"/fly","headers":{"host":"fly2.fastestcloud.xyz"}},"server":"fly2.fastestcloud.xyz","port":"40003","uuid":"62c5862d-33ce-4738-ad08-c132f66a81d5","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]香港09[1.0|移动|流媒体解锁]","ws-opts":{"path":"/","headers":{"host":"fly1.fastestcloud.xyz"}},"server":"fly1.fastestcloud.xyz","port":"40005","uuid":"0bbf60a1-702d-4acc-a811-65004e04b18e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]新加坡05[1.0|联通|流媒体解锁]_1","ws-opts":{"path":"/fly","headers":{"host":"fly3.fastestcloud.xyz"}},"server":"fly3.fastestcloud.xyz","port":"30014","uuid":"62c5862d-33ce-4738-ad08-c132f66a81d5","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]新加坡05[1.0|联通|流媒体解锁]_2","ws-opts":{"path":"/fly","headers":{"host":"fly3.fastestcloud.xyz"}},"server":"fly3.fastestcloud.xyz","port":"30014","uuid":"0bbf60a1-702d-4acc-a811-65004e04b18e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Ⅰ-sc菲律宾1—广港","ws-opts":{"path":"/index","headers":{"host":"syiepl.fosi.hk"}},"server":"syiepl.fosi.hk","port":"45739","uuid":"3936b033-334d-3d16-b98a-6c9cedfeba57","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Ⅰ-sc菲律宾2—广港","ws-opts":{"path":"/index","headers":{"host":"ydgy.fosi.hk"}},"server":"ydgy.fosi.hk","port":"48260","uuid":"3936b033-334d-3d16-b98a-6c9cedfeba57","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Ⅰ-sc韩国1—广港","ws-opts":{"path":"/index","headers":{"host":"gddx.fosi.hk"}},"server":"gddx.fosi.hk","port":"51264","uuid":"3936b033-334d-3d16-b98a-6c9cedfeba57","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Ⅰ-sc韩国2—广港","ws-opts":{"path":"/index","headers":{"host":"syiepl.fosi.hk"}},"server":"syiepl.fosi.hk","port":"59715","uuid":"3936b033-334d-3d16-b98a-6c9cedfeba57","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Ⅰ-sc台湾2—广港","ws-opts":{"path":"/index","headers":{"host":"ydgy.fosi.hk"}},"server":"ydgy.fosi.hk","port":"18005","uuid":"3936b033-334d-3d16-b98a-6c9cedfeba57","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Ⅰ-sc香港1—广港","ws-opts":{"path":"/index","headers":{"host":"gddx.fosi.hk"}},"server":"gddx.fosi.hk","port":"18405","uuid":"3936b033-334d-3d16-b98a-6c9cedfeba57","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Ⅰ-sc香港2—广港","server":"syiepl.fosi.hk","port":"31094","uuid":"3936b033-334d-3d16-b98a-6c9cedfeba57","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Ⅰ-sc越南1—广港","ws-opts":{"path":"/index","headers":{"host":"ydgy.fosi.hk"}},"server":"ydgy.fosi.hk","port":"18121","uuid":"3936b033-334d-3d16-b98a-6c9cedfeba57","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"HongKong2-Garena","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"hk-2.4g.mkvn.net","port":"80","uuid":"459f1c65-1813-47a4-a64d-0c9c7a662318","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"HongKong2-Tiktok","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"v9-vn.tiktokcdn.com"}},"server":"hk-2.4g.mkvn.net","port":"80","uuid":"459f1c65-1813-47a4-a64d-0c9c7a662318","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"HongKong3-Garena","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"hk-3.4g.mkvn.net","port":"80","uuid":"459f1c65-1813-47a4-a64d-0c9c7a662318","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"HongKong3-Tiktok","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"v9-vn.tiktokcdn.com"}},"server":"hk-3.4g.mkvn.net","port":"80","uuid":"459f1c65-1813-47a4-a64d-0c9c7a662318","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Japan1-Garena","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"japan-1.4g.mkvn.net","port":"80","uuid":"459f1c65-1813-47a4-a64d-0c9c7a662318","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"JCBB_日本01【vip1】","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25888","uuid":"4b231023-67fe-45a4-8a57-dd883067c924","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"JCBB_日本03【vip1】","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25887","uuid":"4b231023-67fe-45a4-8a57-dd883067c924","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"JCBB_香港04【vip1】","ws-opts":{"path":"/","headers":{"host":"cm.kapoknode.com"}},"server":"cm.kapoknode.com","port":"25898","uuid":"4b231023-67fe-45a4-8a57-dd883067c924","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"JCBB_香港05【vip1】","ws-opts":{"path":"/","headers":{"host":"cm.kapoknode.com"}},"server":"cm.kapoknode.com","port":"25897","uuid":"4b231023-67fe-45a4-8a57-dd883067c924","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"JCBB_香港08【vip1】","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25896","uuid":"4b231023-67fe-45a4-8a57-dd883067c924","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"JCBB_新加坡01【vip1】","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25895","uuid":"4b231023-67fe-45a4-8a57-dd883067c924","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"JCBB_印度02【vip1】","ws-opts":{"path":"/","headers":{"host":"cu.kapoknode.com"}},"server":"cu.kapoknode.com","port":"25882","uuid":"4b231023-67fe-45a4-8a57-dd883067c924","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Korea1-Garena","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"korea-1.4g.mkvn.net","port":"80","uuid":"459f1c65-1813-47a4-a64d-0c9c7a662318","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Korea1-Tiktok","ws-opts":{"path":"/4g.mkvn.net","headers":{"host":"v9-vn.tiktokcdn.com"}},"server":"korea-1.4g.mkvn.net","port":"80","uuid":"459f1c65-1813-47a4-a64d-0c9c7a662318","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"V1-sc日本1—IEPL","server":"awsbj01.1aba.cn","port":"19279","uuid":"3936b033-334d-3d16-b98a-6c9cedfeba57","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"V2-sc人妖天堂—广港","server":"gddx.fosi.hk","port":"55787","uuid":"3936b033-334d-3d16-b98a-6c9cedfeba57","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"V2-sc新加坡2—广港","server":"ydgy.fosi.hk","port":"25611","uuid":"3936b033-334d-3d16-b98a-6c9cedfeba57","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"💎+[+T1+]+美国+|+01","server":"sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":20224,"password":"b34ebe94-7a5d-4bf4-83a8-e295bf5abe02","udp":true,"skip-cert-verify":true,"sni":"v2usa01.fuqiangren.com"}
+  - {"type":"trojan","name":"💎+[+T1+]+美国+|+02","server":"sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":20225,"password":"b34ebe94-7a5d-4bf4-83a8-e295bf5abe02","udp":true,"skip-cert-verify":true,"sni":"v2usa01.fuqiangren.com"}
+  - {"type":"trojan","name":"💎+[+T1+]+日本+|+01","server":"sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":20220,"password":"b34ebe94-7a5d-4bf4-83a8-e295bf5abe02","udp":true,"skip-cert-verify":true,"sni":"v2jp01.fuqiangren.com"}
+  - {"type":"trojan","name":"💎+[+T1+]+日本+|+02","server":"sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":20221,"password":"b34ebe94-7a5d-4bf4-83a8-e295bf5abe02","udp":true,"skip-cert-verify":true,"sni":"v2jp01.fuqiangren.com"}
+  - {"type":"trojan","name":"💎+[+T1+]+新加坡+|+01","server":"sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":20222,"password":"b34ebe94-7a5d-4bf4-83a8-e295bf5abe02","udp":true,"skip-cert-verify":true,"sni":"v2sg01.fuqiangren.com"}
+  - {"type":"trojan","name":"💎+[+T1+]+新加坡+|+02","server":"sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":20223,"password":"b34ebe94-7a5d-4bf4-83a8-e295bf5abe02","udp":true,"skip-cert-verify":true,"sni":"v2sg01.fuqiangren.com"}
+  - {"type":"trojan","name":"📺️+[+v1+]+台湾原生+|+01","server":"sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":30002,"password":"b34ebe94-7a5d-4bf4-83a8-e295bf5abe02","udp":true,"skip-cert-verify":true,"sni":"v2tw01.fuqiangren.com"}
+  - {"type":"trojan","name":"📺️+[+v1+]+台湾原生+|+02","server":"sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":30003,"password":"b34ebe94-7a5d-4bf4-83a8-e295bf5abe02","udp":true,"skip-cert-verify":true,"sni":"v2tw01.fuqiangren.com"}
+  - {"type":"vmess","name":"📺️[v1]香港原生|01","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}},"server":"sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30007","uuid":"b34ebe94-7a5d-4bf4-83a8-e295bf5abe02","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"📺️[v1]香港原生|02","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}},"server":"sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30008","uuid":"b34ebe94-7a5d-4bf4-83a8-e295bf5abe02","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🚇+[+v1+]+菲律宾+|+01","server":"sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":30053,"password":"b34ebe94-7a5d-4bf4-83a8-e295bf5abe02","udp":true,"skip-cert-verify":true,"sni":"v2phl01.fuqiangren.com"}
+  - {"type":"vmess","name":"🚇[v1]美国|03","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}},"server":"sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30000","uuid":"b34ebe94-7a5d-4bf4-83a8-e295bf5abe02","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🚇+[+v1+]+日本+|+06","server":"sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":30055,"password":"b34ebe94-7a5d-4bf4-83a8-e295bf5abe02","udp":true,"skip-cert-verify":true,"sni":"v1jp02.fuqiangren.com"}
+  - {"type":"trojan","name":"🚇+[+v1+]+新加坡+|+02","server":"sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":30050,"password":"b34ebe94-7a5d-4bf4-83a8-e295bf5abe02","udp":true,"skip-cert-verify":true,"sni":"v2sg02.fuqiangren.com"}
+  - {"type":"trojan","name":"🚇+[+v1+]+新加坡+|+03","server":"sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":30049,"password":"b34ebe94-7a5d-4bf4-83a8-e295bf5abe02","udp":true,"skip-cert-verify":true,"sni":"v2sg02.fuqiangren.com"}
+  - {"type":"trojan","name":"🚇+[+联通+]+韩国+·+E1+|+02","server":"sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":30057,"password":"b34ebe94-7a5d-4bf4-83a8-e295bf5abe02","udp":true,"skip-cert-verify":true,"sni":"v1kr02.fuqiangren.com"}
+  - {"type":"vmess","name":"🚇[联通]日本·F1|04","ws-opts":{"path":"/aceamedv","headers":{"host":"sh02.fastcloud.club"}},"server":"sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30045","uuid":"b34ebe94-7a5d-4bf4-83a8-e295bf5abe02","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🚇[联通]香港·F1|01","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}},"server":"sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30015","uuid":"b34ebe94-7a5d-4bf4-83a8-e295bf5abe02","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🚇[联通]香港·F1|02","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}},"server":"sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30023","uuid":"b34ebe94-7a5d-4bf4-83a8-e295bf5abe02","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🚇[联通]香港·F1|03","ws-opts":{"path":"/aceamedv","headers":{"host":"gz.fastcloud.club"}},"server":"sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30024","uuid":"b34ebe94-7a5d-4bf4-83a8-e295bf5abe02","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"德国|01|DO","server":"159.65.115.119","port":10000,"password":"e3fc9174-d691-4c10-8ca6-88d07008d203","udp":true,"skip-cert-verify":true,"sni":"de01.170203.xyz"}
+  - {"type":"vmess","name":"港1[直连]-流媒体NF","ws-opts":{"path":"/maohk1","headers":{"host":"v2hk1.594888.xyz"}},"server":"103.166.127.139","port":"35203","uuid":"304079f6-105c-3a26-8a88-fcd451cec7f2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"港5[直连]-流媒体NF","ws-opts":{"path":"/hls/hk5.m3u8","headers":{"host":"hk5.netflix6.com"}},"server":"hk5.netflix6.com","port":"443","uuid":"304079f6-105c-3a26-8a88-fcd451cec7f2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"港6[直连]-流媒体NF","ws-opts":{"path":"/hls/hk6.m3u8","headers":{"host":"hk6.netflix6.com"}},"server":"hk6.netflix6.com","port":"443","uuid":"304079f6-105c-3a26-8a88-fcd451cec7f2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"韩国|01奈飞OC_1","server":"131.186.28.65","port":31025,"password":"b4d4eb01-af89-42ce-8cc8-6c9ca96cb9e0","udp":true,"skip-cert-verify":true,"sni":"kr001.170203.xyz"}
+  - {"type":"trojan","name":"韩国|01奈飞OC_2","server":"131.186.28.65","port":31025,"password":"e3fc9174-d691-4c10-8ca6-88d07008d203","udp":true,"skip-cert-verify":true,"sni":"kr001.170203.xyz"}
+  - {"type":"vmess","name":"美1[直连]-流媒体","ws-opts":{"path":"/hls/us1.m3u8","headers":{"host":"us1.netflix6.com"}},"server":"us1.netflix6.com","port":"443","uuid":"304079f6-105c-3a26-8a88-fcd451cec7f2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"日1[中转]-流媒体NF","ws-opts":{"path":"/maojp1","headers":{"host":"office.com"}},"server":"cu.594888.xyz","port":"60995","uuid":"304079f6-105c-3a26-8a88-fcd451cec7f2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"日本|102|流媒体优化|1x","server":"relay-jp.bfstec.com","port":"27152","uuid":"65d0089e-ef8d-34af-b5fa-f2cd5d3f105e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"日本|02|奈飞LIN三网优化","server":"hn.suyun.live","port":34486,"password":"e3fc9174-d691-4c10-8ca6-88d07008d203","udp":true,"skip-cert-verify":true,"sni":"jpmax02.170203.xyz"}
+  - {"type":"trojan","name":"日本|02|奈飞LIN三网优化2","server":"35.72.161.129","port":35529,"password":"e3fc9174-d691-4c10-8ca6-88d07008d203","udp":true,"skip-cert-verify":true,"sni":"jpmax02.170203.xyz"}
+  - {"type":"trojan","name":"日本|03|LIN三网优化_1","server":"35.72.161.129","port":65450,"password":"b4d4eb01-af89-42ce-8cc8-6c9ca96cb9e0","udp":true,"skip-cert-verify":true,"sni":"jpmax03.170203.xyz"}
+  - {"type":"trojan","name":"日本|03|LIN三网优化_2","server":"35.72.161.129","port":65450,"password":"e3fc9174-d691-4c10-8ca6-88d07008d203","udp":true,"skip-cert-verify":true,"sni":"jpmax03.170203.xyz"}
+  - {"type":"trojan","name":"日本|05|LIN","server":"172.104.91.161","port":10003,"password":"e3fc9174-d691-4c10-8ca6-88d07008d203","udp":true,"skip-cert-verify":true,"sni":"jpmax05.170203.xyz"}
+  - {"type":"trojan","name":"日本|05|LIN三网优化_1","server":"52.194.224.198","port":24979,"password":"b4d4eb01-af89-42ce-8cc8-6c9ca96cb9e0","udp":true,"skip-cert-verify":true,"sni":"jpmax05.170203.xyz"}
+  - {"type":"trojan","name":"日本|05|LIN三网优化_2","server":"52.194.224.198","port":24979,"password":"e3fc9174-d691-4c10-8ca6-88d07008d203","udp":true,"skip-cert-verify":true,"sni":"jpmax05.170203.xyz"}
+  - {"type":"vmess","name":"隧道|NF|德国01","server":"cjl-moble.gatknqh.cn","port":"40127","uuid":"89139ecc-a150-301a-a623-f868186eaac6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|菲律宾01","server":"cjl-moble.gatknqh.cn","port":"40126","uuid":"89139ecc-a150-301a-a623-f868186eaac6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|韩国02","server":"cjl-moble.gatknqh.cn","port":"40123","uuid":"89139ecc-a150-301a-a623-f868186eaac6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|美国01","server":"cjl-moble.gatknqh.cn","port":"40124","uuid":"89139ecc-a150-301a-a623-f868186eaac6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|美国02","server":"cjl-moble.gatknqh.cn","port":"40125","uuid":"89139ecc-a150-301a-a623-f868186eaac6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|日本02","server":"cjl-moble.gatknqh.cn","port":"40119","uuid":"89139ecc-a150-301a-a623-f868186eaac6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|台湾03","server":"cjl-moble.gatknqh.cn","port":"40103","uuid":"89139ecc-a150-301a-a623-f868186eaac6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|香港02","server":"cjl-moble.gatknqh.cn","port":"40106","uuid":"89139ecc-a150-301a-a623-f868186eaac6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|香港04","server":"cjl-moble.gatknqh.cn","port":"40108","uuid":"89139ecc-a150-301a-a623-f868186eaac6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|新加坡01","server":"cjl-moble.gatknqh.cn","port":"40109","uuid":"89139ecc-a150-301a-a623-f868186eaac6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|新加坡02","server":"cjl-moble.gatknqh.cn","port":"40110","uuid":"89139ecc-a150-301a-a623-f868186eaac6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|新加坡04","server":"cjl-moble.gatknqh.cn","port":"40112","uuid":"89139ecc-a150-301a-a623-f868186eaac6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|新加坡07","server":"cjl-moble.gatknqh.cn","port":"40115","uuid":"89139ecc-a150-301a-a623-f868186eaac6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|新加坡08","server":"cjl-moble.gatknqh.cn","port":"40116","uuid":"89139ecc-a150-301a-a623-f868186eaac6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|新加坡09","server":"cjl-moble.gatknqh.cn","port":"40117","uuid":"89139ecc-a150-301a-a623-f868186eaac6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"隧道|NF|英国01","server":"cjl-moble.gatknqh.cn","port":"40128","uuid":"89139ecc-a150-301a-a623-f868186eaac6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"台3[直连]-流媒体NF","ws-opts":{"path":"/v2ray","headers":{"host":"tw3.594888.xyz"}},"server":"tw3.594888.xyz","port":"25551","uuid":"304079f6-105c-3a26-8a88-fcd451cec7f2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"台湾|01奈飞三网优化_1","server":"hn.suyun.live","port":13697,"password":"b4d4eb01-af89-42ce-8cc8-6c9ca96cb9e0","udp":true,"skip-cert-verify":true,"sni":"tw01.170203.xyz"}
+  - {"type":"trojan","name":"台湾|01奈飞三网优化_2","server":"hn.suyun.live","port":13697,"password":"e3fc9174-d691-4c10-8ca6-88d07008d203","udp":true,"skip-cert-verify":true,"sni":"tw01.170203.xyz"}
+  - {"type":"trojan","name":"台湾|01奈飞三网优化3_1","server":"35.72.161.129","port":13901,"password":"b4d4eb01-af89-42ce-8cc8-6c9ca96cb9e0","udp":true,"skip-cert-verify":true,"sni":"tw01.170203.xyz"}
+  - {"type":"trojan","name":"台湾|01奈飞三网优化3_2","server":"35.72.161.129","port":13901,"password":"e3fc9174-d691-4c10-8ca6-88d07008d203","udp":true,"skip-cert-verify":true,"sni":"tw01.170203.xyz"}
+  - {"type":"trojan","name":"台湾|01奈飞直连_1","server":"tw01.170203.xyz","port":10000,"password":"b4d4eb01-af89-42ce-8cc8-6c9ca96cb9e0","udp":true,"skip-cert-verify":true,"sni":"tw01.170203.xyz"}
+  - {"type":"trojan","name":"台湾|01奈飞直连_2","server":"tw01.170203.xyz","port":10000,"password":"e3fc9174-d691-4c10-8ca6-88d07008d203","udp":true,"skip-cert-verify":true,"sni":"tw01.170203.xyz"}
+  - {"type":"vmess","name":"香港|103|原生IP|1x","server":"relay-us.bfstec.com","port":"31002","uuid":"65d0089e-ef8d-34af-b5fa-f2cd5d3f105e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"香港|105|海港|1x","server":"relay-hk2.bfstec.com","port":"44275","uuid":"65d0089e-ef8d-34af-b5fa-f2cd5d3f105e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"香港|01|SS三网优化_1","server":"hn.suyun.live","port":54005,"cipher":"chacha20-ietf-poly1305","password":"b4d4eb01-af89-42ce-8cc8-6c9ca96cb9e0"}
+  - {"type":"ss","name":"香港|01|SS三网优化_2","server":"hn.suyun.live","port":54005,"cipher":"chacha20-ietf-poly1305","password":"e3fc9174-d691-4c10-8ca6-88d07008d203"}
+  - {"type":"trojan","name":"香港|01AZ电信优化","server":"hn.suyun.live","port":62314,"password":"b4d4eb01-af89-42ce-8cc8-6c9ca96cb9e0","udp":true,"skip-cert-verify":true,"sni":"hkmax01.170203.xyz"}
+  - {"type":"trojan","name":"香港|01AZ三网优化2_1","server":"52.184.88.5","port":15530,"password":"b4d4eb01-af89-42ce-8cc8-6c9ca96cb9e0","udp":true,"skip-cert-verify":true,"sni":"hkmax01.170203.xyz"}
+  - {"type":"trojan","name":"香港|01AZ三网优化2_2","server":"52.184.88.5","port":15530,"password":"e3fc9174-d691-4c10-8ca6-88d07008d203","udp":true,"skip-cert-verify":true,"sni":"hkmax01.170203.xyz"}
+  - {"type":"ss","name":"香港|02|SS三网优化","server":"hn.suyun.live","port":14850,"cipher":"chacha20-ietf-poly1305","password":"b4d4eb01-af89-42ce-8cc8-6c9ca96cb9e0"}
+  - {"type":"trojan","name":"香港|03|AZ三网优化_1","server":"hn.suyun.live","port":10324,"password":"b4d4eb01-af89-42ce-8cc8-6c9ca96cb9e0","udp":true,"skip-cert-verify":true,"sni":"hkmax03.170203.xyz"}
+  - {"type":"trojan","name":"香港|03|AZ三网优化_2","server":"hn.suyun.live","port":10324,"password":"e3fc9174-d691-4c10-8ca6-88d07008d203","udp":true,"skip-cert-verify":true,"sni":"hkmax03.170203.xyz"}
+  - {"type":"trojan","name":"香港|03|AZ三网优化2_1","server":"52.184.88.5","port":59878,"password":"b4d4eb01-af89-42ce-8cc8-6c9ca96cb9e0","udp":true,"skip-cert-verify":true,"sni":"hkmax03.170203.xyz"}
+  - {"type":"trojan","name":"香港|03|AZ三网优化2_2","server":"52.184.88.5","port":59878,"password":"e3fc9174-d691-4c10-8ca6-88d07008d203","udp":true,"skip-cert-verify":true,"sni":"hkmax03.170203.xyz"}
+  - {"type":"trojan","name":"香港|17AZ三网优化_1","server":"hn.suyun.live","port":23194,"password":"b4d4eb01-af89-42ce-8cc8-6c9ca96cb9e0","udp":true,"skip-cert-verify":true,"sni":"hkmax17.170203.xyz"}
+  - {"type":"trojan","name":"香港|17AZ三网优化_2","server":"hn.suyun.live","port":23194,"password":"e3fc9174-d691-4c10-8ca6-88d07008d203","udp":true,"skip-cert-verify":true,"sni":"hkmax17.170203.xyz"}
+  - {"type":"trojan","name":"香港|21三网优化","server":"52.194.224.198","port":53934,"password":"e3fc9174-d691-4c10-8ca6-88d07008d203","udp":true,"skip-cert-verify":true,"sni":"hkmax21.170203.xyz"}
+  - {"type":"trojan","name":"香港|21移动优化_1","server":"hkmax21.170203.xyz","port":14444,"password":"b4d4eb01-af89-42ce-8cc8-6c9ca96cb9e0","udp":true,"skip-cert-verify":true,"sni":"hkmax21.170203.xyz"}
+  - {"type":"trojan","name":"香港|21移动优化_2","server":"hkmax21.170203.xyz","port":14444,"password":"e3fc9174-d691-4c10-8ca6-88d07008d203","udp":true,"skip-cert-verify":true,"sni":"hkmax21.170203.xyz"}
+  - {"type":"vmess","name":"新[直连]3-流媒体NF","ws-opts":{"path":"/hls/sg3.m3u8","headers":{"host":"sg3.netflix6.com"}},"server":"sg3.netflix6.com","port":"443","uuid":"304079f6-105c-3a26-8a88-fcd451cec7f2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"新[直连]5-流媒体NF","ws-opts":{"path":"/hls/sg5.m3u8","headers":{"host":"sg5.netflix6.com"}},"server":"sg5.netflix6.com","port":"443","uuid":"304079f6-105c-3a26-8a88-fcd451cec7f2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"新[直连]6-流媒体NF","ws-opts":{"path":"/hls/sg6.m3u8","headers":{"host":"sg6.netflix6.com"}},"server":"sg6.netflix6.com","port":"443","uuid":"304079f6-105c-3a26-8a88-fcd451cec7f2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"新加坡|101|杭州入口|1x","server":"relay-sg1.bfstec.com","port":"11211","uuid":"65d0089e-ef8d-34af-b5fa-f2cd5d3f105e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"新加坡|02|奈飞DO电信优化2_1","server":"hn.suyun.live","port":57155,"password":"b4d4eb01-af89-42ce-8cc8-6c9ca96cb9e0","udp":true,"skip-cert-verify":true,"sni":"sgmax02.170203.xyz"}
+  - {"type":"trojan","name":"新加坡|02|奈飞DO电信优化2_2","server":"hn.suyun.live","port":57155,"password":"e3fc9174-d691-4c10-8ca6-88d07008d203","udp":true,"skip-cert-verify":true,"sni":"sgmax02.170203.xyz"}
+  - {"type":"trojan","name":"新加坡|03|LIN三网优化_1","server":"35.72.161.129","port":16541,"password":"b4d4eb01-af89-42ce-8cc8-6c9ca96cb9e0","udp":true,"skip-cert-verify":true,"sni":"sgmax03.170203.xyz"}
+  - {"type":"trojan","name":"新加坡|03|LIN三网优化_2","server":"35.72.161.129","port":16541,"password":"e3fc9174-d691-4c10-8ca6-88d07008d203","udp":true,"skip-cert-verify":true,"sni":"sgmax03.170203.xyz"}
+  - {"type":"trojan","name":"新加坡|03|奈飞OC电信优化3_1","server":"hn.suyun.live","port":12242,"password":"b4d4eb01-af89-42ce-8cc8-6c9ca96cb9e0","udp":true,"skip-cert-verify":true,"sni":"0a01f3ad01.170203.xyz"}
+  - {"type":"trojan","name":"新加坡|03|奈飞OC电信优化3_2","server":"hn.suyun.live","port":12242,"password":"e3fc9174-d691-4c10-8ca6-88d07008d203","udp":true,"skip-cert-verify":true,"sni":"0a01f3ad01.170203.xyz"}
+  - {"type":"trojan","name":"新加坡|04|奈飞DO电信优化2","server":"hn.suyun.live","port":26874,"password":"e3fc9174-d691-4c10-8ca6-88d07008d203","udp":true,"skip-cert-verify":true,"sni":"sgmax04.170203.xyz"}
+  - {"type":"trojan","name":"新加坡|05|奈飞","server":"165.232.174.69","port":444,"password":"e3fc9174-d691-4c10-8ca6-88d07008d203","udp":true,"skip-cert-verify":true,"sni":"sgmax05.170203.xyz"}
+  - {"type":"trojan","name":"新加坡|05|奈飞三网优化_1","server":"35.72.161.129","port":15720,"password":"b4d4eb01-af89-42ce-8cc8-6c9ca96cb9e0","udp":true,"skip-cert-verify":true,"sni":"sgmax05.170203.xyz"}
+  - {"type":"trojan","name":"新加坡|05|奈飞三网优化_2","server":"35.72.161.129","port":15720,"password":"e3fc9174-d691-4c10-8ca6-88d07008d203","udp":true,"skip-cert-verify":true,"sni":"sgmax05.170203.xyz"}
+  - {"type":"trojan","name":"新加坡|06|奈飞DO","server":"178.128.51.24","port":10000,"password":"b4d4eb01-af89-42ce-8cc8-6c9ca96cb9e0","udp":true,"skip-cert-verify":true,"sni":"sgmax06.170203.xyz"}
+  - {"type":"trojan","name":"新加坡|08|OC三网优化_1","server":"35.72.161.129","port":21716,"password":"b4d4eb01-af89-42ce-8cc8-6c9ca96cb9e0","udp":true,"skip-cert-verify":true,"sni":"sgmax08.170203.xyz"}
+  - {"type":"trojan","name":"新加坡|08|OC三网优化_2","server":"35.72.161.129","port":21716,"password":"e3fc9174-d691-4c10-8ca6-88d07008d203","udp":true,"skip-cert-verify":true,"sni":"sgmax08.170203.xyz"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -115,98 +156,139 @@ proxy-groups:
       - DIRECT
       - 不定时更新订阅，更多节点关注YouTube阿伟科技
       - 导入订阅链接，开启自动更新1H
-      - 新加坡|03|奈飞OC电信优化2
-      - 新[中转]2-DisneyNetflix流媒体
-      - 新[直连]7-流媒体NF
-      - 新[直连]6-流媒体NF
-      - 新[直连]5-流媒体NF
-      - 新[直连]3-流媒体NF_1
-      - 新[直连]3-流媒体NF_2
-      - 新[直连]2-流媒体NF
-      - 香港|01AZ三网优化2
-      - 香港|01|SS三网优化
-      - 台湾|01奈飞三网优化3
-      - 日本|01|LIN
-      - 日2[中转]-流媒体NF
-      - 美国|05|DO
-      - 韩国|01奈飞OC
-      - 港6[直连]-流媒体NF
-      - 港5[直连]-流媒体NF
-      - 港1[直连]-流媒体NF
-      - 德国|01|DO
-      - 🚇[联通]香港·F1|03_1
-      - 🚇[联通]香港·F1|03_2
-      - 🚇[联通]香港·F1|02
-      - 🚇[联通]日本·F1|04_1
-      - 🚇[联通]日本·F1|04_2
-      - 🚇[联通]日本·F1|03
-      - 🚇[联通]日本·F1|02
-      - 🚇[联通]日本·F1|01
-      - 🚇+[+联通+]+韩国+·+E1+|+02_1
-      - 🚇+[+联通+]+韩国+·+E1+|+02_2
-      - 🚇+[+联通+]+韩国+·+E1+|+01
-      - 🚇[v1]英国|02
-      - 🚇[v1]英国|01
-      - 🚇[v1]印度|02
-      - 🚇[v1]印度|01
-      - 🚇+[+v1+]+新加坡+|+03
-      - 🚇+[+v1+]+新加坡+|+02_1
-      - 🚇+[+v1+]+新加坡+|+02_2
-      - 🚇[v1]新加坡|01
-      - 🚇+[+v1+]+泰国+|+01
-      - 🚇+[+v1+]+日本+|+06_1
-      - 🚇+[+v1+]+日本+|+06_2
-      - 🚇+[+v1+]+日本+|+05
-      - 🚇[v1]美国|03
-      - 🚇[v1]美国|02
-      - 📺️[v1]英国原生|02
-      - 📺️[v1]英国原生|01
-      - 📺️[v1]香港原生|02
-      - 📺️[v1]香港原生|01_1
-      - 📺️[v1]香港原生|01_2
-      - 📺️+[+v1+]+台湾原生+|+02
-      - 📺️+[+v1+]+台湾原生+|+01
-      - 📺️[v1]美国原生|01
-      - 💎+[+T1+]+新加坡+|+02_1
-      - 💎+[+T1+]+新加坡+|+02_2
-      - 💎+[+T1+]+新加坡+|+01_1
-      - 💎+[+T1+]+新加坡+|+01_2
-      - 💎+[+T1+]+日本+|+02_1
-      - 💎+[+T1+]+日本+|+02_2
-      - 💎+[+T1+]+日本+|+01_1
-      - 💎+[+T1+]+日本+|+01_2
-      - Korea1-Tiktok_1
-      - Korea1-Tiktok_2
-      - Korea1-Garena_1
-      - Korea1-Garena_2
-      - JCBB_印度02【vip1】
-      - JCBB_香港08【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_日本04【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本02【vip1】
+      - '[VIP]俄罗斯直连电信联通优化倍率1.0x'
+      - '[VIP]台湾|500M|-解锁流媒体倍率1.5x'
+      - '[Vip1]韩国01[1.0|移动]'
+      - '[Vip1]韩国02[1.0|移动]'
+      - '[Vip1]美国01[1.0|移动|流媒体解锁]_1'
+      - '[Vip1]美国01[1.0|移动|流媒体解锁]_2'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_1'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_2'
+      - '[Vip1]日本13[1.0|移动|流媒体解锁]_1'
+      - '[Vip1]日本13[1.0|移动|流媒体解锁]_2'
+      - '[Vip1]香港05[1.0|移动|流媒体解锁]'
+      - '[Vip1]香港06[1.0|联通|流媒体解锁]'
+      - '[Vip1]香港09[1.0|移动|流媒体解锁]'
+      - '[Vip1]新加坡05[1.0|联通|流媒体解锁]_1'
+      - '[Vip1]新加坡05[1.0|联通|流媒体解锁]_2'
+      - Ⅰ-sc菲律宾1—广港
+      - Ⅰ-sc菲律宾2—广港
+      - Ⅰ-sc韩国1—广港
+      - Ⅰ-sc韩国2—广港
+      - Ⅰ-sc台湾2—广港
+      - Ⅰ-sc香港1—广港
+      - Ⅰ-sc香港2—广港
+      - Ⅰ-sc越南1—广港
+      - HongKong2-Garena
+      - HongKong2-Tiktok
+      - HongKong3-Garena
+      - HongKong3-Tiktok
+      - Japan1-Garena
       - JCBB_日本01【vip1】
-      - JCBB_德国01【vip1】
-      - Japan1-Tiktok_1
-      - Japan1-Tiktok_2
-      - Japan1-Garena_1
-      - Japan1-Garena_2
-      - HongKong3-Tiktok_1
-      - HongKong3-Tiktok_2
-      - HongKong3-Garena_1
-      - HongKong3-Garena_2
-      - HongKong2-Tiktok_1
-      - HongKong2-Tiktok_2
-      - HongKong2-Garena_1
-      - HongKong2-Garena_2
-      - HàNội2-Garena
-      - '[VIP]台湾|500M|-解锁流媒体倍率1.5x_1'
-      - '[VIP]台湾|500M|-解锁流媒体倍率1.5x_2'
-      - '[VIP]俄罗斯直连电信联通优化倍率1.0x_1'
-      - '[VIP]俄罗斯直连电信联通优化倍率1.0x_2'
-      - '[VIP]AZ|香港|1000M|倍率1.0'
+      - JCBB_日本03【vip1】
+      - JCBB_香港04【vip1】
+      - JCBB_香港05【vip1】
+      - JCBB_香港08【vip1】
+      - JCBB_新加坡01【vip1】
+      - JCBB_印度02【vip1】
+      - Korea1-Garena
+      - Korea1-Tiktok
+      - V1-sc日本1—IEPL
+      - V2-sc人妖天堂—广港
+      - V2-sc新加坡2—广港
+      - 💎+[+T1+]+美国+|+01
+      - 💎+[+T1+]+美国+|+02
+      - 💎+[+T1+]+日本+|+01
+      - 💎+[+T1+]+日本+|+02
+      - 💎+[+T1+]+新加坡+|+01
+      - 💎+[+T1+]+新加坡+|+02
+      - 📺️+[+v1+]+台湾原生+|+01
+      - 📺️+[+v1+]+台湾原生+|+02
+      - 📺️[v1]香港原生|01
+      - 📺️[v1]香港原生|02
+      - 🚇+[+v1+]+菲律宾+|+01
+      - 🚇[v1]美国|03
+      - 🚇+[+v1+]+日本+|+06
+      - 🚇+[+v1+]+新加坡+|+02
+      - 🚇+[+v1+]+新加坡+|+03
+      - 🚇+[+联通+]+韩国+·+E1+|+02
+      - 🚇[联通]日本·F1|04
+      - 🚇[联通]香港·F1|01
+      - 🚇[联通]香港·F1|02
+      - 🚇[联通]香港·F1|03
+      - 德国|01|DO
+      - 港1[直连]-流媒体NF
+      - 港5[直连]-流媒体NF
+      - 港6[直连]-流媒体NF
+      - 韩国|01奈飞OC_1
+      - 韩国|01奈飞OC_2
+      - 美1[直连]-流媒体
+      - 日1[中转]-流媒体NF
+      - 日本|102|流媒体优化|1x
+      - 日本|02|奈飞LIN三网优化
+      - 日本|02|奈飞LIN三网优化2
+      - 日本|03|LIN三网优化_1
+      - 日本|03|LIN三网优化_2
+      - 日本|05|LIN
+      - 日本|05|LIN三网优化_1
+      - 日本|05|LIN三网优化_2
+      - 隧道|NF|德国01
+      - 隧道|NF|菲律宾01
+      - 隧道|NF|韩国02
+      - 隧道|NF|美国01
+      - 隧道|NF|美国02
+      - 隧道|NF|日本02
+      - 隧道|NF|台湾03
+      - 隧道|NF|香港02
+      - 隧道|NF|香港04
+      - 隧道|NF|新加坡01
+      - 隧道|NF|新加坡02
+      - 隧道|NF|新加坡04
+      - 隧道|NF|新加坡07
+      - 隧道|NF|新加坡08
+      - 隧道|NF|新加坡09
+      - 隧道|NF|英国01
+      - 台3[直连]-流媒体NF
+      - 台湾|01奈飞三网优化_1
+      - 台湾|01奈飞三网优化_2
+      - 台湾|01奈飞三网优化3_1
+      - 台湾|01奈飞三网优化3_2
+      - 台湾|01奈飞直连_1
+      - 台湾|01奈飞直连_2
+      - 香港|103|原生IP|1x
+      - 香港|105|海港|1x
+      - 香港|01|SS三网优化_1
+      - 香港|01|SS三网优化_2
+      - 香港|01AZ电信优化
+      - 香港|01AZ三网优化2_1
+      - 香港|01AZ三网优化2_2
+      - 香港|02|SS三网优化
+      - 香港|03|AZ三网优化_1
+      - 香港|03|AZ三网优化_2
+      - 香港|03|AZ三网优化2_1
+      - 香港|03|AZ三网优化2_2
+      - 香港|17AZ三网优化_1
+      - 香港|17AZ三网优化_2
+      - 香港|21三网优化
+      - 香港|21移动优化_1
+      - 香港|21移动优化_2
+      - 新[直连]3-流媒体NF
+      - 新[直连]5-流媒体NF
+      - 新[直连]6-流媒体NF
+      - 新加坡|101|杭州入口|1x
+      - 新加坡|02|奈飞DO电信优化2_1
+      - 新加坡|02|奈飞DO电信优化2_2
+      - 新加坡|03|LIN三网优化_1
+      - 新加坡|03|LIN三网优化_2
+      - 新加坡|03|奈飞OC电信优化3_1
+      - 新加坡|03|奈飞OC电信优化3_2
+      - 新加坡|04|奈飞DO电信优化2
+      - 新加坡|05|奈飞
+      - 新加坡|05|奈飞三网优化_1
+      - 新加坡|05|奈飞三网优化_2
+      - 新加坡|06|奈飞DO
+      - 新加坡|08|OC三网优化_1
+      - 新加坡|08|OC三网优化_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -215,98 +297,139 @@ proxy-groups:
     proxies:
       - 不定时更新订阅，更多节点关注YouTube阿伟科技
       - 导入订阅链接，开启自动更新1H
-      - 新加坡|03|奈飞OC电信优化2
-      - 新[中转]2-DisneyNetflix流媒体
-      - 新[直连]7-流媒体NF
-      - 新[直连]6-流媒体NF
-      - 新[直连]5-流媒体NF
-      - 新[直连]3-流媒体NF_1
-      - 新[直连]3-流媒体NF_2
-      - 新[直连]2-流媒体NF
-      - 香港|01AZ三网优化2
-      - 香港|01|SS三网优化
-      - 台湾|01奈飞三网优化3
-      - 日本|01|LIN
-      - 日2[中转]-流媒体NF
-      - 美国|05|DO
-      - 韩国|01奈飞OC
-      - 港6[直连]-流媒体NF
-      - 港5[直连]-流媒体NF
-      - 港1[直连]-流媒体NF
-      - 德国|01|DO
-      - 🚇[联通]香港·F1|03_1
-      - 🚇[联通]香港·F1|03_2
-      - 🚇[联通]香港·F1|02
-      - 🚇[联通]日本·F1|04_1
-      - 🚇[联通]日本·F1|04_2
-      - 🚇[联通]日本·F1|03
-      - 🚇[联通]日本·F1|02
-      - 🚇[联通]日本·F1|01
-      - 🚇+[+联通+]+韩国+·+E1+|+02_1
-      - 🚇+[+联通+]+韩国+·+E1+|+02_2
-      - 🚇+[+联通+]+韩国+·+E1+|+01
-      - 🚇[v1]英国|02
-      - 🚇[v1]英国|01
-      - 🚇[v1]印度|02
-      - 🚇[v1]印度|01
-      - 🚇+[+v1+]+新加坡+|+03
-      - 🚇+[+v1+]+新加坡+|+02_1
-      - 🚇+[+v1+]+新加坡+|+02_2
-      - 🚇[v1]新加坡|01
-      - 🚇+[+v1+]+泰国+|+01
-      - 🚇+[+v1+]+日本+|+06_1
-      - 🚇+[+v1+]+日本+|+06_2
-      - 🚇+[+v1+]+日本+|+05
-      - 🚇[v1]美国|03
-      - 🚇[v1]美国|02
-      - 📺️[v1]英国原生|02
-      - 📺️[v1]英国原生|01
-      - 📺️[v1]香港原生|02
-      - 📺️[v1]香港原生|01_1
-      - 📺️[v1]香港原生|01_2
-      - 📺️+[+v1+]+台湾原生+|+02
-      - 📺️+[+v1+]+台湾原生+|+01
-      - 📺️[v1]美国原生|01
-      - 💎+[+T1+]+新加坡+|+02_1
-      - 💎+[+T1+]+新加坡+|+02_2
-      - 💎+[+T1+]+新加坡+|+01_1
-      - 💎+[+T1+]+新加坡+|+01_2
-      - 💎+[+T1+]+日本+|+02_1
-      - 💎+[+T1+]+日本+|+02_2
-      - 💎+[+T1+]+日本+|+01_1
-      - 💎+[+T1+]+日本+|+01_2
-      - Korea1-Tiktok_1
-      - Korea1-Tiktok_2
-      - Korea1-Garena_1
-      - Korea1-Garena_2
-      - JCBB_印度02【vip1】
-      - JCBB_香港08【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_日本04【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本02【vip1】
+      - '[VIP]俄罗斯直连电信联通优化倍率1.0x'
+      - '[VIP]台湾|500M|-解锁流媒体倍率1.5x'
+      - '[Vip1]韩国01[1.0|移动]'
+      - '[Vip1]韩国02[1.0|移动]'
+      - '[Vip1]美国01[1.0|移动|流媒体解锁]_1'
+      - '[Vip1]美国01[1.0|移动|流媒体解锁]_2'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_1'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_2'
+      - '[Vip1]日本13[1.0|移动|流媒体解锁]_1'
+      - '[Vip1]日本13[1.0|移动|流媒体解锁]_2'
+      - '[Vip1]香港05[1.0|移动|流媒体解锁]'
+      - '[Vip1]香港06[1.0|联通|流媒体解锁]'
+      - '[Vip1]香港09[1.0|移动|流媒体解锁]'
+      - '[Vip1]新加坡05[1.0|联通|流媒体解锁]_1'
+      - '[Vip1]新加坡05[1.0|联通|流媒体解锁]_2'
+      - Ⅰ-sc菲律宾1—广港
+      - Ⅰ-sc菲律宾2—广港
+      - Ⅰ-sc韩国1—广港
+      - Ⅰ-sc韩国2—广港
+      - Ⅰ-sc台湾2—广港
+      - Ⅰ-sc香港1—广港
+      - Ⅰ-sc香港2—广港
+      - Ⅰ-sc越南1—广港
+      - HongKong2-Garena
+      - HongKong2-Tiktok
+      - HongKong3-Garena
+      - HongKong3-Tiktok
+      - Japan1-Garena
       - JCBB_日本01【vip1】
-      - JCBB_德国01【vip1】
-      - Japan1-Tiktok_1
-      - Japan1-Tiktok_2
-      - Japan1-Garena_1
-      - Japan1-Garena_2
-      - HongKong3-Tiktok_1
-      - HongKong3-Tiktok_2
-      - HongKong3-Garena_1
-      - HongKong3-Garena_2
-      - HongKong2-Tiktok_1
-      - HongKong2-Tiktok_2
-      - HongKong2-Garena_1
-      - HongKong2-Garena_2
-      - HàNội2-Garena
-      - '[VIP]台湾|500M|-解锁流媒体倍率1.5x_1'
-      - '[VIP]台湾|500M|-解锁流媒体倍率1.5x_2'
-      - '[VIP]俄罗斯直连电信联通优化倍率1.0x_1'
-      - '[VIP]俄罗斯直连电信联通优化倍率1.0x_2'
-      - '[VIP]AZ|香港|1000M|倍率1.0'
+      - JCBB_日本03【vip1】
+      - JCBB_香港04【vip1】
+      - JCBB_香港05【vip1】
+      - JCBB_香港08【vip1】
+      - JCBB_新加坡01【vip1】
+      - JCBB_印度02【vip1】
+      - Korea1-Garena
+      - Korea1-Tiktok
+      - V1-sc日本1—IEPL
+      - V2-sc人妖天堂—广港
+      - V2-sc新加坡2—广港
+      - 💎+[+T1+]+美国+|+01
+      - 💎+[+T1+]+美国+|+02
+      - 💎+[+T1+]+日本+|+01
+      - 💎+[+T1+]+日本+|+02
+      - 💎+[+T1+]+新加坡+|+01
+      - 💎+[+T1+]+新加坡+|+02
+      - 📺️+[+v1+]+台湾原生+|+01
+      - 📺️+[+v1+]+台湾原生+|+02
+      - 📺️[v1]香港原生|01
+      - 📺️[v1]香港原生|02
+      - 🚇+[+v1+]+菲律宾+|+01
+      - 🚇[v1]美国|03
+      - 🚇+[+v1+]+日本+|+06
+      - 🚇+[+v1+]+新加坡+|+02
+      - 🚇+[+v1+]+新加坡+|+03
+      - 🚇+[+联通+]+韩国+·+E1+|+02
+      - 🚇[联通]日本·F1|04
+      - 🚇[联通]香港·F1|01
+      - 🚇[联通]香港·F1|02
+      - 🚇[联通]香港·F1|03
+      - 德国|01|DO
+      - 港1[直连]-流媒体NF
+      - 港5[直连]-流媒体NF
+      - 港6[直连]-流媒体NF
+      - 韩国|01奈飞OC_1
+      - 韩国|01奈飞OC_2
+      - 美1[直连]-流媒体
+      - 日1[中转]-流媒体NF
+      - 日本|102|流媒体优化|1x
+      - 日本|02|奈飞LIN三网优化
+      - 日本|02|奈飞LIN三网优化2
+      - 日本|03|LIN三网优化_1
+      - 日本|03|LIN三网优化_2
+      - 日本|05|LIN
+      - 日本|05|LIN三网优化_1
+      - 日本|05|LIN三网优化_2
+      - 隧道|NF|德国01
+      - 隧道|NF|菲律宾01
+      - 隧道|NF|韩国02
+      - 隧道|NF|美国01
+      - 隧道|NF|美国02
+      - 隧道|NF|日本02
+      - 隧道|NF|台湾03
+      - 隧道|NF|香港02
+      - 隧道|NF|香港04
+      - 隧道|NF|新加坡01
+      - 隧道|NF|新加坡02
+      - 隧道|NF|新加坡04
+      - 隧道|NF|新加坡07
+      - 隧道|NF|新加坡08
+      - 隧道|NF|新加坡09
+      - 隧道|NF|英国01
+      - 台3[直连]-流媒体NF
+      - 台湾|01奈飞三网优化_1
+      - 台湾|01奈飞三网优化_2
+      - 台湾|01奈飞三网优化3_1
+      - 台湾|01奈飞三网优化3_2
+      - 台湾|01奈飞直连_1
+      - 台湾|01奈飞直连_2
+      - 香港|103|原生IP|1x
+      - 香港|105|海港|1x
+      - 香港|01|SS三网优化_1
+      - 香港|01|SS三网优化_2
+      - 香港|01AZ电信优化
+      - 香港|01AZ三网优化2_1
+      - 香港|01AZ三网优化2_2
+      - 香港|02|SS三网优化
+      - 香港|03|AZ三网优化_1
+      - 香港|03|AZ三网优化_2
+      - 香港|03|AZ三网优化2_1
+      - 香港|03|AZ三网优化2_2
+      - 香港|17AZ三网优化_1
+      - 香港|17AZ三网优化_2
+      - 香港|21三网优化
+      - 香港|21移动优化_1
+      - 香港|21移动优化_2
+      - 新[直连]3-流媒体NF
+      - 新[直连]5-流媒体NF
+      - 新[直连]6-流媒体NF
+      - 新加坡|101|杭州入口|1x
+      - 新加坡|02|奈飞DO电信优化2_1
+      - 新加坡|02|奈飞DO电信优化2_2
+      - 新加坡|03|LIN三网优化_1
+      - 新加坡|03|LIN三网优化_2
+      - 新加坡|03|奈飞OC电信优化3_1
+      - 新加坡|03|奈飞OC电信优化3_2
+      - 新加坡|04|奈飞DO电信优化2
+      - 新加坡|05|奈飞
+      - 新加坡|05|奈飞三网优化_1
+      - 新加坡|05|奈飞三网优化_2
+      - 新加坡|06|奈飞DO
+      - 新加坡|08|OC三网优化_1
+      - 新加坡|08|OC三网优化_2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -315,98 +438,139 @@ proxy-groups:
       - 🎯 全球直连
       - 不定时更新订阅，更多节点关注YouTube阿伟科技
       - 导入订阅链接，开启自动更新1H
-      - 新加坡|03|奈飞OC电信优化2
-      - 新[中转]2-DisneyNetflix流媒体
-      - 新[直连]7-流媒体NF
-      - 新[直连]6-流媒体NF
-      - 新[直连]5-流媒体NF
-      - 新[直连]3-流媒体NF_1
-      - 新[直连]3-流媒体NF_2
-      - 新[直连]2-流媒体NF
-      - 香港|01AZ三网优化2
-      - 香港|01|SS三网优化
-      - 台湾|01奈飞三网优化3
-      - 日本|01|LIN
-      - 日2[中转]-流媒体NF
-      - 美国|05|DO
-      - 韩国|01奈飞OC
-      - 港6[直连]-流媒体NF
-      - 港5[直连]-流媒体NF
-      - 港1[直连]-流媒体NF
-      - 德国|01|DO
-      - 🚇[联通]香港·F1|03_1
-      - 🚇[联通]香港·F1|03_2
-      - 🚇[联通]香港·F1|02
-      - 🚇[联通]日本·F1|04_1
-      - 🚇[联通]日本·F1|04_2
-      - 🚇[联通]日本·F1|03
-      - 🚇[联通]日本·F1|02
-      - 🚇[联通]日本·F1|01
-      - 🚇+[+联通+]+韩国+·+E1+|+02_1
-      - 🚇+[+联通+]+韩国+·+E1+|+02_2
-      - 🚇+[+联通+]+韩国+·+E1+|+01
-      - 🚇[v1]英国|02
-      - 🚇[v1]英国|01
-      - 🚇[v1]印度|02
-      - 🚇[v1]印度|01
-      - 🚇+[+v1+]+新加坡+|+03
-      - 🚇+[+v1+]+新加坡+|+02_1
-      - 🚇+[+v1+]+新加坡+|+02_2
-      - 🚇[v1]新加坡|01
-      - 🚇+[+v1+]+泰国+|+01
-      - 🚇+[+v1+]+日本+|+06_1
-      - 🚇+[+v1+]+日本+|+06_2
-      - 🚇+[+v1+]+日本+|+05
-      - 🚇[v1]美国|03
-      - 🚇[v1]美国|02
-      - 📺️[v1]英国原生|02
-      - 📺️[v1]英国原生|01
-      - 📺️[v1]香港原生|02
-      - 📺️[v1]香港原生|01_1
-      - 📺️[v1]香港原生|01_2
-      - 📺️+[+v1+]+台湾原生+|+02
-      - 📺️+[+v1+]+台湾原生+|+01
-      - 📺️[v1]美国原生|01
-      - 💎+[+T1+]+新加坡+|+02_1
-      - 💎+[+T1+]+新加坡+|+02_2
-      - 💎+[+T1+]+新加坡+|+01_1
-      - 💎+[+T1+]+新加坡+|+01_2
-      - 💎+[+T1+]+日本+|+02_1
-      - 💎+[+T1+]+日本+|+02_2
-      - 💎+[+T1+]+日本+|+01_1
-      - 💎+[+T1+]+日本+|+01_2
-      - Korea1-Tiktok_1
-      - Korea1-Tiktok_2
-      - Korea1-Garena_1
-      - Korea1-Garena_2
-      - JCBB_印度02【vip1】
-      - JCBB_香港08【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_日本04【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本02【vip1】
+      - '[VIP]俄罗斯直连电信联通优化倍率1.0x'
+      - '[VIP]台湾|500M|-解锁流媒体倍率1.5x'
+      - '[Vip1]韩国01[1.0|移动]'
+      - '[Vip1]韩国02[1.0|移动]'
+      - '[Vip1]美国01[1.0|移动|流媒体解锁]_1'
+      - '[Vip1]美国01[1.0|移动|流媒体解锁]_2'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_1'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_2'
+      - '[Vip1]日本13[1.0|移动|流媒体解锁]_1'
+      - '[Vip1]日本13[1.0|移动|流媒体解锁]_2'
+      - '[Vip1]香港05[1.0|移动|流媒体解锁]'
+      - '[Vip1]香港06[1.0|联通|流媒体解锁]'
+      - '[Vip1]香港09[1.0|移动|流媒体解锁]'
+      - '[Vip1]新加坡05[1.0|联通|流媒体解锁]_1'
+      - '[Vip1]新加坡05[1.0|联通|流媒体解锁]_2'
+      - Ⅰ-sc菲律宾1—广港
+      - Ⅰ-sc菲律宾2—广港
+      - Ⅰ-sc韩国1—广港
+      - Ⅰ-sc韩国2—广港
+      - Ⅰ-sc台湾2—广港
+      - Ⅰ-sc香港1—广港
+      - Ⅰ-sc香港2—广港
+      - Ⅰ-sc越南1—广港
+      - HongKong2-Garena
+      - HongKong2-Tiktok
+      - HongKong3-Garena
+      - HongKong3-Tiktok
+      - Japan1-Garena
       - JCBB_日本01【vip1】
-      - JCBB_德国01【vip1】
-      - Japan1-Tiktok_1
-      - Japan1-Tiktok_2
-      - Japan1-Garena_1
-      - Japan1-Garena_2
-      - HongKong3-Tiktok_1
-      - HongKong3-Tiktok_2
-      - HongKong3-Garena_1
-      - HongKong3-Garena_2
-      - HongKong2-Tiktok_1
-      - HongKong2-Tiktok_2
-      - HongKong2-Garena_1
-      - HongKong2-Garena_2
-      - HàNội2-Garena
-      - '[VIP]台湾|500M|-解锁流媒体倍率1.5x_1'
-      - '[VIP]台湾|500M|-解锁流媒体倍率1.5x_2'
-      - '[VIP]俄罗斯直连电信联通优化倍率1.0x_1'
-      - '[VIP]俄罗斯直连电信联通优化倍率1.0x_2'
-      - '[VIP]AZ|香港|1000M|倍率1.0'
+      - JCBB_日本03【vip1】
+      - JCBB_香港04【vip1】
+      - JCBB_香港05【vip1】
+      - JCBB_香港08【vip1】
+      - JCBB_新加坡01【vip1】
+      - JCBB_印度02【vip1】
+      - Korea1-Garena
+      - Korea1-Tiktok
+      - V1-sc日本1—IEPL
+      - V2-sc人妖天堂—广港
+      - V2-sc新加坡2—广港
+      - 💎+[+T1+]+美国+|+01
+      - 💎+[+T1+]+美国+|+02
+      - 💎+[+T1+]+日本+|+01
+      - 💎+[+T1+]+日本+|+02
+      - 💎+[+T1+]+新加坡+|+01
+      - 💎+[+T1+]+新加坡+|+02
+      - 📺️+[+v1+]+台湾原生+|+01
+      - 📺️+[+v1+]+台湾原生+|+02
+      - 📺️[v1]香港原生|01
+      - 📺️[v1]香港原生|02
+      - 🚇+[+v1+]+菲律宾+|+01
+      - 🚇[v1]美国|03
+      - 🚇+[+v1+]+日本+|+06
+      - 🚇+[+v1+]+新加坡+|+02
+      - 🚇+[+v1+]+新加坡+|+03
+      - 🚇+[+联通+]+韩国+·+E1+|+02
+      - 🚇[联通]日本·F1|04
+      - 🚇[联通]香港·F1|01
+      - 🚇[联通]香港·F1|02
+      - 🚇[联通]香港·F1|03
+      - 德国|01|DO
+      - 港1[直连]-流媒体NF
+      - 港5[直连]-流媒体NF
+      - 港6[直连]-流媒体NF
+      - 韩国|01奈飞OC_1
+      - 韩国|01奈飞OC_2
+      - 美1[直连]-流媒体
+      - 日1[中转]-流媒体NF
+      - 日本|102|流媒体优化|1x
+      - 日本|02|奈飞LIN三网优化
+      - 日本|02|奈飞LIN三网优化2
+      - 日本|03|LIN三网优化_1
+      - 日本|03|LIN三网优化_2
+      - 日本|05|LIN
+      - 日本|05|LIN三网优化_1
+      - 日本|05|LIN三网优化_2
+      - 隧道|NF|德国01
+      - 隧道|NF|菲律宾01
+      - 隧道|NF|韩国02
+      - 隧道|NF|美国01
+      - 隧道|NF|美国02
+      - 隧道|NF|日本02
+      - 隧道|NF|台湾03
+      - 隧道|NF|香港02
+      - 隧道|NF|香港04
+      - 隧道|NF|新加坡01
+      - 隧道|NF|新加坡02
+      - 隧道|NF|新加坡04
+      - 隧道|NF|新加坡07
+      - 隧道|NF|新加坡08
+      - 隧道|NF|新加坡09
+      - 隧道|NF|英国01
+      - 台3[直连]-流媒体NF
+      - 台湾|01奈飞三网优化_1
+      - 台湾|01奈飞三网优化_2
+      - 台湾|01奈飞三网优化3_1
+      - 台湾|01奈飞三网优化3_2
+      - 台湾|01奈飞直连_1
+      - 台湾|01奈飞直连_2
+      - 香港|103|原生IP|1x
+      - 香港|105|海港|1x
+      - 香港|01|SS三网优化_1
+      - 香港|01|SS三网优化_2
+      - 香港|01AZ电信优化
+      - 香港|01AZ三网优化2_1
+      - 香港|01AZ三网优化2_2
+      - 香港|02|SS三网优化
+      - 香港|03|AZ三网优化_1
+      - 香港|03|AZ三网优化_2
+      - 香港|03|AZ三网优化2_1
+      - 香港|03|AZ三网优化2_2
+      - 香港|17AZ三网优化_1
+      - 香港|17AZ三网优化_2
+      - 香港|21三网优化
+      - 香港|21移动优化_1
+      - 香港|21移动优化_2
+      - 新[直连]3-流媒体NF
+      - 新[直连]5-流媒体NF
+      - 新[直连]6-流媒体NF
+      - 新加坡|101|杭州入口|1x
+      - 新加坡|02|奈飞DO电信优化2_1
+      - 新加坡|02|奈飞DO电信优化2_2
+      - 新加坡|03|LIN三网优化_1
+      - 新加坡|03|LIN三网优化_2
+      - 新加坡|03|奈飞OC电信优化3_1
+      - 新加坡|03|奈飞OC电信优化3_2
+      - 新加坡|04|奈飞DO电信优化2
+      - 新加坡|05|奈飞
+      - 新加坡|05|奈飞三网优化_1
+      - 新加坡|05|奈飞三网优化_2
+      - 新加坡|06|奈飞DO
+      - 新加坡|08|OC三网优化_1
+      - 新加坡|08|OC三网优化_2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -414,98 +578,139 @@ proxy-groups:
       - 🎯 全球直连
       - 不定时更新订阅，更多节点关注YouTube阿伟科技
       - 导入订阅链接，开启自动更新1H
-      - 新加坡|03|奈飞OC电信优化2
-      - 新[中转]2-DisneyNetflix流媒体
-      - 新[直连]7-流媒体NF
-      - 新[直连]6-流媒体NF
-      - 新[直连]5-流媒体NF
-      - 新[直连]3-流媒体NF_1
-      - 新[直连]3-流媒体NF_2
-      - 新[直连]2-流媒体NF
-      - 香港|01AZ三网优化2
-      - 香港|01|SS三网优化
-      - 台湾|01奈飞三网优化3
-      - 日本|01|LIN
-      - 日2[中转]-流媒体NF
-      - 美国|05|DO
-      - 韩国|01奈飞OC
-      - 港6[直连]-流媒体NF
-      - 港5[直连]-流媒体NF
-      - 港1[直连]-流媒体NF
-      - 德国|01|DO
-      - 🚇[联通]香港·F1|03_1
-      - 🚇[联通]香港·F1|03_2
-      - 🚇[联通]香港·F1|02
-      - 🚇[联通]日本·F1|04_1
-      - 🚇[联通]日本·F1|04_2
-      - 🚇[联通]日本·F1|03
-      - 🚇[联通]日本·F1|02
-      - 🚇[联通]日本·F1|01
-      - 🚇+[+联通+]+韩国+·+E1+|+02_1
-      - 🚇+[+联通+]+韩国+·+E1+|+02_2
-      - 🚇+[+联通+]+韩国+·+E1+|+01
-      - 🚇[v1]英国|02
-      - 🚇[v1]英国|01
-      - 🚇[v1]印度|02
-      - 🚇[v1]印度|01
-      - 🚇+[+v1+]+新加坡+|+03
-      - 🚇+[+v1+]+新加坡+|+02_1
-      - 🚇+[+v1+]+新加坡+|+02_2
-      - 🚇[v1]新加坡|01
-      - 🚇+[+v1+]+泰国+|+01
-      - 🚇+[+v1+]+日本+|+06_1
-      - 🚇+[+v1+]+日本+|+06_2
-      - 🚇+[+v1+]+日本+|+05
-      - 🚇[v1]美国|03
-      - 🚇[v1]美国|02
-      - 📺️[v1]英国原生|02
-      - 📺️[v1]英国原生|01
-      - 📺️[v1]香港原生|02
-      - 📺️[v1]香港原生|01_1
-      - 📺️[v1]香港原生|01_2
-      - 📺️+[+v1+]+台湾原生+|+02
-      - 📺️+[+v1+]+台湾原生+|+01
-      - 📺️[v1]美国原生|01
-      - 💎+[+T1+]+新加坡+|+02_1
-      - 💎+[+T1+]+新加坡+|+02_2
-      - 💎+[+T1+]+新加坡+|+01_1
-      - 💎+[+T1+]+新加坡+|+01_2
-      - 💎+[+T1+]+日本+|+02_1
-      - 💎+[+T1+]+日本+|+02_2
-      - 💎+[+T1+]+日本+|+01_1
-      - 💎+[+T1+]+日本+|+01_2
-      - Korea1-Tiktok_1
-      - Korea1-Tiktok_2
-      - Korea1-Garena_1
-      - Korea1-Garena_2
-      - JCBB_印度02【vip1】
-      - JCBB_香港08【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_日本04【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本02【vip1】
+      - '[VIP]俄罗斯直连电信联通优化倍率1.0x'
+      - '[VIP]台湾|500M|-解锁流媒体倍率1.5x'
+      - '[Vip1]韩国01[1.0|移动]'
+      - '[Vip1]韩国02[1.0|移动]'
+      - '[Vip1]美国01[1.0|移动|流媒体解锁]_1'
+      - '[Vip1]美国01[1.0|移动|流媒体解锁]_2'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_1'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_2'
+      - '[Vip1]日本13[1.0|移动|流媒体解锁]_1'
+      - '[Vip1]日本13[1.0|移动|流媒体解锁]_2'
+      - '[Vip1]香港05[1.0|移动|流媒体解锁]'
+      - '[Vip1]香港06[1.0|联通|流媒体解锁]'
+      - '[Vip1]香港09[1.0|移动|流媒体解锁]'
+      - '[Vip1]新加坡05[1.0|联通|流媒体解锁]_1'
+      - '[Vip1]新加坡05[1.0|联通|流媒体解锁]_2'
+      - Ⅰ-sc菲律宾1—广港
+      - Ⅰ-sc菲律宾2—广港
+      - Ⅰ-sc韩国1—广港
+      - Ⅰ-sc韩国2—广港
+      - Ⅰ-sc台湾2—广港
+      - Ⅰ-sc香港1—广港
+      - Ⅰ-sc香港2—广港
+      - Ⅰ-sc越南1—广港
+      - HongKong2-Garena
+      - HongKong2-Tiktok
+      - HongKong3-Garena
+      - HongKong3-Tiktok
+      - Japan1-Garena
       - JCBB_日本01【vip1】
-      - JCBB_德国01【vip1】
-      - Japan1-Tiktok_1
-      - Japan1-Tiktok_2
-      - Japan1-Garena_1
-      - Japan1-Garena_2
-      - HongKong3-Tiktok_1
-      - HongKong3-Tiktok_2
-      - HongKong3-Garena_1
-      - HongKong3-Garena_2
-      - HongKong2-Tiktok_1
-      - HongKong2-Tiktok_2
-      - HongKong2-Garena_1
-      - HongKong2-Garena_2
-      - HàNội2-Garena
-      - '[VIP]台湾|500M|-解锁流媒体倍率1.5x_1'
-      - '[VIP]台湾|500M|-解锁流媒体倍率1.5x_2'
-      - '[VIP]俄罗斯直连电信联通优化倍率1.0x_1'
-      - '[VIP]俄罗斯直连电信联通优化倍率1.0x_2'
-      - '[VIP]AZ|香港|1000M|倍率1.0'
+      - JCBB_日本03【vip1】
+      - JCBB_香港04【vip1】
+      - JCBB_香港05【vip1】
+      - JCBB_香港08【vip1】
+      - JCBB_新加坡01【vip1】
+      - JCBB_印度02【vip1】
+      - Korea1-Garena
+      - Korea1-Tiktok
+      - V1-sc日本1—IEPL
+      - V2-sc人妖天堂—广港
+      - V2-sc新加坡2—广港
+      - 💎+[+T1+]+美国+|+01
+      - 💎+[+T1+]+美国+|+02
+      - 💎+[+T1+]+日本+|+01
+      - 💎+[+T1+]+日本+|+02
+      - 💎+[+T1+]+新加坡+|+01
+      - 💎+[+T1+]+新加坡+|+02
+      - 📺️+[+v1+]+台湾原生+|+01
+      - 📺️+[+v1+]+台湾原生+|+02
+      - 📺️[v1]香港原生|01
+      - 📺️[v1]香港原生|02
+      - 🚇+[+v1+]+菲律宾+|+01
+      - 🚇[v1]美国|03
+      - 🚇+[+v1+]+日本+|+06
+      - 🚇+[+v1+]+新加坡+|+02
+      - 🚇+[+v1+]+新加坡+|+03
+      - 🚇+[+联通+]+韩国+·+E1+|+02
+      - 🚇[联通]日本·F1|04
+      - 🚇[联通]香港·F1|01
+      - 🚇[联通]香港·F1|02
+      - 🚇[联通]香港·F1|03
+      - 德国|01|DO
+      - 港1[直连]-流媒体NF
+      - 港5[直连]-流媒体NF
+      - 港6[直连]-流媒体NF
+      - 韩国|01奈飞OC_1
+      - 韩国|01奈飞OC_2
+      - 美1[直连]-流媒体
+      - 日1[中转]-流媒体NF
+      - 日本|102|流媒体优化|1x
+      - 日本|02|奈飞LIN三网优化
+      - 日本|02|奈飞LIN三网优化2
+      - 日本|03|LIN三网优化_1
+      - 日本|03|LIN三网优化_2
+      - 日本|05|LIN
+      - 日本|05|LIN三网优化_1
+      - 日本|05|LIN三网优化_2
+      - 隧道|NF|德国01
+      - 隧道|NF|菲律宾01
+      - 隧道|NF|韩国02
+      - 隧道|NF|美国01
+      - 隧道|NF|美国02
+      - 隧道|NF|日本02
+      - 隧道|NF|台湾03
+      - 隧道|NF|香港02
+      - 隧道|NF|香港04
+      - 隧道|NF|新加坡01
+      - 隧道|NF|新加坡02
+      - 隧道|NF|新加坡04
+      - 隧道|NF|新加坡07
+      - 隧道|NF|新加坡08
+      - 隧道|NF|新加坡09
+      - 隧道|NF|英国01
+      - 台3[直连]-流媒体NF
+      - 台湾|01奈飞三网优化_1
+      - 台湾|01奈飞三网优化_2
+      - 台湾|01奈飞三网优化3_1
+      - 台湾|01奈飞三网优化3_2
+      - 台湾|01奈飞直连_1
+      - 台湾|01奈飞直连_2
+      - 香港|103|原生IP|1x
+      - 香港|105|海港|1x
+      - 香港|01|SS三网优化_1
+      - 香港|01|SS三网优化_2
+      - 香港|01AZ电信优化
+      - 香港|01AZ三网优化2_1
+      - 香港|01AZ三网优化2_2
+      - 香港|02|SS三网优化
+      - 香港|03|AZ三网优化_1
+      - 香港|03|AZ三网优化_2
+      - 香港|03|AZ三网优化2_1
+      - 香港|03|AZ三网优化2_2
+      - 香港|17AZ三网优化_1
+      - 香港|17AZ三网优化_2
+      - 香港|21三网优化
+      - 香港|21移动优化_1
+      - 香港|21移动优化_2
+      - 新[直连]3-流媒体NF
+      - 新[直连]5-流媒体NF
+      - 新[直连]6-流媒体NF
+      - 新加坡|101|杭州入口|1x
+      - 新加坡|02|奈飞DO电信优化2_1
+      - 新加坡|02|奈飞DO电信优化2_2
+      - 新加坡|03|LIN三网优化_1
+      - 新加坡|03|LIN三网优化_2
+      - 新加坡|03|奈飞OC电信优化3_1
+      - 新加坡|03|奈飞OC电信优化3_2
+      - 新加坡|04|奈飞DO电信优化2
+      - 新加坡|05|奈飞
+      - 新加坡|05|奈飞三网优化_1
+      - 新加坡|05|奈飞三网优化_2
+      - 新加坡|06|奈飞DO
+      - 新加坡|08|OC三网优化_1
+      - 新加坡|08|OC三网优化_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -513,98 +718,139 @@ proxy-groups:
       - 🚀 节点选择
       - 不定时更新订阅，更多节点关注YouTube阿伟科技
       - 导入订阅链接，开启自动更新1H
-      - 新加坡|03|奈飞OC电信优化2
-      - 新[中转]2-DisneyNetflix流媒体
-      - 新[直连]7-流媒体NF
-      - 新[直连]6-流媒体NF
-      - 新[直连]5-流媒体NF
-      - 新[直连]3-流媒体NF_1
-      - 新[直连]3-流媒体NF_2
-      - 新[直连]2-流媒体NF
-      - 香港|01AZ三网优化2
-      - 香港|01|SS三网优化
-      - 台湾|01奈飞三网优化3
-      - 日本|01|LIN
-      - 日2[中转]-流媒体NF
-      - 美国|05|DO
-      - 韩国|01奈飞OC
-      - 港6[直连]-流媒体NF
-      - 港5[直连]-流媒体NF
-      - 港1[直连]-流媒体NF
-      - 德国|01|DO
-      - 🚇[联通]香港·F1|03_1
-      - 🚇[联通]香港·F1|03_2
-      - 🚇[联通]香港·F1|02
-      - 🚇[联通]日本·F1|04_1
-      - 🚇[联通]日本·F1|04_2
-      - 🚇[联通]日本·F1|03
-      - 🚇[联通]日本·F1|02
-      - 🚇[联通]日本·F1|01
-      - 🚇+[+联通+]+韩国+·+E1+|+02_1
-      - 🚇+[+联通+]+韩国+·+E1+|+02_2
-      - 🚇+[+联通+]+韩国+·+E1+|+01
-      - 🚇[v1]英国|02
-      - 🚇[v1]英国|01
-      - 🚇[v1]印度|02
-      - 🚇[v1]印度|01
-      - 🚇+[+v1+]+新加坡+|+03
-      - 🚇+[+v1+]+新加坡+|+02_1
-      - 🚇+[+v1+]+新加坡+|+02_2
-      - 🚇[v1]新加坡|01
-      - 🚇+[+v1+]+泰国+|+01
-      - 🚇+[+v1+]+日本+|+06_1
-      - 🚇+[+v1+]+日本+|+06_2
-      - 🚇+[+v1+]+日本+|+05
-      - 🚇[v1]美国|03
-      - 🚇[v1]美国|02
-      - 📺️[v1]英国原生|02
-      - 📺️[v1]英国原生|01
-      - 📺️[v1]香港原生|02
-      - 📺️[v1]香港原生|01_1
-      - 📺️[v1]香港原生|01_2
-      - 📺️+[+v1+]+台湾原生+|+02
-      - 📺️+[+v1+]+台湾原生+|+01
-      - 📺️[v1]美国原生|01
-      - 💎+[+T1+]+新加坡+|+02_1
-      - 💎+[+T1+]+新加坡+|+02_2
-      - 💎+[+T1+]+新加坡+|+01_1
-      - 💎+[+T1+]+新加坡+|+01_2
-      - 💎+[+T1+]+日本+|+02_1
-      - 💎+[+T1+]+日本+|+02_2
-      - 💎+[+T1+]+日本+|+01_1
-      - 💎+[+T1+]+日本+|+01_2
-      - Korea1-Tiktok_1
-      - Korea1-Tiktok_2
-      - Korea1-Garena_1
-      - Korea1-Garena_2
-      - JCBB_印度02【vip1】
-      - JCBB_香港08【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_日本04【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本02【vip1】
+      - '[VIP]俄罗斯直连电信联通优化倍率1.0x'
+      - '[VIP]台湾|500M|-解锁流媒体倍率1.5x'
+      - '[Vip1]韩国01[1.0|移动]'
+      - '[Vip1]韩国02[1.0|移动]'
+      - '[Vip1]美国01[1.0|移动|流媒体解锁]_1'
+      - '[Vip1]美国01[1.0|移动|流媒体解锁]_2'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_1'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_2'
+      - '[Vip1]日本13[1.0|移动|流媒体解锁]_1'
+      - '[Vip1]日本13[1.0|移动|流媒体解锁]_2'
+      - '[Vip1]香港05[1.0|移动|流媒体解锁]'
+      - '[Vip1]香港06[1.0|联通|流媒体解锁]'
+      - '[Vip1]香港09[1.0|移动|流媒体解锁]'
+      - '[Vip1]新加坡05[1.0|联通|流媒体解锁]_1'
+      - '[Vip1]新加坡05[1.0|联通|流媒体解锁]_2'
+      - Ⅰ-sc菲律宾1—广港
+      - Ⅰ-sc菲律宾2—广港
+      - Ⅰ-sc韩国1—广港
+      - Ⅰ-sc韩国2—广港
+      - Ⅰ-sc台湾2—广港
+      - Ⅰ-sc香港1—广港
+      - Ⅰ-sc香港2—广港
+      - Ⅰ-sc越南1—广港
+      - HongKong2-Garena
+      - HongKong2-Tiktok
+      - HongKong3-Garena
+      - HongKong3-Tiktok
+      - Japan1-Garena
       - JCBB_日本01【vip1】
-      - JCBB_德国01【vip1】
-      - Japan1-Tiktok_1
-      - Japan1-Tiktok_2
-      - Japan1-Garena_1
-      - Japan1-Garena_2
-      - HongKong3-Tiktok_1
-      - HongKong3-Tiktok_2
-      - HongKong3-Garena_1
-      - HongKong3-Garena_2
-      - HongKong2-Tiktok_1
-      - HongKong2-Tiktok_2
-      - HongKong2-Garena_1
-      - HongKong2-Garena_2
-      - HàNội2-Garena
-      - '[VIP]台湾|500M|-解锁流媒体倍率1.5x_1'
-      - '[VIP]台湾|500M|-解锁流媒体倍率1.5x_2'
-      - '[VIP]俄罗斯直连电信联通优化倍率1.0x_1'
-      - '[VIP]俄罗斯直连电信联通优化倍率1.0x_2'
-      - '[VIP]AZ|香港|1000M|倍率1.0'
+      - JCBB_日本03【vip1】
+      - JCBB_香港04【vip1】
+      - JCBB_香港05【vip1】
+      - JCBB_香港08【vip1】
+      - JCBB_新加坡01【vip1】
+      - JCBB_印度02【vip1】
+      - Korea1-Garena
+      - Korea1-Tiktok
+      - V1-sc日本1—IEPL
+      - V2-sc人妖天堂—广港
+      - V2-sc新加坡2—广港
+      - 💎+[+T1+]+美国+|+01
+      - 💎+[+T1+]+美国+|+02
+      - 💎+[+T1+]+日本+|+01
+      - 💎+[+T1+]+日本+|+02
+      - 💎+[+T1+]+新加坡+|+01
+      - 💎+[+T1+]+新加坡+|+02
+      - 📺️+[+v1+]+台湾原生+|+01
+      - 📺️+[+v1+]+台湾原生+|+02
+      - 📺️[v1]香港原生|01
+      - 📺️[v1]香港原生|02
+      - 🚇+[+v1+]+菲律宾+|+01
+      - 🚇[v1]美国|03
+      - 🚇+[+v1+]+日本+|+06
+      - 🚇+[+v1+]+新加坡+|+02
+      - 🚇+[+v1+]+新加坡+|+03
+      - 🚇+[+联通+]+韩国+·+E1+|+02
+      - 🚇[联通]日本·F1|04
+      - 🚇[联通]香港·F1|01
+      - 🚇[联通]香港·F1|02
+      - 🚇[联通]香港·F1|03
+      - 德国|01|DO
+      - 港1[直连]-流媒体NF
+      - 港5[直连]-流媒体NF
+      - 港6[直连]-流媒体NF
+      - 韩国|01奈飞OC_1
+      - 韩国|01奈飞OC_2
+      - 美1[直连]-流媒体
+      - 日1[中转]-流媒体NF
+      - 日本|102|流媒体优化|1x
+      - 日本|02|奈飞LIN三网优化
+      - 日本|02|奈飞LIN三网优化2
+      - 日本|03|LIN三网优化_1
+      - 日本|03|LIN三网优化_2
+      - 日本|05|LIN
+      - 日本|05|LIN三网优化_1
+      - 日本|05|LIN三网优化_2
+      - 隧道|NF|德国01
+      - 隧道|NF|菲律宾01
+      - 隧道|NF|韩国02
+      - 隧道|NF|美国01
+      - 隧道|NF|美国02
+      - 隧道|NF|日本02
+      - 隧道|NF|台湾03
+      - 隧道|NF|香港02
+      - 隧道|NF|香港04
+      - 隧道|NF|新加坡01
+      - 隧道|NF|新加坡02
+      - 隧道|NF|新加坡04
+      - 隧道|NF|新加坡07
+      - 隧道|NF|新加坡08
+      - 隧道|NF|新加坡09
+      - 隧道|NF|英国01
+      - 台3[直连]-流媒体NF
+      - 台湾|01奈飞三网优化_1
+      - 台湾|01奈飞三网优化_2
+      - 台湾|01奈飞三网优化3_1
+      - 台湾|01奈飞三网优化3_2
+      - 台湾|01奈飞直连_1
+      - 台湾|01奈飞直连_2
+      - 香港|103|原生IP|1x
+      - 香港|105|海港|1x
+      - 香港|01|SS三网优化_1
+      - 香港|01|SS三网优化_2
+      - 香港|01AZ电信优化
+      - 香港|01AZ三网优化2_1
+      - 香港|01AZ三网优化2_2
+      - 香港|02|SS三网优化
+      - 香港|03|AZ三网优化_1
+      - 香港|03|AZ三网优化_2
+      - 香港|03|AZ三网优化2_1
+      - 香港|03|AZ三网优化2_2
+      - 香港|17AZ三网优化_1
+      - 香港|17AZ三网优化_2
+      - 香港|21三网优化
+      - 香港|21移动优化_1
+      - 香港|21移动优化_2
+      - 新[直连]3-流媒体NF
+      - 新[直连]5-流媒体NF
+      - 新[直连]6-流媒体NF
+      - 新加坡|101|杭州入口|1x
+      - 新加坡|02|奈飞DO电信优化2_1
+      - 新加坡|02|奈飞DO电信优化2_2
+      - 新加坡|03|LIN三网优化_1
+      - 新加坡|03|LIN三网优化_2
+      - 新加坡|03|奈飞OC电信优化3_1
+      - 新加坡|03|奈飞OC电信优化3_2
+      - 新加坡|04|奈飞DO电信优化2
+      - 新加坡|05|奈飞
+      - 新加坡|05|奈飞三网优化_1
+      - 新加坡|05|奈飞三网优化_2
+      - 新加坡|06|奈飞DO
+      - 新加坡|08|OC三网优化_1
+      - 新加坡|08|OC三网优化_2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -612,98 +858,139 @@ proxy-groups:
       - 🎯 全球直连
       - 不定时更新订阅，更多节点关注YouTube阿伟科技
       - 导入订阅链接，开启自动更新1H
-      - 新加坡|03|奈飞OC电信优化2
-      - 新[中转]2-DisneyNetflix流媒体
-      - 新[直连]7-流媒体NF
-      - 新[直连]6-流媒体NF
-      - 新[直连]5-流媒体NF
-      - 新[直连]3-流媒体NF_1
-      - 新[直连]3-流媒体NF_2
-      - 新[直连]2-流媒体NF
-      - 香港|01AZ三网优化2
-      - 香港|01|SS三网优化
-      - 台湾|01奈飞三网优化3
-      - 日本|01|LIN
-      - 日2[中转]-流媒体NF
-      - 美国|05|DO
-      - 韩国|01奈飞OC
-      - 港6[直连]-流媒体NF
-      - 港5[直连]-流媒体NF
-      - 港1[直连]-流媒体NF
-      - 德国|01|DO
-      - 🚇[联通]香港·F1|03_1
-      - 🚇[联通]香港·F1|03_2
-      - 🚇[联通]香港·F1|02
-      - 🚇[联通]日本·F1|04_1
-      - 🚇[联通]日本·F1|04_2
-      - 🚇[联通]日本·F1|03
-      - 🚇[联通]日本·F1|02
-      - 🚇[联通]日本·F1|01
-      - 🚇+[+联通+]+韩国+·+E1+|+02_1
-      - 🚇+[+联通+]+韩国+·+E1+|+02_2
-      - 🚇+[+联通+]+韩国+·+E1+|+01
-      - 🚇[v1]英国|02
-      - 🚇[v1]英国|01
-      - 🚇[v1]印度|02
-      - 🚇[v1]印度|01
-      - 🚇+[+v1+]+新加坡+|+03
-      - 🚇+[+v1+]+新加坡+|+02_1
-      - 🚇+[+v1+]+新加坡+|+02_2
-      - 🚇[v1]新加坡|01
-      - 🚇+[+v1+]+泰国+|+01
-      - 🚇+[+v1+]+日本+|+06_1
-      - 🚇+[+v1+]+日本+|+06_2
-      - 🚇+[+v1+]+日本+|+05
-      - 🚇[v1]美国|03
-      - 🚇[v1]美国|02
-      - 📺️[v1]英国原生|02
-      - 📺️[v1]英国原生|01
-      - 📺️[v1]香港原生|02
-      - 📺️[v1]香港原生|01_1
-      - 📺️[v1]香港原生|01_2
-      - 📺️+[+v1+]+台湾原生+|+02
-      - 📺️+[+v1+]+台湾原生+|+01
-      - 📺️[v1]美国原生|01
-      - 💎+[+T1+]+新加坡+|+02_1
-      - 💎+[+T1+]+新加坡+|+02_2
-      - 💎+[+T1+]+新加坡+|+01_1
-      - 💎+[+T1+]+新加坡+|+01_2
-      - 💎+[+T1+]+日本+|+02_1
-      - 💎+[+T1+]+日本+|+02_2
-      - 💎+[+T1+]+日本+|+01_1
-      - 💎+[+T1+]+日本+|+01_2
-      - Korea1-Tiktok_1
-      - Korea1-Tiktok_2
-      - Korea1-Garena_1
-      - Korea1-Garena_2
-      - JCBB_印度02【vip1】
-      - JCBB_香港08【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_日本04【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本02【vip1】
+      - '[VIP]俄罗斯直连电信联通优化倍率1.0x'
+      - '[VIP]台湾|500M|-解锁流媒体倍率1.5x'
+      - '[Vip1]韩国01[1.0|移动]'
+      - '[Vip1]韩国02[1.0|移动]'
+      - '[Vip1]美国01[1.0|移动|流媒体解锁]_1'
+      - '[Vip1]美国01[1.0|移动|流媒体解锁]_2'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_1'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_2'
+      - '[Vip1]日本13[1.0|移动|流媒体解锁]_1'
+      - '[Vip1]日本13[1.0|移动|流媒体解锁]_2'
+      - '[Vip1]香港05[1.0|移动|流媒体解锁]'
+      - '[Vip1]香港06[1.0|联通|流媒体解锁]'
+      - '[Vip1]香港09[1.0|移动|流媒体解锁]'
+      - '[Vip1]新加坡05[1.0|联通|流媒体解锁]_1'
+      - '[Vip1]新加坡05[1.0|联通|流媒体解锁]_2'
+      - Ⅰ-sc菲律宾1—广港
+      - Ⅰ-sc菲律宾2—广港
+      - Ⅰ-sc韩国1—广港
+      - Ⅰ-sc韩国2—广港
+      - Ⅰ-sc台湾2—广港
+      - Ⅰ-sc香港1—广港
+      - Ⅰ-sc香港2—广港
+      - Ⅰ-sc越南1—广港
+      - HongKong2-Garena
+      - HongKong2-Tiktok
+      - HongKong3-Garena
+      - HongKong3-Tiktok
+      - Japan1-Garena
       - JCBB_日本01【vip1】
-      - JCBB_德国01【vip1】
-      - Japan1-Tiktok_1
-      - Japan1-Tiktok_2
-      - Japan1-Garena_1
-      - Japan1-Garena_2
-      - HongKong3-Tiktok_1
-      - HongKong3-Tiktok_2
-      - HongKong3-Garena_1
-      - HongKong3-Garena_2
-      - HongKong2-Tiktok_1
-      - HongKong2-Tiktok_2
-      - HongKong2-Garena_1
-      - HongKong2-Garena_2
-      - HàNội2-Garena
-      - '[VIP]台湾|500M|-解锁流媒体倍率1.5x_1'
-      - '[VIP]台湾|500M|-解锁流媒体倍率1.5x_2'
-      - '[VIP]俄罗斯直连电信联通优化倍率1.0x_1'
-      - '[VIP]俄罗斯直连电信联通优化倍率1.0x_2'
-      - '[VIP]AZ|香港|1000M|倍率1.0'
+      - JCBB_日本03【vip1】
+      - JCBB_香港04【vip1】
+      - JCBB_香港05【vip1】
+      - JCBB_香港08【vip1】
+      - JCBB_新加坡01【vip1】
+      - JCBB_印度02【vip1】
+      - Korea1-Garena
+      - Korea1-Tiktok
+      - V1-sc日本1—IEPL
+      - V2-sc人妖天堂—广港
+      - V2-sc新加坡2—广港
+      - 💎+[+T1+]+美国+|+01
+      - 💎+[+T1+]+美国+|+02
+      - 💎+[+T1+]+日本+|+01
+      - 💎+[+T1+]+日本+|+02
+      - 💎+[+T1+]+新加坡+|+01
+      - 💎+[+T1+]+新加坡+|+02
+      - 📺️+[+v1+]+台湾原生+|+01
+      - 📺️+[+v1+]+台湾原生+|+02
+      - 📺️[v1]香港原生|01
+      - 📺️[v1]香港原生|02
+      - 🚇+[+v1+]+菲律宾+|+01
+      - 🚇[v1]美国|03
+      - 🚇+[+v1+]+日本+|+06
+      - 🚇+[+v1+]+新加坡+|+02
+      - 🚇+[+v1+]+新加坡+|+03
+      - 🚇+[+联通+]+韩国+·+E1+|+02
+      - 🚇[联通]日本·F1|04
+      - 🚇[联通]香港·F1|01
+      - 🚇[联通]香港·F1|02
+      - 🚇[联通]香港·F1|03
+      - 德国|01|DO
+      - 港1[直连]-流媒体NF
+      - 港5[直连]-流媒体NF
+      - 港6[直连]-流媒体NF
+      - 韩国|01奈飞OC_1
+      - 韩国|01奈飞OC_2
+      - 美1[直连]-流媒体
+      - 日1[中转]-流媒体NF
+      - 日本|102|流媒体优化|1x
+      - 日本|02|奈飞LIN三网优化
+      - 日本|02|奈飞LIN三网优化2
+      - 日本|03|LIN三网优化_1
+      - 日本|03|LIN三网优化_2
+      - 日本|05|LIN
+      - 日本|05|LIN三网优化_1
+      - 日本|05|LIN三网优化_2
+      - 隧道|NF|德国01
+      - 隧道|NF|菲律宾01
+      - 隧道|NF|韩国02
+      - 隧道|NF|美国01
+      - 隧道|NF|美国02
+      - 隧道|NF|日本02
+      - 隧道|NF|台湾03
+      - 隧道|NF|香港02
+      - 隧道|NF|香港04
+      - 隧道|NF|新加坡01
+      - 隧道|NF|新加坡02
+      - 隧道|NF|新加坡04
+      - 隧道|NF|新加坡07
+      - 隧道|NF|新加坡08
+      - 隧道|NF|新加坡09
+      - 隧道|NF|英国01
+      - 台3[直连]-流媒体NF
+      - 台湾|01奈飞三网优化_1
+      - 台湾|01奈飞三网优化_2
+      - 台湾|01奈飞三网优化3_1
+      - 台湾|01奈飞三网优化3_2
+      - 台湾|01奈飞直连_1
+      - 台湾|01奈飞直连_2
+      - 香港|103|原生IP|1x
+      - 香港|105|海港|1x
+      - 香港|01|SS三网优化_1
+      - 香港|01|SS三网优化_2
+      - 香港|01AZ电信优化
+      - 香港|01AZ三网优化2_1
+      - 香港|01AZ三网优化2_2
+      - 香港|02|SS三网优化
+      - 香港|03|AZ三网优化_1
+      - 香港|03|AZ三网优化_2
+      - 香港|03|AZ三网优化2_1
+      - 香港|03|AZ三网优化2_2
+      - 香港|17AZ三网优化_1
+      - 香港|17AZ三网优化_2
+      - 香港|21三网优化
+      - 香港|21移动优化_1
+      - 香港|21移动优化_2
+      - 新[直连]3-流媒体NF
+      - 新[直连]5-流媒体NF
+      - 新[直连]6-流媒体NF
+      - 新加坡|101|杭州入口|1x
+      - 新加坡|02|奈飞DO电信优化2_1
+      - 新加坡|02|奈飞DO电信优化2_2
+      - 新加坡|03|LIN三网优化_1
+      - 新加坡|03|LIN三网优化_2
+      - 新加坡|03|奈飞OC电信优化3_1
+      - 新加坡|03|奈飞OC电信优化3_2
+      - 新加坡|04|奈飞DO电信优化2
+      - 新加坡|05|奈飞
+      - 新加坡|05|奈飞三网优化_1
+      - 新加坡|05|奈飞三网优化_2
+      - 新加坡|06|奈飞DO
+      - 新加坡|08|OC三网优化_1
+      - 新加坡|08|OC三网优化_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -728,98 +1015,139 @@ proxy-groups:
       - ♻️ 自动选择
       - 不定时更新订阅，更多节点关注YouTube阿伟科技
       - 导入订阅链接，开启自动更新1H
-      - 新加坡|03|奈飞OC电信优化2
-      - 新[中转]2-DisneyNetflix流媒体
-      - 新[直连]7-流媒体NF
-      - 新[直连]6-流媒体NF
-      - 新[直连]5-流媒体NF
-      - 新[直连]3-流媒体NF_1
-      - 新[直连]3-流媒体NF_2
-      - 新[直连]2-流媒体NF
-      - 香港|01AZ三网优化2
-      - 香港|01|SS三网优化
-      - 台湾|01奈飞三网优化3
-      - 日本|01|LIN
-      - 日2[中转]-流媒体NF
-      - 美国|05|DO
-      - 韩国|01奈飞OC
-      - 港6[直连]-流媒体NF
-      - 港5[直连]-流媒体NF
-      - 港1[直连]-流媒体NF
-      - 德国|01|DO
-      - 🚇[联通]香港·F1|03_1
-      - 🚇[联通]香港·F1|03_2
-      - 🚇[联通]香港·F1|02
-      - 🚇[联通]日本·F1|04_1
-      - 🚇[联通]日本·F1|04_2
-      - 🚇[联通]日本·F1|03
-      - 🚇[联通]日本·F1|02
-      - 🚇[联通]日本·F1|01
-      - 🚇+[+联通+]+韩国+·+E1+|+02_1
-      - 🚇+[+联通+]+韩国+·+E1+|+02_2
-      - 🚇+[+联通+]+韩国+·+E1+|+01
-      - 🚇[v1]英国|02
-      - 🚇[v1]英国|01
-      - 🚇[v1]印度|02
-      - 🚇[v1]印度|01
-      - 🚇+[+v1+]+新加坡+|+03
-      - 🚇+[+v1+]+新加坡+|+02_1
-      - 🚇+[+v1+]+新加坡+|+02_2
-      - 🚇[v1]新加坡|01
-      - 🚇+[+v1+]+泰国+|+01
-      - 🚇+[+v1+]+日本+|+06_1
-      - 🚇+[+v1+]+日本+|+06_2
-      - 🚇+[+v1+]+日本+|+05
-      - 🚇[v1]美国|03
-      - 🚇[v1]美国|02
-      - 📺️[v1]英国原生|02
-      - 📺️[v1]英国原生|01
-      - 📺️[v1]香港原生|02
-      - 📺️[v1]香港原生|01_1
-      - 📺️[v1]香港原生|01_2
-      - 📺️+[+v1+]+台湾原生+|+02
-      - 📺️+[+v1+]+台湾原生+|+01
-      - 📺️[v1]美国原生|01
-      - 💎+[+T1+]+新加坡+|+02_1
-      - 💎+[+T1+]+新加坡+|+02_2
-      - 💎+[+T1+]+新加坡+|+01_1
-      - 💎+[+T1+]+新加坡+|+01_2
-      - 💎+[+T1+]+日本+|+02_1
-      - 💎+[+T1+]+日本+|+02_2
-      - 💎+[+T1+]+日本+|+01_1
-      - 💎+[+T1+]+日本+|+01_2
-      - Korea1-Tiktok_1
-      - Korea1-Tiktok_2
-      - Korea1-Garena_1
-      - Korea1-Garena_2
-      - JCBB_印度02【vip1】
-      - JCBB_香港08【vip1】
-      - JCBB_香港06【vip1】
-      - JCBB_香港05【vip1】
-      - JCBB_香港04【vip1】
-      - JCBB_日本04【vip1】
-      - JCBB_日本03【vip1】
-      - JCBB_日本02【vip1】
+      - '[VIP]俄罗斯直连电信联通优化倍率1.0x'
+      - '[VIP]台湾|500M|-解锁流媒体倍率1.5x'
+      - '[Vip1]韩国01[1.0|移动]'
+      - '[Vip1]韩国02[1.0|移动]'
+      - '[Vip1]美国01[1.0|移动|流媒体解锁]_1'
+      - '[Vip1]美国01[1.0|移动|流媒体解锁]_2'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_1'
+      - '[Vip1]日本02[1.0|移动|流媒体解锁]_2'
+      - '[Vip1]日本13[1.0|移动|流媒体解锁]_1'
+      - '[Vip1]日本13[1.0|移动|流媒体解锁]_2'
+      - '[Vip1]香港05[1.0|移动|流媒体解锁]'
+      - '[Vip1]香港06[1.0|联通|流媒体解锁]'
+      - '[Vip1]香港09[1.0|移动|流媒体解锁]'
+      - '[Vip1]新加坡05[1.0|联通|流媒体解锁]_1'
+      - '[Vip1]新加坡05[1.0|联通|流媒体解锁]_2'
+      - Ⅰ-sc菲律宾1—广港
+      - Ⅰ-sc菲律宾2—广港
+      - Ⅰ-sc韩国1—广港
+      - Ⅰ-sc韩国2—广港
+      - Ⅰ-sc台湾2—广港
+      - Ⅰ-sc香港1—广港
+      - Ⅰ-sc香港2—广港
+      - Ⅰ-sc越南1—广港
+      - HongKong2-Garena
+      - HongKong2-Tiktok
+      - HongKong3-Garena
+      - HongKong3-Tiktok
+      - Japan1-Garena
       - JCBB_日本01【vip1】
-      - JCBB_德国01【vip1】
-      - Japan1-Tiktok_1
-      - Japan1-Tiktok_2
-      - Japan1-Garena_1
-      - Japan1-Garena_2
-      - HongKong3-Tiktok_1
-      - HongKong3-Tiktok_2
-      - HongKong3-Garena_1
-      - HongKong3-Garena_2
-      - HongKong2-Tiktok_1
-      - HongKong2-Tiktok_2
-      - HongKong2-Garena_1
-      - HongKong2-Garena_2
-      - HàNội2-Garena
-      - '[VIP]台湾|500M|-解锁流媒体倍率1.5x_1'
-      - '[VIP]台湾|500M|-解锁流媒体倍率1.5x_2'
-      - '[VIP]俄罗斯直连电信联通优化倍率1.0x_1'
-      - '[VIP]俄罗斯直连电信联通优化倍率1.0x_2'
-      - '[VIP]AZ|香港|1000M|倍率1.0'
+      - JCBB_日本03【vip1】
+      - JCBB_香港04【vip1】
+      - JCBB_香港05【vip1】
+      - JCBB_香港08【vip1】
+      - JCBB_新加坡01【vip1】
+      - JCBB_印度02【vip1】
+      - Korea1-Garena
+      - Korea1-Tiktok
+      - V1-sc日本1—IEPL
+      - V2-sc人妖天堂—广港
+      - V2-sc新加坡2—广港
+      - 💎+[+T1+]+美国+|+01
+      - 💎+[+T1+]+美国+|+02
+      - 💎+[+T1+]+日本+|+01
+      - 💎+[+T1+]+日本+|+02
+      - 💎+[+T1+]+新加坡+|+01
+      - 💎+[+T1+]+新加坡+|+02
+      - 📺️+[+v1+]+台湾原生+|+01
+      - 📺️+[+v1+]+台湾原生+|+02
+      - 📺️[v1]香港原生|01
+      - 📺️[v1]香港原生|02
+      - 🚇+[+v1+]+菲律宾+|+01
+      - 🚇[v1]美国|03
+      - 🚇+[+v1+]+日本+|+06
+      - 🚇+[+v1+]+新加坡+|+02
+      - 🚇+[+v1+]+新加坡+|+03
+      - 🚇+[+联通+]+韩国+·+E1+|+02
+      - 🚇[联通]日本·F1|04
+      - 🚇[联通]香港·F1|01
+      - 🚇[联通]香港·F1|02
+      - 🚇[联通]香港·F1|03
+      - 德国|01|DO
+      - 港1[直连]-流媒体NF
+      - 港5[直连]-流媒体NF
+      - 港6[直连]-流媒体NF
+      - 韩国|01奈飞OC_1
+      - 韩国|01奈飞OC_2
+      - 美1[直连]-流媒体
+      - 日1[中转]-流媒体NF
+      - 日本|102|流媒体优化|1x
+      - 日本|02|奈飞LIN三网优化
+      - 日本|02|奈飞LIN三网优化2
+      - 日本|03|LIN三网优化_1
+      - 日本|03|LIN三网优化_2
+      - 日本|05|LIN
+      - 日本|05|LIN三网优化_1
+      - 日本|05|LIN三网优化_2
+      - 隧道|NF|德国01
+      - 隧道|NF|菲律宾01
+      - 隧道|NF|韩国02
+      - 隧道|NF|美国01
+      - 隧道|NF|美国02
+      - 隧道|NF|日本02
+      - 隧道|NF|台湾03
+      - 隧道|NF|香港02
+      - 隧道|NF|香港04
+      - 隧道|NF|新加坡01
+      - 隧道|NF|新加坡02
+      - 隧道|NF|新加坡04
+      - 隧道|NF|新加坡07
+      - 隧道|NF|新加坡08
+      - 隧道|NF|新加坡09
+      - 隧道|NF|英国01
+      - 台3[直连]-流媒体NF
+      - 台湾|01奈飞三网优化_1
+      - 台湾|01奈飞三网优化_2
+      - 台湾|01奈飞三网优化3_1
+      - 台湾|01奈飞三网优化3_2
+      - 台湾|01奈飞直连_1
+      - 台湾|01奈飞直连_2
+      - 香港|103|原生IP|1x
+      - 香港|105|海港|1x
+      - 香港|01|SS三网优化_1
+      - 香港|01|SS三网优化_2
+      - 香港|01AZ电信优化
+      - 香港|01AZ三网优化2_1
+      - 香港|01AZ三网优化2_2
+      - 香港|02|SS三网优化
+      - 香港|03|AZ三网优化_1
+      - 香港|03|AZ三网优化_2
+      - 香港|03|AZ三网优化2_1
+      - 香港|03|AZ三网优化2_2
+      - 香港|17AZ三网优化_1
+      - 香港|17AZ三网优化_2
+      - 香港|21三网优化
+      - 香港|21移动优化_1
+      - 香港|21移动优化_2
+      - 新[直连]3-流媒体NF
+      - 新[直连]5-流媒体NF
+      - 新[直连]6-流媒体NF
+      - 新加坡|101|杭州入口|1x
+      - 新加坡|02|奈飞DO电信优化2_1
+      - 新加坡|02|奈飞DO电信优化2_2
+      - 新加坡|03|LIN三网优化_1
+      - 新加坡|03|LIN三网优化_2
+      - 新加坡|03|奈飞OC电信优化3_1
+      - 新加坡|03|奈飞OC电信优化3_2
+      - 新加坡|04|奈飞DO电信优化2
+      - 新加坡|05|奈飞
+      - 新加坡|05|奈飞三网优化_1
+      - 新加坡|05|奈飞三网优化_2
+      - 新加坡|06|奈飞DO
+      - 新加坡|08|OC三网优化_1
+      - 新加坡|08|OC三网优化_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
