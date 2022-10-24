@@ -1,3 +1,4 @@
+#
 port: 7890
 socks-port: 7891
 allow-lan: true
@@ -90,9 +91,9 @@ proxies:
   - {"type":"trojan","name":"日本|01|LIN电信优化_2_油管阿伟科技100","server":"20.24.230.11","port":54063,"password":"2995537c-461c-487c-941e-f569f423bb02","udp":true,"skip-cert-verify":true,"sni":"jp01.170203.xyz"}
   - {"type":"trojan","name":"日本|01|LIN电信优化_1_油管阿伟科技50","server":"20.24.230.11","port":54063,"password":"be6c9084-7337-4c94-b032-981e8fb03940","udp":true,"skip-cert-verify":true,"sni":"jp01.170203.xyz"}
   - {"type":"vmess","name":"日2[中转]-流媒体NF_油管阿伟科技33","ws-opts":{"path":"/maojp2","headers":{"host":"office.com"}},"server":"cu.594888.xyz","port":"60996","uuid":"08b42e57-3486-3e30-8a90-f6c7e36ef4f2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ssr","name":"美国丨达拉斯丨1Gbps_油管阿伟科技115","server":"179.61.154.58","port":53590,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","password":"VsWqMoSE","obfs-param":"TVRSbVpEWXlNamMyTlM1dGFXTnliM052Wm5RdVkyOXQ","protocol-param":"22765:c30HKDzCpcp0M12T"}
-  - {"type":"ssr","name":"美国丨达拉斯丨1Gbps_3_油管阿伟科技71","server":"179.61.154.58","port":53590,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","password":"VsWqMoSE","obfs-param":"Vm10ak1XUXhVbkpOVldScVVteGFZVlJVU2pSVU1XeFlUVlUxYkZKc1NsZFdSbEpIWVRGSmQxZHNiRmRTZWxaNldWWlZkMlF3TlZWVGJHaHBWa1phVkZkcldtRmpiVlpXVDFac1ZsVlJQVDA","protocol-param":"22750:MOxbFjUZkjt4qGuU"}
-  - {"type":"ssr","name":"美国丨达拉斯丨1Gbps_2_油管阿伟科技14","server":"179.61.154.58","port":53590,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","password":"VsWqMoSE","obfs-param":"VkZkd1lXRlZNWFJXV0d4T1lXMU5lRlJzVFRGa1IwWllWRzVzYVUwd05USlhiVFZTWkZacmVVOVlVVDA","protocol-param":"22755:PNChHEBX93Zegfn7"}
+  - {"type":"ssr","name":"美国丨达拉斯丨1Gbps_油管阿伟科技115","server":"179.61.154.58","port":53590,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","password":"VsWqMoSE","obfs-param":"VFZSU2JWcEVXWGxOYW1NeVRsTTFkR0ZYVG5saU0wNTJXbTVSZFZreU9YUQ==","protocol-param":"22765:c30HKDzCpcp0M12T"}
+  - {"type":"ssr","name":"美国丨达拉斯丨1Gbps_3_油管阿伟科技71","server":"179.61.154.58","port":53590,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","password":"VsWqMoSE","obfs-param":"Vm0xMGFrMVhVWGhWYmtwT1ZsZFNjVlZ0ZUdGWlZsSlZVMnBTVlUxWGVGbFVWbFV4WWtaS2MxTnNaRmRTYkVwSVdWUkdTbVF4WkhOaVJtUlRaV3hhTmxkV1dsWmtNbEYzVGxaV1ZHSkhhSEJXYTFwaFZrWmtjbGR0Um1waVZscFhWREZhYzFac1ZsSlFWREE=","protocol-param":"22750:MOxbFjUZkjt4qGuU"}
+  - {"type":"ssr","name":"美国丨达拉斯丨1Gbps_2_油管阿伟科技14","server":"179.61.154.58","port":53590,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","password":"VsWqMoSE","obfs-param":"Vmtaa2QxbFhSbFpOV0ZKWFYwZDRUMWxYTVU1bFJsSnpWRlJHYTFJd1dsbFdSelZ6WVZVd2QwNVVTbGhpVkZaVFdrWmFjbVZWT1ZsVlZEQQ==","protocol-param":"22755:PNChHEBX93Zegfn7"}
   - {"type":"trojan","name":"韩国|02移动联通优化_2_油管阿伟科技98","server":"3.38.218.242","port":35234,"password":"2995537c-461c-487c-941e-f569f423bb02","udp":true,"skip-cert-verify":true,"sni":"kr02.170203.xyz"}
   - {"type":"trojan","name":"韩国|02移动联通优化_1_油管阿伟科技48","server":"3.38.218.242","port":35234,"password":"be6c9084-7337-4c94-b032-981e8fb03940","udp":true,"skip-cert-verify":true,"sni":"kr02.170203.xyz"}
   - {"type":"trojan","name":"韩国|02电信优化_2_油管阿伟科技99","server":"20.24.230.11","port":20323,"password":"2995537c-461c-487c-941e-f569f423bb02","udp":true,"skip-cert-verify":true,"sni":"kr02.170203.xyz"}
@@ -240,6 +241,27 @@ proxies:
   - {"type":"vmess","name":"[VIP]AZ|加拿大|1000M|倍率1.0_油管阿伟科技191","server":"tr2.33yun.xyz","port":"33005","uuid":"ed809d5e-80b3-48b3-8d9a-75e397eb548c","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"[VIP]AZ|韩国|1000M|倍率1.0_油管阿伟科技190","server":"tr2.33yun.xyz","port":"33004","uuid":"ed809d5e-80b3-48b3-8d9a-75e397eb548c","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"[VIP]AZ|澳大利亚|1000M|倍率1.0_油管阿伟科技188","server":"tr2.33yun.xyz","port":"33002","uuid":"ed809d5e-80b3-48b3-8d9a-75e397eb548c","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"US01-TROJAN-直连","server":"us01.henet.top","port":30001,"password":"0f76f49a-f531-4707-8622-2f8e88c38624","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"US02-TROJAN-直连","server":"us02.henet.top","port":30000,"password":"0f76f49a-f531-4707-8622-2f8e88c38624","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"JP01-V2-直连","ws-opts":{"path":"/live","headers":{"host":"cctv.com"}},"server":"jp01.henet.top","port":"20000","uuid":"0f76f49a-f531-4707-8622-2f8e88c38624","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TW01-V2-直连","ws-opts":{"path":"/live","headers":{"host":"cctv.com"}},"server":"tw01.henet.top","port":"20000","uuid":"0f76f49a-f531-4707-8622-2f8e88c38624","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TW02-V2-直连","ws-opts":{"path":"/live","headers":{"host":"cctv.com"}},"server":"tw02.henet.top","port":"20000","uuid":"0f76f49a-f531-4707-8622-2f8e88c38624","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US01-V2-直连","ws-opts":{"path":"/live","headers":{"host":"cctv.com"}},"server":"us01.henet.top","port":"20001","uuid":"0f76f49a-f531-4707-8622-2f8e88c38624","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US02-V2-直连","ws-opts":{"path":"/live","headers":{"host":"cctv.com"}},"server":"us02.henet.top","port":"20000","uuid":"0f76f49a-f531-4707-8622-2f8e88c38624","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"SG01-V2-直连","ws-opts":{"path":"/live","headers":{"host":"cctv.com"}},"server":"sg01.henet.top","port":"20000","uuid":"0f76f49a-f531-4707-8622-2f8e88c38624","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"SG02-V2-直连","ws-opts":{"path":"/live","headers":{"host":"cctv.com"}},"server":"sg02.henet.top","port":"20001","uuid":"0f76f49a-f531-4707-8622-2f8e88c38624","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US美国(youtube阿伟科技)_1","ws-opts":{"path":"/","headers":{"host":"v19.emovpn.xyz"}},"server":"v19.emovpn.xyz","port":"443","uuid":"67372355-edc1-4496-8936-ce909ebd2a69","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(youtube阿伟科技)_2","ws-opts":{"path":"/","headers":{"host":"v20.emovpn.xyz"}},"server":"v20.emovpn.xyz","port":"8443","uuid":"67372355-edc1-4496-8936-ce909ebd2a69","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(youtube阿伟科技)_3","ws-opts":{"path":"/","headers":{"host":"v32.emovpn.xyz"}},"server":"v32.emovpn.xyz","port":"8443","uuid":"67372355-edc1-4496-8936-ce909ebd2a69","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(youtube阿伟科技)_4","ws-opts":{"path":"/","headers":{"host":"v33.emovpn.xyz"}},"server":"v33.emovpn.xyz","port":"443","uuid":"67372355-edc1-4496-8936-ce909ebd2a69","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"HK香港「免费福利」①","ws-opts":{"path":"/"},"server":"shk.xlkjjs.top","port":"30998","uuid":"87d162b3-544a-3bde-9046-87e855ba51de","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"JP日本(youtube阿伟科技)_1","ws-opts":{"path":"/"},"server":"jp.xlkjjs.top","port":"31000","uuid":"87d162b3-544a-3bde-9046-87e855ba51de","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"SG新加坡(youtube阿伟科技)_1","ws-opts":{"path":"/"},"server":"si.xlkjjs.top","port":"36379","uuid":"87d162b3-544a-3bde-9046-87e855ba51de","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"JP日本(youtube阿伟科技)_2","ws-opts":{"path":"/"},"server":"jp.xlkjjs.top","port":"31000","uuid":"90ea2355-e03b-3dcf-be47-ccd0ab6d52cf","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"SG新加坡(youtube阿伟科技)_2","ws-opts":{"path":"/"},"server":"si.xlkjjs.top","port":"36379","uuid":"90ea2355-e03b-3dcf-be47-ccd0ab6d52cf","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(youtube阿伟科技)_5","ws-opts":{"path":"/","headers":{"host":"v19.emovpn.xyz"}},"server":"v19.emovpn.xyz","port":"443","uuid":"4da1c9a6-a5d3-401b-9eda-1bdda0b0ee9b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(youtube阿伟科技)_6","ws-opts":{"path":"/","headers":{"host":"v33.emovpn.xyz"}},"server":"v33.emovpn.xyz","port":"443","uuid":"4da1c9a6-a5d3-401b-9eda-1bdda0b0ee9b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(youtube阿伟科技)_7","ws-opts":{"path":"/","headers":{"host":"v32.emovpn.xyz"}},"server":"v32.emovpn.xyz","port":"8443","uuid":"4da1c9a6-a5d3-401b-9eda-1bdda0b0ee9b","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -481,6 +503,27 @@ proxy-groups:
       - '[VIP]AZ|加拿大|1000M|倍率1.0_油管阿伟科技191'
       - '[VIP]AZ|韩国|1000M|倍率1.0_油管阿伟科技190'
       - '[VIP]AZ|澳大利亚|1000M|倍率1.0_油管阿伟科技188'
+      - US01-TROJAN-直连
+      - US02-TROJAN-直连
+      - JP01-V2-直连
+      - TW01-V2-直连
+      - TW02-V2-直连
+      - US01-V2-直连
+      - US02-V2-直连
+      - SG01-V2-直连
+      - SG02-V2-直连
+      - US美国(youtube阿伟科技)_1
+      - US美国(youtube阿伟科技)_2
+      - US美国(youtube阿伟科技)_3
+      - US美国(youtube阿伟科技)_4
+      - HK香港「免费福利」①
+      - JP日本(youtube阿伟科技)_1
+      - SG新加坡(youtube阿伟科技)_1
+      - JP日本(youtube阿伟科技)_2
+      - SG新加坡(youtube阿伟科技)_2
+      - US美国(youtube阿伟科技)_5
+      - US美国(youtube阿伟科技)_6
+      - US美国(youtube阿伟科技)_7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -722,6 +765,27 @@ proxy-groups:
       - '[VIP]AZ|加拿大|1000M|倍率1.0_油管阿伟科技191'
       - '[VIP]AZ|韩国|1000M|倍率1.0_油管阿伟科技190'
       - '[VIP]AZ|澳大利亚|1000M|倍率1.0_油管阿伟科技188'
+      - US01-TROJAN-直连
+      - US02-TROJAN-直连
+      - JP01-V2-直连
+      - TW01-V2-直连
+      - TW02-V2-直连
+      - US01-V2-直连
+      - US02-V2-直连
+      - SG01-V2-直连
+      - SG02-V2-直连
+      - US美国(youtube阿伟科技)_1
+      - US美国(youtube阿伟科技)_2
+      - US美国(youtube阿伟科技)_3
+      - US美国(youtube阿伟科技)_4
+      - HK香港「免费福利」①
+      - JP日本(youtube阿伟科技)_1
+      - SG新加坡(youtube阿伟科技)_1
+      - JP日本(youtube阿伟科技)_2
+      - SG新加坡(youtube阿伟科技)_2
+      - US美国(youtube阿伟科技)_5
+      - US美国(youtube阿伟科技)_6
+      - US美国(youtube阿伟科技)_7
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -963,6 +1027,27 @@ proxy-groups:
       - '[VIP]AZ|加拿大|1000M|倍率1.0_油管阿伟科技191'
       - '[VIP]AZ|韩国|1000M|倍率1.0_油管阿伟科技190'
       - '[VIP]AZ|澳大利亚|1000M|倍率1.0_油管阿伟科技188'
+      - US01-TROJAN-直连
+      - US02-TROJAN-直连
+      - JP01-V2-直连
+      - TW01-V2-直连
+      - TW02-V2-直连
+      - US01-V2-直连
+      - US02-V2-直连
+      - SG01-V2-直连
+      - SG02-V2-直连
+      - US美国(youtube阿伟科技)_1
+      - US美国(youtube阿伟科技)_2
+      - US美国(youtube阿伟科技)_3
+      - US美国(youtube阿伟科技)_4
+      - HK香港「免费福利」①
+      - JP日本(youtube阿伟科技)_1
+      - SG新加坡(youtube阿伟科技)_1
+      - JP日本(youtube阿伟科技)_2
+      - SG新加坡(youtube阿伟科技)_2
+      - US美国(youtube阿伟科技)_5
+      - US美国(youtube阿伟科技)_6
+      - US美国(youtube阿伟科技)_7
   - name: 📲 电报信息
     type: select
     proxies:
@@ -1203,6 +1288,27 @@ proxy-groups:
       - '[VIP]AZ|加拿大|1000M|倍率1.0_油管阿伟科技191'
       - '[VIP]AZ|韩国|1000M|倍率1.0_油管阿伟科技190'
       - '[VIP]AZ|澳大利亚|1000M|倍率1.0_油管阿伟科技188'
+      - US01-TROJAN-直连
+      - US02-TROJAN-直连
+      - JP01-V2-直连
+      - TW01-V2-直连
+      - TW02-V2-直连
+      - US01-V2-直连
+      - US02-V2-直连
+      - SG01-V2-直连
+      - SG02-V2-直连
+      - US美国(youtube阿伟科技)_1
+      - US美国(youtube阿伟科技)_2
+      - US美国(youtube阿伟科技)_3
+      - US美国(youtube阿伟科技)_4
+      - HK香港「免费福利」①
+      - JP日本(youtube阿伟科技)_1
+      - SG新加坡(youtube阿伟科技)_1
+      - JP日本(youtube阿伟科技)_2
+      - SG新加坡(youtube阿伟科技)_2
+      - US美国(youtube阿伟科技)_5
+      - US美国(youtube阿伟科技)_6
+      - US美国(youtube阿伟科技)_7
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -1443,6 +1549,27 @@ proxy-groups:
       - '[VIP]AZ|加拿大|1000M|倍率1.0_油管阿伟科技191'
       - '[VIP]AZ|韩国|1000M|倍率1.0_油管阿伟科技190'
       - '[VIP]AZ|澳大利亚|1000M|倍率1.0_油管阿伟科技188'
+      - US01-TROJAN-直连
+      - US02-TROJAN-直连
+      - JP01-V2-直连
+      - TW01-V2-直连
+      - TW02-V2-直连
+      - US01-V2-直连
+      - US02-V2-直连
+      - SG01-V2-直连
+      - SG02-V2-直连
+      - US美国(youtube阿伟科技)_1
+      - US美国(youtube阿伟科技)_2
+      - US美国(youtube阿伟科技)_3
+      - US美国(youtube阿伟科技)_4
+      - HK香港「免费福利」①
+      - JP日本(youtube阿伟科技)_1
+      - SG新加坡(youtube阿伟科技)_1
+      - JP日本(youtube阿伟科技)_2
+      - SG新加坡(youtube阿伟科技)_2
+      - US美国(youtube阿伟科技)_5
+      - US美国(youtube阿伟科技)_6
+      - US美国(youtube阿伟科技)_7
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1683,6 +1810,27 @@ proxy-groups:
       - '[VIP]AZ|加拿大|1000M|倍率1.0_油管阿伟科技191'
       - '[VIP]AZ|韩国|1000M|倍率1.0_油管阿伟科技190'
       - '[VIP]AZ|澳大利亚|1000M|倍率1.0_油管阿伟科技188'
+      - US01-TROJAN-直连
+      - US02-TROJAN-直连
+      - JP01-V2-直连
+      - TW01-V2-直连
+      - TW02-V2-直连
+      - US01-V2-直连
+      - US02-V2-直连
+      - SG01-V2-直连
+      - SG02-V2-直连
+      - US美国(youtube阿伟科技)_1
+      - US美国(youtube阿伟科技)_2
+      - US美国(youtube阿伟科技)_3
+      - US美国(youtube阿伟科技)_4
+      - HK香港「免费福利」①
+      - JP日本(youtube阿伟科技)_1
+      - SG新加坡(youtube阿伟科技)_1
+      - JP日本(youtube阿伟科技)_2
+      - SG新加坡(youtube阿伟科技)_2
+      - US美国(youtube阿伟科技)_5
+      - US美国(youtube阿伟科技)_6
+      - US美国(youtube阿伟科技)_7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1940,6 +2088,27 @@ proxy-groups:
       - '[VIP]AZ|加拿大|1000M|倍率1.0_油管阿伟科技191'
       - '[VIP]AZ|韩国|1000M|倍率1.0_油管阿伟科技190'
       - '[VIP]AZ|澳大利亚|1000M|倍率1.0_油管阿伟科技188'
+      - US01-TROJAN-直连
+      - US02-TROJAN-直连
+      - JP01-V2-直连
+      - TW01-V2-直连
+      - TW02-V2-直连
+      - US01-V2-直连
+      - US02-V2-直连
+      - SG01-V2-直连
+      - SG02-V2-直连
+      - US美国(youtube阿伟科技)_1
+      - US美国(youtube阿伟科技)_2
+      - US美国(youtube阿伟科技)_3
+      - US美国(youtube阿伟科技)_4
+      - HK香港「免费福利」①
+      - JP日本(youtube阿伟科技)_1
+      - SG新加坡(youtube阿伟科技)_1
+      - JP日本(youtube阿伟科技)_2
+      - SG新加坡(youtube阿伟科技)_2
+      - US美国(youtube阿伟科技)_5
+      - US美国(youtube阿伟科技)_6
+      - US美国(youtube阿伟科技)_7
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
