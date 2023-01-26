@@ -5,239 +5,135 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Asia香港05|直连|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)1, server: 20.187.117.42, port: 80, type: vmess, uuid: 94b79ea8-beb2-3939-a77c-dc6e4f4b7e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 20.187.117.42}}, udp: true}
-  - {name: Asia香港06|直连|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)2, server: 20.205.43.65, port: 80, type: vmess, uuid: 94b79ea8-beb2-3939-a77c-dc6e4f4b7e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 20.205.43.65}}, udp: true}
-  - {name: Asia香港07|三网优化|隧道节点|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)3, server: 14.29.200.4, port: 46794, type: vmess, uuid: 94b79ea8-beb2-3939-a77c-dc6e4f4b7e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 14.29.200.4}}, udp: true}
-  - {name: Asia香港08|三网优化|隧道|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)4, server: 14.29.200.4, port: 30259, type: vmess, uuid: 94b79ea8-beb2-3939-a77c-dc6e4f4b7e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 14.29.200.4}}, udp: true}
-  - {name: Asia香港11|移动优化线路|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)5, server: 16.163.97.210, port: 80, type: vmess, uuid: 94b79ea8-beb2-3939-a77c-dc6e4f4b7e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 16.163.97.210}}, udp: true}
-  - {name: FR法国|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)6, server: 14.29.200.4, port: 47263, type: vmess, uuid: 94b79ea8-beb2-3939-a77c-dc6e4f4b7e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 14.29.200.4}}, udp: true}
-  - {name: Hinet台湾|迪士尼|Netflix|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)7, server: xn--kdkakb3kc.xn--y8jhmm6gn.com, port: 38526, type: vmess, uuid: 94b79ea8-beb2-3939-a77c-dc6e4f4b7e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: xn--kdkakb3kc.xn--y8jhmm6gn.com}}, udp: true}
-  - {name: JP日本|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)8, server: 14.29.200.4, port: 44231, type: vmess, uuid: 94b79ea8-beb2-3939-a77c-dc6e4f4b7e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 14.29.200.4}}, udp: true}
-  - {name: Korea韩国|中转|推特|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)9, server: 14.29.200.4, port: 21865, type: vmess, uuid: 94b79ea8-beb2-3939-a77c-dc6e4f4b7e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 14.29.200.4}}, udp: true}
-  - {name: SGP新加坡|中转|奈飞|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)10, server: 14.29.200.4, port: 21590, type: vmess, uuid: 94b79ea8-beb2-3939-a77c-dc6e4f4b7e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 14.29.200.4}}, udp: true}
-  - {name: UC台湾01|Youtube免广告|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)11, server: 165.154.246.150, port: 80, type: vmess, uuid: 94b79ea8-beb2-3939-a77c-dc6e4f4b7e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 165.154.246.150}}, udp: true}
-  - {name: UC台湾02|Youtube免广告|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)12, server: 165.154.226.194, port: 80, type: vmess, uuid: 94b79ea8-beb2-3939-a77c-dc6e4f4b7e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 165.154.226.194}}, udp: true}
-  - {name: UK英国|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)13, server: 14.29.200.4, port: 26433, type: vmess, uuid: 94b79ea8-beb2-3939-a77c-dc6e4f4b7e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 14.29.200.4}}, udp: true}
-  - {name: USA美国01|中转|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)14, server: 14.29.200.4, port: 14556, type: vmess, uuid: 94b79ea8-beb2-3939-a77c-dc6e4f4b7e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 14.29.200.4}}, udp: true}
-  - {name: USA美国02|中转|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)15, server: 14.29.200.4, port: 32190, type: vmess, uuid: 94b79ea8-beb2-3939-a77c-dc6e4f4b7e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 14.29.200.4}}, udp: true}
-  - {name: K01香港(临时节点，更多节点关注youtube阿伟科技)16, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45018, type: ss, cipher: aes-128-gcm, password: FWnJ70, udp: true}
-  - {name: K05香港(临时节点，更多节点关注youtube阿伟科技)17, server: gtm-sg-dza31etds02.gtm-i2d7.com, port: 45031, type: ss, cipher: aes-128-gcm, password: FWnJ70, udp: true}
-  - {name: K09香港(临时节点，更多节点关注youtube阿伟科技)18, server: gtm-sg-dza31etds02.gtm-i2d7.com, port: 45002, type: ss, cipher: aes-128-gcm, password: FWnJ70, udp: true}
-  - {name: K14新加坡(临时节点，更多节点关注youtube阿伟科技)19, server: gtm-sg-dza31etds02.gtm-i2d7.com, port: 45041, type: ss, cipher: aes-128-gcm, password: FWnJ70, udp: true}
-  - {name: K41台灣(临时节点，更多节点关注youtube阿伟科技)20, server: gtm-sg-dza31etds02.gtm-i2d7.com, port: 45044, type: ss, cipher: aes-128-gcm, password: FWnJ70, udp: true}
-  - {name: +美国+|+直连+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)21, server: sfo1.biubiufast.quest, port: 8846, type: trojan, password: 387a2444-d032-48be-89e3-67cde1bb3961, skip-cert-verify: true, udp: true}
-  - {name: +日本+|+直连+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)22, server: jp1.biubiufast.quest, port: 8846, type: trojan, password: 387a2444-d032-48be-89e3-67cde1bb3961, skip-cert-verify: true, udp: true}
-  - {name: +莞港专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)23, server: dg-hk.iplc.ink-iplc.com, port: 10209, type: trojan, password: 387a2444-d032-48be-89e3-67cde1bb3961, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
-  - {name: +莞港专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)24, server: dg-hk.iplc.ink-iplc.com, port: 10258, type: trojan, password: 387a2444-d032-48be-89e3-67cde1bb3961, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
-  - {name: +沪美专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)25, server: sh-us.iplc.ink-iplc.com, port: 14667, type: trojan, password: 387a2444-d032-48be-89e3-67cde1bb3961, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
-  - {name: +沪日专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)26, server: sh-jp.iplc.ink-iplc.com, port: 10065, type: trojan, password: 387a2444-d032-48be-89e3-67cde1bb3961, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
-  - {name: +沪日专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)27, server: sh-jp.iplc.ink-iplc.com, port: 10016, type: trojan, password: 387a2444-d032-48be-89e3-67cde1bb3961, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
-  - {name: +沪美专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)28, server: sh-us.iplc.ink-iplc.com, port: 10013, type: trojan, password: 387a2444-d032-48be-89e3-67cde1bb3961, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
-  - {name: +香港体验+-+Tblack+cloud(临时节点，更多节点关注youtube阿伟科技)29, server: 120.240.45.167, port: 18322, type: ss, cipher: chacha20-ietf-poly1305, password: 63fee7f0-2f9e-40ac-a4af-ed8aa3516291, udp: true}
-  - {name: +新加坡体验+-+Tblack+cloud(临时节点，更多节点关注youtube阿伟科技)30, server: shct8c16g.xfltd.top, port: 42716, type: ss, cipher: chacha20-ietf-poly1305, password: 63fee7f0-2f9e-40ac-a4af-ed8aa3516291, udp: true}
-  - {name: +Game+韩国04-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)31, server: 201201level3.unclemanco.com, port: 817, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: 302f173143.download.windowsupdate.com}, udp: true}
-  - {name: +Game+台湾07-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)32, server: 201201level3.unclemanco.com, port: 905, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: 302f173143.download.windowsupdate.com}, udp: true}
-  - {name: +Game+香港03-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)33, server: 201201level3.unclemanco.com, port: 9063, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 302f173143.download.windowsupdate.com}, udp: true}
-  - {name: +Game+日本06-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)34, server: 201201level3.unclemanco.com, port: 909, type: ss, cipher: aes-128-gcm, password: ayu1245, plugin: obfs, plugin-opts: {mode: http, host: 302f173143.download.windowsupdate.com}, udp: true}
-  - {name: +Game+美国04-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)35, server: 201201level3.unclemanco.com, port: 910, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: 302f173143.download.windowsupdate.com}, udp: true}
-  - {name: +Video+土耳其+A-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)36, server: 201201level2.unclemanco.com, port: 3033, type: ss, cipher: aes-128-gcm, password: ayugfsd, plugin: obfs, plugin-opts: {mode: http, host: 302f173143.download.windowsupdate.com}, udp: true}
-  - {name: +Video+阿根廷+A-原生+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)37, server: 201201level2.unclemanco.com, port: 6041, type: ss, cipher: aes-128-gcm, password: ayds232sffssd1, plugin: obfs, plugin-opts: {mode: http, host: 302f173143.download.windowsupdate.com}, udp: true}
-  - {name: +Web+英国+I-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)38, server: 201201level1.unclemanco.com, port: 2688, type: ss, cipher: aes-128-gcm, password: fs23l/, plugin: obfs, plugin-opts: {mode: http, host: 302f173143.download.windowsupdate.com}, udp: true}
-  - {name: Asia香港(临时节点，更多节点关注youtube阿伟科技)39, server: 20.205.11.62, port: 80, type: vmess, uuid: 94b79ea8-beb2-3939-a77c-dc6e4f4b7e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 20.205.11.62}}, udp: true}
-  - {name: FR法国(临时节点，更多节点关注youtube阿伟科技)40, server: 14.29.200.4, port: 47263, type: vmess, uuid: 94b79ea8-beb2-3939-a77c-dc6e4f4b7e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 14.29.200.4}}, udp: true}
-  - {name: JP日本(临时节点，更多节点关注youtube阿伟科技)41, server: 14.29.200.4, port: 44231, type: vmess, uuid: 94b79ea8-beb2-3939-a77c-dc6e4f4b7e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 14.29.200.4}}, udp: true}
-  - {name: Korea韩国(临时节点，更多节点关注youtube阿伟科技)42, server: 14.29.200.4, port: 21865, type: vmess, uuid: 94b79ea8-beb2-3939-a77c-dc6e4f4b7e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 14.29.200.4}}, udp: true}
-  - {name: UC台湾(临时节点，更多节点关注youtube阿伟科技)43, server: 165.154.226.194, port: 80, type: vmess, uuid: 94b79ea8-beb2-3939-a77c-dc6e4f4b7e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 165.154.226.194}}, udp: true}
-  - {name: UK英国(临时节点，更多节点关注youtube阿伟科技)44, server: 14.29.200.4, port: 26433, type: vmess, uuid: 94b79ea8-beb2-3939-a77c-dc6e4f4b7e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 14.29.200.4}}, udp: true}
-  - {name: USA美国01(临时节点，更多节点关注youtube阿伟科技)45, server: 14.29.200.4, port: 14556, type: vmess, uuid: 94b79ea8-beb2-3939-a77c-dc6e4f4b7e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 14.29.200.4}}, udp: true}
-  - {name: +K07香港+(临时节点，更多节点关注youtube阿伟科技)46, server: gtm-sg-dza31etds02.gtm-i2d7.com, port: 45013, type: ss, cipher: aes-128-gcm, password: FWnJ70, udp: true}
-  - {name: +K14新加坡+(临时节点，更多节点关注youtube阿伟科技)47, server: gtm-sg-dza31etds02.gtm-i2d7.com, port: 45041, type: ss, cipher: aes-128-gcm, password: FWnJ70, udp: true}
-  - {name: +K24日本(临时节点，更多节点关注youtube阿伟科技)48, server: gtm-sg-dza31etds02.gtm-i2d7.com, port: 45015, type: ss, cipher: aes-128-gcm, password: FWnJ70, udp: true}
-  - {name: +K33美國(临时节点，更多节点关注youtube阿伟科技)49, server: gtm-sg-dza31etds02.gtm-i2d7.com, port: 45025, type: ss, cipher: aes-128-gcm, password: FWnJ70, udp: true}
-  - {name: +K41台灣(临时节点，更多节点关注youtube阿伟科技)50, server: gtm-sg-dza31etds02.gtm-i2d7.com, port: 45044, type: ss, cipher: aes-128-gcm, password: FWnJ70, udp: true}
-  - {name: 新加坡(临时节点，更多节点关注youtube阿伟科技)51, server: 54.151.130.190, port: 43632, type: vmess, uuid: ec40ed03-d599-4e8d-9693-8f595dab84d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(临时节点，更多节点关注youtube阿伟科技)52, server: 18.162.110.227, port: 45342, type: vmess, uuid: ec40ed03-d599-4e8d-9693-8f595dab84d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国(临时节点，更多节点关注youtube阿伟科技)53, server: 43.201.51.89, port: 43632, type: vmess, uuid: ec40ed03-d599-4e8d-9693-8f595dab84d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(临时节点，更多节点关注youtube阿伟科技)54, server: 43.207.4.5, port: 43632, type: vmess, uuid: ec40ed03-d599-4e8d-9693-8f595dab84d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 阿根廷（更多节点关注YouTube阿伟科技）11, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 42340, type: ss, cipher: aes-128-gcm, password: LzvRWv, udp: true}
+  - {name: 法国（更多节点关注YouTube阿伟科技）14, server: 14.29.200.4, port: 47263, type: vmess, uuid: 2d6f3a98-963c-3cff-8cf2-2551c687712c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 14.29.200.4}}, udp: true}
+  - {name: 韩国_1（更多节点关注YouTube阿伟科技）8, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45022, type: ss, cipher: aes-128-gcm, password: LzvRWv, udp: true}
+  - {name: 韩国_2（更多节点关注YouTube阿伟科技）16, server: 14.29.200.4, port: 21865, type: vmess, uuid: 2d6f3a98-963c-3cff-8cf2-2551c687712c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 14.29.200.4}}, udp: true}
+  - {name: 韩国_3（更多节点关注YouTube阿伟科技）23, server: 15.165.15.211, port: 43632, type: vmess, uuid: 34b61434-ccd1-4e99-b374-c957e0ce33fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国_1（更多节点关注YouTube阿伟科技）6, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45020, type: ss, cipher: aes-128-gcm, password: LzvRWv, udp: true}
+  - {name: 美国_2（更多节点关注YouTube阿伟科技）20, server: 14.29.200.4, port: 14556, type: vmess, uuid: 2d6f3a98-963c-3cff-8cf2-2551c687712c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 14.29.200.4}}, udp: true}
+  - {name: 美国_3（更多节点关注YouTube阿伟科技）25, server: 35.172.190.231, port: 43632, type: vmess, uuid: 34b61434-ccd1-4e99-b374-c957e0ce33fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国_4（更多节点关注YouTube阿伟科技）27, server: sh-us.iplc.ink-iplc.com, port: 14667, type: trojan, password: 1e3f78c7-c4a1-4200-a072-d9331899f432, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
+  - {name: 日本_1（更多节点关注YouTube阿伟科技）5, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45028, type: ss, cipher: aes-128-gcm, password: LzvRWv, udp: true}
+  - {name: 日本_2（更多节点关注YouTube阿伟科技）15, server: 14.29.200.4, port: 44231, type: vmess, uuid: 2d6f3a98-963c-3cff-8cf2-2551c687712c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 14.29.200.4}}, udp: true}
+  - {name: 日本_3（更多节点关注YouTube阿伟科技）24, server: 13.231.128.58, port: 43632, type: vmess, uuid: 34b61434-ccd1-4e99-b374-c957e0ce33fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本_4（更多节点关注YouTube阿伟科技）26, server: jp1.biubiufast.quest, port: 8846, type: trojan, password: 1e3f78c7-c4a1-4200-a072-d9331899f432, skip-cert-verify: true, udp: true}
+  - {name: 日本_5（更多节点关注YouTube阿伟科技）28, server: sh-jp.iplc.ink-iplc.com, port: 10016, type: trojan, password: 1e3f78c7-c4a1-4200-a072-d9331899f432, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
+  - {name: 台湾_1（更多节点关注YouTube阿伟科技）7, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45023, type: ss, cipher: aes-128-gcm, password: LzvRWv, udp: true}
+  - {name: 台湾_2（更多节点关注YouTube阿伟科技）18, server: 165.154.246.150, port: 80, type: vmess, uuid: 2d6f3a98-963c-3cff-8cf2-2551c687712c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 165.154.246.150}}, udp: true}
+  - {name: 土耳其（更多节点关注YouTube阿伟科技）12, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 42341, type: ss, cipher: aes-128-gcm, password: LzvRWv, udp: true}
+  - {name: 香港_1（更多节点关注YouTube阿伟科技）1, server: gtm-sg-dza31etds02.gtm-i2d7.com, port: 45031, type: ss, cipher: aes-128-gcm, password: LzvRWv, udp: true}
+  - {name: 香港_2（更多节点关注YouTube阿伟科技）2, server: gtm-sg-dza31etds02.gtm-i2d7.com, port: 45002, type: ss, cipher: aes-128-gcm, password: LzvRWv, udp: true}
+  - {name: 香港_3（更多节点关注YouTube阿伟科技）13, server: 14.29.200.4, port: 30259, type: vmess, uuid: 2d6f3a98-963c-3cff-8cf2-2551c687712c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 14.29.200.4}}, udp: true}
+  - {name: 香港_4（更多节点关注YouTube阿伟科技）22, server: 16.162.217.204, port: 45342, type: vmess, uuid: 34b61434-ccd1-4e99-b374-c957e0ce33fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡_1（更多节点关注YouTube阿伟科技）3, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45039, type: ss, cipher: aes-128-gcm, password: LzvRWv, udp: true}
+  - {name: 新加坡_2（更多节点关注YouTube阿伟科技）4, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45040, type: ss, cipher: aes-128-gcm, password: LzvRWv, udp: true}
+  - {name: 新加坡_3（更多节点关注YouTube阿伟科技）17, server: 14.29.200.4, port: 21590, type: vmess, uuid: 2d6f3a98-963c-3cff-8cf2-2551c687712c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 14.29.200.4}}, udp: true}
+  - {name: 新加坡_4（更多节点关注YouTube阿伟科技）21, server: 13.250.104.162, port: 43632, type: vmess, uuid: 34b61434-ccd1-4e99-b374-c957e0ce33fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 印度（更多节点关注YouTube阿伟科技）9, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45021, type: ss, cipher: aes-128-gcm, password: LzvRWv, udp: true}
+  - {name: 英国_1（更多节点关注YouTube阿伟科技）10, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45035, type: ss, cipher: aes-128-gcm, password: LzvRWv, udp: true}
+  - {name: 英国_2（更多节点关注YouTube阿伟科技）19, server: 14.29.200.4, port: 26433, type: vmess, uuid: 2d6f3a98-963c-3cff-8cf2-2551c687712c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: 14.29.200.4}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Asia香港05|直连|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)1
-      - Asia香港06|直连|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)2
-      - Asia香港07|三网优化|隧道节点|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)3
-      - Asia香港08|三网优化|隧道|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)4
-      - Asia香港11|移动优化线路|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)5
-      - FR法国|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)6
-      - Hinet台湾|迪士尼|Netflix|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)7
-      - JP日本|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)8
-      - Korea韩国|中转|推特|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)9
-      - SGP新加坡|中转|奈飞|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)10
-      - UC台湾01|Youtube免广告|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)11
-      - UC台湾02|Youtube免广告|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)12
-      - UK英国|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)13
-      - USA美国01|中转|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)14
-      - USA美国02|中转|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)15
-      - K01香港(临时节点，更多节点关注youtube阿伟科技)16
-      - K05香港(临时节点，更多节点关注youtube阿伟科技)17
-      - K09香港(临时节点，更多节点关注youtube阿伟科技)18
-      - K14新加坡(临时节点，更多节点关注youtube阿伟科技)19
-      - K41台灣(临时节点，更多节点关注youtube阿伟科技)20
-      - +美国+|+直连+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)21
-      - +日本+|+直连+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)22
-      - +莞港专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)23
-      - +莞港专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)24
-      - +沪美专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)25
-      - +沪日专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)26
-      - +沪日专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)27
-      - +沪美专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)28
-      - +香港体验+-+Tblack+cloud(临时节点，更多节点关注youtube阿伟科技)29
-      - +新加坡体验+-+Tblack+cloud(临时节点，更多节点关注youtube阿伟科技)30
-      - +Game+韩国04-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)31
-      - +Game+台湾07-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)32
-      - +Game+香港03-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)33
-      - +Game+日本06-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)34
-      - +Game+美国04-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)35
-      - +Video+土耳其+A-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)36
-      - +Video+阿根廷+A-原生+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)37
-      - +Web+英国+I-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)38
-      - Asia香港(临时节点，更多节点关注youtube阿伟科技)39
-      - FR法国(临时节点，更多节点关注youtube阿伟科技)40
-      - JP日本(临时节点，更多节点关注youtube阿伟科技)41
-      - Korea韩国(临时节点，更多节点关注youtube阿伟科技)42
-      - UC台湾(临时节点，更多节点关注youtube阿伟科技)43
-      - UK英国(临时节点，更多节点关注youtube阿伟科技)44
-      - USA美国01(临时节点，更多节点关注youtube阿伟科技)45
-      - +K07香港+(临时节点，更多节点关注youtube阿伟科技)46
-      - +K14新加坡+(临时节点，更多节点关注youtube阿伟科技)47
-      - +K24日本(临时节点，更多节点关注youtube阿伟科技)48
-      - +K33美國(临时节点，更多节点关注youtube阿伟科技)49
-      - +K41台灣(临时节点，更多节点关注youtube阿伟科技)50
-      - 新加坡(临时节点，更多节点关注youtube阿伟科技)51
-      - 香港(临时节点，更多节点关注youtube阿伟科技)52
-      - 韩国(临时节点，更多节点关注youtube阿伟科技)53
-      - 日本(临时节点，更多节点关注youtube阿伟科技)54
+      - 阿根廷（更多节点关注YouTube阿伟科技）11
+      - 法国（更多节点关注YouTube阿伟科技）14
+      - 韩国_1（更多节点关注YouTube阿伟科技）8
+      - 韩国_2（更多节点关注YouTube阿伟科技）16
+      - 韩国_3（更多节点关注YouTube阿伟科技）23
+      - 美国_1（更多节点关注YouTube阿伟科技）6
+      - 美国_2（更多节点关注YouTube阿伟科技）20
+      - 美国_3（更多节点关注YouTube阿伟科技）25
+      - 美国_4（更多节点关注YouTube阿伟科技）27
+      - 日本_1（更多节点关注YouTube阿伟科技）5
+      - 日本_2（更多节点关注YouTube阿伟科技）15
+      - 日本_3（更多节点关注YouTube阿伟科技）24
+      - 日本_4（更多节点关注YouTube阿伟科技）26
+      - 日本_5（更多节点关注YouTube阿伟科技）28
+      - 台湾_1（更多节点关注YouTube阿伟科技）7
+      - 台湾_2（更多节点关注YouTube阿伟科技）18
+      - 土耳其（更多节点关注YouTube阿伟科技）12
+      - 香港_1（更多节点关注YouTube阿伟科技）1
+      - 香港_2（更多节点关注YouTube阿伟科技）2
+      - 香港_3（更多节点关注YouTube阿伟科技）13
+      - 香港_4（更多节点关注YouTube阿伟科技）22
+      - 新加坡_1（更多节点关注YouTube阿伟科技）3
+      - 新加坡_2（更多节点关注YouTube阿伟科技）4
+      - 新加坡_3（更多节点关注YouTube阿伟科技）17
+      - 新加坡_4（更多节点关注YouTube阿伟科技）21
+      - 印度（更多节点关注YouTube阿伟科技）9
+      - 英国_1（更多节点关注YouTube阿伟科技）10
+      - 英国_2（更多节点关注YouTube阿伟科技）19
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Asia香港05|直连|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)1
-      - Asia香港06|直连|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)2
-      - Asia香港07|三网优化|隧道节点|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)3
-      - Asia香港08|三网优化|隧道|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)4
-      - Asia香港11|移动优化线路|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)5
-      - FR法国|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)6
-      - Hinet台湾|迪士尼|Netflix|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)7
-      - JP日本|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)8
-      - Korea韩国|中转|推特|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)9
-      - SGP新加坡|中转|奈飞|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)10
-      - UC台湾01|Youtube免广告|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)11
-      - UC台湾02|Youtube免广告|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)12
-      - UK英国|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)13
-      - USA美国01|中转|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)14
-      - USA美国02|中转|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)15
-      - K01香港(临时节点，更多节点关注youtube阿伟科技)16
-      - K05香港(临时节点，更多节点关注youtube阿伟科技)17
-      - K09香港(临时节点，更多节点关注youtube阿伟科技)18
-      - K14新加坡(临时节点，更多节点关注youtube阿伟科技)19
-      - K41台灣(临时节点，更多节点关注youtube阿伟科技)20
-      - +美国+|+直连+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)21
-      - +日本+|+直连+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)22
-      - +莞港专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)23
-      - +莞港专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)24
-      - +沪美专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)25
-      - +沪日专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)26
-      - +沪日专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)27
-      - +沪美专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)28
-      - +香港体验+-+Tblack+cloud(临时节点，更多节点关注youtube阿伟科技)29
-      - +新加坡体验+-+Tblack+cloud(临时节点，更多节点关注youtube阿伟科技)30
-      - +Game+韩国04-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)31
-      - +Game+台湾07-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)32
-      - +Game+香港03-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)33
-      - +Game+日本06-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)34
-      - +Game+美国04-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)35
-      - +Video+土耳其+A-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)36
-      - +Video+阿根廷+A-原生+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)37
-      - +Web+英国+I-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)38
-      - Asia香港(临时节点，更多节点关注youtube阿伟科技)39
-      - FR法国(临时节点，更多节点关注youtube阿伟科技)40
-      - JP日本(临时节点，更多节点关注youtube阿伟科技)41
-      - Korea韩国(临时节点，更多节点关注youtube阿伟科技)42
-      - UC台湾(临时节点，更多节点关注youtube阿伟科技)43
-      - UK英国(临时节点，更多节点关注youtube阿伟科技)44
-      - USA美国01(临时节点，更多节点关注youtube阿伟科技)45
-      - +K07香港+(临时节点，更多节点关注youtube阿伟科技)46
-      - +K14新加坡+(临时节点，更多节点关注youtube阿伟科技)47
-      - +K24日本(临时节点，更多节点关注youtube阿伟科技)48
-      - +K33美國(临时节点，更多节点关注youtube阿伟科技)49
-      - +K41台灣(临时节点，更多节点关注youtube阿伟科技)50
-      - 新加坡(临时节点，更多节点关注youtube阿伟科技)51
-      - 香港(临时节点，更多节点关注youtube阿伟科技)52
-      - 韩国(临时节点，更多节点关注youtube阿伟科技)53
-      - 日本(临时节点，更多节点关注youtube阿伟科技)54
+      - 阿根廷（更多节点关注YouTube阿伟科技）11
+      - 法国（更多节点关注YouTube阿伟科技）14
+      - 韩国_1（更多节点关注YouTube阿伟科技）8
+      - 韩国_2（更多节点关注YouTube阿伟科技）16
+      - 韩国_3（更多节点关注YouTube阿伟科技）23
+      - 美国_1（更多节点关注YouTube阿伟科技）6
+      - 美国_2（更多节点关注YouTube阿伟科技）20
+      - 美国_3（更多节点关注YouTube阿伟科技）25
+      - 美国_4（更多节点关注YouTube阿伟科技）27
+      - 日本_1（更多节点关注YouTube阿伟科技）5
+      - 日本_2（更多节点关注YouTube阿伟科技）15
+      - 日本_3（更多节点关注YouTube阿伟科技）24
+      - 日本_4（更多节点关注YouTube阿伟科技）26
+      - 日本_5（更多节点关注YouTube阿伟科技）28
+      - 台湾_1（更多节点关注YouTube阿伟科技）7
+      - 台湾_2（更多节点关注YouTube阿伟科技）18
+      - 土耳其（更多节点关注YouTube阿伟科技）12
+      - 香港_1（更多节点关注YouTube阿伟科技）1
+      - 香港_2（更多节点关注YouTube阿伟科技）2
+      - 香港_3（更多节点关注YouTube阿伟科技）13
+      - 香港_4（更多节点关注YouTube阿伟科技）22
+      - 新加坡_1（更多节点关注YouTube阿伟科技）3
+      - 新加坡_2（更多节点关注YouTube阿伟科技）4
+      - 新加坡_3（更多节点关注YouTube阿伟科技）17
+      - 新加坡_4（更多节点关注YouTube阿伟科技）21
+      - 印度（更多节点关注YouTube阿伟科技）9
+      - 英国_1（更多节点关注YouTube阿伟科技）10
+      - 英国_2（更多节点关注YouTube阿伟科技）19
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Asia香港05|直连|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)1
-      - Asia香港06|直连|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)2
-      - Asia香港07|三网优化|隧道节点|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)3
-      - Asia香港08|三网优化|隧道|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)4
-      - Asia香港11|移动优化线路|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)5
-      - FR法国|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)6
-      - Hinet台湾|迪士尼|Netflix|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)7
-      - JP日本|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)8
-      - Korea韩国|中转|推特|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)9
-      - SGP新加坡|中转|奈飞|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)10
-      - UC台湾01|Youtube免广告|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)11
-      - UC台湾02|Youtube免广告|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)12
-      - UK英国|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)13
-      - USA美国01|中转|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)14
-      - USA美国02|中转|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)15
-      - K01香港(临时节点，更多节点关注youtube阿伟科技)16
-      - K05香港(临时节点，更多节点关注youtube阿伟科技)17
-      - K09香港(临时节点，更多节点关注youtube阿伟科技)18
-      - K14新加坡(临时节点，更多节点关注youtube阿伟科技)19
-      - K41台灣(临时节点，更多节点关注youtube阿伟科技)20
-      - +美国+|+直连+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)21
-      - +日本+|+直连+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)22
-      - +莞港专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)23
-      - +莞港专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)24
-      - +沪美专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)25
-      - +沪日专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)26
-      - +沪日专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)27
-      - +沪美专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)28
-      - +香港体验+-+Tblack+cloud(临时节点，更多节点关注youtube阿伟科技)29
-      - +新加坡体验+-+Tblack+cloud(临时节点，更多节点关注youtube阿伟科技)30
-      - +Game+韩国04-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)31
-      - +Game+台湾07-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)32
-      - +Game+香港03-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)33
-      - +Game+日本06-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)34
-      - +Game+美国04-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)35
-      - +Video+土耳其+A-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)36
-      - +Video+阿根廷+A-原生+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)37
-      - +Web+英国+I-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)38
-      - Asia香港(临时节点，更多节点关注youtube阿伟科技)39
-      - FR法国(临时节点，更多节点关注youtube阿伟科技)40
-      - JP日本(临时节点，更多节点关注youtube阿伟科技)41
-      - Korea韩国(临时节点，更多节点关注youtube阿伟科技)42
-      - UC台湾(临时节点，更多节点关注youtube阿伟科技)43
-      - UK英国(临时节点，更多节点关注youtube阿伟科技)44
-      - USA美国01(临时节点，更多节点关注youtube阿伟科技)45
-      - +K07香港+(临时节点，更多节点关注youtube阿伟科技)46
-      - +K14新加坡+(临时节点，更多节点关注youtube阿伟科技)47
-      - +K24日本(临时节点，更多节点关注youtube阿伟科技)48
-      - +K33美國(临时节点，更多节点关注youtube阿伟科技)49
-      - +K41台灣(临时节点，更多节点关注youtube阿伟科技)50
-      - 新加坡(临时节点，更多节点关注youtube阿伟科技)51
-      - 香港(临时节点，更多节点关注youtube阿伟科技)52
-      - 韩国(临时节点，更多节点关注youtube阿伟科技)53
-      - 日本(临时节点，更多节点关注youtube阿伟科技)54
+      - 阿根廷（更多节点关注YouTube阿伟科技）11
+      - 法国（更多节点关注YouTube阿伟科技）14
+      - 韩国_1（更多节点关注YouTube阿伟科技）8
+      - 韩国_2（更多节点关注YouTube阿伟科技）16
+      - 韩国_3（更多节点关注YouTube阿伟科技）23
+      - 美国_1（更多节点关注YouTube阿伟科技）6
+      - 美国_2（更多节点关注YouTube阿伟科技）20
+      - 美国_3（更多节点关注YouTube阿伟科技）25
+      - 美国_4（更多节点关注YouTube阿伟科技）27
+      - 日本_1（更多节点关注YouTube阿伟科技）5
+      - 日本_2（更多节点关注YouTube阿伟科技）15
+      - 日本_3（更多节点关注YouTube阿伟科技）24
+      - 日本_4（更多节点关注YouTube阿伟科技）26
+      - 日本_5（更多节点关注YouTube阿伟科技）28
+      - 台湾_1（更多节点关注YouTube阿伟科技）7
+      - 台湾_2（更多节点关注YouTube阿伟科技）18
+      - 土耳其（更多节点关注YouTube阿伟科技）12
+      - 香港_1（更多节点关注YouTube阿伟科技）1
+      - 香港_2（更多节点关注YouTube阿伟科技）2
+      - 香港_3（更多节点关注YouTube阿伟科技）13
+      - 香港_4（更多节点关注YouTube阿伟科技）22
+      - 新加坡_1（更多节点关注YouTube阿伟科技）3
+      - 新加坡_2（更多节点关注YouTube阿伟科技）4
+      - 新加坡_3（更多节点关注YouTube阿伟科技）17
+      - 新加坡_4（更多节点关注YouTube阿伟科技）21
+      - 印度（更多节点关注YouTube阿伟科技）9
+      - 英国_1（更多节点关注YouTube阿伟科技）10
+      - 英国_2（更多节点关注YouTube阿伟科技）19
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -256,265 +152,145 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Asia香港05|直连|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)1
-      - Asia香港06|直连|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)2
-      - Asia香港07|三网优化|隧道节点|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)3
-      - Asia香港08|三网优化|隧道|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)4
-      - Asia香港11|移动优化线路|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)5
-      - FR法国|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)6
-      - Hinet台湾|迪士尼|Netflix|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)7
-      - JP日本|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)8
-      - Korea韩国|中转|推特|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)9
-      - SGP新加坡|中转|奈飞|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)10
-      - UC台湾01|Youtube免广告|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)11
-      - UC台湾02|Youtube免广告|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)12
-      - UK英国|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)13
-      - USA美国01|中转|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)14
-      - USA美国02|中转|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)15
-      - K01香港(临时节点，更多节点关注youtube阿伟科技)16
-      - K05香港(临时节点，更多节点关注youtube阿伟科技)17
-      - K09香港(临时节点，更多节点关注youtube阿伟科技)18
-      - K14新加坡(临时节点，更多节点关注youtube阿伟科技)19
-      - K41台灣(临时节点，更多节点关注youtube阿伟科技)20
-      - +美国+|+直连+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)21
-      - +日本+|+直连+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)22
-      - +莞港专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)23
-      - +莞港专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)24
-      - +沪美专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)25
-      - +沪日专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)26
-      - +沪日专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)27
-      - +沪美专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)28
-      - +香港体验+-+Tblack+cloud(临时节点，更多节点关注youtube阿伟科技)29
-      - +新加坡体验+-+Tblack+cloud(临时节点，更多节点关注youtube阿伟科技)30
-      - +Game+韩国04-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)31
-      - +Game+台湾07-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)32
-      - +Game+香港03-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)33
-      - +Game+日本06-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)34
-      - +Game+美国04-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)35
-      - +Video+土耳其+A-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)36
-      - +Video+阿根廷+A-原生+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)37
-      - +Web+英国+I-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)38
-      - Asia香港(临时节点，更多节点关注youtube阿伟科技)39
-      - FR法国(临时节点，更多节点关注youtube阿伟科技)40
-      - JP日本(临时节点，更多节点关注youtube阿伟科技)41
-      - Korea韩国(临时节点，更多节点关注youtube阿伟科技)42
-      - UC台湾(临时节点，更多节点关注youtube阿伟科技)43
-      - UK英国(临时节点，更多节点关注youtube阿伟科技)44
-      - USA美国01(临时节点，更多节点关注youtube阿伟科技)45
-      - +K07香港+(临时节点，更多节点关注youtube阿伟科技)46
-      - +K14新加坡+(临时节点，更多节点关注youtube阿伟科技)47
-      - +K24日本(临时节点，更多节点关注youtube阿伟科技)48
-      - +K33美國(临时节点，更多节点关注youtube阿伟科技)49
-      - +K41台灣(临时节点，更多节点关注youtube阿伟科技)50
-      - 新加坡(临时节点，更多节点关注youtube阿伟科技)51
-      - 香港(临时节点，更多节点关注youtube阿伟科技)52
-      - 韩国(临时节点，更多节点关注youtube阿伟科技)53
-      - 日本(临时节点，更多节点关注youtube阿伟科技)54
+      - 阿根廷（更多节点关注YouTube阿伟科技）11
+      - 法国（更多节点关注YouTube阿伟科技）14
+      - 韩国_1（更多节点关注YouTube阿伟科技）8
+      - 韩国_2（更多节点关注YouTube阿伟科技）16
+      - 韩国_3（更多节点关注YouTube阿伟科技）23
+      - 美国_1（更多节点关注YouTube阿伟科技）6
+      - 美国_2（更多节点关注YouTube阿伟科技）20
+      - 美国_3（更多节点关注YouTube阿伟科技）25
+      - 美国_4（更多节点关注YouTube阿伟科技）27
+      - 日本_1（更多节点关注YouTube阿伟科技）5
+      - 日本_2（更多节点关注YouTube阿伟科技）15
+      - 日本_3（更多节点关注YouTube阿伟科技）24
+      - 日本_4（更多节点关注YouTube阿伟科技）26
+      - 日本_5（更多节点关注YouTube阿伟科技）28
+      - 台湾_1（更多节点关注YouTube阿伟科技）7
+      - 台湾_2（更多节点关注YouTube阿伟科技）18
+      - 土耳其（更多节点关注YouTube阿伟科技）12
+      - 香港_1（更多节点关注YouTube阿伟科技）1
+      - 香港_2（更多节点关注YouTube阿伟科技）2
+      - 香港_3（更多节点关注YouTube阿伟科技）13
+      - 香港_4（更多节点关注YouTube阿伟科技）22
+      - 新加坡_1（更多节点关注YouTube阿伟科技）3
+      - 新加坡_2（更多节点关注YouTube阿伟科技）4
+      - 新加坡_3（更多节点关注YouTube阿伟科技）17
+      - 新加坡_4（更多节点关注YouTube阿伟科技）21
+      - 印度（更多节点关注YouTube阿伟科技）9
+      - 英国_1（更多节点关注YouTube阿伟科技）10
+      - 英国_2（更多节点关注YouTube阿伟科技）19
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - Asia香港05|直连|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)1
-      - Asia香港06|直连|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)2
-      - Asia香港07|三网优化|隧道节点|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)3
-      - Asia香港08|三网优化|隧道|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)4
-      - Asia香港11|移动优化线路|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)5
-      - Hinet台湾|迪士尼|Netflix|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)7
-      - UC台湾01|Youtube免广告|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)11
-      - UC台湾02|Youtube免广告|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)12
-      - K01香港(临时节点，更多节点关注youtube阿伟科技)16
-      - K05香港(临时节点，更多节点关注youtube阿伟科技)17
-      - K09香港(临时节点，更多节点关注youtube阿伟科技)18
-      - K41台灣(临时节点，更多节点关注youtube阿伟科技)20
-      - +莞港专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)23
-      - +莞港专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)24
-      - +香港体验+-+Tblack+cloud(临时节点，更多节点关注youtube阿伟科技)29
-      - +Game+台湾07-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)32
-      - +Game+香港03-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)33
-      - Asia香港(临时节点，更多节点关注youtube阿伟科技)39
-      - UC台湾(临时节点，更多节点关注youtube阿伟科技)43
-      - +K07香港+(临时节点，更多节点关注youtube阿伟科技)46
-      - +K41台灣(临时节点，更多节点关注youtube阿伟科技)50
-      - 香港(临时节点，更多节点关注youtube阿伟科技)52
+      - 台湾_1（更多节点关注YouTube阿伟科技）7
+      - 台湾_2（更多节点关注YouTube阿伟科技）18
+      - 香港_1（更多节点关注YouTube阿伟科技）1
+      - 香港_2（更多节点关注YouTube阿伟科技）2
+      - 香港_3（更多节点关注YouTube阿伟科技）13
+      - 香港_4（更多节点关注YouTube阿伟科技）22
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Asia香港05|直连|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)1
-      - Asia香港06|直连|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)2
-      - Asia香港07|三网优化|隧道节点|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)3
-      - Asia香港08|三网优化|隧道|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)4
-      - Asia香港11|移动优化线路|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)5
-      - FR法国|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)6
-      - Hinet台湾|迪士尼|Netflix|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)7
-      - JP日本|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)8
-      - Korea韩国|中转|推特|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)9
-      - SGP新加坡|中转|奈飞|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)10
-      - UC台湾01|Youtube免广告|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)11
-      - UC台湾02|Youtube免广告|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)12
-      - UK英国|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)13
-      - USA美国01|中转|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)14
-      - USA美国02|中转|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)15
-      - K01香港(临时节点，更多节点关注youtube阿伟科技)16
-      - K05香港(临时节点，更多节点关注youtube阿伟科技)17
-      - K09香港(临时节点，更多节点关注youtube阿伟科技)18
-      - K14新加坡(临时节点，更多节点关注youtube阿伟科技)19
-      - K41台灣(临时节点，更多节点关注youtube阿伟科技)20
-      - +美国+|+直连+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)21
-      - +日本+|+直连+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)22
-      - +莞港专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)23
-      - +莞港专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)24
-      - +沪美专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)25
-      - +沪日专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)26
-      - +沪日专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)27
-      - +沪美专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)28
-      - +香港体验+-+Tblack+cloud(临时节点，更多节点关注youtube阿伟科技)29
-      - +新加坡体验+-+Tblack+cloud(临时节点，更多节点关注youtube阿伟科技)30
-      - +Game+韩国04-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)31
-      - +Game+台湾07-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)32
-      - +Game+香港03-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)33
-      - +Game+日本06-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)34
-      - +Game+美国04-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)35
-      - +Video+土耳其+A-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)36
-      - +Video+阿根廷+A-原生+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)37
-      - +Web+英国+I-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)38
-      - Asia香港(临时节点，更多节点关注youtube阿伟科技)39
-      - FR法国(临时节点，更多节点关注youtube阿伟科技)40
-      - JP日本(临时节点，更多节点关注youtube阿伟科技)41
-      - Korea韩国(临时节点，更多节点关注youtube阿伟科技)42
-      - UC台湾(临时节点，更多节点关注youtube阿伟科技)43
-      - UK英国(临时节点，更多节点关注youtube阿伟科技)44
-      - USA美国01(临时节点，更多节点关注youtube阿伟科技)45
-      - +K07香港+(临时节点，更多节点关注youtube阿伟科技)46
-      - +K14新加坡+(临时节点，更多节点关注youtube阿伟科技)47
-      - +K24日本(临时节点，更多节点关注youtube阿伟科技)48
-      - +K33美國(临时节点，更多节点关注youtube阿伟科技)49
-      - +K41台灣(临时节点，更多节点关注youtube阿伟科技)50
-      - 新加坡(临时节点，更多节点关注youtube阿伟科技)51
-      - 香港(临时节点，更多节点关注youtube阿伟科技)52
-      - 韩国(临时节点，更多节点关注youtube阿伟科技)53
-      - 日本(临时节点，更多节点关注youtube阿伟科技)54
+      - 阿根廷（更多节点关注YouTube阿伟科技）11
+      - 法国（更多节点关注YouTube阿伟科技）14
+      - 韩国_1（更多节点关注YouTube阿伟科技）8
+      - 韩国_2（更多节点关注YouTube阿伟科技）16
+      - 韩国_3（更多节点关注YouTube阿伟科技）23
+      - 美国_1（更多节点关注YouTube阿伟科技）6
+      - 美国_2（更多节点关注YouTube阿伟科技）20
+      - 美国_3（更多节点关注YouTube阿伟科技）25
+      - 美国_4（更多节点关注YouTube阿伟科技）27
+      - 日本_1（更多节点关注YouTube阿伟科技）5
+      - 日本_2（更多节点关注YouTube阿伟科技）15
+      - 日本_3（更多节点关注YouTube阿伟科技）24
+      - 日本_4（更多节点关注YouTube阿伟科技）26
+      - 日本_5（更多节点关注YouTube阿伟科技）28
+      - 台湾_1（更多节点关注YouTube阿伟科技）7
+      - 台湾_2（更多节点关注YouTube阿伟科技）18
+      - 土耳其（更多节点关注YouTube阿伟科技）12
+      - 香港_1（更多节点关注YouTube阿伟科技）1
+      - 香港_2（更多节点关注YouTube阿伟科技）2
+      - 香港_3（更多节点关注YouTube阿伟科技）13
+      - 香港_4（更多节点关注YouTube阿伟科技）22
+      - 新加坡_1（更多节点关注YouTube阿伟科技）3
+      - 新加坡_2（更多节点关注YouTube阿伟科技）4
+      - 新加坡_3（更多节点关注YouTube阿伟科技）17
+      - 新加坡_4（更多节点关注YouTube阿伟科技）21
+      - 印度（更多节点关注YouTube阿伟科技）9
+      - 英国_1（更多节点关注YouTube阿伟科技）10
+      - 英国_2（更多节点关注YouTube阿伟科技）19
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Asia香港05|直连|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)1
-      - Asia香港06|直连|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)2
-      - Asia香港07|三网优化|隧道节点|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)3
-      - Asia香港08|三网优化|隧道|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)4
-      - Asia香港11|移动优化线路|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)5
-      - FR法国|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)6
-      - Hinet台湾|迪士尼|Netflix|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)7
-      - JP日本|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)8
-      - Korea韩国|中转|推特|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)9
-      - SGP新加坡|中转|奈飞|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)10
-      - UC台湾01|Youtube免广告|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)11
-      - UC台湾02|Youtube免广告|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)12
-      - UK英国|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)13
-      - USA美国01|中转|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)14
-      - USA美国02|中转|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)15
-      - K01香港(临时节点，更多节点关注youtube阿伟科技)16
-      - K05香港(临时节点，更多节点关注youtube阿伟科技)17
-      - K09香港(临时节点，更多节点关注youtube阿伟科技)18
-      - K14新加坡(临时节点，更多节点关注youtube阿伟科技)19
-      - K41台灣(临时节点，更多节点关注youtube阿伟科技)20
-      - +美国+|+直连+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)21
-      - +日本+|+直连+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)22
-      - +莞港专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)23
-      - +莞港专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)24
-      - +沪美专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)25
-      - +沪日专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)26
-      - +沪日专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)27
-      - +沪美专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)28
-      - +香港体验+-+Tblack+cloud(临时节点，更多节点关注youtube阿伟科技)29
-      - +新加坡体验+-+Tblack+cloud(临时节点，更多节点关注youtube阿伟科技)30
-      - +Game+韩国04-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)31
-      - +Game+台湾07-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)32
-      - +Game+香港03-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)33
-      - +Game+日本06-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)34
-      - +Game+美国04-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)35
-      - +Video+土耳其+A-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)36
-      - +Video+阿根廷+A-原生+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)37
-      - +Web+英国+I-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)38
-      - Asia香港(临时节点，更多节点关注youtube阿伟科技)39
-      - FR法国(临时节点，更多节点关注youtube阿伟科技)40
-      - JP日本(临时节点，更多节点关注youtube阿伟科技)41
-      - Korea韩国(临时节点，更多节点关注youtube阿伟科技)42
-      - UC台湾(临时节点，更多节点关注youtube阿伟科技)43
-      - UK英国(临时节点，更多节点关注youtube阿伟科技)44
-      - USA美国01(临时节点，更多节点关注youtube阿伟科技)45
-      - +K07香港+(临时节点，更多节点关注youtube阿伟科技)46
-      - +K14新加坡+(临时节点，更多节点关注youtube阿伟科技)47
-      - +K24日本(临时节点，更多节点关注youtube阿伟科技)48
-      - +K33美國(临时节点，更多节点关注youtube阿伟科技)49
-      - +K41台灣(临时节点，更多节点关注youtube阿伟科技)50
-      - 新加坡(临时节点，更多节点关注youtube阿伟科技)51
-      - 香港(临时节点，更多节点关注youtube阿伟科技)52
-      - 韩国(临时节点，更多节点关注youtube阿伟科技)53
-      - 日本(临时节点，更多节点关注youtube阿伟科技)54
+      - 阿根廷（更多节点关注YouTube阿伟科技）11
+      - 法国（更多节点关注YouTube阿伟科技）14
+      - 韩国_1（更多节点关注YouTube阿伟科技）8
+      - 韩国_2（更多节点关注YouTube阿伟科技）16
+      - 韩国_3（更多节点关注YouTube阿伟科技）23
+      - 美国_1（更多节点关注YouTube阿伟科技）6
+      - 美国_2（更多节点关注YouTube阿伟科技）20
+      - 美国_3（更多节点关注YouTube阿伟科技）25
+      - 美国_4（更多节点关注YouTube阿伟科技）27
+      - 日本_1（更多节点关注YouTube阿伟科技）5
+      - 日本_2（更多节点关注YouTube阿伟科技）15
+      - 日本_3（更多节点关注YouTube阿伟科技）24
+      - 日本_4（更多节点关注YouTube阿伟科技）26
+      - 日本_5（更多节点关注YouTube阿伟科技）28
+      - 台湾_1（更多节点关注YouTube阿伟科技）7
+      - 台湾_2（更多节点关注YouTube阿伟科技）18
+      - 土耳其（更多节点关注YouTube阿伟科技）12
+      - 香港_1（更多节点关注YouTube阿伟科技）1
+      - 香港_2（更多节点关注YouTube阿伟科技）2
+      - 香港_3（更多节点关注YouTube阿伟科技）13
+      - 香港_4（更多节点关注YouTube阿伟科技）22
+      - 新加坡_1（更多节点关注YouTube阿伟科技）3
+      - 新加坡_2（更多节点关注YouTube阿伟科技）4
+      - 新加坡_3（更多节点关注YouTube阿伟科技）17
+      - 新加坡_4（更多节点关注YouTube阿伟科技）21
+      - 印度（更多节点关注YouTube阿伟科技）9
+      - 英国_1（更多节点关注YouTube阿伟科技）10
+      - 英国_2（更多节点关注YouTube阿伟科技）19
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Asia香港05|直连|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)1
-      - Asia香港06|直连|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)2
-      - Asia香港07|三网优化|隧道节点|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)3
-      - Asia香港08|三网优化|隧道|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)4
-      - Asia香港11|移动优化线路|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)5
-      - FR法国|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)6
-      - Hinet台湾|迪士尼|Netflix|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)7
-      - JP日本|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)8
-      - Korea韩国|中转|推特|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)9
-      - SGP新加坡|中转|奈飞|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)10
-      - UC台湾01|Youtube免广告|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)11
-      - UC台湾02|Youtube免广告|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)12
-      - UK英国|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)13
-      - USA美国01|中转|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)14
-      - USA美国02|中转|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)15
-      - K01香港(临时节点，更多节点关注youtube阿伟科技)16
-      - K05香港(临时节点，更多节点关注youtube阿伟科技)17
-      - K09香港(临时节点，更多节点关注youtube阿伟科技)18
-      - K14新加坡(临时节点，更多节点关注youtube阿伟科技)19
-      - K41台灣(临时节点，更多节点关注youtube阿伟科技)20
-      - +美国+|+直连+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)21
-      - +日本+|+直连+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)22
-      - +莞港专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)23
-      - +莞港专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)24
-      - +沪美专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)25
-      - +沪日专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)26
-      - +沪日专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)27
-      - +沪美专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)28
-      - +香港体验+-+Tblack+cloud(临时节点，更多节点关注youtube阿伟科技)29
-      - +新加坡体验+-+Tblack+cloud(临时节点，更多节点关注youtube阿伟科技)30
-      - +Game+韩国04-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)31
-      - +Game+台湾07-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)32
-      - +Game+香港03-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)33
-      - +Game+日本06-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)34
-      - +Game+美国04-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)35
-      - +Video+土耳其+A-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)36
-      - +Video+阿根廷+A-原生+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)37
-      - +Web+英国+I-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)38
-      - Asia香港(临时节点，更多节点关注youtube阿伟科技)39
-      - FR法国(临时节点，更多节点关注youtube阿伟科技)40
-      - JP日本(临时节点，更多节点关注youtube阿伟科技)41
-      - Korea韩国(临时节点，更多节点关注youtube阿伟科技)42
-      - UC台湾(临时节点，更多节点关注youtube阿伟科技)43
-      - UK英国(临时节点，更多节点关注youtube阿伟科技)44
-      - USA美国01(临时节点，更多节点关注youtube阿伟科技)45
-      - +K07香港+(临时节点，更多节点关注youtube阿伟科技)46
-      - +K14新加坡+(临时节点，更多节点关注youtube阿伟科技)47
-      - +K24日本(临时节点，更多节点关注youtube阿伟科技)48
-      - +K33美國(临时节点，更多节点关注youtube阿伟科技)49
-      - +K41台灣(临时节点，更多节点关注youtube阿伟科技)50
-      - 新加坡(临时节点，更多节点关注youtube阿伟科技)51
-      - 香港(临时节点，更多节点关注youtube阿伟科技)52
-      - 韩国(临时节点，更多节点关注youtube阿伟科技)53
-      - 日本(临时节点，更多节点关注youtube阿伟科技)54
+      - 阿根廷（更多节点关注YouTube阿伟科技）11
+      - 法国（更多节点关注YouTube阿伟科技）14
+      - 韩国_1（更多节点关注YouTube阿伟科技）8
+      - 韩国_2（更多节点关注YouTube阿伟科技）16
+      - 韩国_3（更多节点关注YouTube阿伟科技）23
+      - 美国_1（更多节点关注YouTube阿伟科技）6
+      - 美国_2（更多节点关注YouTube阿伟科技）20
+      - 美国_3（更多节点关注YouTube阿伟科技）25
+      - 美国_4（更多节点关注YouTube阿伟科技）27
+      - 日本_1（更多节点关注YouTube阿伟科技）5
+      - 日本_2（更多节点关注YouTube阿伟科技）15
+      - 日本_3（更多节点关注YouTube阿伟科技）24
+      - 日本_4（更多节点关注YouTube阿伟科技）26
+      - 日本_5（更多节点关注YouTube阿伟科技）28
+      - 台湾_1（更多节点关注YouTube阿伟科技）7
+      - 台湾_2（更多节点关注YouTube阿伟科技）18
+      - 土耳其（更多节点关注YouTube阿伟科技）12
+      - 香港_1（更多节点关注YouTube阿伟科技）1
+      - 香港_2（更多节点关注YouTube阿伟科技）2
+      - 香港_3（更多节点关注YouTube阿伟科技）13
+      - 香港_4（更多节点关注YouTube阿伟科技）22
+      - 新加坡_1（更多节点关注YouTube阿伟科技）3
+      - 新加坡_2（更多节点关注YouTube阿伟科技）4
+      - 新加坡_3（更多节点关注YouTube阿伟科技）17
+      - 新加坡_4（更多节点关注YouTube阿伟科技）21
+      - 印度（更多节点关注YouTube阿伟科技）9
+      - 英国_1（更多节点关注YouTube阿伟科技）10
+      - 英国_2（更多节点关注YouTube阿伟科技）19
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -530,60 +306,34 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Asia香港05|直连|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)1
-      - Asia香港06|直连|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)2
-      - Asia香港07|三网优化|隧道节点|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)3
-      - Asia香港08|三网优化|隧道|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)4
-      - Asia香港11|移动优化线路|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)5
-      - FR法国|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)6
-      - Hinet台湾|迪士尼|Netflix|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)7
-      - JP日本|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)8
-      - Korea韩国|中转|推特|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)9
-      - SGP新加坡|中转|奈飞|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)10
-      - UC台湾01|Youtube免广告|3.0x|V1(临时节点，更多节点关注youtube阿伟科技)11
-      - UC台湾02|Youtube免广告|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)12
-      - UK英国|tiktok|2.0x|V1(临时节点，更多节点关注youtube阿伟科技)13
-      - USA美国01|中转|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)14
-      - USA美国02|中转|1.0x|V1(临时节点，更多节点关注youtube阿伟科技)15
-      - K01香港(临时节点，更多节点关注youtube阿伟科技)16
-      - K05香港(临时节点，更多节点关注youtube阿伟科技)17
-      - K09香港(临时节点，更多节点关注youtube阿伟科技)18
-      - K14新加坡(临时节点，更多节点关注youtube阿伟科技)19
-      - K41台灣(临时节点，更多节点关注youtube阿伟科技)20
-      - +美国+|+直连+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)21
-      - +日本+|+直连+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)22
-      - +莞港专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)23
-      - +莞港专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)24
-      - +沪美专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)25
-      - +沪日专线+|+日本+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)26
-      - +沪日专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)27
-      - +沪美专线+|+旧金山+-+BIUBIU+FAST(临时节点，更多节点关注youtube阿伟科技)28
-      - +香港体验+-+Tblack+cloud(临时节点，更多节点关注youtube阿伟科技)29
-      - +新加坡体验+-+Tblack+cloud(临时节点，更多节点关注youtube阿伟科技)30
-      - +Game+韩国04-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)31
-      - +Game+台湾07-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)32
-      - +Game+香港03-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)33
-      - +Game+日本06-标准+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)34
-      - +Game+美国04-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)35
-      - +Video+土耳其+A-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)36
-      - +Video+阿根廷+A-原生+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)37
-      - +Web+英国+I-通用+-+AyucLouD-Services(临时节点，更多节点关注youtube阿伟科技)38
-      - Asia香港(临时节点，更多节点关注youtube阿伟科技)39
-      - FR法国(临时节点，更多节点关注youtube阿伟科技)40
-      - JP日本(临时节点，更多节点关注youtube阿伟科技)41
-      - Korea韩国(临时节点，更多节点关注youtube阿伟科技)42
-      - UC台湾(临时节点，更多节点关注youtube阿伟科技)43
-      - UK英国(临时节点，更多节点关注youtube阿伟科技)44
-      - USA美国01(临时节点，更多节点关注youtube阿伟科技)45
-      - +K07香港+(临时节点，更多节点关注youtube阿伟科技)46
-      - +K14新加坡+(临时节点，更多节点关注youtube阿伟科技)47
-      - +K24日本(临时节点，更多节点关注youtube阿伟科技)48
-      - +K33美國(临时节点，更多节点关注youtube阿伟科技)49
-      - +K41台灣(临时节点，更多节点关注youtube阿伟科技)50
-      - 新加坡(临时节点，更多节点关注youtube阿伟科技)51
-      - 香港(临时节点，更多节点关注youtube阿伟科技)52
-      - 韩国(临时节点，更多节点关注youtube阿伟科技)53
-      - 日本(临时节点，更多节点关注youtube阿伟科技)54
+      - 阿根廷（更多节点关注YouTube阿伟科技）11
+      - 法国（更多节点关注YouTube阿伟科技）14
+      - 韩国_1（更多节点关注YouTube阿伟科技）8
+      - 韩国_2（更多节点关注YouTube阿伟科技）16
+      - 韩国_3（更多节点关注YouTube阿伟科技）23
+      - 美国_1（更多节点关注YouTube阿伟科技）6
+      - 美国_2（更多节点关注YouTube阿伟科技）20
+      - 美国_3（更多节点关注YouTube阿伟科技）25
+      - 美国_4（更多节点关注YouTube阿伟科技）27
+      - 日本_1（更多节点关注YouTube阿伟科技）5
+      - 日本_2（更多节点关注YouTube阿伟科技）15
+      - 日本_3（更多节点关注YouTube阿伟科技）24
+      - 日本_4（更多节点关注YouTube阿伟科技）26
+      - 日本_5（更多节点关注YouTube阿伟科技）28
+      - 台湾_1（更多节点关注YouTube阿伟科技）7
+      - 台湾_2（更多节点关注YouTube阿伟科技）18
+      - 土耳其（更多节点关注YouTube阿伟科技）12
+      - 香港_1（更多节点关注YouTube阿伟科技）1
+      - 香港_2（更多节点关注YouTube阿伟科技）2
+      - 香港_3（更多节点关注YouTube阿伟科技）13
+      - 香港_4（更多节点关注YouTube阿伟科技）22
+      - 新加坡_1（更多节点关注YouTube阿伟科技）3
+      - 新加坡_2（更多节点关注YouTube阿伟科技）4
+      - 新加坡_3（更多节点关注YouTube阿伟科技）17
+      - 新加坡_4（更多节点关注YouTube阿伟科技）21
+      - 印度（更多节点关注YouTube阿伟科技）9
+      - 英国_1（更多节点关注YouTube阿伟科技）10
+      - 英国_2（更多节点关注YouTube阿伟科技）19
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
